@@ -1,0 +1,197 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AotA",
+				"abbreviation": "AotA",
+				"full": "Arcana of the Ancients",
+				"color": "6441A4",
+				"version": "",
+				"url": "https://www.montecookgames.com/store/product/arcana-of-the-ancients/",
+				"authors": [
+					"Sean K. Reynolds",
+					"Bruce R. Cordell",
+					"Monte Cook"
+				],
+				"convertedBy": [
+					"attanaz"
+				]
+			}
+		],
+		"dateAdded": 1591117986,
+		"dateLastModified": 1591117986
+	},
+	"monster": [
+		{
+			"name": "Accelerator",
+			"source": "AotA",
+			"page": 142,
+			"size": "H",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 10,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 22,
+			"dex": 12,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"con": "+9",
+				"int": "+7",
+				"wis": "+7",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"several ancient languages",
+				"can learn a new language in minutes"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The accelerator's attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "Paranoid and Fearful",
+					"entries": [
+						"It is very difficult to gain an accelerator's trust. Creatures have disadvantage on attempts to convince it that they aren't a threat. If successful, they only make it indifferent and wary for a few minutes, or perhaps an hour at most."
+					]
+				},
+				{
+					"name": "Modification (Recharges after a Short or Long Rest)",
+					"entries": [
+						"About one in four accelerators have found a way to install a device within its shell that gives it an additional ability as a bonus action.",
+						"Typically these devices are one of the following: a force field that adds +2 AC for one minute, a rocket pack that lets it move up to 500 feet, or a mental scrambler that gives all living creatures within 60 feet disadvantage on all rolls their next round."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The accelerator makes three claw attacks and uses its control velocity ability."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Control Velocity",
+					"entries": [
+						"The accelerator can change the speed and direction of up to three objects and creatures within 10 feet, such as halting a moving creature or causing a still object to suddenly move rapidly in any direction. Typically it uses this to hurl a light object (up to 50 pounds), hurl a heavy object (up to 100 pounds), hurl a foe (up to 300 pounds), or stop a moving creature or object (up to 300 pounds)."
+					]
+				},
+				{
+					"name": "Hurl Light Object",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range",
+						"150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hurl Heavy Object",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range",
+						"30/60 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hurl Foe",
+					"entries": [
+						"The target must succeed on a {@dc 15} Strength or Dexterity saving throw (target's choice) or be thrown up to 60 feet away, taking 12 ({@damage 2d8 + 3}) bludgeoning damage from impacting the ground or a solid obstacle."
+					]
+				},
+				{
+					"name": "Stop Movement",
+					"entries": [
+						"The target must succeed on a {@dc 15} Strength or Dexterity saving throw (target's choice) or be {@condition grappled} and {@condition restrained} in its current space for one round."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"An accelerator is an artificial intelligence encased in a metal shell with numerous limbs, sensory devices, and other accoutrements that allow it to interact with and understand the world around itself. An accelerator fears “death” (perhaps “dissolution” is a better term) and concocts elaborate plans to develop better protections for itself. Ironically, sometimes this puts it in danger as it tries to take control of a defensible fortress or obtain a device that will grant it a powerful defense. A fully upright accelerator stands 15 feet high. Paranoia. Accelerators aren’t evil, but their interest in putting their own existence ahead of others means they might act in ways that people consider villainous. If seriously threatened, an accelerator always chooses flight over fight.",
+							
+							{
+							"type":"entries",
+							"name":"Paranoia",
+							"entries":[
+								"Accelerators aren’t evil, but their interest in putting their own existence ahead of others means they might act in ways that people consider villainous. If seriously threatened, an accelerator always chooses flight over fight."
+								]
+							}
+						]
+					}	
+				]
+			}
+		}	
+	]
+}
