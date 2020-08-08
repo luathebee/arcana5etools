@@ -317,6 +317,129 @@
 					}	
 				]
 			}
+		},
+		{
+			"name": "Anhedon",
+			"source": "AotA",
+			"page": 145,
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 16,
+			"int": 14,
+			"wis": 13,
+			"cha": 11,
+			"save": {
+				"str": "+5",
+				"con": "+5"
+			},
+			"skill": {
+				"arcana": "+4"
+			},
+			"passive": 13,
+			"resist": [
+				"bludgeoning"
+			],
+			"languages": [
+				"Anhedon and usually two or three others"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Red Eyes",
+					"entries": [
+						"An anhedon cannot see in darkness, but its eyes emit red light that allows it to see up to 60 feet as if it were bright light."
+					]
+				},
+				{
+					"name": "Safe Falling",
+					"entries": [
+						"Because it subconsciously manipulates gravity to land safely, an anhedon never takes falling damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Crushing Gravity",
+					"entries": [
+						"An anhedon can increase gravity on a",
+						"Medium or smaller target within 60 feet. The target must make a {@dc 15} Strength or Dexterity saving throw (target's choice) or be knocked {@condition prone}, {@condition restrained}, and take 13 ({@damage 3d6 + 3}) bludgeoning damage. On a successful save, the target takes only half damage and isn't knocked {@condition prone} or {@condition restrained}. A {@condition restrained} target can attempt a save every round to escape this force, otherwise it takes damage again and continues to be held {@condition prone} and {@condition restrained}. The anhedon can only restrain one creature at a time with this ability."
+					]
+				},
+				{
+					"name": "Cancel or Reverse Gravity",
+					"entries": [
+						"An anhedon can cancel gravity for a target within 60 feet, making it float around like a feather on the wind until it can escape, or reverse gravity completely on the target for one round, causing it to fall up to 100 feet up and then down again, taking {@damage 1d6} bludgeoning damage per 10 feet fallen. A creature can resist the gravity effect with a successful {@dc 13} Strength or Dexterity saving throw (target's choice) to grab onto a fixed object within reach to prevent itself from falling up."
+					]
+				},
+				{
+					"name": "Deadly Leap",
+					"entries": [
+						"An anhedon can decrease and increase gravity on itself as it jumps so that it smashes to the ground up to 100 feet away from its starting point. All creatures within 10 feet of where it lands it must succeed on a {@dc 13} Strength or Dexterity saving throw (target's choice) or be knocked {@condition prone} and take 13 ({@damage 3d6 + 3}) bludgeoning damage. On a successful save, the creature takes only half damage and isn't knocked {@condition prone}."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"Dour and severe, anhedons are humanoid-shaped creatures protected with a carapace of dark stone breached only by twin beams of red light for eyes. It is possible that this carapace is actually some kind of stone armor powered by geological forces.",							
+							{
+							"type":"entries",
+							"name":"Obsessed Searcher",
+							"entries":[
+								"Anhedons are searching for something they call the Meeting of All Things—a thing they will name but never describe. They negotiate with those who seem like they could help with this goal, but woe to those who lie about knowing where to find what the anhedons seek. They are otherwise hateful creatures that would rather kill other beings than negotiate with."
+								]
+							},
+							{
+							"type":"entries",
+							"name":"Mysterious Origin.",
+							"entries":[
+								"Origin. Anhedons seem to simply (and literally) fall out of the sky and start working on finding information about the Meeting of All Things. They don’t seem to have families or young, or at least not on this world, and they don’t have lairs, only remaining in one place as long as necessary to exhaust all avenues of inquiry relevant to that location."
+								]
+							}
+						]
+					}	
+				]
+			}
 		}
 	]
 }
