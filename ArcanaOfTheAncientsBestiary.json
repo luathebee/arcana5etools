@@ -187,6 +187,11 @@
 							"entries":[
 								"Accelerators aren’t evil, but their interest in putting their own existence ahead of others means they might act in ways that people consider villainous. If seriously threatened, an accelerator always chooses flight over fight."
 								]
+							},
+							{
+							"type":"entries",
+							"name":"Salvage"
+							"entries":"A destroyed ccelerator can be salvaged for up to 1d6 + 1 cyphers and one oddity"
 							}
 						]
 					}	
@@ -435,6 +440,11 @@
 							"entries":[
 								"Origin. Anhedons seem to simply (and literally) fall out of the sky and start working on finding information about the Meeting of All Things. They don’t seem to have families or young, or at least not on this world, and they don’t have lairs, only remaining in one place as long as necessary to exhaust all avenues of inquiry relevant to that location."
 								]
+							},
+							{
+							"type":"entries",
+							"name":"Salvage"
+							"entries":"Anhedon carapace or armor can be be salvaged for a couple of cyphers and two to three oddities"
 							}
 						]
 					}	
