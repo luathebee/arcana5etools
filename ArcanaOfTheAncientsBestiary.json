@@ -190,8 +190,10 @@
 							},
 							{
 							"type":"entries",
-							"name":"Salvage"
-							"entries":"A destroyed ccelerator can be salvaged for up to 1d6 + 1 cyphers and one oddity"
+							"name":"Salvage",
+							"entries":[
+								"A destroyed ccelerator can be salvaged for up to 1d6 + 1 cyphers and one oddity"
+								]
 							}
 						]
 					}	
@@ -443,8 +445,154 @@
 							},
 							{
 							"type":"entries",
-							"name":"Salvage"
-							"entries":"Anhedon carapace or armor can be be salvaged for a couple of cyphers and two to three oddities"
+							"name":"Salvage",
+							"entries":[
+								"Anhedon carapace or armor can be be salvaged for a couple of cyphers and two to three oddities"
+								]
+							}
+						]
+					}	
+				]
+			}
+		},
+		{
+			"name": "Astraphin Monolith",
+			"source": "AotA",
+			"page": 147,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d8 + 48"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 0,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 6,
+			"con": 18,
+			"int": 3,
+			"wis": 10,
+			"cha": 3,
+			"save": {
+				"str": "+7",
+				"con": "+7"
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"tremorsense 120 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"bludgeoning",
+				"poison"
+			],
+			"immune": [
+				"necrotic",
+				"poisoned"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned"
+			],
+			"languages":"",
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Plant Mind",
+					"entries": [
+						"The floating monolith is a construction of the astraphin plant growing on the ground all around it, often stretching for hundreds of feet in all directions. Even a small portion of the plant is enough to control the monolith, so unless the characters are able to completely destroy all plant life in the area, attacking or controlling plants won't end the threat of the monolith. The monolith itself is not a plant and is therefore immune to effects that only work on plants."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The astraphin monolith uses two eye blasts."
+					]
+				},
+				{
+					"name": "Eye Blast",
+					"entries": [
+						"The monolith shoots energy out of its eye, choosing one of the following effects:",
+						"Force Blast: A creature within 200 feet must make a {@dc 15} Dexterity saving throw, taking 36 ({@damage 8d8}) force damage on a failed save, or half as much damage on a successful one.",
+						"Psychic Blast: A creature within 200 feet must make a {@dc 15} Intelligence saving throw, taking 27 ({@damage 6d8}) psychic damage on a failed save, or half as much damage on a successful one.",
+						"Paralysis Blast: A creature within 200 feet must succeed on a",
+						"{@dc 15} Constitution saving throw or be {@condition paralyzed}. The target can attempt another saving throw every round at the end of their turn to free themselves from this effect.",
+						"Heat Wave: This sweeping ray of heat affects creatures within 10 feet, which take 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"SD",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F",
+				"O",
+				"Y"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"An astraphin monolith is a floating, immobile obelisk of stone standing a bit taller than a human, with a single crystalline eye. The eye can create dangerous blasts at long range, leading some to believe it is a hostile earth elemental creature. However, the stone is neither living nor sentient, but rather the extension of a concealed intelligece.",
+							{
+							"type":"entries",
+							"name":"Hidden Plant",
+							"entries":[
+								"Originally, astraphin was a type of  sometimes fertilized its poor mountain soil by trapping and killing small creatures. In ages past, an unknown energy infused the astraphin, causing it to mutate and develop new abilities, including a simple intelligence. Now it can  and vines, making subtle changes in th a stone monolith over weeks or months. A fully formed monolith springs from the ground to float 10 to 15 feet (3 to 4.6 m) in the air. The plant controls this monolith, using it to kill larger prey and feeding on the corpses through its extensive root system. Destroying the monolith doesn’t harm the plant (it’s equivalent to trimming a fingernail), but it is a setback that takes the plant a while to remedy."]
+							},
+							{
+								"type":"entries",
+								"name":"Immovable Destroyer",
+								"entries":[
+									"An astraphin monolith does not move from its position. It can rotate in place, but apparently doesn’t have the ability to move laterally (or perhaps it can only move very slowly, a matter of inches per day). Because the monolith can’t pursue its opponents, running away is a viable survival strategy, although its incredible range often allows it to dispatch fleeing prey. Some greedy explorers choose to fight a monolith in the hopes of claiming its valuable crystal eye."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Monolith Eye",
+								"entries":[
+									"The astraphin monolith’s crystalline eye is prized because it can be used as a weapon or a power source for a depleted relic. If used as a weapon, it fires a blast of force at one creature within 200 feet. On a failed DC 15 Dexterity saving throw, the target takes 5d8 force damage. The eye has a depletion of 1–3 in 1d100 when used this way.",
+									"A character can attach the eye to a depleted relic by spending one hour and making a DC 15 Intelligence (Arcana) check. If successful, the relic functions again and has a depletion of 1 in 1d6; failure means the character makes a depletion roll for the eye (1 in 1d6, checked each attempt). Once connected to a relic, if the relic depletes again, so does the monolith eye."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":"In addition to looting a slain monolith’s eye as treasure, the area around it usually has several decaying creatures in the soil, which might have carried cyphers (typically 1d3 cyphers are found)."
 							}
 						]
 					}	
