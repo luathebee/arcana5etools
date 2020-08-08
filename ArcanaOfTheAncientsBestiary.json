@@ -192,6 +192,131 @@
 					}	
 				]
 			}
-		}	
+		},	
+		{
+			"name": "Aliopter",
+			"source": "AotA",
+			"page": 144,
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 100,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 18,
+			"int": 2,
+			"wis": 12,
+			"cha": 5,
+			"save": {
+				"str": "+6",
+				"con": "+7"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"prone"
+			],
+			"languages": [
+				""
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The aliopter's attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "Reactive Tongues",
+					"entries": [
+						"An aliopter has four reactions that can be used only for opportunity attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aliopter makes four barbed tongue attacks."
+					]
+				},
+				{
+					"name": "Barbed Tongue",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 15} Strength or Dexterity saving throw or be {@condition grappled} and {@condition restrained} (escape {@dc 15}). If the target is a living creature, it also must succeed on a {@dc 16} Constitution saving throw or be infected with a disease\u2014a cluster of aliopter larvae.",
+						"The aliopter larvae live and grow beneath the target's flesh for about a week, after which they move to the creature's tongue and cause it to swell. Eventually the victim's throat becomes blocked by the swollen tongue and they begin to choke; every 10 minutes they must succeed on a {@dc 16} Constitution saving throw or start suffocating. After six hours of this, the tongue ruptures, and tiny aliopters squirm out.",
+						"If the target is dead, the young alioptors feed on the corpse before joining together into a single mass and begin searching for new prey.",
+						"The aliopter's reproductive process holds true for most humanoid creatures. It might take a different form in another creature, such as growing in the target's stomach or lungs before bursting out and eating the dead host.",
+						"If the disease is cured before the larvae's emergence, the unborn aliopters are disintegrated."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"An aliopter looks like a horrific cloud ofwrithing, undulating tongues. It is a colony of many organisms fused together into one composite creature weighing several hundred pounds. It sweeps out of the cover of shadows to attack prey, flying by some unknown means of negating gravity in a precisely controlled manner. They seem to originate from ancient ruins, particularly those with a connection to another world orbiting a far-off star.",							
+							{
+							"type":"entries",
+							"name":"Hunger and Reproduction.",
+							"entries":[
+								"An aliopter’sonly motive is to feed and reproduce. It is a near-mindless predator that cannot be reasoned with. Once it has successfully injected its larvae into a victim, it focuses on feeding for the next few months and no longer attempts to implant anything."
+								]
+							}
+						]
+					}	
+				]
+			}
+		}
 	]
 }
