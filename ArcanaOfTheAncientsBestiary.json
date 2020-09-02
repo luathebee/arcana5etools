@@ -592,12 +592,157 @@
 							{
 								"type":"entries",
 								"name":"Salvage",
-								"entries":"In addition to looting a slain monolith’s eye as treasure, the area around it usually has several decaying creatures in the soil, which might have carried cyphers (typically 1d3 cyphers are found)."
+								"entries":[
+									"In addition to looting a slain monolith’s eye as treasure, the area around it usually has several decaying creatures in the soil, which might have carried cyphers (typically 1d3 cyphers are found)."
+									]
+							}
+						]
+					}	
+				]
+			}
+		},
+		{
+			"name": "Gazer",
+			"source": "AotA",
+			"page": 176,
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+				{
+				  "alignment": [
+					"N"
+				  ],
+				  "note": "or as programmed"
+				}
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "3d4"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 100,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 11,
+			"int": 11,
+			"wis": 10,
+			"cha": 7,
+			"save": {
+				"dexterity": "+4"
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"languages":"",
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Intense Light",
+					"entries": [
+						"Although a gazer's beam only inflicts a small amount of damage, it is capable of cutting through very tough materials, including wood, stone, and steel. A gazer trying to damage an object treats any object AC less than 18 as AC 10."
+					]
+				},
+				{
+					"name": "Swarm Targeting",
+					"entries": [
+						"If two or more gazers attack the same target, each gazer gains advantage on its attack roll."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries": [
+						"A gazer's attacks ignore half cover and three-quarters cover."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Red Beam",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 100/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"A gazer is a levitating metallic spherical automaton, about 1.5 feet in diameter. Various bits of equipment and blinking lights festoon a gazer’s battered metal-alloy body. A concavity on one side of the sphere incessantly emits a beam of scarlet light. The red beam can intensify in a moment, creating a ray capable of burning through nearly anything.",
+							{
+							"type":"entries",
+							"name":"Flying Tactics",
+							"entries":[
+								"Groups of gazers fly in a spherical formation, which allows them to present the maximum possible perception and threat surface. Depending on the locations of their opponents, they may arrange themselves around or in the middle of their foes. Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes a lone gazer is encountered as a companion of a creature who reprogrammed it to act as a servitor."]
+							},
+							{
+								"type":"entries",
+								"name":"Old Programming",
+								"entries":[
+									"A gazer usually interacts only by flashing its beam in coded bursts, accompanied by eerie bleats of electronic static. Most active gazers follow a program to defend a location, reconnoiter a wider area, or seek and destroy those who match profiles held in their machine brains. However, if any group of gazers is interfered with too much, they attempt to eradicate the perceived threat."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Monolith Eye",
+								"entries":[
+									"The astraphin monolith’s crystalline eye is prized because it can be used as a weapon or a power source for a depleted relic. If used as a weapon, it fires a blast of force at one creature within 200 feet. On a failed DC 15 Dexterity saving throw, the target takes 5d8 force damage. The eye has a depletion of 1–3 in 1d100 when used this way.",
+									"A character can attach the eye to a depleted relic by spending one hour and making a DC 15 Intelligence (Arcana) check. If successful, the relic functions again and has a depletion of 1 in 1d6; failure means the character makes a depletion roll for the eye (1 in 1d6, checked each attempt). Once connected to a relic, if the relic depletes again, so does the monolith eye."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A swarm of six to twelve gazers may be salvaged for up to 1d6 cyphers."
+									]
 							}
 						]
 					}	
 				]
 			}
 		}
+
 	]
 }
