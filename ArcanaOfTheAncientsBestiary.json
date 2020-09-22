@@ -742,7 +742,235 @@
 					}	
 				]
 			}
+		},
+		{
+			"name": "Beastcoat Infiltrator",
+			"source": "AotA",
+			"page": 149,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+				"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 30,
+				"swim": {
+					"number": 40,
+					"condition": "(as appropriate for its current disguise)"
+				}
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+5",
+				"deception": "+2",
+				"perception": "+3",
+				"stealth": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "4",
+			"trait": [				
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The beastcoat infiltrator has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Limited Beast Disguise",
+					"entries": [
+						"A beastcoat infiltrator can alter its external shape by telescoping its limbs and expanding the plates on its outer surface, but at best this is only a rough approximation. Even when covered in grown animal flesh, it looks more like an animatronic puppet than a real creature, which is usually sufficient to fool other animals. It can vary its size category from a Small to a Medium creature, but this does not affect its stats, and it doesn't assume a radically larger or smaller size that a typical specimen of what it's imitating (it wouldn't become a Small seskii or a Medium ravage bear)."
+					]
+				}
+			],"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beastcoat infiltrator makes two or three attacks, typically bites and claws, as appropriate for the animal it is emulating. If encountered without a disguise, or if it thinks it will be destroyed, it may use an electrical stun attack in place of one of its melee attacks."
+					]
+				},
+				{
+					"name": "Bite or Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@dice 1d8 + 3}) piercing or slashing."
+					]
+				},
+				{
+					"name": "Electrical Stun",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30 ft., one target. {@h}7 ({@damage 2d6}) lightning damage plus the target must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for one minute."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"unconscious"
+			],
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"Many automatons were built to wage war, for mundane tasks, or for unknowable purposes, but it seems that some were made to understand other things. Examples of the latter are beastcoat infiltrators—adaptive machines that study common animals, learn their behavior, reshape themselves to match their subjects, and cover themselves with harvested or grown flesh (including fur, feathers, or scales) to infiltrate the creatures they are studying.",
+							{
+								"type":"entries",
+								"name":"Just Another Animal",
+								"entries":[
+									"Beastcoat infiltrators adapt to the social structure of a type of animal or beast (such as deer, tigers, or even ravage bears) and become part of the group. They have been seen aiding a hunt, bringing food back to the lair, helping to raise animal offspring, and otherwise contributing to the welfare of the group while continuing their observations. After weeks, months, or years, the infiltrator leaves to repeat the process with a different group of animals."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Maintaining the Role",
+								"entries":[
+									"Beastcoat infiltrators either quietly track and observe animals or pretend to be a particular kind of animal, making sure its behavior does not confuse or alarm the living animals it associates with. A character who can communicate with machines might coax it into a limited communication."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"An infiltrator can be salvaged for a couple of cyphers or perhaps a relic. Instead of a relic, PCs may be able to loot its data core, which, if they are able to access the information within it, can be used as a book about animal biology."
+									]
+							}
+						]
+					}	
+				]
+			}
+		},
+		{
+			"name": "Blood Barm",
+			"source": "AotA",
+			"page": 150,
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d6 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 14,
+			"int": 7,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the blood barm can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with an attack if that creature is within 5 feet of another blood barm that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spew Explosive Blood Bubble",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 15/30 ft., one creature. {@h}9 ({@damage 2d6 + 2}) piercing damage. The target must succeed on a {@dc 12} Constitution saving throw or a seed from one of the blood bubbles is implanted in a target's skin for 1 minute, during which time the target suffers 1 point of damage per round. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Blood Sac Birth {@recharge}",
+					"entries": [
+						"Barms can break their own body sacs by pressing them against a PC or an object. The larger sacs burst first due to their extended size, and any young barms (1-4) within are born. Treat each youngling as a tiny blood barm with 31 hit points that lacks this ability."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"Its long neck craning this way and that, the four-footed blood barm doesn’t have an easily distinguishable head or eyes. Instead, a barm has a large opening at the end of its neck covered with a clear membrane similar to an eyelid. The creature’s body, somewhat turkey-shaped, is covered with myriad vesicles rather than feathers, ranging in color from dark green to gray to crimson. These bubbles are filled with liquid and hard seeds. Some seeds have “sprouted,” and these sacs swell with tiny, unborn barms. When the young are close to hatching, the sacs can grow half as large as the barm itself.",
+							{
+								"type":"entries",
+								"name":"Defensive Flocking.",
+								"entries":[
+									"Blood barms often move about in flocks of two to four. They are not aggressive unless their young are threatened. However, if a flock of barms and their young are located in or near a site the PCs need to access, they might attack."
+									]
+							}
+						]
+					}	
+				]
+			}
 		}
-
 	]
 }
