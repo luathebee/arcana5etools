@@ -597,11 +597,7 @@
 									]
 							}
 						]
-<<<<<<< HEAD
 					}
-=======
-					}	
->>>>>>> 8c79c1ca0ec4e61673a569e6ac1f7d95e0012efe
 				]
 			}
 		},
@@ -743,11 +739,7 @@
 									]
 							}
 						]
-<<<<<<< HEAD
 					}
-=======
-					}	
->>>>>>> 8c79c1ca0ec4e61673a569e6ac1f7d95e0012efe
 				]
 			}
 		},
@@ -810,11 +802,7 @@
 				"poisoned"
 			],
 			"cr": "4",
-<<<<<<< HEAD
 			"trait": [
-=======
-			"trait": [				
->>>>>>> 8c79c1ca0ec4e61673a569e6ac1f7d95e0012efe
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
@@ -891,11 +879,7 @@
 									]
 							}
 						]
-<<<<<<< HEAD
 					}
-=======
-					}	
->>>>>>> 8c79c1ca0ec4e61673a569e6ac1f7d95e0012efe
 				]
 			}
 		},
@@ -982,7 +966,6 @@
 								"entries":[
 									"Blood barms often move about in flocks of two to four. They are not aggressive unless their young are threatened. However, if a flock of barms and their young are located in or near a site the PCs need to access, they might attack."
 									]
-<<<<<<< HEAD
 							}
 						]
 					}
@@ -1117,8 +1100,6 @@
 								"entries":[
 									"The undamaged sockets of a pack of several bowgs might be salvaged for a couple of cyphers. Mindlinked bowgs also may carry conventional equipment and cyphers."
 									]
-=======
->>>>>>> 8c79c1ca0ec4e61673a569e6ac1f7d95e0012efe
 							}
 						]
 					}
