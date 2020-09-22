@@ -180,7 +180,7 @@
 						"type":"entries",
 						"entries":[
 							"An accelerator is an artificial intelligence encased in a metal shell with numerous limbs, sensory devices, and other accoutrements that allow it to interact with and understand the world around itself. An accelerator fears “death” (perhaps “dissolution” is a better term) and concocts elaborate plans to develop better protections for itself. Ironically, sometimes this puts it in danger as it tries to take control of a defensible fortress or obtain a device that will grant it a powerful defense. A fully upright accelerator stands 15 feet high. Paranoia. Accelerators aren’t evil, but their interest in putting their own existence ahead of others means they might act in ways that people consider villainous. If seriously threatened, an accelerator always chooses flight over fight.",
-							
+
 							{
 							"type":"entries",
 							"name":"Paranoia",
@@ -196,10 +196,10 @@
 								]
 							}
 						]
-					}	
+					}
 				]
 			}
-		},	
+		},
 		{
 			"name": "Aliopter",
 			"source": "AotA",
@@ -312,7 +312,7 @@
 					{
 						"type":"entries",
 						"entries":[
-							"An aliopter looks like a horrific cloud ofwrithing, undulating tongues. It is a colony of many organisms fused together into one composite creature weighing several hundred pounds. It sweeps out of the cover of shadows to attack prey, flying by some unknown means of negating gravity in a precisely controlled manner. They seem to originate from ancient ruins, particularly those with a connection to another world orbiting a far-off star.",							
+							"An aliopter looks like a horrific cloud ofwrithing, undulating tongues. It is a colony of many organisms fused together into one composite creature weighing several hundred pounds. It sweeps out of the cover of shadows to attack prey, flying by some unknown means of negating gravity in a precisely controlled manner. They seem to originate from ancient ruins, particularly those with a connection to another world orbiting a far-off star.",
 							{
 							"type":"entries",
 							"name":"Hunger and Reproduction.",
@@ -321,7 +321,7 @@
 								]
 							}
 						]
-					}	
+					}
 				]
 			}
 		},
@@ -428,7 +428,7 @@
 					{
 						"type":"entries",
 						"entries":[
-							"Dour and severe, anhedons are humanoid-shaped creatures protected with a carapace of dark stone breached only by twin beams of red light for eyes. It is possible that this carapace is actually some kind of stone armor powered by geological forces.",							
+							"Dour and severe, anhedons are humanoid-shaped creatures protected with a carapace of dark stone breached only by twin beams of red light for eyes. It is possible that this carapace is actually some kind of stone armor powered by geological forces.",
 							{
 							"type":"entries",
 							"name":"Obsessed Searcher",
@@ -451,7 +451,7 @@
 								]
 							}
 						]
-					}	
+					}
 				]
 			}
 		},
@@ -592,10 +592,517 @@
 							{
 								"type":"entries",
 								"name":"Salvage",
-								"entries":"In addition to looting a slain monolith’s eye as treasure, the area around it usually has several decaying creatures in the soil, which might have carried cyphers (typically 1d3 cyphers are found)."
+								"entries":[
+									"In addition to looting a slain monolith’s eye as treasure, the area around it usually has several decaying creatures in the soil, which might have carried cyphers (typically 1d3 cyphers are found)."
+									]
 							}
 						]
-					}	
+					}
+				]
+			}
+		},
+		{
+			"name": "Gazer",
+			"source": "AotA",
+			"page": 176,
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+				{
+				  "alignment": [
+					"N"
+				  ],
+				  "note": "or as programmed"
+				}
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "3d4"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 100,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 11,
+			"int": 11,
+			"wis": 10,
+			"cha": 7,
+			"save": {
+				"dexterity": "+4"
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"languages":"",
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Intense Light",
+					"entries": [
+						"Although a gazer's beam only inflicts a small amount of damage, it is capable of cutting through very tough materials, including wood, stone, and steel. A gazer trying to damage an object treats any object AC less than 18 as AC 10."
+					]
+				},
+				{
+					"name": "Swarm Targeting",
+					"entries": [
+						"If two or more gazers attack the same target, each gazer gains advantage on its attack roll."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries": [
+						"A gazer's attacks ignore half cover and three-quarters cover."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Red Beam",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 100/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"A gazer is a levitating metallic spherical automaton, about 1.5 feet in diameter. Various bits of equipment and blinking lights festoon a gazer’s battered metal-alloy body. A concavity on one side of the sphere incessantly emits a beam of scarlet light. The red beam can intensify in a moment, creating a ray capable of burning through nearly anything.",
+							{
+							"type":"entries",
+							"name":"Flying Tactics",
+							"entries":[
+								"Groups of gazers fly in a spherical formation, which allows them to present the maximum possible perception and threat surface. Depending on the locations of their opponents, they may arrange themselves around or in the middle of their foes. Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes a lone gazer is encountered as a companion of a creature who reprogrammed it to act as a servitor."]
+							},
+							{
+								"type":"entries",
+								"name":"Old Programming",
+								"entries":[
+									"A gazer usually interacts only by flashing its beam in coded bursts, accompanied by eerie bleats of electronic static. Most active gazers follow a program to defend a location, reconnoiter a wider area, or seek and destroy those who match profiles held in their machine brains. However, if any group of gazers is interfered with too much, they attempt to eradicate the perceived threat."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Monolith Eye",
+								"entries":[
+									"The astraphin monolith’s crystalline eye is prized because it can be used as a weapon or a power source for a depleted relic. If used as a weapon, it fires a blast of force at one creature within 200 feet. On a failed DC 15 Dexterity saving throw, the target takes 5d8 force damage. The eye has a depletion of 1–3 in 1d100 when used this way.",
+									"A character can attach the eye to a depleted relic by spending one hour and making a DC 15 Intelligence (Arcana) check. If successful, the relic functions again and has a depletion of 1 in 1d6; failure means the character makes a depletion roll for the eye (1 in 1d6, checked each attempt). Once connected to a relic, if the relic depletes again, so does the monolith eye."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A swarm of six to twelve gazers may be salvaged for up to 1d6 cyphers."
+									]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Beastcoat Infiltrator",
+			"source": "AotA",
+			"page": 149,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+				"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 30,
+				"swim": {
+					"number": 40,
+					"condition": "(as appropriate for its current disguise)"
+				}
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"athletics": "+5",
+				"deception": "+2",
+				"perception": "+3",
+				"stealth": "+3",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The beastcoat infiltrator has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Limited Beast Disguise",
+					"entries": [
+						"A beastcoat infiltrator can alter its external shape by telescoping its limbs and expanding the plates on its outer surface, but at best this is only a rough approximation. Even when covered in grown animal flesh, it looks more like an animatronic puppet than a real creature, which is usually sufficient to fool other animals. It can vary its size category from a Small to a Medium creature, but this does not affect its stats, and it doesn't assume a radically larger or smaller size that a typical specimen of what it's imitating (it wouldn't become a Small seskii or a Medium ravage bear)."
+					]
+				}
+			],"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beastcoat infiltrator makes two or three attacks, typically bites and claws, as appropriate for the animal it is emulating. If encountered without a disguise, or if it thinks it will be destroyed, it may use an electrical stun attack in place of one of its melee attacks."
+					]
+				},
+				{
+					"name": "Bite or Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@dice 1d8 + 3}) piercing or slashing."
+					]
+				},
+				{
+					"name": "Electrical Stun",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30 ft., one target. {@h}7 ({@damage 2d6}) lightning damage plus the target must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for one minute."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"unconscious"
+			],
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"Many automatons were built to wage war, for mundane tasks, or for unknowable purposes, but it seems that some were made to understand other things. Examples of the latter are beastcoat infiltrators—adaptive machines that study common animals, learn their behavior, reshape themselves to match their subjects, and cover themselves with harvested or grown flesh (including fur, feathers, or scales) to infiltrate the creatures they are studying.",
+							{
+								"type":"entries",
+								"name":"Just Another Animal",
+								"entries":[
+									"Beastcoat infiltrators adapt to the social structure of a type of animal or beast (such as deer, tigers, or even ravage bears) and become part of the group. They have been seen aiding a hunt, bringing food back to the lair, helping to raise animal offspring, and otherwise contributing to the welfare of the group while continuing their observations. After weeks, months, or years, the infiltrator leaves to repeat the process with a different group of animals."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Maintaining the Role",
+								"entries":[
+									"Beastcoat infiltrators either quietly track and observe animals or pretend to be a particular kind of animal, making sure its behavior does not confuse or alarm the living animals it associates with. A character who can communicate with machines might coax it into a limited communication."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"An infiltrator can be salvaged for a couple of cyphers or perhaps a relic. Instead of a relic, PCs may be able to loot its data core, which, if they are able to access the information within it, can be used as a book about animal biology."
+									]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Blood Barm",
+			"source": "AotA",
+			"page": 150,
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d6 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 14,
+			"int": 7,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the blood barm can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with an attack if that creature is within 5 feet of another blood barm that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spew Explosive Blood Bubble",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 15/30 ft., one creature. {@h}9 ({@damage 2d6 + 2}) piercing damage. The target must succeed on a {@dc 12} Constitution saving throw or a seed from one of the blood bubbles is implanted in a target's skin for 1 minute, during which time the target suffers 1 point of damage per round. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Blood Sac Birth {@recharge}",
+					"entries": [
+						"Barms can break their own body sacs by pressing them against a PC or an object. The larger sacs burst first due to their extended size, and any young barms (1-4) within are born. Treat each youngling as a tiny blood barm with 31 hit points that lacks this ability."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"Its long neck craning this way and that, the four-footed blood barm doesn’t have an easily distinguishable head or eyes. Instead, a barm has a large opening at the end of its neck covered with a clear membrane similar to an eyelid. The creature’s body, somewhat turkey-shaped, is covered with myriad vesicles rather than feathers, ranging in color from dark green to gray to crimson. These bubbles are filled with liquid and hard seeds. Some seeds have “sprouted,” and these sacs swell with tiny, unborn barms. When the young are close to hatching, the sacs can grow half as large as the barm itself.",
+							{
+								"type":"entries",
+								"name":"Defensive Flocking.",
+								"entries":[
+									"Blood barms often move about in flocks of two to four. They are not aggressive unless their young are threatened. However, if a flock of barms and their young are located in or near a site the PCs need to access, they might attack."
+									]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Bowg",
+			"source": "AotA",
+			"page": 151,
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 16,
+			"int": 6,
+			"wis": 10,
+			"cha": 8,
+			"skill": {
+				"arcana": "+0 (+2 for mind linked Bowgs)",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 12,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Built to Serve",
+					"entries": [
+						"A bowg has disadvantage on saving throws to resist psychic or machine attempts to control their minds."
+					]
+				},
+				{
+					"name": "Mindlinked Advantage",
+					"entries": [
+						"Once mental or machine contact or control with a bowg is established, the bowg's Intelligence increases to 9 for the duration of the contact and for approximately 10 minutes thereafter. This gives it a +2 bonus on attack rolls, Intelligence checks, and Intelligence saving throws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"A wild bowg makes two attacks, usually two claws or a claw and a bite. A mindlinked bowg uses weapons like greatclubs and shortbows, and may be equipped with a cypher by its master."
+					]
+				},
+				{
+					"name": "Bite or Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing or slashing damage."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage. (This includes the mindlinked bowg's +2 bonus on attack rolls.)"
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. (This includes the mindlinked bowg's +2 bonus on attack rolls.)"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"These two-legged pseudoprimates have prominent teeth, four arms (two organic, two metallic), and large mechanical sockets on their backs.",
+							{
+								"type":"entries",
+								"name":"Wild Bowgs.",
+								"entries":[
+									"A typical bowg has the intelligence of a smart animal, such as an ape. They use animalistic tactics and are likely to flee if outmatched. They avoid unknown creatures unless they are very hungry or sense the presence of a mind- or machine-talker—it is not uncommon for wild bowgs to follow a humanoid with these abilities at a distance, subconsciously hoping for the contact that will make them smarter."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Mindlinked Bowgs.",
+								"entries":[
+									"A bowg’s sockets make them receptive to commands from intelligent machines and psychic entities, turning them into compliant servants for entities that lack the ability to manipulate objects directly. Bowgs thrive on and seek out this contact,as it improves their own ability to think, deduce, and plan, making them almost on par with a typical human. These bowgs use manufactured weapons and better battle tactics (especially if their master gives them instructions about what to do in combat). Mindlinked bowgs are loyal to their master if well-treated (which may make them friendly or hostile toward explorers), but are not willing to harm themselves or others of their kind."
+									]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"In addition to psychic creatures and machines with the ability to talk to other machines, bowgs are similarly receptive to mental contact from numenera (such as an eye of mental contact) andcharm spells, as well as machine-based contacts (such as from a mask of machine speaking)."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage.",
+								"entries":[
+									"The undamaged sockets of a pack of several bowgs might be salvaged for a couple of cyphers. Mindlinked bowgs also may carry conventional equipment and cyphers."
+									]
+							}
+						]
+					}
 				]
 			}
 		}
