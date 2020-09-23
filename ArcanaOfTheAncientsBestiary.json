@@ -456,6 +456,147 @@
 			}
 		},
 		{
+			"name": "Arric Frog",
+			"source": "AotA",
+			"page": 146,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+				"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d10 + 12"
+			},
+				"speed": {
+				"walk": 50,
+				"swim": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 15,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"save": {
+				"str": "+5",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+5",
+				"perception": "+3"
+			},
+
+				"senses": [
+					"darkvision 60 ft."
+				],
+				"passive": 13,
+				"cr": "5",
+				"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The arric frog can breathe air and water."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The arric frog's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				}
+			],
+				"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}29 ({@damage 6d8 + 2}) piercing damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The frog uses its sticky tongue against a Small or smaller creature or metallic object (such as a cypher) within 5 feet. The target must succeed on a {@dc 13} Strength or Dexterity saving throw; failure means the frog yanks the creature or object away and swallows it. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the frog, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the frog's turns. The frog can have up to two targets swallowed at a time.",
+						"If the frog dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Spit Cyst {@recharge}",
+					"entries": [
+						"The frog can spit a biomechanical cyst at a location within 60 feet, which explodes in a 5-foot-radius sphere, dealing 14 ({@damage 4d6}) damage, or half that if the target succeeds on a {@dc 13} Dexterity saving throw. The cyst's damage is fire, lightning, or piercing (equal chances for each sphere)."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"prone",
+				"restrained"
+			],
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"Arric frogs are wide-bodied amphibians with lumpy flesh, cold eyes, and metallic teeth. They hunt living prey in the deeps and shallows and on the coast, and they scavenge for small pieces of metal they can swallow.",
+							{
+							"type":"entries",
+							"name":"Spawning Cysts",
+							"entries":[
+								"As they grow and age, arric frogs develop egg-like biomechanical cysts within their bodies, adjacent to the stomach. Eventually these cysts erupt into the stomach, the beast vomits one forth, and the cyst sheds its outer layer of protective skin to reveal an arric sphere with mechanical and fleshy parts, which then flies off. Sometimes this process fails and the arric frog retains these cysts for years, which become quite painful. Eventually the tortured creature drags itself out of the water in search of relief, attacks anything it can reach, and dies, at which point the cysts finally erupt and the newborn arric spheres can finally scatter."
+								]
+							},
+							{
+								"type":"inset",
+								"name":"Arric Sphere",
+								"entries":[
+									"Use stats for type two basic automaton, with fly 30 ft."
+								]
+								},
+							{
+								"type":"entries",
+								"name":"Beast Mounts",
+								"entries":[
+									"An arric frog can be trained as a mount and ridden with a wide saddle. The rider may use a special goad that encourages the frog to eject an explosive cyst."
+									]
+								},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A slain Arric Frog might have one or two biomechanical cysts inside its body, which can be harvested for cyphers."
+									]
+								}
+							]
+						}
+					]
+				}
+		},
+		{
 			"name": "Astraphin Monolith",
 			"source": "AotA",
 			"page": 147,
