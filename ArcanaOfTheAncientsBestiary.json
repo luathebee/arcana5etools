@@ -1249,8 +1249,8 @@
 		},
 		{
 			"name": "Callerail",
-			"source": "",
-			"page": 0,
+			"source": "AotA",
+			"page": 152,
 			"size": "H",
 			"type": "monstrosity",
 			"alignment": [
@@ -1402,6 +1402,113 @@
 								"name":"Focused on Dominance.",
 								"entries":[
 									"Callerails move into an area and threaten the entire region. Two callerails in the same locale pose a danger to every living thing. The monsters fight to the death, each attempting to absorb the inorganic portions of the other and destroying everything that gets in their way. Afterward, the victor reproduces asexually."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Chirog",
+			"source": "AotA",
+			"page": 153,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"chirog"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"arcana": "+2",
+				"perception": "+2"
+			},
+			"passive": 11,
+			"languages": [
+				"Chirog",
+				"Common"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The chirog has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Grapple",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Medium or smaller creature. {@h}The creature is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition grappled} and {@condition restrained}, and the chirog can't grapple or bite another target."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Chirogs are vaguely reptilian humanoids with thick armor plates covering much of their body. They live to hunt and kill, but despite their savage nature, they are craftier and more intelligent than most savage humanoids. They {@footnote understand the numenera||Optional Rule: Intelligence (Ancients Arcana), page 259} and despise it. Even more than killing, they enjoy destroying devices of the ancient past. (Perhaps it is racial resentment for {@footnote wrongs done to them long ago|Chirogs might be mutant offshoots of what are now kobolds, lizardfolk, or even dragonkin.}.) Chirogs are hateful and angry, but not impossible to reason with. They speak their own simple language, and about one in three can speak or understand another language (typically Common or one used nearby). Chirogs do not use weapons or tools.",
+							{
+								"type":"entries",
+								"name":"Corrupt Families",
+								"entries":[
+									"Each chirog pack has a clear leader who is usually a female, and is likely the mother of many members of the pack. The creatures have a tangled, incestuous relationship, and mature females eventually leave to form a new pack, sometimes taking a brother or two with them."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Among the Trees and Rocks",
+								"entries":[
+									"Chirogs live in small groups of three to six, usually in wooded areas or rocky, mountainous regions. Because they are adept at climbing, they often build nests or hovels in high branches or on cliff faces where other creatures cannot easily see or reach them."
 								]
 							}
 						]
