@@ -1246,6 +1246,168 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Callerail",
+			"source": "",
+			"page": 0,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 180,
+				"formula": "19d12 + 57"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 14,
+			"con": 16,
+			"int": 7,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"con": "+9",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Absorbing Form",
+					"entries": [
+						"A creature that touches the callerail takes 4 ({@damage 1d8}) acid damage, as matter is transferred from the object to the callerail; the callerail regains 4 ({@dice 1d8}) hit points."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the callerail fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Monstrosity's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the callerail's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The callerail has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The callerail makes three attacks: one with its bite, and two with bludgeoning limbs to make slam attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage plus 10 ({@damage 3d6}) acid damage.",
+						"In addition, the callerail regains 10 ({@dice 3d6}) hit points."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d4 + 5}) bludgeoning damage plus 10 ({@damage 3d6}) acid damage. In addition, the callerail regains 10 ({@dice 3d6}) hit points. o receive a foe's attack, and the attack automatically hits.",
+						"The attacking foe must succeed on a {@dc 17} Dexterity saving throw or their weapon is absorbed into the callerail. Whether the saving throw is successful (and the weapon is retained) or not, the attack fails to inflict damage on the callerail. If a nonmagical weapon is absorbed, the callerail regains 10 ({@dice 3d6}) hit points, and the weapon is destroyed. If a magical weapon is absorbed, it becomes part of the callerail; to retrieve it, the callerail must be destroyed.",
+						"The callerail could choose to regain hit points simply by absorbing portions of what's around it, and absorb a 5-foot- cube of nonmagical wood, stone, or metal (or helpless flesh, whether alive or dead). When it does, it regains 10 ({@dice 3d6}) hit points."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The callerail makes one slam attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The callerail moves up to half its speed."
+					]
+				},
+				{
+					"name": "Seize (Costs 2 Actions)",
+					"entries": [
+						"The callerail makes one Object Absorption attack."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+							"A callerail is a creature of fused organic and inorganic substances. Flesh mingles with wood, steel, and stone, as the callerail possesses the ability to absorb inorganic matter and add the material to its body. The creature is a lumbering giant—15 feet tall—that walks using its forelimbs as well as its shorter rear legs. Its body is a conglomeration of materials.",
+							"A callerail’s organic portions remain cohesive so that its circulatory system reaches all areas of its body. It still requires food—in fact, it requires even more food than an ordinary creature of its size.",
+							{
+								"type":"entries",
+								"name":"Unreasoning Monstrosity.",
+								"entries":[
+									"Unreasoning Monstrosity. Reasoning with a hungry callerail is impossible, and they’re always hungry. However, a smart character can fool them by setting a trap, creating a diversion, or using a similar type of tactic. They are not particularly bright and act on animal instinct in most situations."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Focused on Dominance.",
+								"entries":[
+									"Callerails move into an area and threaten the entire region. Two callerails in the same locale pose a danger to every living thing. The monsters fight to the death, each attempting to absorb the inorganic portions of the other and destroying everything that gets in their way. Afterward, the victor reproduces asexually."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
