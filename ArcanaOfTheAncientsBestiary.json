@@ -1770,6 +1770,121 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Cuiddit",
+			"source": "AotA",
+			"page": 157,
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d4 + 24"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"swim": 30,
+				"canHover": true
+			},
+			"str": 3,
+			"dex": 14,
+			"con": 14,
+			"int": 13,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"dex": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Obvious",
+					"entries": [
+						"A cuiddit's constant noise and flashing lights means it always fails Stealth checks. Any of its companions within 10 feet have disadvantage on Stealth checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Force Fields",
+					"entries": [
+						"Although it doesn't have limbs, a cuiddit can extend two translucent fields of force from itself to manipulate objects within 5 feet. These force fields use the cuiddit's Strength and Dexterity scores. It can also combine these two limbs to create a force field barrier (up to a 10-foot square) or simple solid objects of force that could fit within a 10-foot cube, such as a table, ladder, or ramp. It might use a barrier to prevent a foe of its companions from entering a room, or block an escape route for its own companions."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A cuiddit is a levitating sphere, not quite as large as a human head, made of crystal and some hard opaque substance. Images in light play across the surface—sometimes images of a face (though never the same one twice), other times of random, odd scenes or objects. Sounds also constantly trickle from the cuiddit—tinkling or booming, cacophonous or melodic, familiar or utterly alien. Usually found completely inert, it might be mistaken for an oddity or useless junk until it suddenly awakens and—once some form of communication is established—seems determined to offer its aid.",
+							{
+								"type":"entries",
+								"name":"Limited Communication",
+								"entries":[
+									"A cuiddit doesn’t speak any known language, but it seems to react to communication by changing its images and sounds in response to questions and statements. Even telepathic communication gives these enigmatic responses that are subject to the speaker’s interpretation. Sometimes explorers feel like they are beginning to understand a cuiddit’s reactions by interpreting them depending on the context, but whether they really do understand or are just fooling themselves is up for debate."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Erratic Helper",
+								"entries":[
+									"When a cuiddit notices other creatures, it begins to follow them around until it is destroyed or driven away. At first, those being followed might appreciate the aid a cuiddit provides. But eventually, they may grow tired of the light show and incessant sounds. Eventually a cuiddit betrays its companions, but it is unknown whether this is a deliberate and malicious act, a misunderstood response to its companion’s actions, or simply erratic programming. This betrayal might be as simple as pushing a character off a ledge, attracting the attention of a nearby monster, or blocking a path of escape."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The remains of a cuiddit can be salvaged for one or two cyphers."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
