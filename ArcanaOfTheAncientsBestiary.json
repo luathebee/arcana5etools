@@ -1633,6 +1633,143 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Crith",
+			"source": "AotA",
+			"page": 156,
+			"size": "S",
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 49,
+				"formula": "9d6 + 18"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 15,
+				"swim": 15
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 8,
+			"cha": 6,
+			"save": {
+				"con": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"bludgeoning"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"prone"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Absorb Nutrients",
+					"entries": [
+						"A crith feeds by absorbing nutrients through its host's skin. A creature hosting a crith starts each day with one fewer Hit Die than normal. (For example, a",
+						"3rd-level fighter with a crith only has two {@dice d10}s they can spend to recover hit points from resting each day.) A creature that normally only has 1 Hit Die will die in its sleep within a day of becoming a crith's host."
+					]
+				},
+				{
+					"name": "Bonded Gift",
+					"entries": [
+						"A crith's host is immune to poison damage and diseases."
+					]
+				},
+				{
+					"name": "Immune to Disease",
+					"entries": [
+						"A crith is immune to diseases."
+					]
+				},
+				{
+					"name": "Nightmares",
+					"entries": [
+						"The crith's bond with its host causes terrible nightmares of strange places and creatures. Although this isn't enough to prevent the character from gaining the benefit of rest, the host is {@condition frightened} for one hour after waking (the source of its fear is internal and doesn't have to be within line of sight). These nightmares even affect hosts that meditate in a trance instead of sleeping."
+					]
+				},
+				{
+					"name": "Strong Bond",
+					"entries": [
+						"Once bonded, a crith doesn't want to let go, and it sinks tiny barbs into its host's flesh to maintain its grip. To tear off a bonded crith, the host (or someone helping them) must make a {@dc 17} Strength saving throw. Each failed attempt deals 7 ({@damage 2d6}) slashing damage to the host, and a successful attempt deals 14 ({@damage 4d6}) slashing damage to the host, and removes it.",
+						"These actions do not harm the crith, which is likely to attack whatever is trying to remove it from its host."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tendrils",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) slashing damage and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition paralyzed} for one round."
+					]
+				},
+				{
+					"name": "Parasitic Bond",
+					"entries": [
+						"The crith bonds to a helpless or willing creature it can touch. It can only bond to one creature at a time."
+					]
+				},
+				{
+					"name": "Poison Spray {@recharge}",
+					"entries": [
+						"The crith releases a fine mist in a 10-foot-radius sphere. All creatures in the sphere must succeed on a {@dc 13} Constitution saving throw or be {@condition paralyzed} for one round.",
+						"Because this depletes its ability to poison with its tendrils until the ability recharges, a crith normally only uses this ability to escape when it otherwise would be killed."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A crith is a lump of ebony, fleshy material about 2 feet in diameter when inactive. However, it can roughly mimic the shape of any creature it touches, though only in miniature. Other times, it moves by forming legs or arms as needed to run or climb.",
+							{
+								"type":"entries",
+								"name":"Parasitic",
+								"entries":[
+									"Criths feed by skin-to-skin contact, absorbing nutrients directly. When a crith finds a {@footnote victim|A Large creature might be host to two or more criths.}, it adheres itself to the creature, taking on the appearance of a child-sized silhouette of the larger victim, which it attempts to embrace. In return for nutrition from this embrace, a crith provides certain advantages, but the bond also gives the host bizarre {@footnote nightmares|Sometimes the nightmares that crith hosts endure show locations that actually exist, or at least used to. Likewise with the strange creatures these nightmares sometimes include.}. For most creatures, the nightmares become bad enough that they decide to remove the crith, which is a painful task."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
