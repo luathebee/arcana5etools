@@ -1412,7 +1412,7 @@
 		{
 			"name": "Chirog",
 			"source": "AotA",
-			"page": 153,
+			"page": 154,
 			"size": "M",
 			"type": {
 				"type": "humanoid",
@@ -1509,6 +1509,124 @@
 								"name":"Among the Trees and Rocks",
 								"entries":[
 									"Chirogs live in small groups of three to six, usually in wooded areas or rocky, mountainous regions. Because they are adept at climbing, they often build nests or hovels in high branches or on cliff faces where other creatures cannot easily see or reach them."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Cragworm",
+			"source": "AotA",
+			"page": 155,
+			"size": "G",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 201,
+				"formula": "13d20 + 65"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 21,
+			"int": 2,
+			"wis": 8,
+			"cha": 4,
+			"save": {
+				"con": "+9",
+				"wis": "+3"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 13,
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Easily Deceived",
+					"entries": [
+						"A cragworm is particularly easy to fool if food is involved. They have been known to chase after a fleeing horse and ignore a group of travelers that remain very still until it leaves the area. Cragworms have disadvantage on Intelligence checks to recognize a deception when easily- acquired food is available."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The cragworm's attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"A cragworm has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}19 ({@damage 4d6 + 5}) piercing damage, and the target must make a {@dc 17} Constitution saving throw, taking 35 ({@damage 10d6}) poison damage on a failed save, or half as much damage on a successful one. If the target is a Large or smaller creature, it must succeed on a {@dc 17} Dexterity saving throw or be swallowed by the cragworm. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the worm, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the cragworm's turns.",
+						"If the cragworm takes 20 damage or more on a single turn from a creature inside it, the cragworm must succeed on a {@dc 17} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the cragworm. If the cragworm dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+					]
+				},
+				{
+					"name": "Howl {@recharge 5}",
+					"entries": [
+						"Before it emerges to attack, the cragworm howls, reverberating in the audible and subsonic ranges. Each creature within 120 feet of the cragworm must make a {@dc 17} Constitution save. Success means the creature is {@condition paralyzed} for one round, or two rounds for a failed save."
+					]
+				}
+			],
+			"actionTags": [
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"paralyzed",
+				"restrained"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			      	"A cragworm is a spiny serpent-like creature that can grow up to 50 feet long. It dwells in abandoned or isolated areas, preying on whatever it can find, and eating plants only when starving.",
+							{
+								"type":"entries",
+								"name":"Feeding Its Hunger",
+								"entries":[
+									"A cragworm has the intelligence of an animal and the outlook of a predator. It can’t be reasoned with, but if confronted before it attacks with a sufficient threat or distraction, it can be intimidated or tricked into leaving a group of creatures alone in favor of easier targets. Once it starts fighting, it only stops if it is killed or there is no prey within sight."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Strange Anatomy",
+								"entries":[
+									"A cragworm’s mouth opens horizontally, and it has many rows of teeth to help it trap and swallow prey. It has many red, glistening eyes, usually arranged in clusters along the length of its body, but the ones that aren’t near its head are only good for spotting movement, and it will turn its head to bring its best eyes to bear on its prey."
 								]
 							}
 						]
