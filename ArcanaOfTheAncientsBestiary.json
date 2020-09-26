@@ -1885,6 +1885,129 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Culova",
+			"source": "AotA",
+			"page": 158,
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 5"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 13,
+			"skill": {
+				"climb": "+5",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Culova",
+				"a few know Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The culova has advantage on attack rolls against any creature it has surprised."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spiked Club",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 2} piercing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}13 ({@damage 3d6 + 2} piercing damage."
+					]
+				},
+				{
+					"name": "Poison Spray {@recharge}",
+					"entries": [
+						"The culova sprays venom from its mouth, turning its head almost 360 degrees, affecting up to eight targets within 10 feet. Each creature affected must make a {@dc 13} Dexterity saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save, or half as much damage on a successful one.",
+						"Other culovas are immune to this venom."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Culovas are {@spidery humanoids|Culovas might be a mutant offshoot of a creature like an ettercap, or ettercaps might be near- humanoid mutations of ancient culovas.} with eight spindly legs, a bulbous midsection, and a pair of human-like arms with three fingers. Eight eyes adorn their heads like colored beads above disturbingly broad, toothy mouths. They move with astonishing quickness.",
+							{
+								"type":"entries",
+								"name":"Forest Hunters",
+								"entries":[
+									"Although they look monstrous, culovas are usually peaceful creatures that live in small groups deep within a forest, hunting for food and caring for their young. They lead simple lives and have little interest in building large structures. Unlike most spidery creatures, culovas do not make webs."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Territorial",
+								"entries":[
+									"Culovas avoid contact with other intelligent creatures unless they or their territories are threatened. They repel groups of intelligent creatures (such as marauding humanoids or people who want to log their forests) with weapons and their venom."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Elusive",
+								"entries":[
+									"Culovas do not leave familiar ground except in extraordinary circumstances, so they are always on the defensive, even when they launch an attack. However, an attacking culova can be reasoned with. If they can be convinced that an intruder is not a threat or that they’ll cease being a threat—which usually involves leaving the area—they might be willing to let their opponents leave peacefully."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"Very rarely, a culova might have a cypher. They never have other treasure or things that a human might find valuable."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
