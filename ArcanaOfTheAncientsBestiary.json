@@ -2158,6 +2158,159 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Cypherid",
+			"source": "AotA",
+			"page": 161,
+			"size": "S",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 10
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 13,
+			"int": 3,
+			"wis": 8,
+			"cha": 5,
+			"skill": {
+				"perception": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Cypher Sense",
+					"entries": [
+						"A cypherid automatically senses the presence of all cyphers within 60 feet unless the cyphers are behind a force field."
+					]
+				},
+				{
+					"name": "Swarm Targeting",
+					"entries": [
+						"If four or more cypherids attack the same target, each cypherid gains advantage on its attack roll, and their opponents have disadvantage on saving throws against the incorporated cypher ability."
+					]
+				},
+				{
+					"name": "Numenera Camouflage",
+					"entries": [
+						"The cypherid has advantage on Dexterity (Stealth) checks made to hide in numenera ruins and amist other pieces of the numenera, including scrap."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cypherid makes one attack with its blade. If that attack hits, the cypherid can use steal and repair against the same target."
+					]
+				},
+				{
+					"name": "Blade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 1}) piercing or slashing damage. If the target has any cyphers, the cypherid can use its steal and repair ability."
+					]
+				},
+				{
+					"name": "Activate Incorporated Cypher {@recharge}",
+					"entries": [
+						"If a cypherid feels especially threatened, it activates one of the cyphers incorporated into its body. This is usually one of the following effects:",
+						"• Destructive ray (one target within 120 feet takes 12 ({@damage 3d8}) fire damage unless they succeed on a {@dc 13} Dexterity saving throw)",
+						"• Lightning burst (everything in a 5-foot-radius sphere takes 14 ({@damage 4d6}) lightning damage, or half that if they succeed on a {@dc 13} Dexterity saving throw)",
+						"• Gravity wave (everything in a 5-foot-radius sphere is knocked {@condition prone} and takes 10 ({@damage 3d6}) bludgeoning damage, or half that if they succeed on a {@dc 13} Dexterity saving throw)",
+						"• Phase changer (allows the cypherid to escape by moving through solid objects for one minute)",
+						"Alternatively, the GM can create other offensive, defensive, or utilitarian cypher-like effects similar to the above, with a {@dc 13}."
+					]
+				},
+				{
+					"name": "Steal and Repair",
+					"entries": [
+						"The cypherid extends a glassy tendril into the targeted character's equipment and attempts to steal one cypher and add the device to its own body. If the cypherid is injured, this repairs 7 points of damage. If this takes it over its normal hit point total, it gains the excess amount as temporary hit points. The target can resist this grab attempt with a successful {@dc 13} Strength or Dexterity saving throw."
+					]
+				},
+				{
+					"name": "Spawn {@recharge}",
+					"entries": [
+						"A group of four cypherids can focus on a target who carries two or more cyphers, causing the cyphers to fuse together and animate as a new cypherid. The target can prevent this from happening with a {@dc 13} Intelligence saving throw. The character has disadvantage on this saving throw because of the cypherid's swarm targeting ability."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"L",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Cypherids are automatons that are essentially {@footnote an footnote animate accumulation of cyphers|Some people familiar with the numenera speculate that cypherids are a simpler progenitor of a cynoclept, presumably having found a permanent way to maintain its intellect.|Cynoclept, page 159}. Like vermin, they sometimes conglomerate in ruins. They flit, clamber, slide, or trundle along on limbs made of disparate devices, though there is an overall spider-like body structure to the creature. A cypherid generally doesn’t reach dimensions larger than a couple of feet across. Like an insect, a cypherid seems driven by simple motives. In this case, it is to accumulate more cyphers to add to itself as older components get used up or burn out.",
+							{
+								"type":"entries",
+								"name":"Intermittently Intelligent",
+								"entries":[
+									"Most cypherids are not intelligent and do not communicate. A few that absorb cyphers that allow them to communicate with other machines (or similar abilities) can gain intelligent behaviors and advanced motives, for a time. Such a creature that gains, loses, and gains intelligence again likely realizes the fragility of its higher functioning and focuses its efforts on acquiring more cyphers that can prevent it from again lapsing into a beast-like state."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"One to three cyphers can be salvaged from a cypherid’s body."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
