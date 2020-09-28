@@ -2311,6 +2311,109 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Dabirri",
+			"source": "AotA",
+			"page": 163,
+			"size": "S",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 8,
+				"formula": "2d6 + 1"
+			},
+			"speed": {
+				"swim": 10
+			},
+			"str": 6,
+			"dex": 10,
+			"con": 11,
+			"int": 1,
+			"wis": 5,
+			"cha": 1,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 7,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+					"blinded",
+					"charmed",
+					"deafened",
+					"exhaustion",
+					"frightened",
+					"paralyzed",
+					"petrified",
+					"poisoned",
+					"prone"
+				],
+				"cr": "1/4",
+				"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dabirri makes two tendril sting attacks."
+					]
+				},
+				{
+					"name": "Tendril Sting",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) necrotic damage. If the attack is a critical hit, the jolt of disrupting energy hops to another creature within 5 feet and deals 4 ({@damage 1d8}) necrotic damage to that creature."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A dabirri is an artificial water-dwelling construct created by taking the heart of a human-sized creature and placing it in a hard transparent shell. A dabirri does not eat and is not intelligent, but it instinctively attacks warm-blooded creatures with its venomous tendrils. A typical specimen is anywhere from 1 to 3 feet across, with the tendrils adding an additional length all around equal to the body’s diameter. It moves by a combination of fine jets of water and swimming with its tendrils.",
+							{
+								"type":"entries",
+								"name":"Deadly Sting",
+								"entries":[
+									"Unlike a jellyfish, a dabirri’s sting isn’t poisonous. Instead, it jolts its opponent with a pulse of energy that transmits a signal that tells the target’s cells to shut down and die. Although its individual attacks are weak, they tend to be found in swarms, and the aggregate effect of these stings can eventually overwhelm even large targets."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Fabricated Entity",
+								"entries":[
+									"Although it has living components, a dabirri cannot reproduce. Presumably, another, larger creature or numenera structure continues to produce them by harvesting the hearts of suitable creatures."
+								]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"Within the central portion of a Dabirri is a tiny dollop of a useful chemical that restores 1 point of damage if injected or taken internally."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
