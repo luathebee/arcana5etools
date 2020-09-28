@@ -2292,7 +2292,7 @@
 					{
 						"type":"entries",
 						"entries":[
-			        "Cypherids are automatons that are essentially {@footnote an footnote animate accumulation of cyphers|Some people familiar with the numenera speculate that cypherids are a simpler progenitor of a cynoclept, presumably having found a permanent way to maintain its intellect.|Cynoclept, page 159}. Like vermin, they sometimes conglomerate in ruins. They flit, clamber, slide, or trundle along on limbs made of disparate devices, though there is an overall spider-like body structure to the creature. A cypherid generally doesn’t reach dimensions larger than a couple of feet across. Like an insect, a cypherid seems driven by simple motives. In this case, it is to accumulate more cyphers to add to itself as older components get used up or burn out.",
+			        "Cypherids are automatons that are essentially {@footnote an animate accumulation of cyphers|Some people familiar with the numenera speculate that cypherids are a simpler progenitor of a cynoclept, presumably having found a permanent way to maintain its intellect.|Cynoclept, page 159}. Like vermin, they sometimes conglomerate in ruins. They flit, clamber, slide, or trundle along on limbs made of disparate devices, though there is an overall spider-like body structure to the creature. A cypherid generally doesn’t reach dimensions larger than a couple of feet across. Like an insect, a cypherid seems driven by simple motives. In this case, it is to accumulate more cyphers to add to itself as older components get used up or burn out.",
 							{
 								"type":"entries",
 								"name":"Intermittently Intelligent",
@@ -2408,6 +2408,155 @@
 								"type":"inset",
 								"entries":[
 									"Within the central portion of a Dabirri is a tiny dollop of a useful chemical that restores 1 point of damage if injected or taken internally."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Dark Fathom",
+			"source": "",
+			"page": 0,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 190,
+				"formula": "20d8 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 20,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr":"17",
+			"trait": [
+				{
+					"name": "Consume Ranged Attacks",
+					"entries": [
+						"The dark fathom's singularity automatically draws in and consumes all ranged attacks directed at it, whether they are matter (such as arrows and crossbow bolts) or energy (including numenera rays and spell effects like scorching ray and disintegrate). The creature suffers no harm from these attacks. The only ranged attacks it can't absorb are mental (such as phantasmal killer), magnetic energy, or extradimensional."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The dark fathom's attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "Gravity Field",
+					"entries": [
+						"Any creature within 5 feet of a dark fathom must succeed on a {@dc 19} Strength saving throw at the start of their turn. Those who fail are partially drawn into the singularity and take 22 ({@damage 5d8}) force damage. Characters reduced to 0 hp from this damage are completely drawn into the singularity, consumed, and utterly destroyed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Singularity Pull",
+					"entries": [
+						"A dark fathom can use its singularity to pull all creatures and objects within 30 feet toward it so they end up next to it. Creatures can resist this pull with a successful {@dc 19} Strength saving throw."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Absorb (Recharge 5-6)",
+					"entries": [
+						"As its reaction, by using the force of its singularity, a dark fathom can attempt to pull in and absorb an object or energy source within 10 feet, so long as its target is smaller than itself. For example, it might absorb a door blocking its way, a stone from a catapult launched at it, or the power core of a numenera structure. If the target is an object, it takes 45 ({@damage 10d8}) force damage; if this reduces the object to 0 hit points, it is disintegrated by the dark fathom's singularity. If the target is an energy source, roll {@dice 10d8} and subtract this result from the damage the energy source deals; if this reduces the energy source's damage to 0, it is completely destroyed by the singularity. After the dark fathom uses this ability, on its next turn it cannot use its singularity for anything."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A dark fathom looks like a darkly armored humanoid with a black hole in the center of its chest, surrounded by a vortex of swirling energy—or perhaps the black hole is its chest, and the creature is built around that empty space. The rest of its body is completely obscured by its armor and helmet. Part mechanical and part biological, a dark fathom is an engine of destruction from aeons past, pursuing a solitary mission that only it understands.",
+							{
+								"type":"entries",
+								"name":"Singularity Heart",
+								"entries":[
+									"The swirling hole in a dark fathom’s chest is an artificial singularity, an area of gravity so intense that matter and energy cannot escape it. This is the creature’s power source and a {@footnote devastating weapon|Sometimes when a dark fathom uses its singularity pull, the strain temporarily overwhelms it, stunning it on its next turn.}. Anyone nearby can feel a slight current of air pulling toward the creature, and it is common to see small pieces of debris and even tiny creatures pulled into the singularity and destroyed."
+								]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"Although a dark fathom’s singularity resembles a sphere of annihilation, the singularity is an area of intense gravity, whereas the sphere is a magical hole in the universe. If the GM wants to mix magic and technology, certain things that affect the sphere might have a similar effect on the dark fathom. For example, holding a talisman of the sphere might give a character a round-by-round chance to control the dark fathom for a short time, pushing the dark fathom into a gate or portable hole might create a spatial rift, and so on. The dark fathom almost certainly would recognize the risks of these attacks and attempt to kill or absorb the source of the threat."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Inscrutable",
+								"entries":[
+									"A dark fathom is difficult to interact with. Although very intelligent, it doesn’t seem to understand any spoken languages. However, telepathy (whether the kind that works on living creatures or machine telepathy from a numenera device) allows characters to communicate with it and perhaps even to reason with it. A dark fathom can be bribed to move on instead of fighting, but it is interested only in exotic matter and energies (or information about where those things can be found). Some dark fathoms have their own agendas or interests as well, but their motive is always destruction, and that makes them dangerous."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A dark fathom has mechanical and biomechanical parts that can be salvaged for {@dice 1d6} + 4 cyphers."
 								]
 							}
 						]
