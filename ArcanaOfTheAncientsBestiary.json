@@ -2417,8 +2417,8 @@
 		},
 		{
 			"name": "Dark Fathom",
-			"source": "",
-			"page": 0,
+			"source": "AotA",
+			"page": 164,
 			"size": "M",
 			"type": "construct",
 			"alignment": [
@@ -2557,6 +2557,138 @@
 								"name":"Salvage",
 								"entries":[
 									"A dark fathom has mechanical and biomechanical parts that can be salvaged for {@dice 1d6} + 4 cyphers."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Deadeye",
+			"source": "AotA",
+			"page": 166,
+			"size": "H",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 195,
+				"formula": "17d12 + 85"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 10,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 21,
+			"int": 20,
+			"wis": 15,
+			"cha": 13,
+			"save": {
+				"con": "+9",
+				"int": "+9",
+				"wis": "+6",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 30 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The deadeye's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Psychic Onslaught",
+					"entries": [
+						"The deadeye projects psychic energy against up to three creatures within 60 feet or one creature within 120 feet. Each creature takes 28 ({@damage 8d6}) psychic damage, or half that with a successful {@dc 17} Intelligence saving throw."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"A deadeye can teleport to anywhere within about",
+						"1,000 miles. It also seems to have the ability to travel several hours into the past of its current location and then return to the true present when it wants to."
+					]
+				}
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"actionTags": [
+				"Teleport"
+			],
+			"damageTags": [
+				"Y"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A deadeye — also known as a gravewatcher — is a 20-foot-diameter machine that takes great interest in the deaths of intelligent living things. It isn’t a murderer, unless forced to defend itself. Instead, it shows up right after one or more people have been killed to view the remains for several minutes, deploying an array of strange devices over the bodies. Sometimes, it appears before a lethal situation arises, as if it somehow knows that deaths are imminent. Wherever and whenever it is, a deadeye is always watching, always recording.",
+							{
+								"type":"entries",
+								"name":"Strange Announcements",
+								"entries":[
+									"When a deadeye shows up prior to a death (as opposed to afterward), it sometimes speaks using the tone, intonation, words, and knowledge of a creature whose remains it has previously recorded. Such pronouncements at first sound inane and without context. However, the meaning sometimes becomes clear as later events play out, when the mysterious message is revealed to have been a warning. Often, that realization comes too late. Rarely, it has been known to speak with the voice of someone that a person present knows to be dead, which can be very disturbing."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Non-aggressive",
+								"entries":[
+								 "A deadeye never initiates an attack but will defend itself. It persists in this onslaught only if those attacking it continue their own attacks. If overmatched, a deadeye teleports away, potentially also moving some hours into the past."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The remains of a gravewatcher contains {@dice 1d6} cyphers, {@dice 1d10} oddities, and {@dice 1d2} relics."
 								]
 							}
 						]
