@@ -2008,6 +2008,156 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Cynoclept",
+			"source": "AotA",
+			"page": 159,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "15d10 + 45"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 8,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"arcana": "+3",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Cypher Sense",
+					"entries": [
+						"A cynoclept automatically senses the presence of all cyphers within 60 feet unless the cyphers are behind a force field."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The cynoclept's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cynoclept makes two limb attacks and uses its activate cypher ability. If a limb hits, the cynoclept can use steal and repair against the same target."
+					]
+				},
+				{
+					"name": "Limb",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning, piercing, or slashing damage."
+					]
+				},
+				{
+					"name": "Activate Cypher",
+					"entries": [
+						"As a bonus action, a cynoclept can activate a cypher within 10 feet (whether held by another creature or merely in the area) as if it were holding the cypher. If the cypher is in the possession of another creature, that creature can resist this attempt with a successful {@dc 13} Intelligence saving throw."
+					]
+				},
+				{
+					"name": "Steal and Repair",
+					"entries": [
+						"An injured cynoclept can grab a cypher and add the device to its own body, repairing 30 points of damage.",
+						"If this takes it over its normal hit point total, it gains the excess amount as temporary hit points. If the targeted cypher is in the possession of another creature, that creature can resist this grab attempt with a successful {@dc 13} Strength or Dexterity saving throw."
+					]
+				},
+				{
+					"name": "Psychic Trap",
+					"entries": [
+						"Approximately 10% of cynoclepts are made of amber crystal that is psionically reactive to the mental energy of most humanoids. For these cynoclepts, if their attempt to activate an opponent's cypher succeeds, the opponent's mind temporarily becomes trapped in the cynoclept's body for one minute and its body falls {@condition unconscious}. The only Intelligence saving throw each round on their turn, with a success returning the passenger to their own body. Killing the cynoclept  automatically returns a trapped passenger's mind to their own body."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A thick outer shell of amber crystal protects the cynoclept, so it has little to fear. The shell grows as the creature accumulates cyphers and other special numenera components. Initially not much larger than a human’s fist, it eventually grows to be 6 feet in diameter, at which time it begins to openly roam locations where cyphers might be found, or if the opportunity arises, it follows explorers who’ve recently looted cyphers from a location it was watching.",
+							{
+								"type":"inset",
+								"entries":[
+									"When characters exceed their cypher limit, cynoclepts can spontaneously form from the interaction, robbing the character of their belongings and creating a dangerous threat in the same instant."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Negotiable Manace",
+								"entries":[
+									"Cynoclepts are clever, and though they don’t speak a language, they can be negotiated with through pictures drawn on the ground, pantomime, or sign language. They are motivated by finding more cyphers or salvaged amber crystal."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Cannibal",
+								"entries":[
+									"Although a cynoclept’s primary diet is cyphers, when they meet others of their kind (including the rarely-seen smaller, younger forms), they attempt to eat and absorb their fellows, giving and receiving no quarter."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The wreck of a cynoclept’s body can be salvaged for about six cyphers."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
