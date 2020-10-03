@@ -2695,6 +2695,358 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Disassembler",
+			"source": "AotA",
+			"page": 167,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 104,
+				"formula": "11d10 + 44"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 19,
+			"dex": 15,
+			"con": 18,
+			"int": 14,
+			"wis": 13,
+			"cha": 13,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands most languages after hearing them for a few minutes"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Inorganic Destruction",
+					"entries": [
+						"The dissembler sometimes turns artificial objects and portions of structures it can see within 5 feet of it into liquid and gas (destroying them). If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. If the object is being worn or carried by a creature, the creature is subject to one or more Disassembly Claw attacks; on a hit, instead of dealing damage, the object is affected as follows.",
+						"If the object touched is unliving armor or a shield being worn or carried, it takes a permanent and cumulative -1 penalty to the AC it offers (some magical armor and shields shed this penalty within a day, unless destroyed). Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object touched is a held nonliving weapon, the weapon takes a permanent and cumulative -1 penalty to damage rolls (magical weapons shed this penalty within a day, unless destroyed). If its penalty drops to -5, the weapon is destroyed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The disassembler makes three attacks with its disassembly claws. If a target is wearing nonliving armor or wielding a nonliving weapon (such as armor and weapons made of iron), it makes one, two, or three attacks that affect objects as described in the Inorganic Destruction trait. (The other one or two attacks against the target affect it as a normal attack.)"
+					]
+				},
+				{
+					"name": "Disassembly Claws",
+					"entries": [
+						"{@atk m} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 21 ({@damage 5d6 + 4}) piercing damage if attacking a creature composed of inorganic or nonliving matter (such as most constructs and undead)."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A disassembler is a strange-looking artificial creature of glass and steel with six spindly metallic arms arranged around its circular midsection. Its upper half is all glaring green lights and mechanical protrusions, some of which might be sensory mechanisms. Its lower half is a broad engine that allows it to hover 3 feet off the ground. If it landed, the disassembler would be about 8 feet tall.",
+							{
+								"type":"entries",
+								"name":"Mad Wanderers",
+								"entries":[
+									"Disassemblers are artificially intelligent automatons that seem to have gone mad at some point. Now they act erratically—sometimes attacking creatures, sometimes ignoring them, sometimes destroying what they come across, sometimes wandering aimlessly.",
+									"A conversation with a disassembler is possible. They understand speech and, after listening to a language for a time, can often speak it in a very basic way. But the creature is just as likely to attack without provocation, perhaps in the middle of a conversation. Still, a well-spoken, intelligent, and quick-witted character might be able to figure out what a disassembler wants (at the moment) and convince it not to attack or perhaps to do something to aid them."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Potential Predators of the Living",
+								"entries":[
+									"The construct’s disassembling tools cannot affect organic matter, but this limitation might have been programmed into it—perhaps as a safety mechanism—rather than being a true inability. A disassembler with this prohibition removed would be a terror."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Dread Destroyer",
+			"source": "",
+			"page": 0,
+			"size": "G",
+			"type": "construct",
+			"alignment": [
+				{
+				  "alignment": [
+					"N"
+				  ],
+				  "note": "or as programmed"
+				}
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 676,
+				"formula": "33d20 + 330"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30,
+				"swim": 40
+			},
+			"str": 30,
+			"dex": 10,
+			"con": 30,
+			"int": 14,
+			"wis": 14,
+			"cha": 13,
+			"save": {
+				"int": "+11",
+				"wis": "+11",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+11"
+			},
+			"senses": [
+				"blindsight 120 ft.",
+				"darkvision 120 ft.",
+				"tremorsense 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"fire",
+				"thunder"
+			],
+			"immune": [
+				"lightning",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"cr": "30",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dread destroyer fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The dread destroyer has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The dread destroyer's attacks are treated as if magical.",
+						"Self-repair. The dread destroyer automatically repairs 20 hit points at the start of its turn. It is only destroyed if it starts its turn with 0 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dread destroyer can fire a missile and electrocute, or make six attacks: four slams, grapple (mandibles), and fire a missile."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}36 ({@damage 4d12 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Grapple",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d6 + 10}) lightning damage. If the target is a Large or smaller creature, it is {@condition restrained} (escape DC 29) Until this grapple ends, target automatically takes 17 ({@damage 2d6 + 10}) lightning damage every round on the dread destroyer's turn, and the dread destroyer cannot grapple another target."
+					]
+				},
+				{
+					"name": "Missile",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 500 feet/1 mile, all targets within 100 feet of the impact point. {@h}13 ({@damage 2d10 + 2}) piercing damage plus 13 ({@damage 2d10 + 2}) fire damage; creatures in the blast area who succeed on a {@dc 19} Dexterity saving throw take half damage."
+					]
+				},
+				{
+					"name": "Electrocute",
+					"entries": [
+						"Each creature within 10 feet of the dread destroyer takes 10 ({@damage 3d6}) lightning damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The dread destroyer makes one slam attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The dread destroyer moves up to half its speed."
+					]
+				},
+				{
+					"name": "Seize (Costs 2 Actions)",
+					"entries": [
+						"The dread destroyer makes one grapple attack."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"SD",
+				"T"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"L",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A dread destroyer is likely the most horrific thing on a battlefield. Unless you have an army on your side and are willing to lose a large portion of your forces, battle is unwise. Still, the greatest guardians often protect the greatest treasures. Only one of these automatons has been seen at a time, but holographic images have shown scenes (presumably from the distant past) when hundreds of dread destroyers crawled across a battlefield together. Although a single dread destroyer could launch an attack on an entire city, it is far more likely that you’ll find one defending an important, ancient site.",
+							{
+								"type":"entries",
+								"name":"War Machine",
+								"entries":[
+									"A dread destroyer stomps on nearby opponents with its gigantic legs, uses mandible-like pincers to seize and electrocute targets in front of it, and fires long- range explosive projectiles out of apertures on its back. It can also emit a crackling aura of electricity against all nearby opponents. It fights until destroyed."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Hybrid Construct",
+								"entries":[
+									"These giant war machines have organic brains and internal organs protected by a self-repairing metal shell. If communication can be established with its organic brain, a PC can reason with a dread destroyer, but convincing it to do something is very difficult, and usually the best option for survival is to flee until it has moved on to some other location."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Aquatic and Land Assault",
+								"entries":[
+									"Dread destroyers do not need to breathe, and can be encountered on land or underwater. Presumably they might be found in space, but they would require modifications to allow them to maneuver there."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The remains of a dread destroyer are a scavenger’s dream, yielding at least {@dice 1d20} oddities, {@dice 1d20} cyphers, and {@dice 1d6} relics."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The remains of a dread destroyer are a scavenger’s dream, yielding at least {@dice 1d20} oddities, {@dice 1d20} cyphers, and {@dice 1d6} relics."
+								]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"Imagine a tarrasque and a dread destroyer battling each other, two terrible destructive forces in perfect opposition. Their battlefield would quickly become a wasteland, and they might fight for weeks before one gained an advantage over the other.",
+									"~Elmande, elf mage and scholar.",
+									"Makes a drow stronghold seem like a safe place in comparison. I’d bet on the machine, though, it’s got an advantage of range.",
+									"~Faim Trubeard, dwarf veteran and prospector"
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
