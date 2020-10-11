@@ -3585,6 +3585,253 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Ferno Walker",
+			"source": "AotA",
+			"page": 174,
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 135,
+				"formula": "18d10 + 36"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"climb": "+7",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"immune": [
+				"fire"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Mountain Agility",
+					"entries": [
+						"The ferno walker ignores difficult terrain resulting from broken, rocky, or steep terrain."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ferno walker makes two bite attacks, or one bite and uses a held weapon or cypher."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Superheated Spew {@recharge 5}",
+					"entries": [
+						"The ferno walker vomits a super-hot liquid chemical in a 10-foot cone or a 30-foot line.",
+						"Each creature in the area must make a {@dc 15} Dexterity saving throw, taking 7 ({@damage 2d6}) acid damage and 7 ({@damage 2d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Some people speculate that the ferno walker and the snow loper shared a common ancestor in the distant past, both being six-limbed mammals with a pair of usable hands. Regardless, the ferno walker is very different from its possible cousin. These predators supplement their diet of meat by ingesting large stones that sit in a special portion of their gut. Through an unknown process, {@footnote this organ produces extreme temperatures|Tanners and leatherworkers have attempted to use ferno walker skins to make heat-resistant armor, but so far all attempts have failed.}, heating the rocks so that there is a literal furnace in its belly at all times. A ferno walker can go for weeks without water.",
+							{
+								"type":"entries",
+								"name":"Semi-intelligent",
+								"entries":[
+									"Although ferno walkers do not use language, {@footnote they are more intelligent than they might appear|Some ancient civilization may have created ferno walkers by mixing the genes of creatures like red dragons and rhinoceroses to create a sturdy mount suitable for hot, hilly terrain.}. They are aloof and defensive, but if approached with peace, patience, and bribes of food, they might interact without violence. This is much harder if the ferno walker has young nearby (all persuasion and negotiation attempts have disadvantage)."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Great Mounts",
+								"entries":[
+									"Ferno walkers are sometimes captured and forced to become mounts. Other times, they befriend a humanoid and willingly become a mount and companion. Most can be trained to use cyphers and other simple devices, and a smart rider equips their mount with a weapon or device that it can use in its hands."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Ganthanhar",
+			"source": "AotA",
+			"page": 175,
+			"size": "M",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"containment suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 16,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"con": "+6",
+				"int": "+6"
+			},
+			"skill": {
+				"arcana": "+6",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"radiant"
+			],
+			"languages": [
+				"Ganthanhar",
+				"various others"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The ganthanhar's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bodiless",
+					"entries": [
+						"A ganthanhar doesn't have a physical body, so it can't use cyphers or other devices that require a living metabolism (such as most pills and injections). They can still manipulate objects, allowing them to use other items (including cyphers and relics)."
+					]
+				},
+				{
+					"name": "Death Throes",
+					"entries": [
+						"If a ganthanhar's hit points reach 0, its suit ruptures and releases the dying creature's radiation in an explosion. Each creature within 30 feet of it must make a {@dc 14} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Protective Suit",
+					"entries": [
+						"A ganthanhar's containment suit gives them resistance to cold, fire, lightning, and radiant damage. A desperate, injured ganthanhar can abandon its suit to exist as an independent energy being. Without its suit, a ganthanhar's radiation aura inflicts double damage and its speed increases to 500 feet, but its AC decreases to 10 and it will perish within a few hours if it doesn't get back into its suit."
+					]
+				},
+				{
+					"name": "Radiation Aura",
+					"entries": [
+						"A ganthanhar constantly emits dangerous radiation out to an immediate distance. At the start of each of the ganthanhar's turns, each creature within 10 feet of it takes 3 ({@dice 1d6}) fire and 3 ({@damage 1d6}) radiant damage. Ganthanhars are immune to their own radiation and that of other ganthanhars."
+					]
+				},
+				{
+					"name": "Radiation Blast",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one target. {@h}21 ({@damage 6d6}) fire damage and 21 ({@damage 6d6}) radiant damage."
+					]
+				},
+				{
+					"name": "Venting",
+					"entries": [
+						"If a ganthanhar is struck by a critical hit with a melee weapon, radiation from its suit leaks out, damaging the attacker for 3 ({@dice 1d6}) fire and 3 ({@damage 1d6}) radiant damage. If the critical hit is from a ranged weapon, this vented radiation instead strikes an opponent within 5 feet."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"R"
+			],
+			"miscTags": [
+				"AOE",
+				"RW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Ganthanhars look like four-armed, armored humanoids with digitigrade legs. Where their heads should be is a cloud of swirling energy containing a few mechanical or organic devices resembling eyes.",
+							{
+								"type":"entries",
+								"name":"Ascended Energy Form",
+								"entries":[
+									"Ganthanhars claim to be a race of advanced beings who experimented with extradimensional energies to make themselves immortal. Their experiments apparently succeeded in some respects, but their bodies have mostly been transformed into energy and they must wear special suits to prevent their physical forms from completely dissipating. Having exhausted all known remedies for their medical condition, they sift through lost civilizations in search of answers."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Arrogant",
+								"entries":[
+									"Ganthanhars don’t believe that other species have the capability to help with their specific needs. If they see someone using an unfamiliar piece of numenera that they think can help them, they will try to steal it or at least offer to trade for it."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A ganthanhar’s suit can be salvaged for one or two cyphers and one or two oddities."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
