@@ -790,148 +790,6 @@
 			}
 		},
 		{
-			"name": "Gazer",
-			"source": "AotA",
-			"page": 176,
-			"size": "T",
-			"type": "construct",
-			"alignment": [
-				{
-				  "alignment": [
-					"N"
-				  ],
-				  "note": "or as programmed"
-				}
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 7,
-				"formula": "3d4"
-			},
-			"speed": {
-				"walk": 0,
-				"fly": {
-					"number": 100,
-					"condition": "(hover)"
-				},
-				"canHover": true
-			},
-			"str": 6,
-			"dex": 15,
-			"con": 11,
-			"int": 11,
-			"wis": 10,
-			"cha": 7,
-			"save": {
-				"dexterity": "+4"
-			},
-			"skill": {
-				"perception": "+2"
-			},
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 12,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"languages":"",
-			"cr": "1/8",
-			"trait": [
-				{
-					"name": "Intense Light",
-					"entries": [
-						"Although a gazer's beam only inflicts a small amount of damage, it is capable of cutting through very tough materials, including wood, stone, and steel. A gazer trying to damage an object treats any object AC less than 18 as AC 10."
-					]
-				},
-				{
-					"name": "Swarm Targeting",
-					"entries": [
-						"If two or more gazers attack the same target, each gazer gains advantage on its attack roll."
-					]
-				},
-				{
-					"name": "Sharpshooter",
-					"entries": [
-						"A gazer's attacks ignore half cover and three-quarters cover."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Red Beam",
-					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 100/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) fire damage."
-					]
-				}
-			],
-			"senseTags": [
-				"D"
-			],
-			"damageTags": [
-				"F"
-			],
-			"miscTags": [
-				"RW"
-			],
-			"tokenUrl":"",
-			"fluff":{
-				"entries": [
-					{
-						"type":"entries",
-						"entries":[
-							"A gazer is a levitating metallic spherical automaton, about 1.5 feet in diameter. Various bits of equipment and blinking lights festoon a gazer’s battered metal-alloy body. A concavity on one side of the sphere incessantly emits a beam of scarlet light. The red beam can intensify in a moment, creating a ray capable of burning through nearly anything.",
-							{
-							"type":"entries",
-							"name":"Flying Tactics",
-							"entries":[
-								"Groups of gazers fly in a spherical formation, which allows them to present the maximum possible perception and threat surface. Depending on the locations of their opponents, they may arrange themselves around or in the middle of their foes. Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes a lone gazer is encountered as a companion of a creature who reprogrammed it to act as a servitor."]
-							},
-							{
-								"type":"entries",
-								"name":"Old Programming",
-								"entries":[
-									"A gazer usually interacts only by flashing its beam in coded bursts, accompanied by eerie bleats of electronic static. Most active gazers follow a program to defend a location, reconnoiter a wider area, or seek and destroy those who match profiles held in their machine brains. However, if any group of gazers is interfered with too much, they attempt to eradicate the perceived threat."
-									]
-							},
-							{
-								"type":"entries",
-								"name":"Monolith Eye",
-								"entries":[
-									"The astraphin monolith’s crystalline eye is prized because it can be used as a weapon or a power source for a depleted relic. If used as a weapon, it fires a blast of force at one creature within 200 feet. On a failed DC 15 Dexterity saving throw, the target takes 5d8 force damage. The eye has a depletion of 1–3 in 1d100 when used this way.",
-									"A character can attach the eye to a depleted relic by spending one hour and making a DC 15 Intelligence (Arcana) check. If successful, the relic functions again and has a depletion of 1 in 1d6; failure means the character makes a depletion roll for the eye (1 in 1d6, checked each attempt). Once connected to a relic, if the relic depletes again, so does the monolith eye."
-									]
-							},
-							{
-								"type":"entries",
-								"name":"Salvage",
-								"entries":[
-									"A swarm of six to twelve gazers may be salvaged for up to 1d6 cyphers."
-									]
-							}
-						]
-					}
-				]
-			}
-		},
-		{
 			"name": "Beastcoat Infiltrator",
 			"source": "AotA",
 			"page": 149,
@@ -3826,6 +3684,309 @@
 								"name":"Salvage",
 								"entries":[
 									"A ganthanhar’s suit can be salvaged for one or two cyphers and one or two oddities."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Gazer",
+			"source": "AotA",
+			"page": 176,
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+				{
+				  "alignment": [
+					"N"
+				  ],
+				  "note": "or as programmed"
+				}
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "3d4"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 100,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 15,
+			"con": 11,
+			"int": 11,
+			"wis": 10,
+			"cha": 7,
+			"save": {
+				"dexterity": "+4"
+			},
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"languages":"",
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Intense Light",
+					"entries": [
+						"Although a gazer's beam only inflicts a small amount of damage, it is capable of cutting through very tough materials, including wood, stone, and steel. A gazer trying to damage an object treats any object AC less than 18 as AC 10."
+					]
+				},
+				{
+					"name": "Swarm Targeting",
+					"entries": [
+						"If two or more gazers attack the same target, each gazer gains advantage on its attack roll."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries": [
+						"A gazer's attacks ignore half cover and three-quarters cover."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Red Beam",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 100/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"tokenUrl":"",
+			"fluff":{
+				"entries": [
+					{
+						"type":"entries",
+						"entries":[
+							"A gazer is a levitating metallic spherical automaton, about 1.5 feet in diameter. Various bits of equipment and blinking lights festoon a gazer’s battered metal-alloy body. A concavity on one side of the sphere incessantly emits a beam of scarlet light. The red beam can intensify in a moment, creating a ray capable of burning through nearly anything.",
+							{
+							"type":"entries",
+							"name":"Flying Tactics",
+							"entries":[
+								"Groups of gazers fly in a spherical formation, which allows them to present the maximum possible perception and threat surface. Depending on the locations of their opponents, they may arrange themselves around or in the middle of their foes. Formations of six to twelve gazers might be found defending ancient ruined installations. Sometimes a lone gazer is encountered as a companion of a creature who reprogrammed it to act as a servitor."]
+							},
+							{
+								"type":"entries",
+								"name":"Old Programming",
+								"entries":[
+									"A gazer usually interacts only by flashing its beam in coded bursts, accompanied by eerie bleats of electronic static. Most active gazers follow a program to defend a location, reconnoiter a wider area, or seek and destroy those who match profiles held in their machine brains. However, if any group of gazers is interfered with too much, they attempt to eradicate the perceived threat."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Monolith Eye",
+								"entries":[
+									"The astraphin monolith’s crystalline eye is prized because it can be used as a weapon or a power source for a depleted relic. If used as a weapon, it fires a blast of force at one creature within 200 feet. On a failed DC 15 Dexterity saving throw, the target takes 5d8 force damage. The eye has a depletion of 1–3 in 1d100 when used this way.",
+									"A character can attach the eye to a depleted relic by spending one hour and making a DC 15 Intelligence (Arcana) check. If successful, the relic functions again and has a depletion of 1 in 1d6; failure means the character makes a depletion roll for the eye (1 in 1d6, checked each attempt). Once connected to a relic, if the relic depletes again, so does the monolith eye."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A swarm of six to twelve gazers may be salvaged for up to 1d6 cyphers."
+									]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Glaxter",
+			"source": "AotA",
+			"page": 177,
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 152,
+				"formula": "16d10 + 64"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 18,
+			"int": 16,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"con": "+7",
+				"int": "+6"
+			},
+			"skill": {
+				"arcana": "+6",
+				"anythreeknowledgeskills": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Common",
+				"several others"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The glaxter can move through a space as narrow as 4 inches wide without squeezing."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The glaxter's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The glaxter can make up to three pseudopod attacks, but prefers to fire two telekinetic bolts at range."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Telekinetic Bolt",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range",
+						"30/100 ft., one target. {@h}27 ({@damage 6d8}) force damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Glaxters are sentient collections of eye-studded chunks of flesh, able to rearrange their overall shape as needed. When at rest, they look like a mound of lumpy, odd-colored flesh with bright crystalline eyes all over. When active, they assume either a floating spheroid shape or (when interacting peacefully with humanoids) {@footnote something approximating a large humanoid form|Were the ancient ancestors of glaxters creatures like gibbering mouthers? Or are gibbering mouthers the degenerate mutated cousins of glaxters?}, with either form often orbited by small discrete pieces of itself.",
+							{
+								"type":"entries",
+								"name":"Malleable",
+								"entries":[
+									"Although not completely fluid, a glaxter’s component pieces are the size of a human fist, and a glaxter can pass through any barrier that its smallest piece can move through, such as through a pipe or between the bars of a prison cell."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Parts of a Whole",
+								"entries":[
+									"When pieces of a glaxter are in direct contact with each other, nerve tissue on the surface automatically connects them and lets the unified pieces act as one entity. They can separate smaller pieces ({@footnote remote nodules|Use stats for basic automaton, type one, two, or three (depending on its size), except with the aberration type.|Basic automaton page 246}), programming them with simple instructions and reconnecting later to absorb the disconnected pieces’ memories."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Social Blob",
+								"entries":[
+									"laxters communicate audibly by telekinetically vibrating the air to create the sound of words. Each glaxter has its own areas of interest—botany, social structure, thermodynamics, and so on—and observes things to further their knowledge. Multiple glaxters in the same place often exchange nodules (they do not explain whether this is communication or mating). They sometimes send out remote nodules with instructions to find interesting creatures and lead them back to its main body (so it can discuss a research proposition) or to test their reactions."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Klowledgeable and Noisy",
+								"entries":[
+									"Glaxters present themselves as dispassionate but curious observers of the creatures and locations of the world. They prefer to watch rather than interact. When they decide they are done observing and ready to leave, they may choose to answer questions about their areas of knowledge. One may follow a group of PCs for hours or days, all the while insisting that the characters should act normally, as if it wasn’t there, so it can observe their behavior or the functioning of a specific pie"
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"A glaxter’s large bulk can be salvaged for 1d6 cyphers."
 						    ]
 			        }
 					  ]
