@@ -180,7 +180,30 @@
 						"type":"entries",
 						"entries":[
 							"An accelerator is an artificial intelligence encased in a metal shell with numerous limbs, sensory devices, and other accoutrements that allow it to interact with and understand the world around itself. An accelerator fears “death” (perhaps “dissolution” is a better term) and concocts elaborate plans to develop better protections for itself. Ironically, sometimes this puts it in danger as it tries to take control of a defensible fortress or obtain a device that will grant it a powerful defense. A fully upright accelerator stands 15 feet high. Paranoia. Accelerators aren’t evil, but their interest in putting their own existence ahead of others means they might act in ways that people consider villainous. If seriously threatened, an accelerator always chooses flight over fight.",
-
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "It is fascinating that such a large and powerful creature would be so fearful of death that its entire existence is a desperate obsession with survival. It makes me wonder what horrors it survived ages ago that led it to where it is now—perhaps its kind are the last survivors of a great cataclysm, war, or divine retribution."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "I’m just glad they’re not interested in conquest. If they were aggressive like chromatic dragons or fire giants . . . with their knowledge and skills, they could attack a town and leave nothing but corpses."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							},
 							{
 							"type":"entries",
 							"name":"Paranoia",
@@ -710,6 +733,30 @@
 						"entries":[
 							"An astraphin monolith is a floating, immobile obelisk of stone standing a bit taller than a human, with a single crystalline eye. The eye can create dangerous blasts at long range, leading some to believe it is a hostile earth elemental creature. However, the stone is neither living nor sentient, but rather the extension of a concealed intelligece.",
 							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "I once made the mistake of thinking this creature was some kind of stone elemental. The monolith ignored our druid friend’s attempts to speak with it, and instead used its psychic blasts to turn his brain into jelly."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Yet another reason I hate plant monsters."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							},
+							{
 							"type":"entries",
 							"name":"Hidden Plant",
 							"entries":[
@@ -1216,6 +1263,18 @@
 						"entries":[
 							"These two-legged pseudoprimates have prominent teeth, four arms (two organic, two metallic), and large mechanical sockets on their backs.",
 							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "If my clan had ever spied one of these creeping around the Delve back in the day, we would have left no tunnel unfired to burn them out."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							},
+							{
 								"type":"entries",
 								"name":"Wild Bowgs.",
 								"entries":[
@@ -1390,6 +1449,30 @@
 						"entries":[
 							"A callerail is a creature of fused organic and inorganic substances. Flesh mingles with wood, steel, and stone, as the callerail possesses the ability to absorb inorganic matter and add the material to its body. The creature is a lumbering giant—15 feet tall—that walks using its forelimbs as well as its shorter rear legs. Its body is a conglomeration of materials.",
 							"A callerail’s organic portions remain cohesive so that its circulatory system reaches all areas of its body. It still requires food—in fact, it requires even more food than an ordinary creature of its size.",
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "If you took a demonic ape, gave it the appetite of a bulette, and added in a rust monster’s hunger for metal, that would be a reasonable approximation of a callerail. We are very lucky that they are solitary and aggressive toward their own kind."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "If we’re just making stuff up, I say like the tarrasque had a baby with an iron golem and was raised by a tribe of orc barbarians."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							},
 							{
 								"type":"entries",
 								"name":"Unreasoning Monstrosity.",
@@ -2128,10 +2211,28 @@
 						"entries":[
 			        "A thick outer shell of amber crystal protects the cynoclept, so it has little to fear. The shell grows as the creature accumulates cyphers and other special numenera components. Initially not much larger than a human’s fist, it eventually grows to be 6 feet in diameter, at which time it begins to openly roam locations where cyphers might be found, or if the opportunity arises, it follows explorers who’ve recently looted cyphers from a location it was watching.",
 							{
-								"type":"inset",
-								"entries":[
-									"When characters exceed their cypher limit, cynoclepts can spontaneously form from the interaction, robbing the character of their belongings and creating a dangerous threat in the same instant."
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type":"quote",
+										"entries":[
+											"Remember when that tiefling wizard thought he tamed one of these things? He even rode around on it like a giant turtle and fed it little cyphers as treats."
+										],
+										"by":"Faim Trubeard, dwarf veteran and prospector"
+									}
 								]
+							},
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Yes, and I remember the day he used a mind-augmenting cypher that grafted itself to his head, and the cynoclept decapitated him and ran off with it—the cypher, with his head still attached."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
 							},
 							{
 								"type":"entries",
@@ -2152,6 +2253,12 @@
 								"name":"Salvage",
 								"entries":[
 									"The wreck of a cynoclept’s body can be salvaged for about six cyphers."
+								]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"When characters exceed their cypher limit, cynoclepts can spontaneously form from the interaction, robbing the character of their belongings and creating a dangerous threat in the same instant."
 								]
 							}
 						]
@@ -2293,6 +2400,12 @@
 						"type":"entries",
 						"entries":[
 			        "Cypherids are automatons that are essentially {@footnote an animate accumulation of cyphers|Some people familiar with the numenera speculate that cypherids are a simpler progenitor of a cynoclept, presumably having found a permanent way to maintain its intellect.|Cynoclept, page 159}. Like vermin, they sometimes conglomerate in ruins. They flit, clamber, slide, or trundle along on limbs made of disparate devices, though there is an overall spider-like body structure to the creature. A cypherid generally doesn’t reach dimensions larger than a couple of feet across. Like an insect, a cypherid seems driven by simple motives. In this case, it is to accumulate more cyphers to add to itself as older components get used up or burn out.",
+							{
+								"type":"inset",
+								"entries":[
+									"Some sages of the numenera believe cypherids could be a primitive kind of cynoclept, perhaps one that hasn’t acquired any amber crystal to form a protective shell. Other suggest that cypherids are the animate remnants of a destroyed cynoclept trying to restore their original form."
+								]
+							},
 							{
 								"type":"entries",
 								"name":"Intermittently Intelligent",
@@ -2824,9 +2937,148 @@
 			}
 		},
 		{
+			"name": "Dissector",
+			"source": "AotA",
+			"page": 169,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 18,
+			"int": 17,
+			"wis": 14,
+			"cha": 14,
+			"save": {
+				"con": "+8",
+				"int": "+7"
+			},
+			"skill": {
+				"medicine": "+6",
+				"nature": "+7",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"several",
+				"learns new languages after listening for several minutes"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Ignore Defenses",
+					"entries": [
+						"A dissector can create specialized microtools that allow it to slice through and store any kind of organic tissue, as well as physical materials that are blocking access to its test subject. Its attacks ignore the AC granted by physical armor, but not from magic or force fields. Its attacks deal full damage against fleshy targets, even if the target would normally have resistance or immunity to bludgeoning, piercing, or slashing damage."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The dissector's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dissector makes two manipulator attacks."
+					]
+				},
+				{
+					"name": "Manipulator",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}50 ({@damage 10d8 + 5}) piercing or slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "This bulky artificial creature sports thick metallic arms articulated with stubby manipulators. Its lower body is a metallic tripod that gives the creature the ability to hover just above any solid surface or fly rapidly to distant locations. Dissectors are entirely motivated by the study of life itself. However, that study is apparently not grounded in respect, because their method of study requires that they completely dissect every organ of each new subject they acquire. Often, those organs are neatly embedded in metal containers. Of the original donor, nothing remains but parts.",
+							{
+								"type":"entries",
+								"name":"Surgical Tools",
+								"entries":[
+									"Each of a dissector’s manipulators is able to extrude a nanite scaffolding of far smaller instruments that can be selectively tuned to disrupt and cut flesh, limbs, organs, or other tissues within living creatures. Though it selects subjects and dissects them to death, it works on only one subject at a time and may take some time before selecting a new target, which means it doesn’t attack every living thing it comes across."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Negotiable Research",
+								"entries":[
+									"Though single-minded, a dissector maybe willing to negotiate if the PCsoffer to lead it to a brand-newkind of subject that it has neverpreviously studied. The dissectormight insist that the PCs allow itto extract one “unneeded” organfrom someone present, otherwisethe talk is concluded."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The remains of a destroyed dissector might hold {@dice 1d6 + 1} cyphers, an oddity, and perhaps a relic."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
 			"name": "Dread Destroyer",
-			"source": "",
-			"page": 0,
+			"source": "AotA",
+			"page": 170,
 			"size": "G",
 			"type": "construct",
 			"alignment": [
@@ -3000,10 +3252,27 @@
 						"entries":[
 			        "A dread destroyer is likely the most horrific thing on a battlefield. Unless you have an army on your side and are willing to lose a large portion of your forces, battle is unwise. Still, the greatest guardians often protect the greatest treasures. Only one of these automatons has been seen at a time, but holographic images have shown scenes (presumably from the distant past) when hundreds of dread destroyers crawled across a battlefield together. Although a single dread destroyer could launch an attack on an entire city, it is far more likely that you’ll find one defending an important, ancient site.",
 							{
-								"type":"entries",
-								"name":"War Machine",
-								"entries":[
-									"A dread destroyer stomps on nearby opponents with its gigantic legs, uses mandible-like pincers to seize and electrocute targets in front of it, and fires long- range explosive projectiles out of apertures on its back. It can also emit a crackling aura of electricity against all nearby opponents. It fights until destroyed."
+							  "type":"inset",
+							  "entries":[
+							  	{
+										"type":"quote",
+										"entries":[
+											"Imagine a tarrasque and a dread destroyer battling each other, two terrible destructive forces in perfect opposition. Their battlefield would quickly become a wasteland, and they might fight for weeks before one gained an advantage over the other."
+											],
+										"by":"Elmande, elf mage and scholar"
+									}
+							  ]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+							    	{
+											"type":"quote",
+											"entries":[
+												"Makes a drow stronghold seem like a safe place in comparison. I’d bet on the machine, though, it’s got an advantage of range."
+											],
+											"by":"Faim Trubeard, dwarf veteran and prospector"
+										}
 								]
 							},
 							{
@@ -3025,22 +3294,6 @@
 								"name":"Salvage",
 								"entries":[
 									"The remains of a dread destroyer are a scavenger’s dream, yielding at least {@dice 1d20} oddities, {@dice 1d20} cyphers, and {@dice 1d6} relics."
-								]
-							},
-							{
-								"type":"entries",
-								"name":"Salvage",
-								"entries":[
-									"The remains of a dread destroyer are a scavenger’s dream, yielding at least {@dice 1d20} oddities, {@dice 1d20} cyphers, and {@dice 1d6} relics."
-								]
-							},
-							{
-								"type":"inset",
-								"entries":[
-									"Imagine a tarrasque and a dread destroyer battling each other, two terrible destructive forces in perfect opposition. Their battlefield would quickly become a wasteland, and they might fight for weeks before one gained an advantage over the other.",
-									"~Elmande, elf mage and scholar.",
-									"Makes a drow stronghold seem like a safe place in comparison. I’d bet on the machine, though, it’s got an advantage of range.",
-									"~Faim Trubeard, dwarf veteran and prospector"
 								]
 							}
 						]
