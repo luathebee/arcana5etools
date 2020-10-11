@@ -3436,156 +3436,155 @@
 			}
 		},
 		{
-	"name": "Etterick",
-	"source": "AotA",
-	"page": 173,
-	"size": "M",
-	"type": "construct",
-	"alignment": [
-		"N"
-	],
-	"ac": [
-		{
-			"ac": 17,
-			"from": [
-				"natural armor"
-			]
-		}
-	],
-	"hp": {
-		"average": 127,
-		"formula": "15d8 + 60"
-	},
-	"speed": {
-		"walk": 30
-	},
-	"str": 18,
-	"dex": 10,
-	"con": 18,
-	"int": 13,
-	"wis": 14,
-	"cha": 8,
-	"save": {
-		"str": "+7",
-		"con": "+7",
-		"int": "+4"
-	},
-	"senses": [
-		"darkvision 60 ft."
-	],
-	"passive": 12,
-	"resist": [
-		"bludgeoning"
-	],
-	"immune": [
-		"poison"
-	],
-	"conditionImmune": [
-		"charmed",
-		"deafened",
-		"exhaustion",
-		"frightened",
-		"paralyzed",
-		"petrified",
-		"poisoned"
-	],
-	"cr": "8",
-	"trait": [
-		{
-			"name": "Magical Weapons",
-			"entries": [
-				"The etterick's attacks are treated as if magical."
-			]
-		}
-	],
-	"action": [
-		{
-			"name": "Multiattack",
-			"entries": [
-				"The etterick makes two slam attacks or uses its magnetic pulse."
-			]
-		},
-		{
-			"name": "Slam",
-			"entries": [
-				"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
-			]
-		},
-		{
-			"name": "Magnetic Pulse {@recharge 4}",
-			"entries": [
-				"The etterick emits a powerful magnetic pulse that deals 18 ({@damage 4d8}) force damage to all creatures within 30 feet, or half that with a successful {@dc 15} Dexterity saving throw. Creatures with a large amount of metal on their person (such as medium or heavy metal armor) must also succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone} and back 10 feet."
-			]
-		}
-	],
-	"reaction": [
-		{
-			"name": "Heavyweight",
-			"entries": [
-				"An etterick that is knocked {@condition prone} is 50% likely to fall toward an adjacent opponent. This deals 22 ({@damage 4d8 + 4}) bludgeoning damage, knocks the opponent {@condition prone}, and restrains the opponent with the weight of its body. If the character makes a successful {@dc 15} Dexterity saving throw, they take half damage and are not knocked {@condition prone} or {@condition restrained}. A {@condition restrained} character can free itself as an action by making a {@dc 15} Strength or Dexterity saving throw (character's choice). If the etterick believes this position is to its advantage, it remains {@condition prone}, otherwise it uses its move to stand up on its next turn."
-			]
-		}
-	],
-	"senseTags": [
-		"D"
-	],
-	"actionTags": [
-		"Multiattack"
-	],
-	"damageTags": [
-		"B",
-		"O"
-	],
-	"miscTags": [
-		"MW"
-	],
-	"conditionInflict": [
-		"prone"
-	],
-	"fluff":{
-		"entries":[
-			{
-				"type":"entries",
+			"name": "Etterick",
+			"source": "AotA",
+			"page": 173,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "15d8 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 13,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"str": "+7",
+				"con": "+7",
+				"int": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The etterick's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The etterick makes two slam attacks or uses its magnetic pulse."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Magnetic Pulse {@recharge 4}",
+					"entries": [
+						"The etterick emits a powerful magnetic pulse that deals 18 ({@damage 4d8}) force damage to all creatures within 30 feet, or half that with a successful {@dc 15} Dexterity saving throw. Creatures with a large amount of metal on their person (such as medium or heavy metal armor) must also succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone} and back 10 feet."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Heavyweight",
+					"entries": [
+						"An etterick that is knocked {@condition prone} is 50% likely to fall toward an adjacent opponent. This deals 22 ({@damage 4d8 + 4}) bludgeoning damage, knocks the opponent {@condition prone}, and restrains the opponent with the weight of its body. If the character makes a successful {@dc 15} Dexterity saving throw, they take half damage and are not knocked {@condition prone} or {@condition restrained}. A {@condition restrained} character can free itself as an action by making a {@dc 15} Strength or Dexterity saving throw (character's choice). If the etterick believes this position is to its advantage, it remains {@condition prone}, otherwise it uses its move to stand up on its next turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff":{
 				"entries":[
-	        "The thing that people call an etterick is an automaton in the vague shape of a human, with transparent metal skin. Crawling around in its hollow interior is a swarm of insects that look like no other insects found anywhere. They control the machine through means that look like scuttling around and doing typical insect activities. An etterik is 7 to 8 feet tall, but thinner and slightly disproportionate compared to a human. If an etterick is destroyed, the insects inside swarm out and scatter, never to be seen again.",
 					{
 						"type":"entries",
-						"name":"Violent Communicator",
 						"entries":[
-							"Those who attempt to communicate with an etterick—or rather, with its hive-mind pilots that act as a singular entity— find it quite willing to talk. However, establishing that communication in the first place requires telepathy or a similar ability. The etterick will not (cannot?) share its origins and finds almost any mundane topics or meaningless niceties to be reason to attack. But it is amenable to bribery or straightforward negotiations (such as “We’ll leave this area immediately if you stop attacking us”). It seems to value most numenera items."
-						]
-					},
-					{
-					  "type":"inset",
-					  "entries":[
-					    {
-					      "type":"quote",
-					      "entries":[
-									"What is it?” Jul nocked another arrow and ducked behind the tree.",
-									"“Damned if I know.” Marlich whispered. He hid behind a pile of rotting logs.",
-									"“It looks like glass, but my arrow bounced off it like it was stone.”",
-									"“Yeah, but what are those things crawling around inside it? Are they trapped in there?”",
-									"“Look like bugs. Maybe they just crawled in there.”",
-									"“Or they’re controlling it ... ”",
-									"“They’re just bugs!”",
-									"“We’ve seen stranger things.”",
-									"“I’m not sure we have."
-					      ]
-					    }
-					  ]
-					},
-					{
-						"type":"entries",
-						"name":"Salvage",
-						"entries":[
-							"Looting through the remains of an etterick yields a bounty of 1d6 + 1 cyphers and a relic, all made of transparent metal."
+			        "The thing that people call an etterick is an automaton in the vague shape of a human, with transparent metal skin. Crawling around in its hollow interior is a swarm of insects that look like no other insects found anywhere. They control the machine through means that look like scuttling around and doing typical insect activities. An etterik is 7 to 8 feet tall, but thinner and slightly disproportionate compared to a human. If an etterick is destroyed, the insects inside swarm out and scatter, never to be seen again.",
+							{
+								"type":"entries",
+								"name":"Violent Communicator",
+								"entries":[
+									"Those who attempt to communicate with an etterick—or rather, with its hive-mind pilots that act as a singular entity— find it quite willing to talk. However, establishing that communication in the first place requires telepathy or a similar ability. The etterick will not (cannot?) share its origins and finds almost any mundane topics or meaningless niceties to be reason to attack. But it is amenable to bribery or straightforward negotiations (such as “We’ll leave this area immediately if you stop attacking us”). It seems to value most numenera items."
+								]
+							},
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+											"What is it?” Jul nocked another arrow and ducked behind the tree.",
+											"“Damned if I know.” Marlich whispered. He hid behind a pile of rotting logs.",
+											"“It looks like glass, but my arrow bounced off it like it was stone.”",
+											"“Yeah, but what are those things crawling around inside it? Are they trapped in there?”",
+											"“Look like bugs. Maybe they just crawled in there.”",
+											"“Or they’re controlling it ... ”",
+											"“They’re just bugs!”",
+											"“We’ve seen stranger things.”",
+											"“I’m not sure we have."
+							      ]
+							    }
+							  ]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"Looting through the remains of an etterick yields a bounty of 1d6 + 1 cyphers and a relic, all made of transparent metal."
+								]
+							}
 						]
 					}
 				]
 			}
-		]
-	}
-}
-
+		}
 	]
 }
