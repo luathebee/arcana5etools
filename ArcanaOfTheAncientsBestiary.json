@@ -3300,6 +3300,140 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Entrope",
+			"source": "AotA",
+			"page": 172,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "8d10 + 32"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": {
+					"number": 10,
+					"condition": "(ice and snow only)"
+				}
+			},
+			"str": 17,
+			"dex": 11,
+			"con": 18,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"cold"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Hibernation",
+					"entries": [
+						"An entrope remains active so long as there are suitable heat sources within 10 feet of itself. If no appropriate heat sources are within range, after about a minute it stops moving and begins to hibernate again. If attacked from beyond this range, it struggles to remain awake and has disadvantage on all of its rolls."
+					]
+				},
+				{
+					"name": "Cold Aura",
+					"entries": [
+						"Upon waking, an entrope generates a heat- absorbing field at immediate range, which also coats all objects and creatures in the area with a thin layer of frost.",
+						"At the start of each of its turns, each creature within 10 feet of it that fails a {@dc 17} Constitution save takes 5 ({@damage 1d10}) cold damage and gains disadvantage on actions that require movement. Cold auras from multiple entropes are additive.",
+						"Creatures with resistance or immunity to cold do not gain disadvantage from the cold aura."
+					]
+				},
+				{
+					"name": "Detect Heat",
+					"entries": [
+						"An entrope can sense the heat from warm- blooded living creatures up to 60 feet away. It knows the general direction they're in but not their exact locations."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The entrope makes two tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) cold damage."
+					]
+				},
+				{
+					"name": "Spawn",
+					"entries": [
+						"Every point of cold damage the entrope deals is added to its hit points, whether the cold damage is caused by its cold aura or its tentacle attacks. When an entrope absorbs enough heat that its hit point total reaches 100, it spends its action spawning, becoming two entropes, each with half of the single entrope's hit points, rounded down."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "An entrope is an entity made of exotic biomineral that feeds on the heat given off by the bodies of living creatures. When it has absorbed enough heat, it can reproduce. They are usually discovered solo or in pairs, looking like thin statues that are cold to the touch— until they begin moving. An entrope is about 6 feet tall and nearly 15 feet long, but its odd hunched body shape makes it shorter than its actual length.",
+							{
+								"type":"entries",
+								"name":"Hibernation",
+								"entries":[
+									"An entrope can freeze motionless for years, centuries, or even longer until it detects a suitable heat source. It is unknown why they do not react to other sources of heat such as open flames and volcanic fissures, and is never found in warm environments, under open sky, or underwater. Most are found in subterranean locations, tunnels, and basements. They might be native to frigid regions, but it is more likely that they originated from an icy moon or rogue planet that crashed into the world and scattered them across its surface."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Primite Insticts",
+								"entries":[
+									"By all appearances, an entrope has animal intelligence at most. Its drives appear to be simple: feed on heat from living creatures, spawn, and repeat."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"Every entrope corpse has an organ called an entropic seed that can be removed and used as a detonation of frost cypher."
+								]
+							}
+						]
+			    }
+				]
+			}
 		}
 	]
 }
