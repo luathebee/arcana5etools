@@ -84,3 +84,7 @@ If the file shows on the manager, but the section loads forever, it's probably a
 
 ### 5. Commiting/Pushing to Github.
 Working properly, you could commit or push to github and move on to the next spot.
+
+##### Testing 2
+
+So now the we're commiting behind the master, let's see how this works.
