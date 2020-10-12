@@ -18,6 +18,7 @@ What I'd recommend for helping with the project is:
 
 ### 1. Overview of the Bestiary
 #### Meta Section
+
 	{
     "_meta": {
 			[... stuff regarding the book...]
@@ -25,6 +26,7 @@ What I'd recommend for helping with the project is:
   }
 
 #### Creature Data
+
   "monster": [
 		{
 			monster1 comes here
@@ -41,10 +43,10 @@ What I'd recommend for helping with the project is:
 ### 2. Using the Text Converter
 Find the section of the creture on the book and paste it as well as possible on the text converter input. Be carefull since the PDF formatting can be really clumsy , selecting things from the next text column, sidebars , etc. Be carefull and check if everything is pasted in order and in the right place.
 If the converter didn't ask for manual conversions and everything seems in place, just add it to the code.
-#####Fields to avoid/check/be carefull
-Allignments, Armor Types, Traits
+##### Fields to avoid/check/be carefull
+Take a quick look at Allignment, Armor Types and Traits.
 "Language -" - if the language is -, just delete the language line and the converter will fill it correctly.
-If things are still breaking, might be needed to check on the  
+If things are still breaking, might be needed to check on the Giddy's Github for reference on the statblock.  
 
 ### 3. Adding Fluff
 At the end of the tags sections, we add the fluff structure. This is for the Info section of the monster and requires most of the manual work. For this, I use the Snippet function on Atom that generates the code structure for this section (there seems to be a Plugin for this in N++) and then we just fill it with the information text.
@@ -71,4 +73,14 @@ The structure usually goes like this:
 
 #### Other types of fluff entries
 "inset", "quote" and "insetReadaloud" are entries that usually pop arround in the bestiary as well, like the dialogs between that elf and dwarf here and there. For this it usually comes in hand to look for reference in the RendererDemo, since everyhting in there is an "entries" type.
-Footnotes are also needed for the sidebad information. It can be found at the rendererdemo. 
+Footnotes are also needed for the sidebad information. It can be found at the rendererdemo.
+
+### 4. Uploading and Testing
+To check if everything is working properly, upload the Json to the homebrew and check to see if everything is displaying properly.
+
+##### Possible Issues
+If the file doesn't even load it's probably a Json structure issue.
+If the file shows on the manager, but the section loads forever, it's probably a scheme error with tags, alignment, skills, or entries. Then, it's best to test things on the renderer demo to find the issue.
+
+### 5. Commiting/Pushing to Github.
+Working properly, you could commit or push to github and move on to the next spot.
