@@ -45,7 +45,9 @@ Find the section of the creture on the book and paste it as well as possible on 
 If the converter didn't ask for manual conversions and everything seems in place, just add it to the code.
 ##### Fields to avoid/check/be carefull
 Take a quick look at Allignment, Armor Types and Traits.
+
 "Language -" - if the language is -, just delete the language line and the converter will fill it correctly.
+
 If things are still breaking, might be needed to check on the Giddy's Github for reference on the statblock.  
 
 ### 3. Adding Fluff
@@ -82,12 +84,6 @@ To check if everything is working properly, upload the Json to the homebrew and 
 If the file doesn't even load it's probably a Json structure issue.
 If the file shows on the manager, but the section loads forever, it's probably a scheme error with tags, alignment, skills, or entries. Then, it's best to test things on the renderer demo to find the issue.
 
-##### Testing things
-And here I'll test some things on github.
 
 ### 5. Commiting/Pushing to Github.
 Working properly, you could commit or push to github and move on to the next spot.
-
-##### Testing 2
-
-So now the we're commiting behind the master, let's see how this works.
