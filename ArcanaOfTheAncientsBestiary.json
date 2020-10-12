@@ -4406,6 +4406,162 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Griefstell",
+			"source": "AotA",
+			"page": 182,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 171,
+				"formula": "18d8 + 90"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "(some also have fly 60 ft.)"
+				}
+			},
+			"str": 21,
+			"dex": 12,
+			"con": 20,
+			"int": 12,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"str": "+9",
+				"con": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"bludgeoning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"one or two ancient languages"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Emotional Feedback",
+					"entries": [
+						"Attempts to mentally communicate with the griefsteel or connect to it with machine ports transmits the full force of its loss and trauma to the communicating creature's mind. The attempting creature must succeed on a {@dc 13} Wisdom saving throw or be {@condition stunned} for one round."
+					]
+				},
+				{
+					"name": "Gullible",
+					"entries": [
+						"A griefsteel desperately wants to believe anything that will momentarily distract it from its misery. It has disadvantage on rolls to see through disguises or recognize when someone is lying to it. However, once it realizes it has been tricked, it usually becomes angry and tries to harm those who deceived it."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The griefsteel's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The griefsteel makes three claw attacks and uses its energy ray."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}32 ({@damage 5d10 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Energy Ray",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/120 ft., one target. {@h}11 ({@damage 3d6 + 1}) fire damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A griefsteel is an automaton crafted to serve as a companion and guardian to another creature. However, that creature died ages ago, leaving the machine forever heartbroken. Although they are self-aware and able to learn, their emotion programs sometimes get them stuck in a mental loop from which they’re unable to escape. Whether encountered in the deeps of a lonely ruin or wandering across the empty landscape, a sorrow-wracked griefsteel is unlikely to ever find solace.",
+							{
+								"type":"entries",
+								"name":"Deliberately Solitary",
+								"entries":[
+									"A griefsteel might first ignore, then wail at someone trying to communicate with it. If communication attempts persist, it will finally strike out at whoever is bothering it, unless the intruder is extremely persuasive and calming."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Unpredictable",
+								"entries":[
+									"Unending sorrow makes a griefsteel’s behavior erratic. It’s not usually a threat, but it’s also not usually helpful. It’s too lost in its own misery to notice or care about others’ needs. Sometimes, the anguished automaton strikes out in fury over its loss, and an explorer who disrupted its iterative depressive cycle makes a good target—especially those who remind the griefsteel of what it’s lost. There is a chance that a griefsteel mistakenly believes that a character is its long-lost companion, but soon begins to have doubts, which makes it angry. A griefsteel has been known to mistake a stranger for the being who originally built it, and may beg to have its memory wiped or attack because it blames its creator for its sensitive emotional programming."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Many Form",
+								"entries":[
+									"Griefsteels have different forms depending on who created them. What is presented here is a typical specimen, but individual griefsteels may have different attacks or special abilities."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"{@dice 1d6} cyphers can be salvaged from a griefsteel’s corpse."
+						    ]
+			        }
+					  ]
+			    }
+		   	]
+			}
 		}
 	]
 }
