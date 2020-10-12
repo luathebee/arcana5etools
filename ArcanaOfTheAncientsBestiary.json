@@ -4546,7 +4546,7 @@
 			        },
 							{
 								"type":"entries",
-								"name":"Many Form",
+								"name":"Many Forms",
 								"entries":[
 									"Griefsteels have different forms depending on who created them. What is presented here is a typical specimen, but individual griefsteels may have different attacks or special abilities."
 						    ]
@@ -4562,6 +4562,417 @@
 			    }
 		   	]
 			}
+		},
+		{
+			"name": "Haneek",
+			"source": "AotA",
+			"page": 183,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 36"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 5,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dexterity": "+6"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth+6(orstealth-3foruptoanhourafterithas": "fed)"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"acid",
+				"piercing"
+			],
+			"immune": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"grappled",
+				"prone"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The haneek can move through a space as narrow as 1 inch tall and a few inches wide without squeezing."
+					]
+				},
+				{
+					"name": "Adhesive",
+					"entries": [
+						"The haneek can automatically adhere to anything that touches it. A Huge or smaller creature adhered to the haneek is also {@condition grappled} by it (escape {@dc 14}). Ability checks made to escape this grapple have disadvantage."
+					]
+				},
+				{
+					"name": "Grappler",
+					"entries": [
+						"The haneek has advantage on attack rolls against any creature {@condition grappled} by it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Flesh Flap",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage plus 21 ({@damage 6d6}) acid damage."
+					]
+				},
+				{
+					"name": "Split",
+					"entries": [
+						"When a haneek that is Medium or larger takes 20 slashing damage or more from a single attack, it splits into two new haneeks if it has at least 15 hit points. Each new haneek has hit points equal to half the original haneek's, rounded down. New haneeks are one size smaller than the original haneek."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Haneek are essentially sheets of almost transparent flesh that pass light with hardly any distortion. They can twist and fold themselves to move about like sidewinding snakes, gallop on faux limbs, and can even flap and glide through the air. Regardless of their shape, they smell a bit like rotting food, which is often the only warning those being hunted by a haneek have before the creature drops on them. They have been known to hang from branches or straddle doorways in high-traffic areas so creatures can walk into them.",
+							{
+								"type":"entries",
+								"name":"Visible Digestion",
+								"entries":[
+									"Once a victim is ensnared by a haneek, flesh-to-tissue contact begins to digest the prey. This sends a bloom of scarlet radiating through the haneek’s body, rendering it briefly visible as it feeds."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Unpredictable Lurker",
+								"entries":[
+									"A haneek is a hungry predator, but it sometimes “adopts” a character and merely follows them around, rather than trying to eat them. It hunts other creatures around the followed character instead. Because haneek are hard to spot, it’s often not initially apparent what’s going on, and it’s possible for PCs to meet another character who doesn’t realize they’re being followed by a haneek. Haneek seem somewhat intelligent, but they do not communicate or seem to have a language."
+						    ]
+			        }
+					  ]
+			    }
+		   	]
+			}
+		},
+		{
+			"name": "Herder",
+			"source": "AotA",
+			"page": 184,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "9d10 + 27"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 6,
+			"wis": 14,
+			"cha": 6,
+			"save": {
+				"con": "+5"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The herder charges and makes a gore attack, or it makes two claw attacks."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the herder moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage, and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} for one round."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d10 + 4}) slashing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone",
+				"stunned"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "This mechanical creature looks like a very large insect built of metal pipes and bone-colored ceramic. It bears a semicircle of metal spikes down its back, four sharp claws on each foot, and a hard, bone-like spur on the left side of its head. It stands nearly 3 feet tall, plus another 1 to 2 feet for its spikes.",
+							{
+								"type":"entries",
+								"name":"Gaurdians of Others",
+								"entries":[
+									"Herders were clearly created by someone or something, possibly for the protection of {@footnote catlike herbivores called enyi|For enyi, use stats for deer. They resemble long-eared, brown panthers.} (or possibly the enyi’s ancestors from thousands of generations in the past). Typically, one or two herders watch over a group of five to ten enyi (or some other nonaggressive herbivore if there are no enyi in the area). Often, one herder will move among the enyi and the other will follow nearby, out of sight, charging into view if combat occurs. Enyi react to herders as if the machines were harmless, perhaps due to a scent, sound, or vibration the herder uses to soothe the animals."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Threat Display",
+								"entries":[
+									"A herder displays various forms of aggression toward anything that it perceives as threatening its herd. The displays are nearly ritualistic in their order. First, the herder begins to make a loud clacking sound, created by rubbing its hind legs together. Characters often hear this sound long before they are close enough to see the herder; those with knowledge of the creature know to avoid the sound if possible. If the danger doesn’t go away, the herder rises up on its hind legs, doubling its height. The final sign of aggression before a herder attacks is that it drops its head and thumps its ceramic spur against the ground, hard enough for PCs to feel the collision beneath their feet. The first display of aggression is passive and ongoing; the last two each take one round."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Ruthless",
+								"entries":[
+									"A herder’s main objective is to defend their enyi, but once they begin combat, they don’t stop, even if the enyi no longer seem to be in danger. To a herder, once a threat, always a threat."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"Characters can scavenge one random cypher from a herder’s body."
+						    ]
+			        }
+					  ]
+			    }
+		    ]
+			}
+		},
+		{
+	"name": "Hungry Pennon",
+	"source": "AotA",
+	"page": 185,
+	"size": "M",
+	"type": "aberration",
+	"alignment": [
+		"N",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 13,
+			"from": [
+				"natural armor"
+			]
 		}
+	],
+	"hp": {
+		"average": 71,
+		"formula": "13d8 + 13"
+	},
+	"speed": {
+		"walk": 5,
+		"fly": {
+			"number": 30,
+			"condition": "(hover)"
+		},
+		"canHover": true
+	},
+	"str": 17,
+	"dex": 15,
+	"con": 12,
+	"int": 8,
+	"wis": 12,
+	"cha": 14,
+	"save": {
+		"int": "+1",
+		"wis": "+3"
+	},
+	"skill": {
+		"perception": "+3"
+	},
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"passive": 13,
+	"resist": [
+		"bludgeoning"
+	],
+	"languages": [
+		"telepathy 30 ft. (empathy, bonded creatures only)"
+	],
+	"cr": "4",
+	"trait": [
+		{
+			"name": "Encourage Violence",
+			"entries": [
+				"The host of a hungry pennon has advantage on all attacks."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+			]
+		},
+		{
+			"name": "Aggressive Suggestion",
+			"entries": [
+				"As an action or bonus action, the hungry pennon attempts to convince its host to attack a target. This may be a potential opponent or something that is threatening the host, but it can just as easily be an arbitrary choice by the hungry pennon, such as a pack animal or random person in a village. The host can attempt a {@dc 13} Wisdom saving throw to resist this compulsion (if the host and pennon have been bonded for at least a month, this saving throw has disadvantage). Failure means the host attacks the targeted creature for at least one round. Each round after the first attack, the host can use their reaction to make another saving throw to try to overcome the hungry pennon's compulsion and stop attacking the target."
+			]
+		},
+		{
+			"name": "Psychic Bond",
+			"entries": [
+				"As an action or bonus action, the hungry pennon can telepathically offer to make a psychic bond with a potential host within 10 feet. The host perceives this as mental images of themselves and the hungry pennon being gloriously victorious in combat. The host must willingly accept this offer for the bond to form. Once the bond is formed, the pennon follows the host. A pennon never willingly leaves a bonded host.",
+				"To break this bond, the host must attack it and inflict enough damage to drive it away or convince it to choose a different host. The bonded host must succeed on a {@dc 13} Intelligence saving throw each time it wants to attack the pennon; failure means they cannot attack it that round. The host has disadvantage on this saving throw. After a month of being bonded, the host cannot willingly break the bond or attack the pennon."
+			]
+		},
+		{
+			"name": "Death Backlash",
+			"entries": [
+				"If a hungry pennon is killed and the host is within 60 feet, the host takes (17) {@damage 5d6} psychic damage."
+			]
+		},
+		{
+			"name": "Psychic Shriek {@recharge}",
+			"entries": [
+				"The hungry pennon assails a creature against a single target within 60 feet, dealing 17 ({@damage 5d6}) psychic damage."
+			]
+		}
+	],
+	"senseTags": [
+		"D"
+	],
+	"languageTags": [
+		"TP"
+	],
+	"damageTags": [
+		"P",
+		"Y"
+	],
+	"miscTags": [
+		"MW"
+	],
+	      "fluff":{
+		"entries":[
+			{
+				"type":"entries",
+				"entries":[
+	        "Hungry pennons are strange beings that resemble a fleshy war banner that hangs freely in the air instead of being connected to a pole. It is large enough to engulf a human-sized creature, but its flat body only has the mass of a large child, most of which is in the form of its fleshy wings. The hungry pennon wants to feed, and it prefers to scavenge the bodies of freshly killed prey. However, a pennon is not an effective predator on its own, and can only bite with the tiny mouths hidden under its wings, so it relies on another creature to do its hunting for it.",
+					{
+						"type":"entries",
+						"name":"Symbiotic Bond",
+						"entries":[
+							"A hungry pennon psychically attaches itself to another creature, the more aggressive and intelligent the better. If a group of bandits, mercenaries, or vicious abhumans advances under a flapping standard of war that doesn’t actually seem to be connected to a pole, but rather hangs free-floating above one of the combatants, it’s probably not a flag but a hungry pennon. Thus, it drives its host (or hosts) into more frequent and more vicious conflicts. The creature to which a hungry pennon makes this attachment may at first value the advantages provided. But over time, the pennon gains mental ascendancy. If the host is killed, the hungry pennon may flap away, or it may proposition a new host in the area."
+				    ]
+	        },
+					{
+						"type":"inset",
+						"entries":[
+							{
+								"type":"quote",
+								"entries":[
+									"These creatures are found in many colors and patterns. Some have skin the color of yours, mine, or a human’s, but I have seen one with the grey skin of an orc, and heard of others with the red of a tiefling or the green of a lizardfolk. Likewise, they may have stripes, spots, or scales. I wonder, can they change willingly to match their host, or are they born one color and stay that way their entire lives?"
+								],
+								"by":"Elmande, elf mage and scholar"
+							}
+						]
+					}
+			  ]
+	    }
+	  ]
+	}
+}
 	]
 }
