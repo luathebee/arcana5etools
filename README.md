@@ -82,6 +82,9 @@ To check if everything is working properly, upload the Json to the homebrew and 
 If the file doesn't even load it's probably a Json structure issue.
 If the file shows on the manager, but the section loads forever, it's probably a scheme error with tags, alignment, skills, or entries. Then, it's best to test things on the renderer demo to find the issue.
 
+##### Testing things
+And here I'll test some things on github.
+
 ### 5. Commiting/Pushing to Github.
 Working properly, you could commit or push to github and move on to the next spot.
 
