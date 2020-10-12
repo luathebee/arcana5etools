@@ -4109,6 +4109,175 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Golthiar",
+			"source": "AotA",
+			"page": 179,
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 15,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"save": {
+				"str": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"climb": "+5",
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"A golthiar regains 10 hit points at the start of its turn if it has at least 1 hit point and is in direct sunlight."
+					]
+				},
+				{
+					"name": "Flash Sensitivity",
+					"entries": [
+						"Unexpected exposure to bright light is disorienting for a golthiar. The first time it is exposed to a flash of bright light during an encounter, it must make a Wisdom saving throw against the light's DC (or {@dc 11} for a source without a DC). Failure means the golthiar is {@condition incapacitated} on its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The golthiar makes a spear attack with one arm and a bash attack with its other one."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Bash",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Light Blast {@recharge}",
+					"entries": [
+						"About one in four golthiars have the ability to create a burst of light that affects all opponents within 30 feet. Each creature affected must make a {@dc 12} Dexterity saving throw, taking 9 ({@damage 2d6 + 2}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"R"
+			],
+			"miscTags": [
+				"MW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Golthiars are humanoid creatures of woody muscle and bark-like skin that smell of sap. Their bulbous heads each have only a single eye surrounded by a fringe of jagged petals. They are quick and brutal despite their plant ancestry. A golthiar stands about 6.5 feet tall. Golthiars usually act as part of a team, coordinating their attacks through squirts of beamed color that is invisible to most people. The creatures direct the beams at each other or display them on a wall or ceiling that all the golthiars in an area can see.",
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "A bard told me that her see invisibility spell allowed her to see the flashes of light that golthiars use to communicate with each other. She is still working out the nuances of their language, but they appear to be as intelligent as you or I, with a complex vocabulary and nuanced phrasing."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "If you and your bard friend want to talk to plants, that’s on you. Me, I’ll stick to using them as garnish for my meat."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							},
+							{
+								"type":"entries",
+								"name":"Guardian Sprouts",
+								"entries":[
+									"{@footnote Golthiars are plants|Golthiars probably come from a deliberate mutated gene added to many different kinds of trees.}, and are planted rather than born. Underground seedpods “ripen” in groups of four to six at a time, push to the surface, and peel open to reveal wet, wrinkly creatures the size of adult humans. Within an hour, the creatures completely mature into soldiers able to survive for centuries on sun and nutrients gathered from burying themselves in soil every few days."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Crafted Growths",
+								"entries":[
+									"Trees that produce golthiar seedpods are not always similar in appearance. Sometimes they have great fronds, other times needles, and other times leaves. It’s almost as if the {@footnote pods that ripen beneath the ground are not part of the original tree’s growth.|If a defeated golthiar is planted in the ground and carefully tended, a new grove of golthiar saplings may spring up within a few weeks.}"
+						    ]
+			        },
+							{
+								"type":"inset",
+								"entries":[
+									"In places where the numenera is active, even plant creatures such as shambling mounds and treants may sprout golthiar pods. Intelligent plant creatures react to this much like humanoids do to maggots in wounds, even though golthiars usually act friendly toward them. Lower-intelligence plant creatures seem to instinctively recognize the resulting golthiars as kin and allies."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Purposeful",
+								"entries":[
+									"Golthiars not guarding, attacking, or scouting something wither and die within a few months. Those without orders could be willing to find a new command, but communicating with a golthiar requires knowing how to produce and decode the pulsating beams of light preferred by the creatures."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
