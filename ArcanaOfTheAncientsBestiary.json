@@ -4837,138 +4837,663 @@
 			}
 		},
 		{
-	"name": "Hungry Pennon",
+			"name": "Hungry Pennon",
+			"source": "AotA",
+			"page": 185,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "13d8 + 13"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 12,
+			"int": 8,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"int": "+1",
+				"wis": "+3"
+			},
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"bludgeoning"
+			],
+			"languages": [
+				"telepathy 30 ft. (empathy, bonded creatures only)"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Encourage Violence",
+					"entries": [
+						"The host of a hungry pennon has advantage on all attacks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Aggressive Suggestion",
+					"entries": [
+						"As an action or bonus action, the hungry pennon attempts to convince its host to attack a target. This may be a potential opponent or something that is threatening the host, but it can just as easily be an arbitrary choice by the hungry pennon, such as a pack animal or random person in a village. The host can attempt a {@dc 13} Wisdom saving throw to resist this compulsion (if the host and pennon have been bonded for at least a month, this saving throw has disadvantage). Failure means the host attacks the targeted creature for at least one round. Each round after the first attack, the host can use their reaction to make another saving throw to try to overcome the hungry pennon's compulsion and stop attacking the target."
+					]
+				},
+				{
+					"name": "Psychic Bond",
+					"entries": [
+						"As an action or bonus action, the hungry pennon can telepathically offer to make a psychic bond with a potential host within 10 feet. The host perceives this as mental images of themselves and the hungry pennon being gloriously victorious in combat. The host must willingly accept this offer for the bond to form. Once the bond is formed, the pennon follows the host. A pennon never willingly leaves a bonded host.",
+						"To break this bond, the host must attack it and inflict enough damage to drive it away or convince it to choose a different host. The bonded host must succeed on a {@dc 13} Intelligence saving throw each time it wants to attack the pennon; failure means they cannot attack it that round. The host has disadvantage on this saving throw. After a month of being bonded, the host cannot willingly break the bond or attack the pennon."
+					]
+				},
+				{
+					"name": "Death Backlash",
+					"entries": [
+						"If a hungry pennon is killed and the host is within 60 feet, the host takes (17) {@damage 5d6} psychic damage."
+					]
+				},
+				{
+					"name": "Psychic Shriek {@recharge}",
+					"entries": [
+						"The hungry pennon assails a creature against a single target within 60 feet, dealing 17 ({@damage 5d6}) psychic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Hungry pennons are strange beings that resemble a fleshy war banner that hangs freely in the air instead of being connected to a pole. It is large enough to engulf a human-sized creature, but its flat body only has the mass of a large child, most of which is in the form of its fleshy wings. The hungry pennon wants to feed, and it prefers to scavenge the bodies of freshly killed prey. However, a pennon is not an effective predator on its own, and can only bite with the tiny mouths hidden under its wings, so it relies on another creature to do its hunting for it.",
+							{
+								"type":"entries",
+								"name":"Symbiotic Bond",
+								"entries":[
+									"A hungry pennon psychically attaches itself to another creature, the more aggressive and intelligent the better. If a group of bandits, mercenaries, or vicious abhumans advances under a flapping standard of war that doesn’t actually seem to be connected to a pole, but rather hangs free-floating above one of the combatants, it’s probably not a flag but a hungry pennon. Thus, it drives its host (or hosts) into more frequent and more vicious conflicts. The creature to which a hungry pennon makes this attachment may at first value the advantages provided. But over time, the pennon gains mental ascendancy. If the host is killed, the hungry pennon may flap away, or it may proposition a new host in the area."
+						    ]
+			        },
+							{
+								"type":"inset",
+								"entries":[
+									{
+										"type":"quote",
+										"entries":[
+											"These creatures are found in many colors and patterns. Some have skin the color of yours, mine, or a human’s, but I have seen one with the grey skin of an orc, and heard of others with the red of a tiefling or the green of a lizardfolk. Likewise, they may have stripes, spots, or scales. I wonder, can they change willingly to match their host, or are they born one color and stay that way their entire lives?"
+										],
+										"by":"Elmande, elf mage and scholar"
+									}
+								]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Imusten Crawler",
+			"source": "AotA",
+			"page": 187,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "15d10 + 28"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 10,
+				"climb": 30
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 15,
+			"int": 8,
+			"wis": 12,
+			"cha": 12,
+			"save": {
+				"str": "+6",
+				"int": "+2"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"piercing"
+			],
+			"languages": [
+				"telepathy 30 ft."
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The imusten crawler's attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage. The target must make a {@dc 15} Constitution saving throw against its poison, which targets the creature's lungs, filling them with a numbing gel which deals 14 ({@damage 4d6}) necrotic damage, or half as much damage on a successful save. If the target fails its save, it must continue to save each round or take damage again as their lungs continue to produce more gel. If the target's hit points reach 0, it begins to suffocate. Any successful saving throw in this process means the creature coughs up the accumulated gel and no longer takes damage or makes saving throws against the venom from that bite.",
+						"If the crawler chooses to poison the target's skin instead of their lungs, their skin produces a slightly different gel that numbs and preserves their flesh. If the damage from the venom gel reduces the target's hit points to 0, it becomes {@condition paralyzed} and {@condition unconscious}, but does not die, and remains this way indefinitely. Eventually the creature may starve to death, but the crawler usually eats its preserved prey before that.",
+						"Sometimes a creature whose lungs were {@condition poisoned} by the crawler's gel is infected with a disease that will slowly turn them into an imusten crawler. Only medical intervention (or the use of magic or numenera) can prevent this transformation."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "An imusten crawler is a horrific worm-like creature with a diamond- shaped head, its interior edges crusted with fangs and eyes. Its subtle venom causes its victims to secrete a numbing gel that not only holds them in place but also drowns them from the inside as their lungs fill with fluid. The creature is equally likely to attack by clinging to an overhanging structure and wind itself downward or erupting from a tunnel or vent in the earth.",
+							{
+								"type":"entries",
+								"name":"Preserver",
+								"entries":[
+									"An imusten crawler can direct its venom into a creature’s skin, which coats its target in a layer of gel that paralyzes and numbs the creature indefinitely, allowing it to store food until it becomes hungry. An area filled with this gel is a sure sign that a crawler has been using the space as a larder."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Mysterious Goals",
+								"entries":[
+									"Imusten crawlers are intelligent but secretive. They resist attempts by other creatures to learn more about them and their ultimate origin. They can’t speak, but they possess a low-level telepathic ability to communicate basic concepts."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Seskii Aversion",
+								"entries":[
+									"An imusten crawler has an inexplicable fear of {@footnote seskii||Seskii, page 233}. When a crawler is in the presence of a seskii, the seskii’s crystals light up, and the crawler breaks off its attack and wriggles away."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The discarded equipment of an Imusten crawler’s eaten prey sometimes contains valuables, including a few cyphers."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Jesanthum",
+			"source": "AotA",
+			"page": 188,
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 10
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 13,
+			"int": 14,
+			"wis": 11,
+			"cha": 13,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Spore Reproduction",
+					"entries": [
+						"A creature that falls victim to a jesanthum's spore burst attack must succeed on an additional {@dc 13} Constitution saving throw once combat concludes, or the spores germinate in the PC's lungs and send a thick stalk up through their mouth and nostrils sometime during the next day or two. This asphyxiates and kills the victim unless desperate measures are taken, eventually creating the perfect source of nutrition for new jesanthum. Treat as a disease that kills the victim in {@dice 1d4} days."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Impaling Tongue",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage and a Large or smaller target is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the target is {@condition restrained}, and the blight can't impale another target. The target automatically takes 7 ({@damage 1d10 + 2}) piercing damage each round."
+					]
+				},
+				{
+					"name": "Spore Burst {@recharge}",
+					"entries": [
+						"The jesanthum exhales poisonous gas in a 10-foot-radius sphere centered on it. Each living creature in that area must succeed on a {@dc 13} Constitution saving throw or be {@condition paralyzed} with uncontrollable coughing.",
+						"A victim can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"paralyzed",
+				"restrained"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A patch of wildflowers in the distance waves massive blooms of vivid purple in the breeze. The trembling flowers smell of baking bread and honeyed syrup, an odor so potent that many recall their own best memories of eating sweets.",
+							"When a bed of jesanthum flowers bend their brilliant heads to reveal a lapping tongue the color of blood, and the thick stems uproot to expose powerful {@footnote 5-foot-long carnivorous bodies|Jesanthum can be found almost anywhere sunlight reaches, usually in beds of three to five.} of raking claws and stabbing barbs, those sweet recollections are forever shattered. Before the Ancients vaults opened, no one had ever heard of jesanthum, but now they’re a common cautionary tale among travelers.",
+							{
+								"type":"entries",
+								"name":"Bouquet of Flowers",
+								"entries":[
+									"To appease an angry patron or provide a gift of special significance for someone the characters need a favor from in return, PCs are asked to collect {@footnote a planter of jesanthum|Jesanthum are pretty, nice-smelling plants— until they’re not, at which point they’re hungry predators that attempt to eat PCs who have come too close.}. However, they are not given any details beyond a bare description of the flower’s “pretty” blooms."
+						    ]
+			       	}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Jiraskar",
+			"source": "AotA",
+			"page": 189,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d12 + 64"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 19,
+			"int": 7,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 90 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"psychic"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Illusion Liberty",
+					"entries": [
+						"The jiraskar has advantage on saving throws to resist being {@condition charmed} or {@condition paralyzed}. In addition, it has advantage on saves against illusions, poison, and spells."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jiraskar makes two bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail Slap {@recharge 5}",
+					"entries": [
+						"The jiraskar's tail sweeps out in a 20 foot cone with savagery. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 66 ({@damage 12d10}) bludgeoning damage on a failed save, or half as much if successful."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"As a bonus action, the jiraskar swallows a creature that it has bitten twice this round. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the jiraskar, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the jiraskar's turns. A jiraskar can have only one creature swallowed at a time.",
+						"If the jiraskar takes 30 damage or more on a single turn from the swallowed creature, the jiraskar must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet. If the jiarskar dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"restrained"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Terror doesn’t even begin to describe it. The woods seem still. Quiet. At the risk of sounding cliché́, too quiet. Then there is a tremor. A rumbling. Far more quickly than you might expect (if you were smart enough to realize that the rumbling was the approach of a large beast), a terrible but beautiful shape emerges from the tall trees, a creature as colorful as a jungle flower but burgeoning with teeth and hunger and death. Your doom charges at you as though destiny guided its feet. The only mercy is that it ends as quickly as it began.",
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "I apologize. I have a natural inclination to find refuge among the trees, and I felt the jiraskar would have trouble pursuing us there. I had no way of knowing that one sweep of its tail would break through every mighty trunk and give it a clear opportunity to swallow you whole."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Apology accepted, if you help me find my healing potions in its guts, these acid burns really sting."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							},
+							{
+								"type":"entries",
+								"name":"Apex predators",
+								"entries":[
+									"Jiraskars’ {@footnote colorful bodies|Jiraskars might have started as normal lizards or birds that were quickly evolved and released by some inscrutable device of the Ancients.} have fleshy frills and only two functioning limbs: powerful legs that carry them at prey with great speed. They have poor (practically nonexistent) natural senses, but they have a mysterious capacity to perfectly sense their environment, instantly seeing through illusion, invisibility, and similar distractions as if their perceptions were based on something entirely different than—and superior to—other creatures. The huge beasts live only to hunt. And because most of their prey is small, they must kill continually to survive."
+						    ]
+			        },
+							{
+								"type":"inset",
+								"entries":[
+									"Despite its size, a jiraskar’s coloration and natural stealthiness mean it often can approach within 100 feet of potential prey before it is noticed (usually the tremors of its footfalls and the crashing of knocked-over terrain obstacles are what gives it away). By then it is often too late, as it can reach its target with a move or a quick dash if necessary."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Fierce Animals of the Wild",
+								"entries":[
+									"Jiraskars are extremely fast. They are animals and act as such. They charge in with a savage bite and don’t stop biting until the prey is dead or they are. Because jiraskars are so fast, an encounter with one can arise very quickly. And because they are so powerful, an encounter can also end very quickly."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+	"name": "Jurulisk",
 	"source": "AotA",
-	"page": 185,
-	"size": "M",
+	"page": 191,
+	"size": "L",
 	"type": "aberration",
 	"alignment": [
-		"N",
-		"E"
+		"N"
 	],
 	"ac": [
 		{
-			"ac": 13,
+			"ac": 18,
 			"from": [
 				"natural armor"
 			]
 		}
 	],
 	"hp": {
-		"average": 71,
-		"formula": "13d8 + 13"
+		"average": 165,
+		"formula": "17d10 + 72"
 	},
 	"speed": {
-		"walk": 5,
-		"fly": {
-			"number": 30,
-			"condition": "(hover)"
-		},
-		"canHover": true
+		"walk": 60
 	},
-	"str": 17,
-	"dex": 15,
-	"con": 12,
-	"int": 8,
-	"wis": 12,
-	"cha": 14,
+	"str": 19,
+	"dex": 17,
+	"con": 18,
+	"int": 14,
+	"wis": 14,
+	"cha": 18,
 	"save": {
-		"int": "+1",
-		"wis": "+3"
-	},
-	"skill": {
-		"perception": "+3"
+		"dex": "+7",
+		"con": "+8",
+		"wis": "+6",
+		"cha": "+8"
 	},
 	"senses": [
-		"darkvision 60 ft."
+		"truesight 120 ft."
 	],
-	"passive": 13,
+	"passive": 12,
 	"resist": [
-		"bludgeoning"
+		{
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"note": "from nonmagical attacks not made with silvered weapons"
+		}
 	],
-	"languages": [
-		"telepathy 30 ft. (empathy, bonded creatures only)"
+	"immune": [
+		"cold",
+		"poison"
 	],
-	"cr": "4",
+	"conditionImmune": [
+		"poisoned",
+		"charmed"
+	],
+	"cr": "12",
 	"trait": [
 		{
-			"name": "Encourage Violence",
+			"name": "Incorporeal Movement",
 			"entries": [
-				"The host of a hungry pennon has advantage on all attacks."
+				"The jurulisk can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+			]
+		},
+		{
+			"name": "Magic Resistance",
+			"entries": [
+				"The jurulisk has advantage on saving throws against spells and other magical effects."
+			]
+		},
+		{
+			"name": "Magical Weapons",
+			"entries": [
+				"The jurulisk's weapon attacks (piercing chill touch) are treated as if magical."
+			]
+		},
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The jurulisk regains 10 hit points at the start of its turn. If the jurulisk starts its turn with 0 hit points, it collapses into so many separate one-dimensional lines and regains 1 hit point per hour, until it reforms after a full day. While it is regenerating in this way, it can't take any other actions. (If the jurulisk falls to 0 hit points because its component matter is scattered across a distance of 120 feet or farther, perhaps due to an explosion, it does not regenerate.)"
 			]
 		}
 	],
 	"action": [
 		{
-			"name": "Bite",
+			"name": "Multiattack",
 			"entries": [
-				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+				"The jurulisk makes three piercing chill touch attacks."
 			]
 		},
 		{
-			"name": "Aggressive Suggestion",
+			"name": "Piercing Chill Touch",
 			"entries": [
-				"As an action or bonus action, the hungry pennon attempts to convince its host to attack a target. This may be a potential opponent or something that is threatening the host, but it can just as easily be an arbitrary choice by the hungry pennon, such as a pack animal or random person in a village. The host can attempt a {@dc 13} Wisdom saving throw to resist this compulsion (if the host and pennon have been bonded for at least a month, this saving throw has disadvantage). Failure means the host attacks the targeted creature for at least one round. Each round after the first attack, the host can use their reaction to make another saving throw to try to overcome the hungry pennon's compulsion and stop attacking the target."
+				"{@atk mw} {@hit 8} to hit, reach 25 ft. (it can stretch so as to extend a \"limb\" to stab at a foe up to 25 feet away), one target. {@h}9 ({@damage 1d10 + 4}) piercing damage, plus 13 ({@damage 3d8}) cold damage."
 			]
 		},
 		{
-			"name": "Psychic Bond",
+			"name": "Object Draining Touch",
 			"entries": [
-				"As an action or bonus action, the hungry pennon can telepathically offer to make a psychic bond with a potential host within 10 feet. The host perceives this as mental images of themselves and the hungry pennon being gloriously victorious in combat. The host must willingly accept this offer for the bond to form. Once the bond is formed, the pennon follows the host. A pennon never willingly leaves a bonded host.",
-				"To break this bond, the host must attack it and inflict enough damage to drive it away or convince it to choose a different host. The bonded host must succeed on a {@dc 13} Intelligence saving throw each time it wants to attack the pennon; failure means they cannot attack it that round. The host has disadvantage on this saving throw. After a month of being bonded, the host cannot willingly break the bond or attack the pennon."
-			]
-		},
-		{
-			"name": "Death Backlash",
-			"entries": [
-				"If a hungry pennon is killed and the host is within 60 feet, the host takes (17) {@damage 5d6} psychic damage."
-			]
-		},
-		{
-			"name": "Psychic Shriek {@recharge}",
-			"entries": [
-				"The hungry pennon assails a creature against a single target within 60 feet, dealing 17 ({@damage 5d6}) psychic damage."
+				"Instead of a multiattack, a jurulisk makes a single piercing chill touch attack. If it hits, the Jurulisk targets an object carried by a creature; either a weapon, armor, or preferably, a device of the numenera. The touched object is drained and gains a permanent and cumulative -1 penalty, either to AC, to hit, or if a device that provides some other benefit, to associated checks. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed, as is a weapon reduced to-5."
 			]
 		}
 	],
-	"senseTags": [
-		"D"
+	"traitTags": [
+		"Incorporeal Movement",
+		"Magic Resistance",
+		"Regeneration"
 	],
-	"languageTags": [
-		"TP"
+	"senseTags": [
+		"U"
+	],
+	"actionTags": [
+		"Multiattack"
 	],
 	"damageTags": [
-		"P",
-		"Y"
+		"C",
+		"O",
+		"P"
 	],
 	"miscTags": [
-		"MW"
+		"MW",
+		"RCH"
 	],
-	      "fluff":{
+	"fluff":{
 		"entries":[
 			{
 				"type":"entries",
 				"entries":[
-	        "Hungry pennons are strange beings that resemble a fleshy war banner that hangs freely in the air instead of being connected to a pole. It is large enough to engulf a human-sized creature, but its flat body only has the mass of a large child, most of which is in the form of its fleshy wings. The hungry pennon wants to feed, and it prefers to scavenge the bodies of freshly killed prey. However, a pennon is not an effective predator on its own, and can only bite with the tiny mouths hidden under its wings, so it relies on another creature to do its hunting for it.",
+	        "The Ancients, with their strange activities and vast displays of power, tore literal holes in the fabric of the universe. Sometimes, these were very small. Nothing to worry about.",
+					"The jurulisk hails from inconceivable dimensions. When it comes to this world, it is a one-dimensional line, possessing only length (not even width, let alone depth), imperceptible and incapable of interacting in a meaningful way. Eventually, others come to this world. Over the aeons, the jurulisks find each other and bond to form two- and eventually three-dimensional forms in a way that is difficult to comprehend.",
+					"Finally able to interact with the three- dimensional world, the jurulisk seeks energy to fuel its new form. Once it absorbs a great deal of power from living creatures, the sun, or an artificial energy source, a jurulisk attempts to control its environment—usually by eliminating {@footnote other potential threats|If it is possible to communicate or interact with a jurulisk, the means have not been discovered yet, even using telepathy.}, which means all other creatures.",
 					{
 						"type":"entries",
-						"name":"Symbiotic Bond",
+						"name":"Alive? Yes, But.",
 						"entries":[
-							"A hungry pennon psychically attaches itself to another creature, the more aggressive and intelligent the better. If a group of bandits, mercenaries, or vicious abhumans advances under a flapping standard of war that doesn’t actually seem to be connected to a pole, but rather hangs free-floating above one of the combatants, it’s probably not a flag but a hungry pennon. Thus, it drives its host (or hosts) into more frequent and more vicious conflicts. The creature to which a hungry pennon makes this attachment may at first value the advantages provided. But over time, the pennon gains mental ascendancy. If the host is killed, the hungry pennon may flap away, or it may proposition a new host in the area."
+							"The jurulisk is a living creature, but it is not organic in any traditional sense, and neither is it mechanical. Its form constantly shifts, adapting to its needs at the moment, but always looking like what some have described as “the framework for an ‘actual’ creature.” A jurulisk fights to the “death,” although it might not be permanently dead or destroyed, for such concepts might not apply. The creature is far too alien to tell."
 				    ]
-	        },
-					{
-						"type":"inset",
-						"entries":[
-							{
-								"type":"quote",
-								"entries":[
-									"These creatures are found in many colors and patterns. Some have skin the color of yours, mine, or a human’s, but I have seen one with the grey skin of an orc, and heard of others with the red of a tiefling or the green of a lizardfolk. Likewise, they may have stripes, spots, or scales. I wonder, can they change willingly to match their host, or are they born one color and stay that way their entire lives?"
-								],
-								"by":"Elmande, elf mage and scholar"
-							}
-						]
-					}
+	        }
 			  ]
 	    }
 	  ]
