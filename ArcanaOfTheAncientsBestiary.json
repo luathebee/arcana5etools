@@ -4278,6 +4278,134 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Grey Sampler",
+			"source": "AotA",
+			"page": 181,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 102,
+				"formula": "12d10 + 36"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 16,
+			"int": 11,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"any one"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the grey sampler moves at least 30 feet straight toward a target and then hits it with a surgical blades attack on the same turn, the target takes an extra 10 ({@damage 3d6}) piercing damage. The target must succeed on a {@dc 15} saving throw or be pushed back 10 feet and knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Surgical Blades",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}19 ({@damage 4d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Process Brains",
+					"entries": [
+						"As a bonus action, a grey sampler can attempt to remove the brains of an {@condition unconscious}, dead, {@condition paralyzed}, or completely immobilized creature. If the target dies, it extracts the creature's brain and processes it into sludge."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A grey sampler is a flying automaton with asymmetrical construction, measuring almost 10 feet in diameter. Where its head should be is an angular funnel that roars and vibrates with endless fury. One of its limbs splits into a mess of slicing and scissoring blades. The grey sampler uses this limb to subdue specimens, separate cranial matter from clinging flesh and bone, and deposit the freed brain into its head-funnel. Somewhere in the grey sampler’s chest, the solid matter is processed into pinkish slush. The automaton’s other limb is more like a metallic, hollow tentacle that expels processed cranial matter. Most of the time, the cranial matter is sprayed behind the automaton in a wide, even arc, as if it’s spreading fertilizer or seeds.",
+							{
+								"type":"entries",
+								"name":"Hidden Construction",
+								"entries":[
+									"Grey samplers have a disconcerting ability to build themselves out of much smaller parts, too tiny to see without the aid of powerful numenera. This means that small fleets of them can arise anywhere, building themselves in secret, until an unknowable signal passes among them, and they emerge for the next harvest."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Determined",
+								"entries":[
+									"A grey sampler can communicate, but its main interest is directing potential victims to hold still so it can do its job. If asked who gave it the job or what it ultimately wants to accomplish, a grey sampler either doesn’t answer or says, “The fruit of our harvest prepares the way.” If someone who can talk to machines or who is otherwise skilled with numenera devices discovers a fleet of grey samplers building themselves from nearby components, they might be able to direct the fleet to self-destruct by making a DC 17 Intelligence (Arcana) check."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The remains of a destroyed grey sampler might hold a cypher or two."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
