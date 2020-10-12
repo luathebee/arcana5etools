@@ -590,16 +590,9 @@
 							"type":"entries",
 							"name":"Spawning Cysts",
 							"entries":[
-								"As they grow and age, arric frogs develop egg-like biomechanical cysts within their bodies, adjacent to the stomach. Eventually these cysts erupt into the stomach, the beast vomits one forth, and the cyst sheds its outer layer of protective skin to reveal an arric sphere with mechanical and fleshy parts, which then flies off. Sometimes this process fails and the arric frog retains these cysts for years, which become quite painful. Eventually the tortured creature drags itself out of the water in search of relief, attacks anything it can reach, and dies, at which point the cysts finally erupt and the newborn arric spheres can finally scatter."
+								"As they grow and age, arric frogs develop egg-like biomechanical cysts within their bodies, adjacent to the stomach. Eventually these cysts erupt into the stomach, the beast vomits one forth, and the cyst sheds its outer layer of protective skin to reveal an {@footnote arric sphere with mechanical and fleshy parts|Use stats for type two basic automaton, with fly 30 ft.|Basic automaton, page 246}, which then flies off. Sometimes this process fails and the arric frog retains these cysts for years, which become quite painful. Eventually the tortured creature drags itself out of the water in search of relief, attacks anything it can reach, and dies, at which point the cysts finally erupt and the newborn arric spheres can finally scatter."
 								]
 							},
-							{
-								"type":"inset",
-								"name":"Arric Sphere",
-								"entries":[
-									"Use stats for type two basic automaton, with fly 30 ft."
-								]
-								},
 							{
 								"type":"entries",
 								"name":"Beast Mounts",
