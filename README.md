@@ -27,17 +27,17 @@ What I'd recommend for helping with the project is:
 
 #### Creature Data
 
-  "monster": [
-		{
-			monster1 comes here
-		},
-		{
-			monster2 comes here
-		},
-		{
-			and so on
+		"monster": [
+			{
+				monster1 comes here
+			},
+			{
+				monster2 comes here
+			},
+			{
+				and so on
+			}
 		}
-	}
 
 
 ### 2. Using the Text Converter
