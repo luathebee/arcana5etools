@@ -5628,6 +5628,132 @@
 				    }
 				  ]
 				}
+		},
+		{
+			"name": "Killist",
+			"source": "AotA",
+			"page": 193,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"killist"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 21,
+				"formula": "5d6 + 4"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 12,
+			"int": 8,
+			"wis": 13,
+			"cha": 9,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poison"
+			],
+			"languages": [
+				"Killist",
+				"about half have learned a few words of Common"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Strength in Numbers",
+					"entries": [
+						"A killist gains advantage on attacks if it and its target are within 5 feet of another killist that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Clawed, greasy fingers. Smacking lips. Chattering, pointed teeth. Tiny, beady eyes. Shrill voice. A penchant for thievery, murder, traps, and deception. It is difficult to find some aspect of a killist that isn’t annoying, off-putting, or downright abhorrent. There is a saying: “If a killist is speaking, you are listening to lies.” Killisti can be intimidated by shows of obvious force and threats to their lives, but even as they are cowed, they are plotting a way to trick and betray you.",
+							"{@footone Killisti are diminutive corrupt humanoids|Killisti leaders are typically older females who may be the mother or grandmother of their entire band (typically a challenge 3 creature in their own right). They are even more devious and cruel than the others and thus retain their positions of authority. In addition to the matriarch, kiillisti can be found in bands of six to twelve.}, possibly forcibly mutated by devices found in an Ancients’ cache. Their oily flesh is pale, their eyes are dark, and they have slits on the sides of their torso that are frequently mistaken for gills. These, in fact, provide access to their poison sacs, which are positioned perfectly for killisti to slide their claws into as a part of an attack.",
+							{
+								"type":"entries",
+								"name":"Malice against Humans",
+								"entries":[
+									"Killisti hate humanity with a passion and delight in murder and sadistic acts against the targets of their malice. (They regard other similarly proportioned species as foes, but not with the murderous rage with which they react to humans; possibly because their ancestors were once human.)"
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Ambushers and Poisoners",
+								"entries":[
+									"Killisti hate and fear a fair fight. They set ambushes and traps whenever possible. Traps usually consist of spiked pits, tripwires, or spine-filled nets. Any sharp points in their traps are poisoned. Most killisti carry long knives and crude bows. These weapons are always freshly envenomed from the poison-seeping slits in their sides.",
+									"A band of killisti might set up an ambush at a bridge or along a road. They might even “bait” that trap with one of their number pretending to be hurt or dead at the center of the ambush. Other killisti may live on the edges of civilized areas, stealing what they need and preying upon those weaker than themselves. For example, a town with an infestation of killisti might start to experience disappearances among children or the elderly."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
 			}
+		}
 	]
 }
