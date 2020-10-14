@@ -5348,149 +5348,286 @@
 			}
 		},
 		{
-	"name": "Jurulisk",
-	"source": "AotA",
-	"page": 191,
-	"size": "L",
-	"type": "aberration",
-	"alignment": [
-		"N"
-	],
-	"ac": [
-		{
-			"ac": 18,
-			"from": [
-				"natural armor"
-			]
-		}
-	],
-	"hp": {
-		"average": 165,
-		"formula": "17d10 + 72"
-	},
-	"speed": {
-		"walk": 60
-	},
-	"str": 19,
-	"dex": 17,
-	"con": 18,
-	"int": 14,
-	"wis": 14,
-	"cha": 18,
-	"save": {
-		"dex": "+7",
-		"con": "+8",
-		"wis": "+6",
-		"cha": "+8"
-	},
-	"senses": [
-		"truesight 120 ft."
-	],
-	"passive": 12,
-	"resist": [
-		{
-			"resist": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
+			"name": "Jurulisk",
+			"source": "AotA",
+			"page": 191,
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"N"
 			],
-			"note": "from nonmagical attacks not made with silvered weapons"
-		}
-	],
-	"immune": [
-		"cold",
-		"poison"
-	],
-	"conditionImmune": [
-		"poisoned",
-		"charmed"
-	],
-	"cr": "12",
-	"trait": [
-		{
-			"name": "Incorporeal Movement",
-			"entries": [
-				"The jurulisk can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
-			]
-		},
-		{
-			"name": "Magic Resistance",
-			"entries": [
-				"The jurulisk has advantage on saving throws against spells and other magical effects."
-			]
-		},
-		{
-			"name": "Magical Weapons",
-			"entries": [
-				"The jurulisk's weapon attacks (piercing chill touch) are treated as if magical."
-			]
-		},
-		{
-			"name": "Regeneration",
-			"entries": [
-				"The jurulisk regains 10 hit points at the start of its turn. If the jurulisk starts its turn with 0 hit points, it collapses into so many separate one-dimensional lines and regains 1 hit point per hour, until it reforms after a full day. While it is regenerating in this way, it can't take any other actions. (If the jurulisk falls to 0 hit points because its component matter is scattered across a distance of 120 feet or farther, perhaps due to an explosion, it does not regenerate.)"
-			]
-		}
-	],
-	"action": [
-		{
-			"name": "Multiattack",
-			"entries": [
-				"The jurulisk makes three piercing chill touch attacks."
-			]
-		},
-		{
-			"name": "Piercing Chill Touch",
-			"entries": [
-				"{@atk mw} {@hit 8} to hit, reach 25 ft. (it can stretch so as to extend a \"limb\" to stab at a foe up to 25 feet away), one target. {@h}9 ({@damage 1d10 + 4}) piercing damage, plus 13 ({@damage 3d8}) cold damage."
-			]
-		},
-		{
-			"name": "Object Draining Touch",
-			"entries": [
-				"Instead of a multiattack, a jurulisk makes a single piercing chill touch attack. If it hits, the Jurulisk targets an object carried by a creature; either a weapon, armor, or preferably, a device of the numenera. The touched object is drained and gains a permanent and cumulative -1 penalty, either to AC, to hit, or if a device that provides some other benefit, to associated checks. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed, as is a weapon reduced to-5."
-			]
-		}
-	],
-	"traitTags": [
-		"Incorporeal Movement",
-		"Magic Resistance",
-		"Regeneration"
-	],
-	"senseTags": [
-		"U"
-	],
-	"actionTags": [
-		"Multiattack"
-	],
-	"damageTags": [
-		"C",
-		"O",
-		"P"
-	],
-	"miscTags": [
-		"MW",
-		"RCH"
-	],
-	"fluff":{
-		"entries":[
-			{
-				"type":"entries",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 165,
+				"formula": "17d10 + 72"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 19,
+			"dex": 17,
+			"con": 18,
+			"int": 14,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"dex": "+7",
+				"con": "+8",
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 12,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks not made with silvered weapons"
+				}
+			],
+			"immune": [
+				"cold",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"charmed"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The jurulisk can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The jurulisk has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magical Weapons",
+					"entries": [
+						"The jurulisk's weapon attacks (piercing chill touch) are treated as if magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The jurulisk regains 10 hit points at the start of its turn. If the jurulisk starts its turn with 0 hit points, it collapses into so many separate one-dimensional lines and regains 1 hit point per hour, until it reforms after a full day. While it is regenerating in this way, it can't take any other actions. (If the jurulisk falls to 0 hit points because its component matter is scattered across a distance of 120 feet or farther, perhaps due to an explosion, it does not regenerate.)"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The jurulisk makes three piercing chill touch attacks."
+					]
+				},
+				{
+					"name": "Piercing Chill Touch",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 25 ft. (it can stretch so as to extend a \"limb\" to stab at a foe up to 25 feet away), one target. {@h}9 ({@damage 1d10 + 4}) piercing damage, plus 13 ({@damage 3d8}) cold damage."
+					]
+				},
+				{
+					"name": "Object Draining Touch",
+					"entries": [
+						"Instead of a multiattack, a jurulisk makes a single piercing chill touch attack. If it hits, the Jurulisk targets an object carried by a creature; either a weapon, armor, or preferably, a device of the numenera. The touched object is drained and gains a permanent and cumulative -1 penalty, either to AC, to hit, or if a device that provides some other benefit, to associated checks. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed, as is a weapon reduced to-5."
+					]
+				}
+			],
+			"traitTags": [
+				"Incorporeal Movement",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"C",
+				"O",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"fluff":{
 				"entries":[
-	        "The Ancients, with their strange activities and vast displays of power, tore literal holes in the fabric of the universe. Sometimes, these were very small. Nothing to worry about.",
-					"The jurulisk hails from inconceivable dimensions. When it comes to this world, it is a one-dimensional line, possessing only length (not even width, let alone depth), imperceptible and incapable of interacting in a meaningful way. Eventually, others come to this world. Over the aeons, the jurulisks find each other and bond to form two- and eventually three-dimensional forms in a way that is difficult to comprehend.",
-					"Finally able to interact with the three- dimensional world, the jurulisk seeks energy to fuel its new form. Once it absorbs a great deal of power from living creatures, the sun, or an artificial energy source, a jurulisk attempts to control its environment—usually by eliminating {@footnote other potential threats|If it is possible to communicate or interact with a jurulisk, the means have not been discovered yet, even using telepathy.}, which means all other creatures.",
 					{
 						"type":"entries",
-						"name":"Alive? Yes, But.",
 						"entries":[
-							"The jurulisk is a living creature, but it is not organic in any traditional sense, and neither is it mechanical. Its form constantly shifts, adapting to its needs at the moment, but always looking like what some have described as “the framework for an ‘actual’ creature.” A jurulisk fights to the “death,” although it might not be permanently dead or destroyed, for such concepts might not apply. The creature is far too alien to tell."
-				    ]
-	        }
+			        "The Ancients, with their strange activities and vast displays of power, tore literal holes in the fabric of the universe. Sometimes, these were very small. Nothing to worry about.",
+							"The jurulisk hails from inconceivable dimensions. When it comes to this world, it is a one-dimensional line, possessing only length (not even width, let alone depth), imperceptible and incapable of interacting in a meaningful way. Eventually, others come to this world. Over the aeons, the jurulisks find each other and bond to form two- and eventually three-dimensional forms in a way that is difficult to comprehend.",
+							"Finally able to interact with the three- dimensional world, the jurulisk seeks energy to fuel its new form. Once it absorbs a great deal of power from living creatures, the sun, or an artificial energy source, a jurulisk attempts to control its environment—usually by eliminating {@footnote other potential threats|If it is possible to communicate or interact with a jurulisk, the means have not been discovered yet, even using telepathy.}, which means all other creatures.",
+							{
+								"type":"entries",
+								"name":"Alive? Yes, But.",
+								"entries":[
+									"The jurulisk is a living creature, but it is not organic in any traditional sense, and neither is it mechanical. Its form constantly shifts, adapting to its needs at the moment, but always looking like what some have described as “the framework for an ‘actual’ creature.” A jurulisk fights to the “death,” although it might not be permanently dead or destroyed, for such concepts might not apply. The creature is far too alien to tell."
+						    ]
+			        }
+					  ]
+			    }
 			  ]
-	    }
-	  ]
-	}
-}
+			}
+		},
+		{
+				"name": "Kanthid",
+				"source": "AotA",
+				"page": 192,
+				"size": "M",
+				"type": "monstrosity",
+				"alignment": [
+					"N"
+				],
+				"ac": [
+					{
+						"ac": 15,
+						"from": [
+							"natural armor"
+						]
+					}
+				],
+				"hp": {
+					"average": 66,
+					"formula": "12d8 + 12"
+				},
+				"speed": {
+					"walk": 30
+				},
+				"str": 16,
+				"dex": 14,
+				"con": 13,
+				"int": 5,
+				"wis": 12,
+				"cha": 16,
+				"skill": {
+					"deception": "+5",
+					"stealth": "+4"
+				},
+				"senses": [
+					"blindsight 60 ft."
+				],
+				"passive": 11,
+				"immune": [
+					"poison"
+				],
+				"conditionImmune": [
+					"charmed",
+					"poisoned"
+				],
+				"languages": [
+						"none",
+						"(no smarter than clever animals, even the ones that colonized the bones of an intelligent creature)"
+				],
+				"cr": "3",
+				"trait": [
+					{
+						"name": "Magic Resistance",
+						"entries": [
+							"The kanthid has advantage on saving throws against spells and other magical effects."
+						]
+					}
+				],
+				"action": [
+					{
+						"name": "Multiattack",
+						"entries": [
+							"The kanthid bites twice."
+						]
+					},
+					{
+						"name": "Bite",
+						"entries": [
+							"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 3 ({@damage 1d6}) poison damage.",
+							"If one target takes poison damage from the kanthid three times, it must succeed on a {@dc 14} Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly {@condition paralyzed}. Otherwise, a creature that fails the save begins to become {@condition paralyzed} and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition paralyzed} on a failure or ending the effect on a success. The paralysis lasts for 10 minutes, or less if the kanthid takes its Colonize action."
+						]
+					},
+					{
+						"name": "Colonize",
+						"entries": [
+							"If allowed to do so without interruption, a kanthid lowers its body across a {@condition paralyzed} (or recently slain) creature, allowing its many ciliated mouths to feed. Each round a kanthid feeds in this fashion automatically deals Bite damage.",
+							"A kanthid that completely consumes a meal leaves behind a skeleton chunked with gore and several hard nodules of kanthid eggs fused to the bone."
+						]
+					}
+				],
+				"traitTags": [
+					"Magic Resistance"
+				],
+				"senseTags": [
+					"B"
+				],
+				"actionTags": [
+					"Multiattack"
+				],
+				"damageTags": [
+					"I",
+					"P"
+				],
+				"miscTags": [
+					"MW"
+				],
+				"conditionInflict": [
+					"paralyzed",
+					"restrained"
+				],
+				      "fluff":{
+					"entries":[
+						{
+							"type":"entries",
+							"entries":[
+				        "The sound of sandpaper on sandpaper scratches the air when a kanthid moves. Most kanthids are multilimbed creatures shaped vaguely like other beasts and creatures. {@footone Whatever its underlying shape|Breaking open a defeated kanthid reveals it to be a composite creature made of hundreds of smaller “polyps” (essentially, tentacles surrounding a mouth and digestive sac protected by a mineral encrustation) built on the skeleton of a dead animal}, the rough skin of a kanthid is a stony mineral whorled and studded with short spines. Here and there, openings in the stone reveal mouths ringed in writhing cilia.",
+								{
+									"type":"entries",
+									"name":"Speech Mimickers",
+									"entries":[
+										"Kanthids with biped, humanoid shapes sometimes speak, though they don’t make much sense. Streams of nonsense, rhymes, names, stories, and even snippets of song might emerge from two or three different cilia-ringed mouths at once. Though a talking kanthid seems to make little sense, there is a theme to its babble: everything a given kanthid says or sings were things once said or sung by a particular individual, one who’s been dead for a while."
+							    ]
+				        },
+								{
+								  "type": "insetReadaloud",
+								  "entries": [
+								    {
+								      "type":"quote",
+								      "entries":[
+								        "It knows what Jarin knew. Jarin’s been gone for years; I know he’s dead. But then the thing appeared at my window, whispering words of love and our old happiness. It’s not Jarin, I understand that. But I’m going down to meet it anyhow, out behind the wall where Jarin and I used to meet."
+								      ],
+								      "by":"Note left by Salara before she went missing"
+								    }
+								  ]
+								},
+								{
+									"type":"entries",
+									"name":"Walking Dead, Almost",
+									"entries":[
+										"A wizard wanted information that only a dead and buried colleague had. Knowing of the kanthid ability to evoke the memories of slain victims, she infected the graveyard where her colleague was interred. A few miscalculations and weeks later, the entire graveyard and associated village was infected with wandering kanthids. Now that wizard seeks help in locating the particular kanthid she wants to interrogate among those radiating out from the village, though she’s careful to keep secret her part in creating the infection in the first place."
+							    ]
+				        }
+						  ]
+				    }
+				  ]
+				}
+			}
 	]
 }
