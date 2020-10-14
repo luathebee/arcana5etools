@@ -5734,7 +5734,7 @@
 						"type":"entries",
 						"entries":[
 			        "Clawed, greasy fingers. Smacking lips. Chattering, pointed teeth. Tiny, beady eyes. Shrill voice. A penchant for thievery, murder, traps, and deception. It is difficult to find some aspect of a killist that isn’t annoying, off-putting, or downright abhorrent. There is a saying: “If a killist is speaking, you are listening to lies.” Killisti can be intimidated by shows of obvious force and threats to their lives, but even as they are cowed, they are plotting a way to trick and betray you.",
-							"{@footone Killisti are diminutive corrupt humanoids|Killisti leaders are typically older females who may be the mother or grandmother of their entire band (typically a challenge 3 creature in their own right). They are even more devious and cruel than the others and thus retain their positions of authority. In addition to the matriarch, kiillisti can be found in bands of six to twelve.}, possibly forcibly mutated by devices found in an Ancients’ cache. Their oily flesh is pale, their eyes are dark, and they have slits on the sides of their torso that are frequently mistaken for gills. These, in fact, provide access to their poison sacs, which are positioned perfectly for killisti to slide their claws into as a part of an attack.",
+							"{@footnote Killisti are diminutive corrupt humanoids|Killisti leaders are typically older females who may be the mother or grandmother of their entire band (typically a challenge 3 creature in their own right). They are even more devious and cruel than the others and thus retain their positions of authority. In addition to the matriarch, kiillisti can be found in bands of six to twelve.}, possibly forcibly mutated by devices found in an Ancients’ cache. Their oily flesh is pale, their eyes are dark, and they have slits on the sides of their torso that are frequently mistaken for gills. These, in fact, provide access to their poison sacs, which are positioned perfectly for killisti to slide their claws into as a part of an attack.",
 							{
 								"type":"entries",
 								"name":"Malice against Humans",
@@ -5754,6 +5754,111 @@
 			    }
 			  ]
 			}
+		},
+		{
+	"name": "Laak",
+	"source": "AotA",
+	"page": 194,
+	"size": "T",
+	"type": "beast",
+	"alignment": [
+		"U"
+	],
+	"ac": [
+		12
+	],
+	"hp": {
+		"average": 7,
+		"formula": "2d6"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 7,
+	"dex": 15,
+	"con": 11,
+	"int": 2,
+	"wis": 10,
+	"cha": 4,
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"passive": 10,
+	"immune": [
+		"poison"
+	],
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Pack Tactics",
+			"entries": [
+				"Laaks have advantage on attacks against a creature if at least one other active laak is within 5 feet of the creature."
+			]
 		}
+	],
+	"action": [
+		{
+			"name": "Poison Bite",
+			"entries": [
+				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 5 ({@damage 1d10}) poison damage."
+			]
+		}
+	],
+	"traitTags": [
+		"Pack Tactics"
+	],
+	"senseTags": [
+		"D"
+	],
+	"damageTags": [
+		"I",
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"fluff":{
+		"entries":[
+			{
+				"type":"entries",
+				"entries":[
+					{
+					  "type":"inset",
+					  "entries":[
+					    {
+					      "type":"quote",
+					      "entries":[
+					        "If you see one laak, you know that at least ten more are hiding nearby, probably measuring their chances on taking you down if you’re out alone."
+					      ]
+					    }
+					  ]
+					},
+					"Laaks are small, green-skinned, poisonous reptiles that attack larger prey in small groups. They can leap with surprising speed and strength. Found almost everywhere Ancients’ caches are dug up, laaks can become a scourge as they spread farther. However, they avoid cold regions.",
+					{
+						"type":"entries",
+						"name":"Vicious Pets",
+						"entries":[
+							"A few industrious souls have captured young laaks and trained them as vicious pets and guardians. They can be frightened off by displays of power (such as fire, noise, and the like). Although laaks are ubiquitous and annoying, they are generally not a huge threat to PCs. However, an encounter with a powerful NPC foe who keeps a few laaks as pets could be more interesting and more dangerous."
+				    ]
+	        },
+					{
+						"type":"entries",
+						"name":"Sensitive to Odor",
+						"entries":[
+							"Certain scents seem to draw laak attacks. For example, the scent of most dyes (textile, written words, even hair) seems to enrage them, while the smell of smoke can drive them away."
+				    ]
+	        },
+					{
+						"type":"entries",
+						"name":"",
+						"entries":[
+							""
+				    ]
+	        }
+			  ]
+	    }
+	  ]
+	}
+}
 	]
 }
