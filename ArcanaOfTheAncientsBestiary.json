@@ -5756,103 +5756,314 @@
 			}
 		},
 		{
-	"name": "Laak",
+			"name": "Laak",
+			"source": "AotA",
+			"page": 194,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 15,
+			"con": 11,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Laaks have advantage on attacks against a creature if at least one other active laak is within 5 feet of the creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Poison Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 5 ({@damage 1d10}) poison damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "If you see one laak, you know that at least ten more are hiding nearby, probably measuring their chances on taking you down if you’re out alone."
+							      ]
+							    }
+							  ]
+							},
+							"Laaks are small, green-skinned, poisonous reptiles that attack larger prey in small groups. They can leap with surprising speed and strength. Found almost everywhere Ancients’ caches are dug up, laaks can become a scourge as they spread farther. However, they avoid cold regions.",
+							{
+								"type":"entries",
+								"name":"Vicious Pets",
+								"entries":[
+									"A few industrious souls have captured young laaks and trained them as vicious pets and guardians. They can be frightened off by displays of power (such as fire, noise, and the like). Although laaks are ubiquitous and annoying, they are generally not a huge threat to PCs. However, an encounter with a powerful NPC foe who keeps a few laaks as pets could be more interesting and more dangerous."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Sensitive to Odor",
+								"entries":[
+									"Certain scents seem to draw laak attacks. For example, the scent of most dyes (textile, written words, even hair) seems to enrage them, while the smell of smoke can drive them away."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+	"name": "Latos",
 	"source": "AotA",
-	"page": 194,
-	"size": "T",
-	"type": "beast",
+	"page": 196,
+	"size": "G",
+	"type": "construct",
 	"alignment": [
-		"U"
+		"N"
 	],
 	"ac": [
-		12
+		{
+			"ac": 22,
+			"from": [
+				"natural armor"
+			]
+		}
 	],
 	"hp": {
-		"average": 7,
-		"formula": "2d6"
+		"average": 498,
+		"formula": "26d20 + 225"
 	},
 	"speed": {
-		"walk": 30
+		"walk": 60
 	},
-	"str": 7,
-	"dex": 15,
-	"con": 11,
-	"int": 2,
-	"wis": 10,
-	"cha": 4,
+	"str": 30,
+	"dex": 10,
+	"con": 29,
+	"int": 18,
+	"wis": 15,
+	"cha": 23,
+	"save": {
+		"dex": "+7",
+		"con": "+16",
+		"wis": "+9"
+	},
+	"skill": {
+		"arcana": "+11",
+		"perception": "+16"
+	},
 	"senses": [
-		"darkvision 60 ft."
+		"blindsight 120 ft."
 	],
-	"passive": 10,
+	"passive": 26,
 	"immune": [
-		"poison"
+		"fire",
+		"poison",
+		"psychic",
+		{
+			"immune": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"note": "from nonmagical attacks that aren't adamantine"
+		}
 	],
-	"cr": "1/8",
+	"conditionImmune": [
+		"charmed",
+		"deafened",
+		"exhaustion",
+		"frightened",
+		"paralyzed",
+		"petrified",
+		"poisoned"
+	],
+	"cr": "23",
 	"trait": [
 		{
-			"name": "Pack Tactics",
+			"name": "Legendary Resistance (3/Day)",
 			"entries": [
-				"Laaks have advantage on attacks against a creature if at least one other active laak is within 5 feet of the creature."
+				"If the latos fails a saving throw, it can choose to succeed instead."
+			]
+		},
+		{
+			"name": "Magic Resistance",
+			"entries": [
+				"The latos has advantage on saving throws against spells and other magical effects."
+			]
+		},
+		{
+			"name": "Magic Weapons",
+			"entries": [
+				"The latos weapon attacks are treated as if magical."
 			]
 		}
 	],
 	"action": [
 		{
-			"name": "Poison Bite",
+			"name": "Multiattack",
 			"entries": [
-				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 12} Constitution saving throw or take 5 ({@damage 1d10}) poison damage."
+				"The latos can use one of the three facets of its Mental Assault (if they are recharged). It then makes two attacks with its colossal fists."
+			]
+		},
+		{
+			"name": "Fist",
+			"entries": [
+				"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) bludgeoning damage."
+			]
+		},
+		{
+			"name": "Mental Assault",
+			"entries": [
+				"Whenever the latos uses Mental Assault, it chooses from one of the three following \"facets.\"",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Wide Assault {@recharge 5}.",
+							"entries": [
+								"All creatures within a 1-mile- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Massive Assault {@recharge 5}.",
+							"entries": [
+								"All creatures within a 60-foot- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or take 88 ({@damage 16d10}) psychic damage on a failed save, or half as much damage on a successful one."
+								]
+						},
+						{
+							"type": "item",
+							"name": "Dream Assault {@recharge}.",
+							"entries": [
+								"All creatures within a 1-mile- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or have their consciousnesses transferred to a limited artificial dimension where they wander in a dreamlike world. A single round in the real world seems like a full day to the victims.",
+								"A victim can be rescued only by an external source, such as a telepathic ally who journeys into their mind to find and retrieve them (perhaps combatting the dream-like phantoms that confront them).",
+								"A character who spends more than an apparent year in this dream state suffers the permanent loss of 1 point from their Intelligence score for each year. In addition, each apparent year, they must succeed on a {@dc 21} Wisdom save or lose their wits."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"legendary": [
+		{
+			"name": "Fist Attack",
+			"entries": [
+				"The latos makes one fist attack."
+			]
+		},
+		{
+			"name": "Teleport (Costs 2 Actions)",
+			"entries": [
+				"The latos teleports up to 500 feet to an unoccupied space it can see."
+			]
+		},
+		{
+			"name": "Recharge (Costs 3 Actions)",
+			"entries": [
+				"The latos automatically recharges one of the facets of its mental assault ability."
 			]
 		}
 	],
 	"traitTags": [
-		"Pack Tactics"
+		"Legendary Resistances",
+		"Magic Resistance",
+		"Magic Weapons"
 	],
 	"senseTags": [
-		"D"
+		"B"
+	],
+	"actionTags": [
+		"Multiattack"
 	],
 	"damageTags": [
-		"I",
-		"P"
+		"B",
+		"Y"
 	],
 	"miscTags": [
-		"MW"
+		"MW",
+		"RCH"
 	],
-	"fluff":{
+	      "fluff":{
 		"entries":[
 			{
 				"type":"entries",
 				"entries":[
 					{
-					  "type":"inset",
-					  "entries":[
-					    {
-					      "type":"quote",
-					      "entries":[
-					        "If you see one laak, you know that at least ten more are hiding nearby, probably measuring their chances on taking you down if you’re out alone."
-					      ]
-					    }
-					  ]
+						"type":"inset",
+						"entries":[
+							{
+								"type":"quote",
+								"entries":[
+									"The civilizations that created the numenera have been gone for ages before my kind were part of this world. Even these caches and other remnants are just what they discarded and things that somehow survived great spans of time without failing. But the latos preserves within it an intact piece set aside by its creatures. To see such a thing, to walk among its creatures and constructions, would be like walking in the garden of the gods as they were creating worlds."
+								],
+								"by":"Elmande, elf mage and scholar"
+							}
+						]
 					},
-					"Laaks are small, green-skinned, poisonous reptiles that attack larger prey in small groups. They can leap with surprising speed and strength. Found almost everywhere Ancients’ caches are dug up, laaks can become a scourge as they spread farther. However, they avoid cold regions.",
+	        "Gigantic and mysterious, latoses are very rare, found only in the remotest areas. For some reason, the Ancients decided to preserve locations within small, artificially closed universes and hide them away inside massive guardians. The ways of the Ancients were strange indeed.",
+					"The 50-foot body of a latos is made of a unique alloy, and its head is a transparent sphere that contains an area far larger than its size would indicate. In this area, reflected in the “face” of the latos, is {@footnote a place of Anceint importance, permanently preserved and deserted|If the latos is destroyed, its body shatters and scatters across a mile radius. At the center of that area, the location stored in the sphere is transplanted as if it had always been there. It is perfectly preserved but empty of life (except perhaps for machine entities or creatures that were in stasis).}.",
 					{
 						"type":"entries",
-						"name":"Vicious Pets",
+						"name":"Accessing What a Latos Guards.",
 						"entries":[
-							"A few industrious souls have captured young laaks and trained them as vicious pets and guardians. They can be frightened off by displays of power (such as fire, noise, and the like). Although laaks are ubiquitous and annoying, they are generally not a huge threat to PCs. However, an encounter with a powerful NPC foe who keeps a few laaks as pets could be more interesting and more dangerous."
+							"No one has ever successfully spoken with a latos, but a character with telepathic abilities (or a device) might be able to establish a dialogue with one of these enigmatic creatures. If so, the PCs have a decent chance at negotiating a peaceful agreement, as latoses are not inherently aggressive, but they would have to work extremely hard to convince the latos to provide access to the location it protects. But should they manage such a feat, a latos can transport a willing target into the location stored in its sphere by touch."
+				    ]
+	        },
+					{
+						"type":"inset",
+						"entries":[
+							"The closed universe within a latos may be a place that explorers can reach through other means, such as dimensional travel. Navigating to such a location would be perilous and protected by other guardians and devices of the numenera. If explorers were able to reach it, the latos guarding that space would almost immediately become aware of the intrusion and either attack or attempt to eject the intruders."
 				    ]
 	        },
 					{
 						"type":"entries",
-						"name":"Sensitive to Odor",
+						"name":"Salvage",
 						"entries":[
-							"Certain scents seem to draw laak attacks. For example, the scent of most dyes (textile, written words, even hair) seems to enrage them, while the smell of smoke can drive them away."
-				    ]
-	        },
-					{
-						"type":"entries",
-						"name":"",
-						"entries":[
-							""
+							"Aside from the transplanted location itself, scavengers picking through the artificial body of a destroyed latos will find {@dice 1d10 + 6} cyphers, {@dice 1d6} oddities, and one or two relics."
 				    ]
 	        }
 			  ]
