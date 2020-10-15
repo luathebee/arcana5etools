@@ -5854,222 +5854,468 @@
 			}
 		},
 		{
-	"name": "Latos",
-	"source": "AotA",
-	"page": 196,
-	"size": "G",
-	"type": "construct",
-	"alignment": [
-		"N"
-	],
-	"ac": [
-		{
-			"ac": 22,
-			"from": [
-				"natural armor"
-			]
-		}
-	],
-	"hp": {
-		"average": 498,
-		"formula": "26d20 + 225"
-	},
-	"speed": {
-		"walk": 60
-	},
-	"str": 30,
-	"dex": 10,
-	"con": 29,
-	"int": 18,
-	"wis": 15,
-	"cha": 23,
-	"save": {
-		"dex": "+7",
-		"con": "+16",
-		"wis": "+9"
-	},
-	"skill": {
-		"arcana": "+11",
-		"perception": "+16"
-	},
-	"senses": [
-		"blindsight 120 ft."
-	],
-	"passive": 26,
-	"immune": [
-		"fire",
-		"poison",
-		"psychic",
-		{
-			"immune": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
+			"name": "Latos",
+			"source": "AotA",
+			"page": 196,
+			"size": "G",
+			"type": "construct",
+			"alignment": [
+				"N"
 			],
-			"note": "from nonmagical attacks that aren't adamantine"
-		}
-	],
-	"conditionImmune": [
-		"charmed",
-		"deafened",
-		"exhaustion",
-		"frightened",
-		"paralyzed",
-		"petrified",
-		"poisoned"
-	],
-	"cr": "23",
-	"trait": [
-		{
-			"name": "Legendary Resistance (3/Day)",
-			"entries": [
-				"If the latos fails a saving throw, it can choose to succeed instead."
-			]
-		},
-		{
-			"name": "Magic Resistance",
-			"entries": [
-				"The latos has advantage on saving throws against spells and other magical effects."
-			]
-		},
-		{
-			"name": "Magic Weapons",
-			"entries": [
-				"The latos weapon attacks are treated as if magical."
-			]
-		}
-	],
-	"action": [
-		{
-			"name": "Multiattack",
-			"entries": [
-				"The latos can use one of the three facets of its Mental Assault (if they are recharged). It then makes two attacks with its colossal fists."
-			]
-		},
-		{
-			"name": "Fist",
-			"entries": [
-				"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) bludgeoning damage."
-			]
-		},
-		{
-			"name": "Mental Assault",
-			"entries": [
-				"Whenever the latos uses Mental Assault, it chooses from one of the three following \"facets.\"",
+			"ac": [
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 498,
+				"formula": "26d20 + 225"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 30,
+			"dex": 10,
+			"con": 29,
+			"int": 18,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+7",
+				"con": "+16",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+11",
+				"perception": "+16"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 26,
+			"immune": [
+				"fire",
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the latos fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The latos has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The latos weapon attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The latos can use one of the three facets of its Mental Assault (if they are recharged). It then makes two attacks with its colossal fists."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Mental Assault",
+					"entries": [
+						"Whenever the latos uses Mental Assault, it chooses from one of the three following \"facets.\"",
 						{
-							"type": "item",
-							"name": "Wide Assault {@recharge 5}.",
-							"entries": [
-								"All creatures within a 1-mile- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage on a failed save, or half as much damage on a successful one."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Massive Assault {@recharge 5}.",
-							"entries": [
-								"All creatures within a 60-foot- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or take 88 ({@damage 16d10}) psychic damage on a failed save, or half as much damage on a successful one."
-								]
-						},
-						{
-							"type": "item",
-							"name": "Dream Assault {@recharge}.",
-							"entries": [
-								"All creatures within a 1-mile- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or have their consciousnesses transferred to a limited artificial dimension where they wander in a dreamlike world. A single round in the real world seems like a full day to the victims.",
-								"A victim can be rescued only by an external source, such as a telepathic ally who journeys into their mind to find and retrieve them (perhaps combatting the dream-like phantoms that confront them).",
-								"A character who spends more than an apparent year in this dream state suffers the permanent loss of 1 point from their Intelligence score for each year. In addition, each apparent year, they must succeed on a {@dc 21} Wisdom save or lose their wits."
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Wide Assault {@recharge 5}.",
+									"entries": [
+										"All creatures within a 1-mile- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or take 22 ({@damage 4d10}) psychic damage on a failed save, or half as much damage on a successful one."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Massive Assault {@recharge 5}.",
+									"entries": [
+										"All creatures within a 60-foot- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or take 88 ({@damage 16d10}) psychic damage on a failed save, or half as much damage on a successful one."
+										]
+								},
+								{
+									"type": "item",
+									"name": "Dream Assault {@recharge}.",
+									"entries": [
+										"All creatures within a 1-mile- radius sphere centered on the latos must succeed on a {@dc 21} Wisdom saving throw or have their consciousnesses transferred to a limited artificial dimension where they wander in a dreamlike world. A single round in the real world seems like a full day to the victims.",
+										"A victim can be rescued only by an external source, such as a telepathic ally who journeys into their mind to find and retrieve them (perhaps combatting the dream-like phantoms that confront them).",
+										"A character who spends more than an apparent year in this dream state suffers the permanent loss of 1 point from their Intelligence score for each year. In addition, each apparent year, they must succeed on a {@dc 21} Wisdom save or lose their wits."
+									]
+								}
 							]
 						}
 					]
 				}
-			]
-		}
-	],
-	"legendary": [
-		{
-			"name": "Fist Attack",
-			"entries": [
-				"The latos makes one fist attack."
-			]
-		},
-		{
-			"name": "Teleport (Costs 2 Actions)",
-			"entries": [
-				"The latos teleports up to 500 feet to an unoccupied space it can see."
-			]
-		},
-		{
-			"name": "Recharge (Costs 3 Actions)",
-			"entries": [
-				"The latos automatically recharges one of the facets of its mental assault ability."
-			]
-		}
-	],
-	"traitTags": [
-		"Legendary Resistances",
-		"Magic Resistance",
-		"Magic Weapons"
-	],
-	"senseTags": [
-		"B"
-	],
-	"actionTags": [
-		"Multiattack"
-	],
-	"damageTags": [
-		"B",
-		"Y"
-	],
-	"miscTags": [
-		"MW",
-		"RCH"
-	],
-	      "fluff":{
-		"entries":[
-			{
-				"type":"entries",
+			],
+			"legendary": [
+				{
+					"name": "Fist Attack",
+					"entries": [
+						"The latos makes one fist attack."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The latos teleports up to 500 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Recharge (Costs 3 Actions)",
+					"entries": [
+						"The latos automatically recharges one of the facets of its mental assault ability."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			      "fluff":{
 				"entries":[
 					{
-						"type":"inset",
+						"type":"entries",
 						"entries":[
 							{
-								"type":"quote",
+								"type":"inset",
 								"entries":[
-									"The civilizations that created the numenera have been gone for ages before my kind were part of this world. Even these caches and other remnants are just what they discarded and things that somehow survived great spans of time without failing. But the latos preserves within it an intact piece set aside by its creatures. To see such a thing, to walk among its creatures and constructions, would be like walking in the garden of the gods as they were creating worlds."
-								],
-								"by":"Elmande, elf mage and scholar"
-							}
-						]
-					},
-	        "Gigantic and mysterious, latoses are very rare, found only in the remotest areas. For some reason, the Ancients decided to preserve locations within small, artificially closed universes and hide them away inside massive guardians. The ways of the Ancients were strange indeed.",
-					"The 50-foot body of a latos is made of a unique alloy, and its head is a transparent sphere that contains an area far larger than its size would indicate. In this area, reflected in the “face” of the latos, is {@footnote a place of Anceint importance, permanently preserved and deserted|If the latos is destroyed, its body shatters and scatters across a mile radius. At the center of that area, the location stored in the sphere is transplanted as if it had always been there. It is perfectly preserved but empty of life (except perhaps for machine entities or creatures that were in stasis).}.",
-					{
-						"type":"entries",
-						"name":"Accessing What a Latos Guards.",
-						"entries":[
-							"No one has ever successfully spoken with a latos, but a character with telepathic abilities (or a device) might be able to establish a dialogue with one of these enigmatic creatures. If so, the PCs have a decent chance at negotiating a peaceful agreement, as latoses are not inherently aggressive, but they would have to work extremely hard to convince the latos to provide access to the location it protects. But should they manage such a feat, a latos can transport a willing target into the location stored in its sphere by touch."
-				    ]
-	        },
-					{
-						"type":"inset",
-						"entries":[
-							"The closed universe within a latos may be a place that explorers can reach through other means, such as dimensional travel. Navigating to such a location would be perilous and protected by other guardians and devices of the numenera. If explorers were able to reach it, the latos guarding that space would almost immediately become aware of the intrusion and either attack or attempt to eject the intruders."
-				    ]
-	        },
-					{
-						"type":"entries",
-						"name":"Salvage",
-						"entries":[
-							"Aside from the transplanted location itself, scavengers picking through the artificial body of a destroyed latos will find {@dice 1d10 + 6} cyphers, {@dice 1d6} oddities, and one or two relics."
-				    ]
-	        }
+									{
+										"type":"quote",
+										"entries":[
+											"The civilizations that created the numenera have been gone for ages before my kind were part of this world. Even these caches and other remnants are just what they discarded and things that somehow survived great spans of time without failing. But the latos preserves within it an intact piece set aside by its creatures. To see such a thing, to walk among its creatures and constructions, would be like walking in the garden of the gods as they were creating worlds."
+										],
+										"by":"Elmande, elf mage and scholar"
+									}
+								]
+							},
+			        "Gigantic and mysterious, latoses are very rare, found only in the remotest areas. For some reason, the Ancients decided to preserve locations within small, artificially closed universes and hide them away inside massive guardians. The ways of the Ancients were strange indeed.",
+							"The 50-foot body of a latos is made of a unique alloy, and its head is a transparent sphere that contains an area far larger than its size would indicate. In this area, reflected in the “face” of the latos, is {@footnote a place of Anceint importance, permanently preserved and deserted|If the latos is destroyed, its body shatters and scatters across a mile radius. At the center of that area, the location stored in the sphere is transplanted as if it had always been there. It is perfectly preserved but empty of life (except perhaps for machine entities or creatures that were in stasis).}.",
+							{
+								"type":"entries",
+								"name":"Accessing What a Latos Guards.",
+								"entries":[
+									"No one has ever successfully spoken with a latos, but a character with telepathic abilities (or a device) might be able to establish a dialogue with one of these enigmatic creatures. If so, the PCs have a decent chance at negotiating a peaceful agreement, as latoses are not inherently aggressive, but they would have to work extremely hard to convince the latos to provide access to the location it protects. But should they manage such a feat, a latos can transport a willing target into the location stored in its sphere by touch."
+						    ]
+			        },
+							{
+								"type":"inset",
+								"entries":[
+									"The closed universe within a latos may be a place that explorers can reach through other means, such as dimensional travel. Navigating to such a location would be perilous and protected by other guardians and devices of the numenera. If explorers were able to reach it, the latos guarding that space would almost immediately become aware of the intrusion and either attack or attempt to eject the intruders."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"Aside from the transplanted location itself, scavengers picking through the artificial body of a destroyed latos will find {@dice 1d10 + 6} cyphers, {@dice 1d6} oddities, and one or two relics."
+						    ]
+			        }
+					  ]
+			    }
 			  ]
-	    }
-	  ]
-	}
-}
+			}
+		},
+		{
+			"name": "Margr",
+			"source": "AotA",
+			"page": 197,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"margr"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item chain shirt|phb}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": {
+					"number": 30,
+					"condition": "actions"
+				}
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Margr"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Margr Cunning",
+					"entries": [
+						"The margr has advantage on Intelligence, Wisdom, and Charisma saving throws against trickery, lies, and illusion, including magic that attempts to do the same."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The margr makes two attacks with its spear. The second attack has disadvantage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The margr adds 2 to its AC against one melee attack that would hit it. To do so, the margr must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "No two margr look alike, but most are around human-size and have some aspect of goat—a goat head, goat horns, goat legs, goat hooves, {@footnote or some combination or varying degrees thereof|Margr are likely some hybrid between human and animal, crafted by an unthinking numenera device in an accidental surge of flesh-fusing power.}. Margr live lives of terrible violence, killing each other (or really, anything they find) out of rage, sport, or lust. They breed and mature quickly, however, so their numbers never seem to diminish. {@footnote They travel in small bands led by the strongest and most savage|Margr chieftains can reach terrifying size. Some report the rare individual at 8 or 9 feet in height.}.",
+							{
+								"type":"entries",
+								"name":"Attired for Arocity",
+								"entries":[
+									"Margr wear trophies of their dead opponents but are poor crafters, so these displays are crude at best—severed heads on hooks, ears or fingers threaded on cords as necklaces, and so forth. This means that, on top of everything else, margr stink of rotting meat at all times."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Influenced from the Top",
+								"entries":[
+									"Margr are vicious and bloodthirsty. They are not smart, but they are crafty, making them difficult to fool. Killing their leader sends them into a frenzy of confusion and fear. In this situation, PCs could easily escape, but they could also intimidate the remaining margr into doing as they command. A very powerful and forceful character could become the new leader, but such a position would be challenged so frequently that it would make the margr poor followers overall."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Born Raiders",
+								"entries":[
+									"Margr harass civilized people on a regular basis, raiding villages or trade caravans. Some communities put bounties on their heads, hoping that mercenaries will eliminate the threat, but people not aware of margr origins often think of margr as creatures of supernatural evil—demons or devils—and do their best to hide from them. Thankfully, the nomadic margr usually move on after a few raids."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Mastigophore",
+			"source": "AotA",
+			"page": 198,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 61,
+				"formula": "9d8 + 21"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 17,
+			"int": 14,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Mastigophore"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"The mastigophore has advantage on Wisdom (Perception) checks that rely on sight or smell."
+					]
+				},
+				{
+					"name": "Self Destruction",
+					"entries": [
+						"When a mastigophore dies, it explodes on a 1-2 on 1d6. All creatures within 5 feet of it must succeed on a {@dc 14} Dexterity save or take {@damage 4d8} fire damage, or half that if successful."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mastigophore makes two attacks: one with each of the barbed whips it extrudes from both hands."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 15 ft., one creature. {@h}10 ({@damage 1d10 + 5}) piercing damage, and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} during their next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			      "fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Mastigophores are automatons that look human but {@footnote can instantly transform their hands into long, barbed whips whenever they wish|With a thought, mastigophores can extrude organic matter from their wrists in the form of long, barbed whips.}. When first encountered, {@footnote appear to be average, uniformed humans with a military stance|Mastigophores can take on the appearance of other humanoids, such as elves, or orcs, if they gain enough experience with such creatures.}. Quiet and excellent stalkers, they are encountered in one of two modes: on guard or hunting.",
+							"Mastigophores guard certain ancient ruins, complexes, or machines, usually in groups of two or more. They warn trespassers away once with unintelligible words (but obvious intentions), and if their warning is not heeded, they attack and fight without regard for their safety.",
+							{
+								"type":"entries",
+								"name":"Hungry Constructs.",
+								"entries":[
+									"Despite their machine-filled interiors, mastigophores need to consume organic material to function and create their weapons. Although they can subsist on plant matter, whoever created mastigophores designed them to enjoy hunting and killing animal prey. In this endeavor, they are very aggressive, and they act alone, leaving their “partners” behind to guard whatever it is they’re protecting."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Lost Language",
+								"entries":[
+									"Mastigophores speak, but not in any language known today. Stern and focused, they cannot be convinced to shirk their duties. However, if they are not hunting, and if the PCs don’t try to get past them while they are standing guard, mastigophores are not hostile."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		}
 	]
 }
