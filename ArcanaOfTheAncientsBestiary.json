@@ -6291,7 +6291,7 @@
 			"conditionInflict": [
 				"stunned"
 			],
-			      "fluff":{
+			"fluff":{
 				"entries":[
 					{
 						"type":"entries",
@@ -6310,6 +6310,128 @@
 								"name":"Lost Language",
 								"entries":[
 									"Mastigophores speak, but not in any language known today. Stern and focused, they cannot be convinced to shirk their duties. However, if they are not hunting, and if the PCs don’t try to get past them while they are standing guard, mastigophores are not hostile."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Merkadian Soldier",
+			"source": "AotA",
+			"page": 198,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"merkadian soldier"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Merkadian",
+				"any languages known by its host body"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Stealth Field {@recharge}",
+					"entries": [
+						"The soldier uses its action to become blurred, indistinct, and odorless for one minute. For the duration, the soldier gains advantage on stealth checks and creatures have disadvantage on attacks against the soldier, including against creatures with blindsight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Detonation Lobber {@recharge 5}",
+					"entries": [
+						"Ranged Weapon Attack:",
+						"{@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) fire damage, and all targets within 10 feet must succeed on a {@dc 13} Dexterity saving throw or take the same damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Death Regeneration",
+					"entries": [
+						"If the soldier starts its turn with 0 hit points, it seems dead. However, it regains 1 hit point per hour, until it reforms after a full day unless its blade, which was fused with its hand, is separated by more than 30 feet. While it is regenerating in this way, it can't take any other actions."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "The stink of rotting flesh often precedes the appearance of a so-called Merkadian soldier. The soldier is never far behind its odor, moving with amazing alacrity for a humanoid that is otherwise apparently dead. Clutched in one hand is a sword crusted with all manner of the numenera. These vicious soldiers understand only destruction and war. They may respond to queries in the language of their host body, describing how they are soldiers of Grand Merkadia (a place that doesn’t exist, or at least one that hasn’t existed since the time of the Ancients). Particularly crafty negotiators might be able to form a short-lived alliance with a soldier.",
+							{
+								"type":"entries",
+								"name":"Alone or Part of a Platoon",
+								"entries":[
+									"Lone Merkadian soldiers can be found anywhere, usually looking for enemies to destroy or other platoon members. In rare instances, platoons of up to twenty-six Merkadian soldiers manage to assemble, at which time their tactics change from sneaking assassination to full frontal assault."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Almost Nerver-dying",
+								"entries":[
+									"A defeated Merkadian soldier often returns to life, though afterward it looks more corpselike than ever, and its eyes more hollowed-out. Clutched in one hand is a sword encrusted with all manner of the numenera, which could be the source of the soldier’s ability to return to the fight even after receiving mortal wounds."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"\"Cursed\" Blade",
+								"entries":[
+									"If a Merkadian soldier’s sword is taken as loot (treat it as a longsword), tiny machines, too small to be easily noticed, begin to move from it into the PC who claims the blade. The effect initially disfigures the character, causing raised metallic veins to appear all over their flesh. The contaminated item is obviously responsible for the infection, and if it is destroyed or abandoned, the infection subsides. The longer the PC keeps the contaminated item, the more their dreams Ware filled with imagery of a long-concluded war fought above the atmosphere, and the greater the chance that they don’t wake at all, except as {@footnote a reprogrammed Merkadian soldier pledged to fight in a dead conflict with no memory of any previous existence|There is little hope for a character fully changed into a Merkadian soldier, though anything is possible if the right machine of the Ancients is found.}."
 						    ]
 			        }
 					  ]
