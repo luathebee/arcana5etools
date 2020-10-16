@@ -6433,6 +6433,558 @@
 								"entries":[
 									"If a Merkadian soldier’s sword is taken as loot (treat it as a longsword), tiny machines, too small to be easily noticed, begin to move from it into the PC who claims the blade. The effect initially disfigures the character, causing raised metallic veins to appear all over their flesh. The contaminated item is obviously responsible for the infection, and if it is destroyed or abandoned, the infection subsides. The longer the PC keeps the contaminated item, the more their dreams Ware filled with imagery of a long-concluded war fought above the atmosphere, and the greater the chance that they don’t wake at all, except as {@footnote a reprogrammed Merkadian soldier pledged to fight in a dead conflict with no memory of any previous existence|There is little hope for a character fully changed into a Merkadian soldier, though anything is possible if the right machine of the Ancients is found.}."
 						    ]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "The transformation ability of a Merkadian soldier is perhaps the closest thing we have seen to necromancy in the numenera. I am not sure if this creature is best characterized as a lich, mummy, or some kind of revenant. Of course, as with most things in the numenera, our magical explanations are more for our contemporary convenience than accurate descriptions of a creature’s nature."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Mesomeme",
+			"source": "AotA",
+			"page": 201,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 144,
+				"formula": "17d10 + 51"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 6,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"deception": "+5",
+				"perception": "+4",
+				"stealth+5(whilemoving": "underwater)"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"cr": "6",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mesomeme makes two attacks: one with each of its two pincers once it rises from the water. If the mesomeme hits the same creature with both pincers as part of one Multiattack, the mesomeme can also use its sever head attack."
+					]
+				},
+				{
+					"name": "Pincers",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Sever Head",
+					"entries": [
+						"The target must succeed on a {@dc 14} Constitution saving throw or drop to 0 hit points. At the beginning of its next turn, the target must succeed on a modified death saving throw. If successful, it regains 1 hit point and is {@condition restrained}.",
+						"If it fails, its head is severed by a pincer. The severed head is placed on a new tendril that rises up to impale it, which occurs as a separate reaction on the mesomeme's part.",
+						"Attacking a mesomeme's severed heads accomplishes nothing more than robbing the crustacean of long-term sustenance."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "When first encountered, a mesomeme often appears to be a number of individual creatures—people and animals—perhaps swimming or wading in shallow water. Each person is speaking, and the animals are making noises as well. It’s a strange choir of babble. Only on closer inspection does it become clear that the creatures are just severed heads mounted on slender, grey tendrils that are almost translucent. These tendrils sprout from holes in the chitinous shell of a massive crustacean with eight legs, two of which end in massive pincers.",
+							{
+								"type":"entries",
+								"name":"Façade of Intelligence",
+								"entries":[
+									"Façade of Intelligence. Despite the fact that the severed heads on the tendrils speak, the mesomeme cannot do so, nor can it understand speech. It is not very intelligent and acts on instinct. The mesomeme feeds on the mental activity of its victims, stimulating the brains in their severed heads, which remain preserved for weeks on its tendrils. {@footnote This stimulation causes the heads to speak or otherwise babble, growl, or squawk.|Sometimes a severed head says something so startling (perhaps coincidentally meaningful or relevant to one of the characters) that a PC is fooled into thinking that the mesomeme is sapient.}",
+									"At any given time, the mesomeme has 1d6 + 4 heads. If it dwells near civilization, half of the heads will be human, elves, dwarves, and so on, and the other half will be other types of creatures, such as orcs, goblins, large mammals or reptiles, or large birds."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Babblign Thing",
+								"entries":[
+									"A potential encounter with a mesomeme involves a small town being terrorized by a creature the locals call “the babbling thing” that lives in a nearby lake. However, some people instead claim that the lake is haunted by the recently dead, whose voices can still be heard echoing across the water. Either way, the residents would be eternally grateful to anyone who can rid them of the menace that makes it too dangerous to fish or get fresh water."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Mlox",
+			"source": "AotA",
+			"page": 203,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 13,
+			"int": 14,
+			"wis": 12,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"piercing  slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Mlox",
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Open Third Eye (Recharge After Short Rest)",
+					"entries": [
+						"The mlox uses their action to open their third eye. For 1 minute, the mlox can see in normal (and magical) darkness, see {@condition invisible} creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is otherwise transformed.",
+						"The mlox may also peer into neighboring planes of existence that impinge on their current reality.",
+						"In addition, the mlox can use open eye actions."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mlox makes two shortsword attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Open Eye Actions",
+					"entries": [
+						"The mlox can take 1 open eye action, choosing from the options below. Only one open eye action option can be used at a time and only at the end of another creature's turn (though Eyeflash can be used during another creature's turn).",
+						"The mlox regains spent open eye actions at the start of its turn, while their third eye is open.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Shortsword",
+									"entries": [
+										"The mlox makes a shortsword attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Eyebeam",
+									"entries": [
+										"The mlox fires a single beam of energy (from its third eye) at a foe within 120 feet that it can sense, dealing 7 ({@damage 2d6}) fire damage on a failed {@dc 13} Dexterity saving throw."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Eyeflash",
+									"entries": [
+										"The mlox's third eye flashes, adding 2 to its AC against one melee attack that would hit it."
+									]
+								}
+							]
+						}
+					]
+				}
+			],"type": "item",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"F",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Only one thing distinguishes a human from a mlox, and it’s rarely obvious: a mlox can trigger a portion of its forehead to iris open, revealing a mechanical, glowing “third eye.” But mloxan are secretive, not given to revealing their odd anatomy, their history, or why they hide in human form. Mloxan are particularly suspicious of machine creatures and give them as wide a berth as possible, especially drones of {@footnote Peerless||Peerless, page 214}.",
+							{
+								"type":"entries",
+								"name":"Third Eye and Machine Brain",
+								"entries":[
+									"Most mloxan avoid conflict. If forced to fight, they do so with normal weapons and are slightly more robust than an average human, but nothing special—that is, until a mlox opens its third eye. When it does so, it makes a direct connection with the surrounding environment and gains several abilities.",
+									"If a mlox is slain and dissected, its third eye is revealed to be the leading edge of a mechanical brain that occupies the skull space normally filled by a biological one."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Hiding in Plain Sight",
+								"entries":[
+									"Mloxan try to be easy-going and agreeable because they don’t want to draw attention to themselves. If found out, a mlox will promise much to a PC in return for keeping its secret. Or, it may decide that the best way to ensure that a character stays quiet is to eliminate them, especially if they seem to be negotiating in bad faith. On the other hand, during some desperate moment, an NPC the characters assumed to be a regular person could open their third eye to resolve the situation, revealing a previously unknown ability, and potentially that the NPC is a mlox."
+								]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "We have no way of knowing how long the mloxan have been walking among us. The release of the numenera into the world again may have been the start of it, or they may have quietly slipped out of stasis and into our villages a long time ago. The ones I know of appear human, and are trustworthy folk, but there may be others who look like humans, dwarves, elves, or even vile creatures such as drow and orcs, and may have very different agendas that are yet to be revealed."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Murden",
+			"source": "AotA",
+			"page": 204,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"murden"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 37,
+				"formula": "7d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"deception": "+4",
+				"persuasion": "+4",
+				"damageimmunities": "psychic"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 11,
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Murden Cynicism",
+					"entries": [
+						"The murden has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Mental Hiss",
+					"entries": [
+						"Although inadvertent, the murden's inherent telepathic powers are irritating and harmful to nearby creatures, who perceive it as an annoying static that scrambles thought. When a creature starts its turn within 30 feet of a murden who is not {@condition incapacitated}, the creature must succeed on a {@dc 14} Wisdom saving throw or gain disadvantage on all attacks, saves, and checks, which persists until it moves more than 30 feet from the murden."
+					]
+				},
+				{
+					"name": "Poison Weapon",
+					"entries": [
+						"If the murden has a moment to prepare, such as when preparing an ambush, it poisons its blade. The first hit with the blade that deals damage also requires that the target succeed on a {@dc 14} Constitution saving throw or take 7 ({@damage 2d6}) poison damage in addition to the weapon's normal damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The murden makes two attacks, either with its scimitar-like blade or its sling. When possible, they attack from the shadows with ambushes and hit-and-run tactics.",
+						"They normally flee in the face of real danger."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}2 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type":"quote",
+										"entries":[
+											"Those who have experienced a murden’s telepathic white noise firsthand report that strange voices and long-forgotten memories sometimes arise in the mental interference in haunting and disturbing ways."
+										]
+									}
+								]
+							},
+			        "Murdens walk upright but would never be mistaken for humans. Backs hunched dramatically forward, skin covered in shiny black down, huge black eyes perched above a sharp, dirty yellow beak— {@footnote these things seem almost like enormous ravens with spindly arms rather than wings|Murden claim to originate in a parallel plane of existence, one not previously accessible until the first Ancients’ cache opened.}. Tattered leather cloaks cover their backs, and many carry a leather bag or wear one on a strap to hold the various objects they have collected.",
+							{
+								"type":"entries",
+								"name":"Voiceless Schemers",
+								"entries":[
+									"Murdens don’t speak. They communicate with one another telepathically. However, their telepathy annoys other intelligent creatures. The presence of a living murden fills the minds of nearby creatures with a sort of mental hiss. Add this irritation to their paranoid mindset, their cruelty, their selfishness, and their duplicitous, scheming nature, and there is little to like about a murden.",
+									"Those who have experienced a murden’s telepathic white noise firsthand report that strange voices and long-forgotten memories sometimes arise in the mental interference in haunting and disturbing ways.",
+									"Communicating with murdens is very difficult, but they seem to understand at least a little of other languages they come across and can convey information through gestures or drawings in the sand. Trusting them, however, is a fool’s mistake, for a murden delights in lies and trickery for their own sake."
+						    ]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Many wonders of the Ancients I’ve preferred to these murden. Their bright eyes, their tools, and their use of the numenera indicate intelligence, but they don’t speak. Their features put me in mind of crows, though I’ve always found crows pleasant. These creatures troubled me. The harmony of my thoughts, normally so comforting, grows more scrambled the closer I approach."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Then don’t approach."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Nalurus",
+			"source": "AotA",
+			"page": 206,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"usually human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 15,
+			"int": 12,
+			"wis": 11,
+			"cha": 7,
+			"passive": 10,
+			"languages": [
+				"Common",
+				"or whatever language they spoke before infection"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Brain-liquifying Reaction",
+					"entries": [
+						"If a creature starts its turn within 30 feet of the nalurus and the victim can see the nalurus's face, the creature must succeed on a {@dc 12} Constitution saving throw, or they suffer a massive headache and begin to drip pink froth from their nose; they have disadvantage on all checks, saves, and attacks. The victim must repeat the saving throw at the end of their next turn. On a success, the effect ends and the victim escapes with only 14 ({@damage 4d6}) necrotic damage. On a failure, the creature's brain completely liquifies, killing it.",
+						"A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the nalurus's face until the start of its next turn, when it can avert its eyes again. If it looks at the nalurus in the meantime, it must immediately make the save.",
+						"A nalurus is immune to seeing itself in a mirror; it already survived the information plague that rendered it simply as a carrier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "t wasn’t pretty. I found them lying dead in puddles of pink slime. Looked as if they’d vomited their brains out."
+							      ],
+							      "by":"Bystander"
+							    }
+							  ]
+							},
+							"A nalurus always wears a hood or mask. It may be pretending, even to itself, that it’s still human, despite the terrible infection it survived but still carries. The nalurus transmits its infection by sight. {@footnote If a humanoid sees a nalurus without its hood and looks full upon the disquieting lines, spirals, and geometric shapes laid out in ridges across the creature’s face|A slain nalurus remains as dangerous to look upon as a live one for about one day, after which the ridges slump and rot, making the corpse’s head merely ugly and dead as opposed to lethal and dead.}, the awful pattern imprints on the victim’s mind. Something in the interplay of information, refraction, and the physical structure of the victim’s brain sets off a cruel and rapid chain reaction. What begins as a pinkish nose drip ends when the victim’s brain completely liquefies and exits the victim’s head from the eyes, nose, mouth, and ears less than a minute after the infection occurs.",
+							{
+								"type":"entries",
+								"name":"Solitude Seekers",
+								"entries":[
+									"A nalurus seeks solitude, but over time, that very solitude can drive the creature to take risks with the safety of others by seeking out their company. A nalurus that remains alone for too long can go insane, becoming {@footnote a paranoid murderer that shows off its face at the first opportunity|The nalurus doesn’t have to be aware of a victim to affect it. A nalurus can be incapacitated or even dead (for up to one day) and still affect humanoids who see its face with its Brain-liquifying Reaction.}. A nalurus that hasn’t gone insane from loneliness is usually angry at being disturbed, discourteously blunt, and quick to send visitors on their way. A kind act or gift can soften the creature’s manner, but doesn’t change things."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Eccentric Old Hermit",
+								"entries":[
+									"The PCs are asked to deal with a man at the edge of town who has started stealing food and scaring the children. Most people in the community are apprehensive about the recluse because of stories of a decades-old plague that only he survived."
+						    ]
 			        }
 					  ]
 			    }
