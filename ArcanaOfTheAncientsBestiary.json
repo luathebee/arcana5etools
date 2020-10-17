@@ -7102,6 +7102,169 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Neveri",
+			"source": "AotA",
+			"page": 208,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 175,
+				"formula": "17d12 + 64"
+			},
+			"speed": {
+				"walk": {
+					"number": 50,
+					"condition": "(hover)"
+				}
+			},
+			"str": 24,
+			"dex": 17,
+			"con": 18,
+			"int": 9,
+			"wis": 14,
+			"cha": 12,
+			"senses": [
+				"blindsight 90 ft."
+			],
+			"passive": 16,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"languages": [
+				"picks up new languages telepathically"
+			],
+			"cr": "11",
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The neveri regains 10 hit points at the start of its turn. If it starts its turn with 0 hit points, it continues to regenerate, but does not take an action during the turn it started at 0."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The neveri makes two tendril attacks."
+					]
+				},
+				{
+					"name": "Tendril",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one Large or smaller creature. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 17}), and is {@condition restrained} until this grapple ends. A neveri can grapple up to two",
+						"Medium (or smaller) or one Large creature at one time."
+					]
+				},
+				{
+					"name": "Attack Organs {@recharge 5}",
+					"entries": [
+						"The neveri creates a transient, specialized organ that sprays acid, spits a flesh-rotting enzyme, or generates a burst of electricity. Treat as a line effect 60 feet long and 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 66 ({@damage 12d10}) damage (either acid, necrotic, or lightning) on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"The neveri attempts to engulf a {@condition grappled} target, who must succeed on a {@dc 16} Strength saving throw, or be engulfed, ending the grapple. While engulfed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the neveri, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the neveri's turns. A neveri can have only one creature swallowed at a time.",
+						"If the neveri takes 30 damage or more on a single turn from the swallowed creature, the neveri must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the neveri. If the neveri starts a turn with 0 hit points, a swallowed creature is no longer {@condition restrained} by it and can escape from the temporary corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "A neveri is a floating blob of heaving, writhing flesh, 15 feet in diameter, apparently rotting and always oozing pus, dark fluids, and the odor of a thousand graves. A neveri constantly extrudes new sections of skin, mouths, eyes, spines, clawed hands, and whipping tendrils, seemingly force-grown from the mass of dead matter that serves as the nucleus of its body.",
+							{
+								"type":"entries",
+								"name":"",
+								"entries":[
+									"Neveri were secured by the Ancients in various forgotten prisons. But why? Why didn’t the Ancients simply destroy the neveri? Many possibilities suggest themselves, but the plainest answer might be because {@footonte even the Ancients could not devise a method to kill them.|The only way to stop a neveri is by confining it or shunting it into an ultimate region of destruction, such as the sun}",
+									"Thankfully extremely rare, neveri apparently spend years at a time either inactive or imprisoned from some earlier epoch. When one becomes active (or escapes), it makes a lair in a hard-to-reach location within a day or two of a large population of living things and sets to work feeding its ravenous appetite."
+								]
+							},
+							{
+								"type":"entries",
+								"name":"Aware",
+								"entries":[
+									"A neveri has a low-level telepathic ability that allows it to sense when living creatures come near and perhaps pick up bits of the thinking creature’s language. It responds to attempts at communication by forming a mouth that issues horrifying threats. Then it attacks."
+								]
+							},
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "When the gods—or as in this case, the Ancients—imprison a powerful evil thing rather than destroy it, I always wonder why. I’ve developed several possible reasons:",
+											"• Death would release the slain thing to reincarnate at an unknown time and place;",
+											"• Moral reluctance;",
+											"• The thing’s potential use as a weapon;",
+											"• The thing is linked with its imprisoners, so that to slay one slays both;",
+											"• Death would be too easy; the jailors want the thing eternally punished;",
+											"• Or, as is apparently the case for the neveri, it’s impossible for the thing to actually die"
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
