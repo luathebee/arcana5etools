@@ -6990,6 +6990,118 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Nevajin",
+			"source": "AotA",
+			"page": 207,
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 15,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"dex": "+2",
+				"con": "+4",
+				"wis": "+2",
+				"cha": "+2"
+			},
+			"skill": {
+				"arcana": "+4",
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				"fire",
+				"lightning"
+			],
+			"languages": [
+				"Common",
+				"various others"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Device Use",
+					"entries": [
+						"A nevajin always has a couple of offensive and defensive devices concealed about its body. Those advantages are already figured into the nevajin's stat block. However, a nevajin may also have a one-use cypher that allows it to turn {@condition invisible} or teleport up to 500 ft. away to escape attack, which it uses if its split ability fails to save at least one part of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Lightning Ray",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, range 120 ft., one target. {@h}20 ({@damage 3d10 + 2}) lightning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"The nevajin splits its head from its body after taking damage it feels is egregious (half or more of its total), becoming two creatures: a hovering head and a headless body. Both have effectively the same stats as a single nevajin, except the head has a fly speed of 60 feet (hover). One attempts to flee, while the other provides a distraction.",
+						"Usually, it's the head that flies away."
+					]
+				}
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "The nevajin is not a single creature, but two. It looks like a stocky, bent-over humanoid or a crouching predatory beast with a misshapen, almost skull-like head. But the head is actually a separate creature that adheres to the main body by means of connecting filaments and telekinetic force. When joined, the two portions infuse each other with filaments that allow an exchange of information and nutrients. Separation is a painful process that the nevajin does not undertake lightly. Both portions of the nevajin have their own brains, sensory organs, and digestive systems.",
+							{
+								"type":"entries",
+								"name":"Curious Specimen",
+								"entries":[
+									"Nevajin do not appear to age, and their method of reproduction is a mystery. The nevajin might be asexual, with each portion budding at the same time to create a new joined creature. But as weird as these creatures are, they seem to find the world in which they find themselves even more curious. They are constantly seeking new information and experiences."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Purveyors of Knowledge",
+								"entries":[
+									"Nevajin are fairly intelligent and speak many languages in their harsh, whispery voices. Nevajin are sources of information and interesting relics of the past. When a secret bit of knowledge is needed, the PCs must travel deep into the wilderness to find the nevajin that possesses it. They can provide a great deal of information about the numenera, but they expect to be paid for their secrets, usually in the form of items, or new information."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
