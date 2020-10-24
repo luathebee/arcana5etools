@@ -2,7 +2,8 @@
 Arcana of the Ancients 5e tools port, I guess
 
 ### Left behind:
-	*None so far :)
+#### Oorgolian Soldier
+There is an item on page 212, Oorgolian Slug Thrower. Needs to be added on item list and then tagged and linked on the salvage entry for the creature.
 
 ## Instructions
 

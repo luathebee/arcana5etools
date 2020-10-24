@@ -7371,7 +7371,7 @@
 						"• {@spell Detect thoughts}, except affecting up to five creatures within 60 feet.",
 						"• Deal 2 ({@damage 1d4}) psychic damage to a creature within 500 feet, even if it has no direct line of sight to that creature.",
 						"• {@spell Telekinesis}, except the weight limit is 200 pounds and the range is 60 feet. If the ojj uses its action doing nothing but telekinesis, it can move up to 400 pounds.",
-						"• Create a vaguely humanoid {@footone psychic construct|Psychic Construct. Use stats for basic automaton type five.|Basic automaton, page 246}, an automaton made of pure mental energy, that lasts for one minute. The construct obeys the ojj's mental commands and can manipulate physical objects as well as a human can.",
+						"• Create a vaguely humanoid {@footnote psychic construct|Psychic Construct. Use stats for basic automaton type five.|Basic automaton, page 246}, an automaton made of pure mental energy, that lasts for one minute. The construct obeys the ojj's mental commands and can manipulate physical objects as well as a human can.",
 						"• Increase its AC by +2 until the start of its next turn.",
 						"• Activate, deactivate, or manipulate a numenera device within 60 feet.",
 						"• Drain energy from a numenera relic, installation, or vehicle within 60 feet, restoring 30 hp if uncommon, 50 hp if rare, 75 hp if very rare, or 90 hp if it is legendary. The object must make a depletion roll each time an ojj uses this ability on it.",
@@ -7447,6 +7447,155 @@
 			    }
 			  ]
 			}
+		},
+		{
+	"name": "Oorgolian Soldier",
+	"source": "AotA",
+	"page": 212,
+	"size": "M",
+	"type": "construct",
+	"alignment": [
+		"N"
+	],
+	"ac": [
+		{
+			"ac": 16,
+			"from": [
+				"natural armor"
+			]
 		}
+	],
+	"hp": {
+		"average": 45,
+		"formula": "6d10 + 12"
+	},
+	"speed": {
+		"walk": 50
+	},
+	"str": 15,
+	"dex": 12,
+	"con": 13,
+	"int": 14,
+	"wis": 11,
+	"cha": 13,
+	"skill": {
+		"athletics": "+6",
+		"perception": "+2"
+	},
+	"passive": 13,
+	"immune": [
+		"poison",
+		"psychic"
+	],
+	"vulnerable": [
+		"thunder"
+	],
+	"conditionImmune": [
+		"blinded",
+		"charmed",
+		"deafened",
+		"frightened",
+		"paralyzed",
+		"petrified",
+		"poisoned"
+	],
+	"languages": [
+		"Oorgolian"
+	],
+	"cr": "2",
+	"trait": [
+		{
+			"name": "Self-detonation",
+			"entries": [
+				"When the soldier dies, it explodes as if the center of one its own detonation thrower attacks. This destroys the built-in, back-mounted detonation thrower, and on a roll of 1-2 on {@dice 1d6}, also destroys the slug-thrower relic."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Oorgolian Slug Thrower",
+			"entries": [
+				"{@atk rw} {@hit 4} to hit, range 120 ft., one target. {@h}13 ({@damage 2d10 + 2}) piercing damage."
+			]
+		},
+		{
+			"name": "Detonation Thrower {@recharge 5}",
+			"entries": [
+				"The soldier deploys a back-mounted device that hurls a detonation up to 120 feet.",
+				"Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 11} Dexterity saving throw or take 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one."
+			]
+		}
+	],
+	"damageTags": [
+		"F",
+		"P"
+	],
+	"miscTags": [
+		"AOE",
+		"RW"
+	],
+	"fluff":{
+		"entries":[
+			{
+				"type":"entries",
+				"entries":[
+	        "Another wonder fashioned by the Ancients, the mechanical entities known as Oorgolian soldiers patrol isolated areas for reasons unknown, possibly anticipating another cache of the Ancients appearing nearby. They are almost always found in groups of five or seven. Lanky and alien in their movements, these quasi-humanoid automatons stand almost 8 feet tall. They wield a variety of weapons.",
+					{
+						"type":"entries",
+						"name":"Motivations Lost to Time",
+						"entries":[
+							"No one knows the origin of the word “Oorgolian.” It is thought to be a term from a tongue used by the Ancients, and so now long dead. On their own, Oorgolians act on prior orders that literally may be a million years old or more, so their actions and motives don’t always make sense. Sometimes they completely ignore creatures they find. Sometimes they attempt to communicate in their own language. Sometimes they ambush and attack."
+				    ]
+	        },
+					{
+						"type":"inset",
+						"entries":[
+							"Oorgolians act on prior orders that literally may be a million years old or more, so their actions and motives don’t always make sense."
+						]
+					},
+					{
+						"type":"entries",
+						"name":"Potential Allies",
+						"entries":[
+							"At least one mercenary leader, with the help of those who’d made a study of arcana of the Ancients, has captured and repurposed a number of Oorgolian soldiers, probably using sound. These soldiers remember nothing of their former duties and work for their new masters."
+				    ]
+	        },
+					{
+						"type":"entries",
+						"name":"Powerful Treasure (Salvage)",
+						"entries":[
+							"Oorgolian soldiers carry relic weapons called Oorgolian slug throwers. In addition, each Oorgolian body contains {@dice 1d6} cyphers."
+				    ]
+	        },
+					{
+						"type": "insetReadaloud",
+						"entries": [
+							{
+								"type":"quote",
+								"entries":[
+									"These are soldiers after my own heart. Maybe they don’t know what they’re fighting for anymore. Maybe what they’re fighting for is long dead! But they fight anyway. And look at their discipline! Still patrolling, still training, still maintaining their weapons. If I’d had a company like this back in the day, my clan would never have lost the Delve..."
+								],
+								"by":"Faim Trubeard, dwarf veteran and prospector"
+							}
+						]
+					},
+					{
+					  "type":"inset",
+					  "entries":[
+					    {
+					      "type":"quote",
+					      "entries":[
+					        "I’m sorry that memory brings you such pain, Faim. But take comfort. These Oorgolians would have likely refused to help, or worse, taken the Delve for their own"
+					      ],
+					      "by":"Elmande, elf mage and scholar"
+					    }
+					  ]
+					}
+			  ]
+	    }
+	  ]
+	}
+}
+
 	]
 }
