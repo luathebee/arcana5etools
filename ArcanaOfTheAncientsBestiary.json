@@ -7265,6 +7265,188 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Ojj",
+			"source": "AotA",
+			"page": 210,
+			"size": "L",
+			"type": "elemental",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 375,
+				"formula": "30d10 + 210"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 15,
+			"dex": 15,
+			"con": 25,
+			"int": 25,
+			"wis": 20,
+			"cha": 20,
+			"save": {
+				"int": "+15",
+				"wis": "+13",
+				"cha": "+13"
+			},
+			"skill": {
+				"deception": "+13",
+				"intimidation": "+13",
+				"perception": "+13"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 23,
+			"resist": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				"piercing",
+				"psychic",
+				"radiant",
+				"slashing",
+				"thunder"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"prone"
+			],
+			"languages": [
+				"telepathy 1 mile"
+			],
+			"cr": "25",
+			"trait": [
+				{
+					"name": "Energy Form",
+					"entries": [
+						"The ojj can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the ojj or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 2d10}) psychic damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d10}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Mind Sense",
+					"entries": [
+						"An ojj automatically senses the presence of all minds within its telepathy range unless the minds are behind a force field."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ojj fires two psychic blasts, uses two unique abilities, or one psychic blast and one unique ability."
+					]
+				},
+				{
+					"name": "Psychic Blast",
+					"entries": [
+						"{@atk rw} {@hit 15} to hit, range 100/200 ft., one target. {@h}62 ({@damage 10d10 + 7}) force damage or 51 ({@damage 8d10 + 7}) psychic damage."
+					]
+				},
+				{
+					"name": "Unique Abilities",
+					"entries": [
+						"Ojj have advanced psychic powers. Each ojj usually has four of the following abilities, and may have one additional ability unique to that individual.",
+						"Unless otherwise stated, these abilities require a direct line of sight to the target. Effects listed here that duplicate spells are nonmagical numenera psychic abilities. If the effect would normally have a saving throw, it is a {@dc 21} Wisdom save.",
+						"• {@spell Dominate monster}, except limited to a 500-foot range. Depending on the ojj, a controlled target can attempt to break free every round, every minute, every hour, every day, or every few days. This control usually manifests as a visible colored halo around the head of the target.",
+						"• {@spell Detect thoughts}, except affecting up to five creatures within 60 feet.",
+						"• Deal 2 ({@damage 1d4}) psychic damage to a creature within 500 feet, even if it has no direct line of sight to that creature.",
+						"• {@spell Telekinesis}, except the weight limit is 200 pounds and the range is 60 feet. If the ojj uses its action doing nothing but telekinesis, it can move up to 400 pounds.",
+						"• Create a vaguely humanoid {@footone psychic construct|Psychic Construct. Use stats for basic automaton type five.|Basic automaton, page 246}, an automaton made of pure mental energy, that lasts for one minute. The construct obeys the ojj's mental commands and can manipulate physical objects as well as a human can.",
+						"• Increase its AC by +2 until the start of its next turn.",
+						"• Activate, deactivate, or manipulate a numenera device within 60 feet.",
+						"• Drain energy from a numenera relic, installation, or vehicle within 60 feet, restoring 30 hp if uncommon, 50 hp if rare, 75 hp if very rare, or 90 hp if it is legendary. The object must make a depletion roll each time an ojj uses this ability on it.",
+						"• {@spell Imprisonment} (slumber) on a creature within 60 feet, lasting 1 minute.",
+						"• {@spell Wall of force}, except it is a 10-foot square, within 60 feet, lasting 1 minute.",
+						"• {@spell Fabricate}, affecting a 5-foot cube within 60 feet; the ojj can use this ability to perform fine crafting over time, even numenera crafting, given the proper materials.",
+						"• {@spell Major Image}, with the nearest edge within 10 feet, lasting 10 minutes.",
+						"• Alter its psychic blast to deal cold, fire, lightning, radiant, or thunder damage instead of psychic damage.",
+						"• Heal 10 points of damage to a creature other than itself within 60 feet.",
+						"• {@spell Teleport} itself and up to three other Medium creatures up to 1 mile away."
+					]
+				},
+				{
+					"name": "Unique Augmentations",
+					"entries": [
+						"Instead of one of the above abilities, an ojj might have one of the following augmentations to one of its abilities:",
+						"• The ability's range increases by one category (60 feet to 100 feet, 100 feet to 500 feet, 500 feet to 1 mile, 1 mile to 5 miles). This doesn't affect the sight requirements for the ability.",
+						"• The ability can affect targets that aren't within the ojj's line of sight. This doesn't affect the range of the ability.",
+						"• The ability can be used once per round without counting toward the normal limitation of two abilities per action."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"F",
+				"O",
+				"Y",
+				"R",
+				"C",
+				"L",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"RW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Ojj are powerful energy beings left over from the ancient past. Most were imprisoned and buried long ago by advanced numenera-wielding civilizations that couldn’t quite destroy them. These hateful things have been silently fuming for aeons, but a few have picked at the locks of their cages long enough to allow them limited access to the outer world, which they use to lure beings with lies, threats, and promises of great rewards in exchange for their freedom.",
+							{
+								"type":"entries",
+								"name":"Advanced Telepaths",
+								"entries":[
+									"Ojj are naturally telepathic and can mentally communicate to a range of about 1 mile, even speaking simultaneously to dozens or hundreds of people."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Malevolent",
+								"entries":[
+									"Ojj enjoy dominating others, inflicting pain, and flattery. They act as if they are gods and expect weaker beings to worship them. They place little value on the lives of physical beings and act only in the interest of their power and ego. They are very dangerous foes and can cause a lot of destruction if allowed to move freely. An imprisoned or weakened one might present itself as a god to a cult or tribe of humanoids, demanding sacrifices and torture in its name."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The afterimages of an ojj’s death might coalesce into {@dice 1d6} energy- based cyphers and one or two energy-based relics. The numenera that imprisoned a now-dead ojj can also be salvaged for {@dice 1d6} additional cyphers."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
