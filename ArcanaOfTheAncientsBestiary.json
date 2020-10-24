@@ -7595,6 +7595,155 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Peerless",
+			"isNamedCreature": true,
+			"source": "AotA",
+			"page": 214,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 16,
+			"int": 12,
+			"wis": 10,
+			"cha": 14,
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"telepathy 120 ft. (only with other machines)",
+				"can quickly learn most verbal languages"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Machine Focused",
+					"entries": [
+						"When Peerless uses Inveigle or Spawn New",
+						"Instance, constructs and machines have disadvantage on their saves; all other creatures have advantage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Peerless has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Peerless's weapon attacks are treated as if magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Peerless makes two claws attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Inveigle",
+					"entries": [
+						"One creature within 60 feet must succeed on a {@dc 13} Wisdom saving throw or be {@condition charmed} by Peerless for 1 hour or until Peerless does something harmful to them. The {@condition charmed} creature is friendly and helpful to Peerless, but after the effect ends, they know that their inclinations were manipulated."
+					]
+				},
+				{
+					"name": "Spawn New Instance {@recharge}",
+					"entries": [
+						"One creature chosen by Peerless within 30 feet that is currently or has previously succumbed to Inveigle must succeed on a {@dc 13} Constitution saving throw or be infected with a machine disease called Peerless. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 ({@dice 3d6}) every 24 hours. If the target is a living creature, during this period their biological parts are observed to be slowly replaced by machine components. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into another instance of Peerless. If the disease is halted before it goes to completion, a biological creature's body rejects the artificial parts, and regains maximum hit points at the same rate they were lost."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Peerless is a machine creature that exists in multiple construct bodies, sometimes {@footnote taking over other machines to duplicate more versions of itself, erasing any personality or goals that may have previous existed|A cypher or relic the PC carries with the potential to host even a limited machine intelligence might be briefly infected with Peerless. It begins to speak as Peerless and work against the PC however it can for a day, after which the instance of Peerless, finding the item too small to hold it, erases itself.}. All it cares about is spreading itself as far and wide as possible. It is Peerless.",
+							{
+								"type":"entries",
+								"name":"Fearless Narcissist",
+								"entries":[
+									"Those have encountered instances of Peerless describe the construct as bloodthirsty, single-minded, and a bit unstable; each individual construct claims that it is Peerless, the source mind from which all others are made. Even newly converted machines and constructs say the same. This begs the question of where the originating intelligence of Peerless actually resides—maybe in a hidden ruin, as a consciousness in some nearby but unseen dimension, or as a mind distributed across every connected construct."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Prejudiced Against Flesh",
+								"entries":[
+									"An individual Peerless construct ignores biological creatures if there are constructs or machines to be interacted with. However, if there is no choice but to interact with a living creature, Peerless may establish verbal communication. In such cases, it comes across as over-the-top pompous and self-important, always refering to itself as Peerless. Although Peerless isn’t worried about risking any particular instance of itself in combat, it will forgo conflict in return for information about the location of other machines, especially {@creature mlox|aota|mloxan}. However, if a PC happens to be part machine, all bets are off, because Peerless will be keen to convert them. (Purely biological creatures may face the same issue, though only if Peerless is feeling experimental.)"
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
