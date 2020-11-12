@@ -8362,6 +8362,176 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Pygmy Hapax",
+			"source": "AotA",
+			"page": 222,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 81,
+				"formula": "9d10 + 32"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 19,
+			"int": 1,
+			"wis": 12,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The pygmy hapax has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Color Burst",
+					"entries": [
+						"When a pygmy hapax dies, it explodes in a maelstrom of clashing colors. All creatures in a 20-foot-radius sphere centered on it must succeed on {@dc 13} Dexterity save or take 18 ({@damage 4d8}) necrotic damage, or half that if successful. In the aftermath, 3 ({@dice 1d6}) objects carried by creatures in the blast\u2014or potentially some portion of their anatomy\u2014takes on a bright new hue, possibly even dimly glowing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The pygmy hapax makes two tendril attacks."
+					]
+				},
+				{
+					"name": "Tendrils",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage and the target is {@condition grappled} (escape {@dc 13}; each failed escape attempt further entangles victim, cumulatively increasing escape DC by 1).",
+						"Until this grapple ends, the target is {@condition restrained}, and the pygmy hapax can't use its tendrils on another target. In addition, each round the grapple persists, the color of one object in their possession\u2014or some portion of their anatomy if it carries no unaffected objects\u2014turns black, starting with the brightest. Whether object or anatomy, this deals 10 ({@damage 3d6}) necrotic damage to the {@condition grappled} victim."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "They came down in great, long streams",
+											"as if settling to the earth in waves of dreams",
+											"I reached to touch one, just one, it seems",
+											"And oh the screams, the screams, the screams"
+							      ],
+							      "by":"Poet unknown (and not very good)"
+							    }
+							  ]
+							},
+							"No one can dispute the beauty of the pygmy hapax—at least, no one who has seen the brightly hued, floating creatures coming down to rest upon the earth, their trailing plumages following their descent. They are encountered either soaring in the sky or hovering, always at least a foot above the ground. Pygmy hapax tend to travel in large groups called clouds.",
+							{
+								"type":"entries",
+								"name":"Tendrils of Beauty and Threat",
+								"entries":[
+									"The tendrils are their true beauty—and their true danger. Each tendril trails nearly 20 feet or longer, and each is covered with millions of small, hollow barbs. Anything that falls into the hapax’s wake—or is purposefully snatched by a billowing tendril—quickly finds itself wrapped into oblivion, its very colors pulled from it as if by a great siphon."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Chromatic Variation Through Diet",
+								"entries":[
+									"The hapax’s complex color variations come directly from their food source, meaning that the creatures can change color right before your eyes if they’ve recently digested something. Pygmy hapax are always in search of the brightest hues, for those with the most saturated and complex color schemes are more likely to attract a mate."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Hapax Lures",
+								"entries":[
+									"Pygmy hapax are attracted to brightly colored objects that move and sometimes can be called down from the sky with a proper hapax trap. They might also simply be attracted to colorful creatures that congregate. For instance, a large fight with an animal as bright as a {@creature jiraskar|aota} could draw a cloud of hapax."
+						    ]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Why do they call them pygmy hapax? Where are the regular-sized ones, and how large and bright are they? I question where the lore granted us by the quotien is anything other than an ancient puzzle designed to stymie rather than clarify."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Let’s move away a little, why don’t we? I think they’re pretty, but I don’t like the look of those tendrils. And look, see those branches they were caught on? I don’t think they were glowing blue before."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
 		}
 	]
 }
