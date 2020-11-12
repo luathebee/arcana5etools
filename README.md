@@ -2,8 +2,11 @@
 Arcana of the Ancients 5e tools port, I guess
 
 ### Left behind:
-#### Oorgolian Soldier
+#### Oorgolian Soldier - 212
 There is an item on page 212, Oorgolian Slug Thrower. Needs to be added on item list and then tagged and linked on the salvage entry for the creature.
+
+#### Plasmar - 218
+Item Plasmar detonation page 219. Needs tagging on the fluff entry.
 
 ## Instructions
 

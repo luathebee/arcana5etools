@@ -7959,6 +7959,409 @@
 			    }
 			  ]
 			}
+		},
+		{
+			"name": "Plasmar",
+			"source": "AotA",
+			"page": 218,
+			"size": "M",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "11d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 12,
+			"int": 19,
+			"wis": 17,
+			"cha": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Plasmar"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The plasmar has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Plasma Form",
+					"entries": [
+						"A creature that touches the plasmar or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage and 5 ({@damage 1d10}) lightning damage, and catches fire; until someone takes an action to douse the fire, the creature takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The plasmar regains 10 hit points at the start of its turn, {@footnote if on its home turf, which is typically near (within 500 feet) of some potent energy source|In areas of particularly strong energy fields (strong enough to possibly hurt regular creatures), plasmar might regenerate even more hit points per round and double or triple their maximum hit points.}. If it starts its turn with 0 hit points, it doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}15 ({@dice 2d10 + 4}) fire (half) and lightning (half) damage. Targets must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of their next turn. Finally, the target catches fire; until someone takes an action to douse the fire, the creature takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Welding Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one {@condition stunned} humanoid. {@h}28 ({@damage 5d10}) fire damage plus 28 ({@damage 5d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Plasma Blast {@recharge 5}",
+					"entries": [
+						"The plasmar emits plasma (fire and lightning) in a 100-foot-long, 5-foot-wide line. Each creature in that area must succeed on a {@dc 15} Dexterity saving throw or take 13 ({@damage 2d8 + 4}) fire damage plus 13 ({@dice 2d8} +",
+						"4) lightning damage and be {@condition stunned} until it succeeds on a saving throw at the end of each of its turns. Finally, the target catches fire; until someone takes an action to douse the fire; the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Ride the Lightning {@recharge 5}",
+					"entries": [
+						"The plasmar becomes a bolt of lightning, along with any equipment it is wearing or carrying, and teleports up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"L"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			              "Plasmars are tall, night-black humanoids swaddled in magnetic skins of luminous “liquid fire.” They’re intelligent entities drawn to areas where immense energies are generated or have been recently discharged. They dwell in subterranean tunnels around active volcanoes and in areas rich in Ancients machines that generate the sort of energy fields plasmars depend on to survive. {@footnote Sometimes plasmar scouting parties travel with thunderstorms, looking for new territory.| Plasmars are self-willed and can be strongly territorial, especially if they believe that visitors risk disrupting their energy fields}",
+							{
+								"type":"inset",
+								"entries":[
+											"Plasmars are not automatically hostile, though they are wary of visitors. Their speech is interspersed with the buzzing and snapping of electrical discharges."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Manifestations of a Sun",
+								"entries":[
+									"Plasmars are not automatically hostile, though they are wary of visitors. Their speech is interspersed with the buzzing and snapping of electrical discharges. Plasmars view the world differently than regular living creatures do, since they need energy the way that other creatures need air. According to plasmar lore, they originally lived on the surface of a sun that is now long dead and gone."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Storm-tossed Squatters",
+								"entries":[
+									"A group of plasmars materialized in the aftermath of a recent storm of noteworthy ferocity. The storm is long gone, but the plasmars remain on the crown of a bare hill not far away. A scholar who recently identified the hill as the site of an Ancient’s cache seeks mercenaries to eliminate the “black-cloaked squatters” that are preventing her from exploiting her discovery."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage: Gift of Storm",
+								"entries":[
+									"Sometimes plasmars give a plasma detonation cypher as a gift."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Progenitor",
+			"source": "AotA",
+			"page": 221,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d10 + 66"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 40
+			},
+			"str": 25,
+			"dex": 11,
+			"con": 22,
+			"int": 10,
+			"wis": 13,
+			"cha": 9,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 120 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"bludgeoning",
+				"cold"
+			],
+			"languages": [
+				"telepathy 500 ft. (among progenitors and its young)"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The progenitor can breathe only underwater."
+					]
+				},
+				{
+					"name": "Water Predator",
+					"entries": [
+						"The progenitor has advantage on Dexterity (Stealth) checks made to hide in water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The progenitor can use Mothering and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}35 ({@damage 8d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Mothering",
+					"entries": [
+						"The progenitor targets one creature it can sense within 30 feet of it. The target must succeed on a {@dc 18} Constitution saving throw or take 3 ({@damage 1d6}) psychic damage and then be affected either by fear or calm love, depending on what the progenitor chooses.",
+						"If filled with fear, the target becomes {@condition frightened} for 1 minute. An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the progenitor's fear for the next 24 hours.",
+						"If filled with calm love, the target is {@condition charmed}, and moves toward the progenitor with open arms, all defenses lowered on their next turn. The progenitor's next two Claw attacks against the affected target automatically succeed and inflict maximum damage. This ends the calm love effect, and the creature is immune to the progenitor's calm love for the next 24 hours."
+					]
+				},
+				{
+					"name": "Eggburst",
+					"entries": [
+						"The progenitor's young hatch from her belly pouch, swarming all foes in a 20-foot-radius sphere centered on the progenitor with progenitor larva. Targets in the area must succeed on a {@dc 18} Constitution saving throw or take 45 ({@damage 10d8}) piercing damage, or half that if successful. Afterward, a {@creature progenitor larva swarm|aota} remains."
+					]
+				}
+			],
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			              "These mermaid-like broodmares hate and fear surface-dwellers, seeing them as wholly alien and incomprehensible. Their life’s goal is to give birth to their young—creatures much like electric eels—and then protect those young from all dangers. Growing to more than 10 feet in height, progenitors look humanlike from a distance. Up close, even through murky water, it is clear that they are dangerous predators—and that’s even before they show their true colors.",
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type":"quote",
+										"entries":[
+											"Mermaids? That’s a stretch.”"
+										],
+										"by":"Faim Trubeard, dwarf veteran and prospector"
+									}
+								]
+							},
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "I didn’t say they were mermaids. They remind me of mermaids. Certainly, I don’t need to enumerate the similarities? But yes, obviously there are many differences, too. Such as the fact that these progenitors are an order of magnitude older than anything that lives in our seas."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"Although the progenitors are tough physical combatants, their real challenge is their field of psychic energy. They can use this to affect the emotions of nearby creatures. The progenitor either fills them with fear, or fills them with calm love. Progenitors can be dangerous foes, even against large groups of PCs. They are scary creatures to encounter in any undersea adventure, especially in deep water where they are more likely to have larva swarms around them."
+								]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Progenitor Larva Swarm",
+			"source": "AotA",
+			"page": 221,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"swim": 30
+			},
+			"str": 5,
+			"dex": 15,
+			"con": 10,
+			"int": 2,
+			"wis": 12,
+			"cha": 4,
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny eel. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The larva swarm can only breathe underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 0 ft., one creature in the swarm's space. {@h}5 ({@damage 2d4}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	]
 }
