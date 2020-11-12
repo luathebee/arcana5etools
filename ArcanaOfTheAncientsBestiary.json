@@ -7739,6 +7739,221 @@
 								"entries":[
 									"An individual Peerless construct ignores biological creatures if there are constructs or machines to be interacted with. However, if there is no choice but to interact with a living creature, Peerless may establish verbal communication. In such cases, it comes across as over-the-top pompous and self-important, always refering to itself as Peerless. Although Peerless isn’t worried about risking any particular instance of itself in combat, it will forgo conflict in return for information about the location of other machines, especially {@creature mlox|aota|mloxan}. However, if a PC happens to be part machine, all bets are off, because Peerless will be keen to convert them. (Purely biological creatures may face the same issue, though only if Peerless is feeling experimental.)"
 						    ]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "The arrogance is what astonishes me most. And the lack of need for someone other than itself, only and forever. Having no one else to interact with would drive most creatures mad. Though perhaps that is exactly what happened, aeons ago."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Philethis",
+			"source": "AotA",
+			"page": 217,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 146,
+				"formula": "17d8 + 72"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 18,
+			"int": 18,
+			"wis": 15,
+			"cha": 19,
+			"skill": {
+				"perception": "+7",
+				"stealth": "+8"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"any it encounters"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the philethis fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The philethis has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The philethis' weapon attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "New Instance",
+					"entries": [
+						"A destroyed philethis reforms elsewhere in {@dice 2d6} days, regaining all its hit points and becoming active again.",
+						"The new body appears inside a previously keyed machine of the Ancients."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The philethis can use its Stare of the Aeons, and make three {@condition invisible} force blade attacks."
+					]
+				},
+				{
+					"name": "Invisible Force Blade",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Stare of the Aeons",
+					"entries": [
+						"The philethis focuses on one creature it can see within 30 feet of it. Whether or not the target can see the philethis, the target must succeed on a {@dc 17} Wisdom saving throw or be {@condition stunned} until the end of the philethis' next turn. If the target's saving throw is successful, the target is immune to the philethis' stare for the next 24 hours."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The philethis teleports, along with any equipment it is wearing or carrying, up to 500 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Invisible Force Blade",
+					"entries": [
+						"The philethis makes an {@condition invisible} force blade attack."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The philethis uses a teleport action."
+					]
+				},
+				{
+					"name": "Stare of the Aeons (Costs 3 actions)",
+					"entries": [
+						"The philethis makes a",
+						"Stare of the Aeons attack."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			              "Of all the strange creatures that appeared in conjunction with the caches of the Ancients opening, few are more mysterious than philethis. It’s not even known for sure if they come from the caches, or if they were simply attracted to the event from somewhere else entirely. Some even wonder if they are not Ancients themselves, as all seem to have a far greater mastery of numenera than anything else.",
+										"No one has seen the entire body of a philethis and reported what they saw, but the glimpses noted to date suggest a biomechanical hybrid form. Typically what is seen is a metal and glass “face” surrounded by voluminous cloaks.",
+							{
+								"type":"entries",
+								"name":"Mysterious",
+								"entries":[
+									"Other speculation about the philethis includes claims that they are constructs, that they are demons, that they are tiny dimensions unto themselves, and/or that their “face” is actually a viewport for a creature beyond space and time. Most theories about their nature don’t even guess at what their goals or motivations might be. {@footnote They appear when and where they want to, and they usually seem to observe events from a distance |Something unexpected and unpredictable might happen when the philethis is near. The event should be small, but result in a significant change. For example, the PC slips and falls into a 10-foot-deep pit, suffering damage, but then finds something of great interest at the bottom.} (although another theory suggests that they influence the events somehow)."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Mysterious",
+								"entries":[
+									"Philethis are not hostile (though aggressively defend themselves if attacked). If engaged in conversation, they might respond in their strange, machinelike voices, speaking in the native language of whomever they talk to. However, such interchanges usually make a philethis more enigmatic rather than less. Their explanations for things rarely make sense, and the questions they ask seem unrelated to anything going on around them. A typical philethis interaction might go as follows:",
+									{
+										"type":"quote",
+										"entries":[
+											"Human: Who are you and what are you doing here?",
+											"Philethis: The moon is full, and the roses will bloom in 437 hours.",
+											"Human: What are you talking about?",
+											"Philethis: When you were eleven years old and playing with that ball, why did you bounce it three times against the wall but four times against the ground?",
+											"Human: How do you know anything about when I was a child?",
+											"Philethis: The galaxies will collide soon. We must prepare."
+										]
+									}
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Always One Step Ahead",
+								"entries":[
+									"Philethis are meant to be an enigma. Players (and their characters) should never fully understand the creatures, and if they believe that they do, something should happen to show that they are wrong. Moreover, the PCs should find out at odd times and in odd ways that the philethis are involved—or at least appear to be involved—in surprising situations. Are they just observing, or are they manipulating events somehow? And if so, why? The quest for this knowledge could be the basis for an entire campaign."
+						    ]
 			        }
 					  ]
 			    }
