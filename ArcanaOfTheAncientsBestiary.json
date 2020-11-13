@@ -7739,7 +7739,795 @@
 								"entries":[
 									"An individual Peerless construct ignores biological creatures if there are constructs or machines to be interacted with. However, if there is no choice but to interact with a living creature, Peerless may establish verbal communication. In such cases, it comes across as over-the-top pompous and self-important, always refering to itself as Peerless. Although Peerless isn’t worried about risking any particular instance of itself in combat, it will forgo conflict in return for information about the location of other machines, especially {@creature mlox|aota|mloxan}. However, if a PC happens to be part machine, all bets are off, because Peerless will be keen to convert them. (Purely biological creatures may face the same issue, though only if Peerless is feeling experimental.)"
 						    ]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "The arrogance is what astonishes me most. And the lack of need for someone other than itself, only and forever. Having no one else to interact with would drive most creatures mad. Though perhaps that is exactly what happened, aeons ago."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Philethis",
+			"source": "AotA",
+			"page": 217,
+			"size": "M",
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 146,
+				"formula": "17d8 + 72"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 18,
+			"int": 18,
+			"wis": 15,
+			"cha": 19,
+			"skill": {
+				"perception": "+7",
+				"stealth": "+8"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"any it encounters"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the philethis fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The philethis has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The philethis' weapon attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "New Instance",
+					"entries": [
+						"A destroyed philethis reforms elsewhere in {@dice 2d6} days, regaining all its hit points and becoming active again.",
+						"The new body appears inside a previously keyed machine of the Ancients."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The philethis can use its Stare of the Aeons, and make three {@condition invisible} force blade attacks."
+					]
+				},
+				{
+					"name": "Invisible Force Blade",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Stare of the Aeons",
+					"entries": [
+						"The philethis focuses on one creature it can see within 30 feet of it. Whether or not the target can see the philethis, the target must succeed on a {@dc 17} Wisdom saving throw or be {@condition stunned} until the end of the philethis' next turn. If the target's saving throw is successful, the target is immune to the philethis' stare for the next 24 hours."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"The philethis teleports, along with any equipment it is wearing or carrying, up to 500 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Invisible Force Blade",
+					"entries": [
+						"The philethis makes an {@condition invisible} force blade attack."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The philethis uses a teleport action."
+					]
+				},
+				{
+					"name": "Stare of the Aeons (Costs 3 actions)",
+					"entries": [
+						"The philethis makes a",
+						"Stare of the Aeons attack."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			              "Of all the strange creatures that appeared in conjunction with the caches of the Ancients opening, few are more mysterious than philethis. It’s not even known for sure if they come from the caches, or if they were simply attracted to the event from somewhere else entirely. Some even wonder if they are not Ancients themselves, as all seem to have a far greater mastery of numenera than anything else.",
+										"No one has seen the entire body of a philethis and reported what they saw, but the glimpses noted to date suggest a biomechanical hybrid form. Typically what is seen is a metal and glass “face” surrounded by voluminous cloaks.",
+							{
+								"type":"entries",
+								"name":"Mysterious",
+								"entries":[
+									"Other speculation about the philethis includes claims that they are constructs, that they are demons, that they are tiny dimensions unto themselves, and/or that their “face” is actually a viewport for a creature beyond space and time. Most theories about their nature don’t even guess at what their goals or motivations might be. {@footnote They appear when and where they want to, and they usually seem to observe events from a distance |Something unexpected and unpredictable might happen when the philethis is near. The event should be small, but result in a significant change. For example, the PC slips and falls into a 10-foot-deep pit, suffering damage, but then finds something of great interest at the bottom.} (although another theory suggests that they influence the events somehow)."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Mysterious",
+								"entries":[
+									"Philethis are not hostile (though aggressively defend themselves if attacked). If engaged in conversation, they might respond in their strange, machinelike voices, speaking in the native language of whomever they talk to. However, such interchanges usually make a philethis more enigmatic rather than less. Their explanations for things rarely make sense, and the questions they ask seem unrelated to anything going on around them. A typical philethis interaction might go as follows:",
+									{
+										"type":"quote",
+										"entries":[
+											"Human: Who are you and what are you doing here?",
+											"Philethis: The moon is full, and the roses will bloom in 437 hours.",
+											"Human: What are you talking about?",
+											"Philethis: When you were eleven years old and playing with that ball, why did you bounce it three times against the wall but four times against the ground?",
+											"Human: How do you know anything about when I was a child?",
+											"Philethis: The galaxies will collide soon. We must prepare."
+										]
+									}
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Always One Step Ahead",
+								"entries":[
+									"Philethis are meant to be an enigma. Players (and their characters) should never fully understand the creatures, and if they believe that they do, something should happen to show that they are wrong. Moreover, the PCs should find out at odd times and in odd ways that the philethis are involved—or at least appear to be involved—in surprising situations. Are they just observing, or are they manipulating events somehow? And if so, why? The quest for this knowledge could be the basis for an entire campaign."
+						    ]
 			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Plasmar",
+			"source": "AotA",
+			"page": 218,
+			"size": "M",
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "11d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 12,
+			"int": 19,
+			"wis": 17,
+			"cha": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Plasmar"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The plasmar has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Plasma Form",
+					"entries": [
+						"A creature that touches the plasmar or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage and 5 ({@damage 1d10}) lightning damage, and catches fire; until someone takes an action to douse the fire, the creature takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The plasmar regains 10 hit points at the start of its turn, {@footnote if on its home turf, which is typically near (within 500 feet) of some potent energy source|In areas of particularly strong energy fields (strong enough to possibly hurt regular creatures), plasmar might regenerate even more hit points per round and double or triple their maximum hit points.}. If it starts its turn with 0 hit points, it doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}15 ({@dice 2d10 + 4}) fire (half) and lightning (half) damage. Targets must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of their next turn. Finally, the target catches fire; until someone takes an action to douse the fire, the creature takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Welding Touch",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one {@condition stunned} humanoid. {@h}28 ({@damage 5d10}) fire damage plus 28 ({@damage 5d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Plasma Blast {@recharge 5}",
+					"entries": [
+						"The plasmar emits plasma (fire and lightning) in a 100-foot-long, 5-foot-wide line. Each creature in that area must succeed on a {@dc 15} Dexterity saving throw or take 13 ({@damage 2d8 + 4}) fire damage plus 13 ({@dice 2d8} +",
+						"4) lightning damage and be {@condition stunned} until it succeeds on a saving throw at the end of each of its turns. Finally, the target catches fire; until someone takes an action to douse the fire; the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Ride the Lightning {@recharge 5}",
+					"entries": [
+						"The plasmar becomes a bolt of lightning, along with any equipment it is wearing or carrying, and teleports up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"L"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			              "Plasmars are tall, night-black humanoids swaddled in magnetic skins of luminous “liquid fire.” They’re intelligent entities drawn to areas where immense energies are generated or have been recently discharged. They dwell in subterranean tunnels around active volcanoes and in areas rich in Ancients machines that generate the sort of energy fields plasmars depend on to survive. {@footnote Sometimes plasmar scouting parties travel with thunderstorms, looking for new territory.| Plasmars are self-willed and can be strongly territorial, especially if they believe that visitors risk disrupting their energy fields}",
+							{
+								"type":"inset",
+								"entries":[
+											"Plasmars are not automatically hostile, though they are wary of visitors. Their speech is interspersed with the buzzing and snapping of electrical discharges."
+									]
+							},
+							{
+								"type":"entries",
+								"name":"Manifestations of a Sun",
+								"entries":[
+									"Plasmars are not automatically hostile, though they are wary of visitors. Their speech is interspersed with the buzzing and snapping of electrical discharges. Plasmars view the world differently than regular living creatures do, since they need energy the way that other creatures need air. According to plasmar lore, they originally lived on the surface of a sun that is now long dead and gone."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Storm-tossed Squatters",
+								"entries":[
+									"A group of plasmars materialized in the aftermath of a recent storm of noteworthy ferocity. The storm is long gone, but the plasmars remain on the crown of a bare hill not far away. A scholar who recently identified the hill as the site of an Ancient’s cache seeks mercenaries to eliminate the “black-cloaked squatters” that are preventing her from exploiting her discovery."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage: Gift of Storm",
+								"entries":[
+									"Sometimes plasmars give a plasma detonation cypher as a gift."
+						    ]
+			        }
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Progenitor",
+			"source": "AotA",
+			"page": 221,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "11d10 + 66"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 40
+			},
+			"str": 25,
+			"dex": 11,
+			"con": 22,
+			"int": 10,
+			"wis": 13,
+			"cha": 9,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 120 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 15,
+			"resist": [
+				"bludgeoning",
+				"cold"
+			],
+			"languages": [
+				"telepathy 500 ft. (among progenitors and its young)"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The progenitor can breathe only underwater."
+					]
+				},
+				{
+					"name": "Water Predator",
+					"entries": [
+						"The progenitor has advantage on Dexterity (Stealth) checks made to hide in water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The progenitor can use Mothering and makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}35 ({@damage 8d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Mothering",
+					"entries": [
+						"The progenitor targets one creature it can sense within 30 feet of it. The target must succeed on a {@dc 18} Constitution saving throw or take 3 ({@damage 1d6}) psychic damage and then be affected either by fear or calm love, depending on what the progenitor chooses.",
+						"If filled with fear, the target becomes {@condition frightened} for 1 minute. An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the progenitor's fear for the next 24 hours.",
+						"If filled with calm love, the target is {@condition charmed}, and moves toward the progenitor with open arms, all defenses lowered on their next turn. The progenitor's next two Claw attacks against the affected target automatically succeed and inflict maximum damage. This ends the calm love effect, and the creature is immune to the progenitor's calm love for the next 24 hours."
+					]
+				},
+				{
+					"name": "Eggburst",
+					"entries": [
+						"The progenitor's young hatch from her belly pouch, swarming all foes in a 20-foot-radius sphere centered on the progenitor with progenitor larva. Targets in the area must succeed on a {@dc 18} Constitution saving throw or take 45 ({@damage 10d8}) piercing damage, or half that if successful. Afterward, a {@creature progenitor larva swarm|aota} remains."
+					]
+				}
+			],
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			              "These mermaid-like broodmares hate and fear surface-dwellers, seeing them as wholly alien and incomprehensible. Their life’s goal is to give birth to their young—creatures much like electric eels—and then protect those young from all dangers. Growing to more than 10 feet in height, progenitors look humanlike from a distance. Up close, even through murky water, it is clear that they are dangerous predators—and that’s even before they show their true colors.",
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type":"quote",
+										"entries":[
+											"Mermaids? That’s a stretch.”"
+										],
+										"by":"Faim Trubeard, dwarf veteran and prospector"
+									}
+								]
+							},
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "I didn’t say they were mermaids. They remind me of mermaids. Certainly, I don’t need to enumerate the similarities? But yes, obviously there are many differences, too. Such as the fact that these progenitors are an order of magnitude older than anything that lives in our seas."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+								"type":"inset",
+								"entries":[
+									"Although the progenitors are tough physical combatants, their real challenge is their field of psychic energy. They can use this to affect the emotions of nearby creatures. The progenitor either fills them with fear, or fills them with calm love. Progenitors can be dangerous foes, even against large groups of PCs. They are scary creatures to encounter in any undersea adventure, especially in deep water where they are more likely to have larva swarms around them."
+								]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+		{
+			"name": "Progenitor Larva Swarm",
+			"source": "AotA",
+			"page": 221,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"swim": 30
+			},
+			"str": 5,
+			"dex": 15,
+			"con": 10,
+			"int": 2,
+			"wis": 12,
+			"cha": 4,
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny eel. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The larva swarm can only breathe underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 0 ft., one creature in the swarm's space. {@h}5 ({@damage 2d4}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Pygmy Hapax",
+			"source": "AotA",
+			"page": 222,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 81,
+				"formula": "9d10 + 32"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 19,
+			"int": 1,
+			"wis": 12,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The pygmy hapax has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Color Burst",
+					"entries": [
+						"When a pygmy hapax dies, it explodes in a maelstrom of clashing colors. All creatures in a 20-foot-radius sphere centered on it must succeed on {@dc 13} Dexterity save or take 18 ({@damage 4d8}) necrotic damage, or half that if successful. In the aftermath, 3 ({@dice 1d6}) objects carried by creatures in the blast\u2014or potentially some portion of their anatomy\u2014takes on a bright new hue, possibly even dimly glowing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The pygmy hapax makes two tendril attacks."
+					]
+				},
+				{
+					"name": "Tendrils",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage and the target is {@condition grappled} (escape {@dc 13}; each failed escape attempt further entangles victim, cumulatively increasing escape DC by 1).",
+						"Until this grapple ends, the target is {@condition restrained}, and the pygmy hapax can't use its tendrils on another target. In addition, each round the grapple persists, the color of one object in their possession\u2014or some portion of their anatomy if it carries no unaffected objects\u2014turns black, starting with the brightest. Whether object or anatomy, this deals 10 ({@damage 3d6}) necrotic damage to the {@condition grappled} victim."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "They came down in great, long streams",
+											"as if settling to the earth in waves of dreams",
+											"I reached to touch one, just one, it seems",
+											"And oh the screams, the screams, the screams"
+							      ],
+							      "by":"Poet unknown (and not very good)"
+							    }
+							  ]
+							},
+							"No one can dispute the beauty of the pygmy hapax—at least, no one who has seen the brightly hued, floating creatures coming down to rest upon the earth, their trailing plumages following their descent. They are encountered either soaring in the sky or hovering, always at least a foot above the ground. Pygmy hapax tend to travel in large groups called clouds.",
+							{
+								"type":"entries",
+								"name":"Tendrils of Beauty and Threat",
+								"entries":[
+									"The tendrils are their true beauty—and their true danger. Each tendril trails nearly 20 feet or longer, and each is covered with millions of small, hollow barbs. Anything that falls into the hapax’s wake—or is purposefully snatched by a billowing tendril—quickly finds itself wrapped into oblivion, its very colors pulled from it as if by a great siphon."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Chromatic Variation Through Diet",
+								"entries":[
+									"The hapax’s complex color variations come directly from their food source, meaning that the creatures can change color right before your eyes if they’ve recently digested something. Pygmy hapax are always in search of the brightest hues, for those with the most saturated and complex color schemes are more likely to attract a mate."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Hapax Lures",
+								"entries":[
+									"Pygmy hapax are attracted to brightly colored objects that move and sometimes can be called down from the sky with a proper hapax trap. They might also simply be attracted to colorful creatures that congregate. For instance, a large fight with an animal as bright as a {@creature jiraskar|aota} could draw a cloud of hapax."
+						    ]
+			        },
+							{
+							  "type":"inset",
+							  "entries":[
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Why do they call them pygmy hapax? Where are the regular-sized ones, and how large and bright are they? I question where the lore granted us by the quotien is anything other than an ancient puzzle designed to stymie rather than clarify."
+							      ],
+							      "by":"Elmande, elf mage and scholar"
+							    }
+							  ]
+							},
+							{
+							  "type": "insetReadaloud",
+							  "entries": [
+							    {
+							      "type":"quote",
+							      "entries":[
+							        "Let’s move away a little, why don’t we? I think they’re pretty, but I don’t like the look of those tendrils. And look, see those branches they were caught on? I don’t think they were glowing blue before."
+							      ],
+							      "by":"Faim Trubeard, dwarf veteran and prospector"
+							    }
+							  ]
+							}
 					  ]
 			    }
 			  ]
