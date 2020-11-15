@@ -677,7 +677,6 @@
 				"poisoned",
 				"stunned"
 			],
-			"languages":"",
 			"cr": "8",
 			"trait": [
 				{
@@ -3747,7 +3746,6 @@
 				"poisoned",
 				"prone"
 			],
-			"languages":"",
 			"cr": "1/8",
 			"trait": [
 				{
@@ -6665,7 +6663,7 @@
 						}
 					]
 				}
-			],"type": "item",
+			],
 			"senseTags": [
 				"D"
 			],
@@ -8532,6 +8530,1581 @@
 			    }
 			  ]
 			}
-		}
+		},
+		{
+			"name": "Tetrahydra",
+			"source": "AotA",
+			"page": 237,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 14,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 33,
+			  "formula": "6d8 + 6"
+			},
+			"speed": {
+			  "walk": 20,
+			  "fly": 120
+			},
+			"str": 17,
+			"dex": 11,
+			"con": 13,
+			"int": 5,
+			"wis": 13,
+			"cha": 6,
+			"senses": [
+			  "darkvision 60 ft."
+			],
+			"passive": 11,
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The tetrahydra can attack twice, once with its beak and once with its tentacles."
+				]
+			  },
+			  {
+				"name": "Beak",
+				"entries": [
+				  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+				]
+			  },
+			  {
+				"name": "Tentacles",
+				"entries": [
+				  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 13}).",
+				  "Until this grapple ends, the tetrahydra automatically squeezes the target for 3 ({@damage 1d6}) bludgeoning damage each round and attacks the {@condition grappled} target twice with its beak, and it has advantage on attack rolls to do so."
+				]
+			  }
+			],
+			"senseTags": [
+			  "D"
+			],
+			"actionTags": [
+			  "Multiattack",
+			  "Tentacles"
+			],
+			"damageTags": [
+			  "B",
+			  "S"
+			],
+			"miscTags": [
+			  "MW"
+			],
+			"cr": "2",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "quote",
+					  "entries": [
+						"\"The tetrahydra is clearly a creature of bizarre standing, as it has no feet. Perhaps it stays aloft eternally or lands upon its great beaks to rest.\""
+					  ],
+					  "by": "Unknown"
+					},
+					"These large creatures, approximately 6 feet tall, look like black-feathered tetrahedrons with beaks and big wings. Tetrahydras have four tentacles that they keep coiled along their lower half. The tentacles uncoil and can be used as feet and weapons.",
+					{
+					  "type": "entries",
+					  "name": "Nest Protectors. ",
+					  "entries": [
+						"Tetrahydras fight to protect their eggs, which take two years to hatch and are situated in large nests as high up as the creatures can build them. Sometimes they attack alone, but more often they attack in groups of three or more. PCs are likely to run afoul of tetrahydras only if they disturb a nest. However, an NPC skilled in breaking animals to training could have a covey of them serving as attack beasts."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Thuman",
+			"source": "AotA",
+			"page": 238,
+			"size": "M",
+			"type": {
+			  "type": "humanoid",
+			  "tags": [
+				"thuman"
+			  ]
+			},
+			"alignment": [
+			  "N"
+			],
+			"ac": [
+			  10
+			],
+			"hp": {
+			  "average": 13,
+			  "formula": "2d8 + 4"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 15,
+			"int": 7,
+			"wis": 12,
+			"cha": 14,
+			"senses": [
+			  "darkvision 30 ft."
+			],
+			"passive": 11,
+			"languages": [
+			  "quickly learns commands in any language"
+			],
+			"cr": "1/4",
+			"trait": [
+			  {
+				"name": "Keen Perceptions",
+				"entries": [
+				  "The thuman has advantage on Wisdom (Perception) checks that rely on smell, hearing, or sight."
+				]
+			  },
+			  {
+				"name": "Loyal Protector",
+				"entries": [
+				  "The thuman has advantage on attack rolls against a creature if the creature that the thuman has pledged service to is within 5 feet."
+				]
+			  }
+			],
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The thuman can make two bite attacks."
+				]
+			  },
+			  {
+				"name": "Bite",
+				"entries": [
+				  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+				]
+			  }
+			],
+			"traitTags": [
+			  "Keen Senses"
+			],
+			"senseTags": [
+			  "D"
+			],
+			"actionTags": [
+			  "Multiattack"
+			],
+			"languageTags": [
+			  "X"
+			],
+			"damageTags": [
+			  "P"
+			],
+			"miscTags": [
+			  "MW"
+			],
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					"A thuman looks much like a large hound, although it has a face that is almost human. Its tough, leathery flesh is covered in short hair except for a longer tuft at the top of its head that resembles a crest.",
+					{
+					  "type": "entries",
+					  "name": "In Service.",
+					  "entries": [
+						"Thumans are intelligent and affable companions, and rarely the masters of their own affairs, preferring instead to serve others, which they do loyally. They don’t speak, but they understand language well and can be trained to follow a vast number of commands. Thumans are almost never encountered in the wild; they actively seek the company of humans. The PCs likely encounter a thuman at the side of its master, usually someone with some previous experience exploring the legacy of the Ancients, or another creature that itself stepped out of an Ancients’ cache."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"There is an unwritten code among thuman masters to treat their companions extremely well-more like a friend or ally than a pet. The loss of a thuman companion is like the loss of a close family member."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Travonis Ul",
+			"source": "AotA",
+			"page": 239,
+			"size": "H",
+			"type": "aberration",
+			"alignment": [
+			  "N",
+			  "E"
+			],
+			"ac": [
+			  {
+				"ac": 18,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 142,
+			  "formula": "15d12 + 45"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 19,
+			"int": 15,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+			  "truesight 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+			  "acid",
+			  "cold",
+			  "fire",
+			  "lightning",
+			  "thunder"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "poisoned"
+			],
+			"languages": [
+			  "understands most languages but can't speak"
+			],
+			"cr": "10",
+			"trait": [
+			  {
+				"name": "Magic Resistance",
+				"entries": [
+				  "The travonis ul has advantage on saving throws against spells and other magical effects."
+				]
+			  },
+			  {
+				"name": "Magic Weapons",
+				"entries": [
+				  "The travonis ul's weapon attacks are magical."
+				]
+			  },
+			  {
+				"name": "Regeneration",
+				"entries": [
+				  "The travonis ul regains 10 hit points at the start of its turn if it has at least 1 hit point."
+				]
+			  },
+			  {
+				"name": "Tendril Strider",
+				"entries": [
+				  "The travonis ul's movement is unaffected by difficult terrain."
+				]
+			  }
+			],
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The travonis ul makes three attacks: one with its bite and two with its tendrils. If the travonis ul is grappling a creature, it can use smother once."
+				]
+			  },
+			  {
+				"name": "Bite",
+				"entries": [
+				  "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 7 ({@damage 2d6}) psychic damage."
+				]
+			  },
+			  {
+				"name": "Tendril",
+				"entries": [
+				  "{@atk mw} {@hit 9} to hit, reach 20 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 7 ({@damage 2d6}) psychic damage. The target is {@condition grappled} (escape {@dc 19}) if it is a Large or smaller creature and the travonis ul doesn't have two other creatures {@condition grappled}."
+				]
+			  },
+			  {
+				"name": "Smother",
+				"entries": [
+				  "The travonis ul bites and tendril-batters the {@condition grappled} creature, having advantage on attack rolls to do so. Each hit deals an additional 4 ({@damage 1d6}) psychic damage."
+				]
+			  }
+			],
+			"traitTags": [
+			  "Magic Resistance",
+			  "Magic Weapons",
+			  "Regeneration"
+			],
+			"senseTags": [
+			  "U"
+			],
+			"actionTags": [
+			  "Multiattack"
+			],
+			"languageTags": [
+			  "CS"
+			],
+			"damageTags": [
+			  "P",
+			  "S",
+			  "Y"
+			],
+			"miscTags": [
+			  "MW",
+			  "RCH"
+			],
+			"conditionInflict": [
+			  "grappled"
+			],
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					"A writhing mass of tendrils 15 feet across and 12 feet high, a travonis ul is a creature from elsewhere that hunts for organic material to consume. Three to five tendrils are particularly long, with bulbous yellow eyes at approximately their midpoint. One broad tendril has a mouth with several mandibles. In addition to the damage a bite or bludgeoning tendril bash deals, the touch of a travonis ul causes great pain and disrupts nervous systems.",
+					{
+					  "type": "entries",
+					  "name": "Ancients Outsider.",
+					  "entries": [
+						"A travonis ul is an intelligent creature, but it’s utterly alien to almost everything, even to entities related to the Ancients. It doesn’t seem to speak, read, or use tools of any kind, but it clearly understands and respects the numenera. Is it from another plane? Another time? Another world? When it comes to the travonis ul, such questions may not have meaning."
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Unearthly Hunger.",
+					  "entries": [
+						"A travonis ul looks upon all other creatures as food or enemies (or both). Travonis ul are some of the most dangerous predators to be found among the Ancients’ ruins, or in neighboring lands. The alien creatures eat constantly, so when one moves into an area, it quickly depletes the region of flora and fauna. Intelligent inhabitants usually organize resistance or just flee."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Varakith",
+			"source": "AotA",
+			"page": 0,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+			  "L",
+			  "E"
+			],
+			"ac": [
+			  {
+				"ac": 15,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 114,
+			  "formula": "12d10 + 48"
+			},
+			"speed": {
+			  "walk": 30,
+			  "burrow": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 18,
+			"int": 11,
+			"wis": 10,
+			"cha": 8,
+			"senses": [
+			  "tremorsense 120 ft."
+			],
+			"passive": 10,
+			"languages": [
+			  "Varakith"
+			],
+			"cr": "5",
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The varakith makes two attacks with its spearing legs."
+				]
+			  },
+			  {
+				"name": "Spearing Legs",
+				"entries": [
+				  "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage. Medium or smaller targets who are hit must also succeed on a {@dc 15} Strength saving throw, or be {@condition grappled} (escape {@dc 15}). A {@condition grappled} creature is attached to the varakith's back with hooks and spikes. Until this grapple ends, the target is {@condition restrained} and takes 7 ({@damage 2d6}) piercing damage each round, while the varakith gains a +1 bonus to AC. Up to three targets can be so {@condition grappled} at one time. Corpses continue to provide a bonus to AC."
+				]
+			  }
+			],
+			"senseTags": [
+			  "T"
+			],
+			"actionTags": [
+			  "Multiattack"
+			],
+			"damageTags": [
+			  "P"
+			],
+			"miscTags": [
+			  "MW"
+			],
+			"conditionInflict": [
+			  "restrained"
+			],
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					"A varakith is a vaguely insectlike creature, 10 feet long, with multiple legs that end in tips like spears. It uses these lances to skewer enemies and drain them of blood, after which the creature adds them to its own body to serve as armor. Varakith prefer to dwell alone or in pairs in any temperate or warmer region. They make nests underground.",
+					{
+					  "type": "entries",
+					  "name": "Singers, Not Mindless Beasts.",
+					  "entries": [
+						"The strange noises the varakith make are actually songs and have meaning. Varakith \"speak\" (or rather, \"sing\") by rubbing two of their legs together, which produces a trilling sound. The song that one sage translated went as follows: We fight and crush Gnash and drink The foe at our heels will be our bread The foe at our heels feeds victories yet to come Stronger today, stronger tomorrow We fight We crush We gnash"
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Coontempuous",
+					  "entries": [
+						"Varakith have a dark and bloodthirsty spirit with little respect for others. However, a creature that proves itself in combat might be considered worth speaking to if communication can be established. Varakith see the world as one big gladiatorial arena in which they must constantly prove themselves. Even a respected combatant is still a foe to be overcome eventually-long-term alliance is not possible. However, varakith are not particularly devious or duplicitous about their mindset. They make their feelings known."
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Subterranean Foes.",
+					  "entries": [
+						"Varakith are excellent foes for PCs exploring subterranean areas, and having these monstrous things turn out to be fairly intelligent is a nice twist. Consider a scenario in which a young man hires the PCs to find his brother who disappeared while exploring a cave in the hills. Only after long searches do the characters discover that the brother’s corpse now adorns the back of a vicious varakith."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"Varakith only appear after one or more Ancients’ caches open. Once loosed in the world, they likely war against subterranean communities they find in the sunless deeps."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Xi-Drake",
+			"source": "AotA",
+			"page": 241,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+			  "N",
+			  "G"
+			],
+			"ac": [
+			  {
+				"ac": 14,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 85,
+			  "formula": "9d12 + 27"
+			},
+			"speed": {
+			  "walk": 30,
+			  "fly": 120
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 17,
+			"int": 12,
+			"wis": 18,
+			"cha": 14,
+			"senses": [
+			  "darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+			  "telepathy 120 ft. (only to receive thoughts, not to send)"
+			],
+			"cr": "5",
+			"trait": [
+			  {
+				"name": "Flyby",
+				"entries": [
+				  "The xi-drake doesn't provoke an opportunity attack when it ends its movement out of an enemy's reach."
+				]
+			  },
+			  {
+				"name": "Magic Resistance",
+				"entries": [
+				  "The xi-drake has advantage on saving throws against spells and other magical effects."
+				]
+			  }
+			],
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The xi-drake makes one bite and one tail slam attack."
+				]
+			  },
+			  {
+				"name": "Bite",
+				"entries": [
+				  "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage, and the target is {@condition grappled}"
+				]
+			  },
+			  {
+				"name": "(escape {@dc 16})",
+				"entries": [
+				  "Until this grapple ends, the target is {@condition restrained}, and the xi-drake can't bite another target."
+				]
+			  },
+			  {
+				"name": "Tail Slam",
+				"entries": [
+				  "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+				]
+			  },
+			  {
+				"name": "Read Thoughts",
+				"entries": [
+				  "The xi-drake telepathically reads the surface thoughts of one creature within 120 feet that it can see as a bonus action. While the target is in range, the xi-drake can continue reading its thoughts, even if taking normal actions.",
+				  "While reading the target's mind, the xi-drake has advantage on Wisdom (Insight) and Charisma (Persuasion) checks against the target. A creature aware of the mind-reading who doesn't want their mind to be read must succeed on a {@dc 17} Wisdom saving throw, which confers a day's immunity if successful."
+				]
+			  }
+			],
+			"reaction": [
+			  {
+				"name": "Anticipate Attack (5-6)",
+				"entries": [
+				  "The xi-drake anticipates one melee attack that would hit it and negates it. To do so, the xi-drake must be reading the target's thoughts."
+				]
+			  }
+			],
+			"traitTags": [
+			  "Flyby",
+			  "Magic Resistance"
+			],
+			"senseTags": [
+			  "SD"
+			],
+			"actionTags": [
+			  "Multiattack"
+			],
+			"languageTags": [
+			  "TP"
+			],
+			"damageTags": [
+			  "B",
+			  "P"
+			],
+			"miscTags": [
+			  "MW",
+			  "RCH"
+			],
+			"conditionInflict": [
+			  "grappled",
+			  "prone",
+			  "restrained"
+			],
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					"Xi-drakes sometimes darken the skies over Ancients’ caches. Their massive size, white skin, reptile-like form with broad wings, and long tail means they are sometimes confused with different creatures entirely.",
+					{
+					  "type": "entries",
+					  "name": "Mind Readers.",
+					  "entries": [
+						"Xi-drakes have keen senses, but more impressively, they can read the mind of any intelligent living creature within 120 feet and thus are almost impossible to deceive."
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Sociable, Amenable to Pacts.",
+					  "entries": [
+						"Though telepathic, they cannot speak (telepathically or otherwise). However, their ability to read minds allows a sort of communication. They are not so much tamed or trained as they are befriended. Sometimes they enter into pacts with individuals (or groups), and serve as mounts. Once a xi-drake is bound to a rider/ companion, the two work in concert until death (usually the death of the rider, since xidrakes live for hundreds of years)."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"Xi-drakes, decanted from stasis pods by explorers, seem willing to interact with whatever creatures they encounter."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Yellow Swarm",
+			"source": "AotA",
+			"page": 242,
+			"size": "M",
+			"type": {
+			  "type": "beast",
+			  "swarmSize": "T"
+			},
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 14,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 65,
+			  "formula": "10d8 + 20"
+			},
+			"speed": {
+			  "walk": 0,
+			  "fly": {
+				"number": 20,
+				"condition": "(hover)"
+			  },
+			  "canHover": true
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 15,
+			"int": 2,
+			"wis": 11,
+			"cha": 13,
+			"senses": [
+			  "blindsight 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+			  "bludgeoning",
+			  "piercing",
+			  "slashing"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "frightened",
+			  "grappled",
+			  "paralyzed",
+			  "petrified",
+			  "prone",
+			  "restrained",
+			  "stunned"
+			],
+			"trait": [
+			  {
+				"name": "Swarm",
+				"entries": [
+				  "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+				]
+			  }
+			],
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The yellow swarm makes three bites attacks."
+				]
+			  },
+			  {
+				"name": "Bites",
+				"entries": [
+				  "{@atk mw} {@hit 5} to hit, reach 0 ft., one target in the swarm's space. {@h}17 ({@damage 4d6 + 3}) piercing damage, or 10 ({@damage 2d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+				]
+			  },
+			  {
+				"name": "Reality Phase {@recharge 4}",
+				"entries": [
+				  "The yellow swarm fades into a different reality not normally accessible by other creatures for one round, rendering attacks against it moot. Before or after reality phase, the yellow swarm can make one bites attack."
+				]
+			  }
+			],
+			"senseTags": [
+			  "B"
+			],
+			"actionTags": [
+			  "Multiattack"
+			],
+			"damageTags": [
+			  "P"
+			],
+			"miscTags": [
+			  "MW"
+			],
+			"cr": "4",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					"Yellow swarms are groups of insect-like creatures. They must stay in close proximity to one another, or they lose their ability to remain on this plane of existence. They look like a small cloud of yellow locusts until you get close enough to see that they are transparent and oddly configured, with asymmetrical bodies that have seven legs and five wings.",
+					{
+					  "type": "entries",
+					  "name": "Hunger for Brain Fluids.",
+					  "entries": [
+						"Yellow swarms feed on various chemicals in the brains and spines of living creatures. Defending against this hunger is tough because a yellow swarm is always fading in and out of reality. Yellow swarms often linger near interdimensional gates or other access points, so the presence of a swarm is a good indicator that a gate is nearby."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Yovok",
+			"source": "AotA",
+			"page": 243,
+			"size": "S",
+			"type": {
+			  "type": "humanoid",
+			  "tags": [
+				"yovok"
+			  ]
+			},
+			"alignment": [
+			  "C",
+			  "N"
+			],
+			"ac": [
+			  {
+				"ac": 14,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 14,
+			  "formula": "4d6 + 4"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 13,
+			"int": 9,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+			  "athletics": "+4"
+			},
+			"senses": [
+			  "darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+			  "Yovok",
+			  "some understand Common"
+			],
+			"cr": "1/4",
+			"action": [
+			  {
+				"name": "Spear",
+				"entries": [
+				  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+				]
+			  },
+			  {
+				"name": "Barb Spit {@recharge 5}",
+				"entries": [
+				  "{@atk rw} {@hit 5} to hit, range 40 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and target must succeed on a {@dc 13} Constitution saving throw or become {@condition paralyzed} for the next four rounds."
+				]
+			  }
+			],
+			"senseTags": [
+			  "D"
+			],
+			"languageTags": [
+			  "C"
+			],
+			"damageTags": [
+			  "P"
+			],
+			"miscTags": [
+			  "MW",
+			  "RW"
+			],
+			"conditionInflict": [
+			  "paralyzed"
+			],
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					"The horrid yovoki are short, squat, corrupt humanoids with jaundiced skin draped loosely over their flabby, hairless bodies. They hunt and kill for pleasure, although they happily eat whatever they kill as well. In fact, they eat constantly and seem able to digest almost anything. Yovoki wander in small groups of three to six in the mountains and hills.",
+					{
+					  "type": "entries",
+					  "name": "Savage Humanoid Effigies.",
+					  "entries": [
+						"Yovoki are too disordered to have a strict group hierarchy. Instead, they all just yell and snort and squeal until one of them gets their way. There are two yovoki genders, but sometimes even they cannot tell the difference between their males and females. They kill for pleasure, food, and as displays of strength."
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Gutter Schemers.",
+					  "entries": [
+						"Fast-talking characters might be able to reason with yovoki, but doing so is difficult due to their bloodlust. It might be easier for the PCs to intimidate or frighten them into compliance. Despite their corrupt and savage nature, some are smart enough to use numenera devices or hatch simple plots to get what they want-poisoning wells, kidnapping important people, and so on."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"Like killisti, yovoki are apparently humans mutated by numenera devices, possibly purposefully, though to what end and by what is unknown."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"Each yovok has a spear, club, or other melee weapon. A group of yovoki has at least one cypher among them."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Zhev",
+			"source": "AotA",
+			"page": 244,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+			  "L",
+			  "G"
+			],
+			"ac": [
+			  {
+				"ac": 20,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 60,
+			  "formula": "8d8 + 24"
+			},
+			"speed": {
+			  "walk": 0,
+			  "fly": {
+				"number": 60,
+				"condition": "(hover)"
+			  },
+			  "canHover": true
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+			  "perception": "+4"
+			},
+			"senses": [
+			  "blindsight 120 ft. (blind beyond this radius)"
+			],
+			"passive": 14,
+			"resist": [
+			  {
+				"resist": [
+				  "bludgeoning",
+				  "piercing",
+				  "slashing"
+				],
+				"note": "from nonmagical attacks not made with adamantine weapons"
+			  }
+			],
+			"immune": [
+			  "force",
+			  "necrotic",
+			  "poison"
+			],
+			"conditionImmune": [
+			  "blinded",
+			  "charmed",
+			  "deafened",
+			  "frightened",
+			  "paralyzed",
+			  "petrified",
+			  "poisoned",
+			  "stunned"
+			],
+			"languages": [
+			  "Zhev",
+			  "some understand Common"
+			],
+			"cr": "4",
+			"trait": [
+			  {
+				"name": "Magic Resistance",
+				"entries": [
+				  "The Zhev has advantage on saving throws against spells and other magical effects."
+				]
+			  },
+			  {
+				"name": "Magic Weapons",
+				"entries": [
+				  "The Zhev's weapon attacks are treated as if magical."
+				]
+			  }
+			],
+			"action": [
+			  {
+				"name": "Multiattack",
+				"entries": [
+				  "The Zhev makes three tentacular arm attacks."
+				]
+			  },
+			  {
+				"name": "Tentacular Arm",
+				"entries": [
+				  "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+				]
+			  },
+			  {
+				"name": "Net",
+				"entries": [
+				  "{@atk rw} {@hit 3} to hit, range 5/15 ft., one Large or smaller creature. {@h}The target is {@condition restrained}. A creature can use its action to make a {@dc 15} Strength check to free itself or another creature in a net, ending the effect on a success.",
+				  "Dealing 5 slashing damage to the net (AC 15) frees the target without harming it and destroys the net."
+				]
+			  },
+			  {
+				"name": "Incapacitating Gas {@recharge 5}",
+				"entries": [
+				  "The Zhev fires a canister to a point within 120 feet that it can see, which then detonates.",
+				  "Each creature in a 20-foot-radius sphere centered on that point must succeed on a {@dc 15} Constitution saving throw or be {@condition incapacitated} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				]
+			  }
+			],
+			"traitTags": [
+			  "Magic Resistance",
+			  "Magic Weapons"
+			],
+			"senseTags": [
+			  "B"
+			],
+			"actionTags": [
+			  "Multiattack"
+			],
+			"languageTags": [
+			  "C"
+			],
+			"damageTags": [
+			  "B"
+			],
+			"miscTags": [
+			  "AOE",
+			  "MW",
+			  "RCH",
+			  "RW",
+			  "THW"
+			],
+			"conditionInflict": [
+			  "incapacitated",
+			  "restrained"
+			],
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "inset",
+					  "entries": [
+						"Zhev seem inclined to prevent infractions of the law and act to preserve order, keep the peace, and protect the lives of innocents."
+					  ]
+					},
+					"Zhev are cylinders 6 feet high and 3 feet in diameter, and typically hover 3 feet off the ground. Their three triangular eyes appear to be organic. The eyes usually stay together in a larger triangle formation, moving inside the cylinder, peering through a slit near the top that goes all the way around. The eyes can also separate, each looking in a different direction, but they do this rarely.",
+					{
+					  "type": "entries",
+					  "name": "Biomechanical and Resolute.",
+					  "entries": [
+						"Although the Zhev are essentially constructs, they have organic interior components as well as mechanical parts. When activated, they either return to whatever Ancients’ command they last received (which likely makes little sense in their new context) or look for new instructions."
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Enforcers of Law.",
+					  "entries": [
+						"If a group of Zhev find themselves at loose ends, they may offer their services to a city or other location. If a pact is agreed to, affected Zhev obey the orders given to them by their new hosts. Other people cannot reason or negotiate with the Zhev. They are relentless and merciless, though they first attempt to capture criminals rather than use violent or lethal force. Usually, the Zhev seem inclined to prevent infractions of the law and act to preserve order, keep the peace, and protect the lives of innocents. When forced to choose between options, they always make the choice that saves the most people from the greatest harm. Protecting innocents takes priority over enforcing laws, assuming Zhev in the area even know what local laws might apply."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"PCs who run afoul of the Zhev have likely done something very wrong."
+					  ]
+					},
+					{
+					  "type": "inset",
+					  "entries": [
+						"The Zhev usually begin a fight by firing stun gas canisters or nets. If the gas and nets fail, Zhev physically attack."
+					  ]
+					},
+					{
+					  "type": "entries",
+					  "name": "Salvage.",
+					  "entries": [
+						"The body of a defeated Zhev can be scavenged for a cypher, and sometimes (1 in 1d10) a relic."
+					  ]
+					},
+					{
+						"type": "insetReadaloud",
+						"entries": [
+						  {
+							"type":"quote",
+							"entries":[
+								"But how well does their metal hide stand up to an axe? Now that’s a question that wants an answer."
+							],
+							"by":"Faim Trubeard, dwarf veteran and prospector"
+						  }
+						]
+					  },
+					  {
+						  "type": "inset",
+						  "entries": [
+							{
+							  "type":"quote",
+							  "entries":[
+								"Why? They seem peaceable enough. Civic-minded, one might say."
+							  ],
+							  "by":"Elmande, elf mage and scholar"
+							}
+						  ]
+						},
+						{
+							"type": "insetReadaloud",
+							"entries": [
+							  {
+								"type":"quote",
+								"entries":[
+									"They’re not natural, is why. Sure, the one we met saved us from that machine demon, thank the Forge. I appreciate that. But you're the one who pointed out what the quotien lore said about these Zhev—theyll always act to ensure a just outcome for the largest number of innocent beings, not matter what. Which means that if they have to kill five folks to save six, then those five had better be right with their gods. And that just isn’t right. Plus, why is it Zhev with a capitol 'Z'?"
+								],
+								"by":"Faim Trubeard, dwarf veteran and prospector"
+							  }
+							]
+						  }
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Basic Automaton, Type One",
+			"source": "AotA",
+			"page": 246,
+			"size": "T",
+			"type": "construct",
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 11,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 10,
+			  "formula": "4d4"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 3,
+			"dex": 10,
+			"con": 10,
+			"int": 8,
+			"wis": 8,
+			"cha": 5,
+			"passive": 9,
+			"immune": [
+			  "poison"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "deafened",
+			  "exhaustion",
+			  "frightened",
+			  "paralyzed",
+			  "petrified",
+			  "poisoned"
+			],
+			"trait": [
+				{
+					"name": "Skill Proficiency",
+					"entries": [
+						"The Automaton may use any one skill with profficiency +1"
+					]
+				}
+			],
+			"action": [
+			  {
+				"name": "Melee Attack",
+				"entries": [
+				  "Melee Weapon Attack:{@hit -2} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+				]
+			  },
+			  {
+				"name": "Ranged Attack",
+				"entries": [
+				  "{@atk rw} {@hit 2} to hit, range",
+				  "30/60 ft., one target. {@h}1 piercing damage."
+				]
+			  }
+			],
+			"damageTags": [
+			  "P",
+			  "S"
+			],
+			"miscTags": [
+			  "RW"
+			],
+			"cr": "1/8",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "inset",
+					  "entries": [
+						"The Ancients relied on automatons of every shape and size. However, despite their variety, certain automaton models have the same basic functions, though not always the same form."
+					  ]
+					},
+					"The Ancients created many kinds of automatons to take care of repetitive or dangerous tasks. These automatons’ shapes and composition may vary, and the simplest ones have a very limited number of functions. This material provides statistics for various simple automatons that adventurers might encounter during a campaign. These stat blocks can be used to represent almost any kind of uninteresting automaton-servant units that prepare or serve food, crafting units that build basic structures out of stone or wood, scouts that patrol an area, guardians that protect a creature or location, and so on. The GM can customize them by adjusting size, stats, specifying what form its attacks take (claws, slams, and so on), adding manufactured weapons (swords, rays, or even cyphers or relics), different movement modes, skill bonuses, or even a special ability. These changes should be limited so the GM doesn’t have to adjust the automaton’s challenge rating. For example, the basic automaton’s listed melee attack method is just called \"melee attack\"; it doesn’t matter if that’s a claw, drill, or blade, and the GM can use the listed attack stats for whatever weapon they decide the automaton is using. Depending on the automaton’s role, it may not have more than one attack type (a chef automaton might attack with a built-in chopping knife but not have any way to make ranged attacks). The following creature stat listings cover the five most common types of basic automatons.",
+					{
+					  "type": "inset",
+					  "entries": [
+						"The purpose of these stat blocks is to provide easy-to-use automatons for the various numenera, creatures, and adventures that need them (the equivalent of having stat blocks for generic NPCs). Customizing their stats too much isn’t worth the effort."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Basic Automaton, Type Two",
+			"source": "AotA",
+			"page": 246,
+			"size": "S",
+			"type": "construct",
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 11,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 35,
+			  "formula": "8d6 + 8"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 13,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+
+			"passive": 10,
+			"immune": [
+			  "poison"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "deafened",
+			  "exhaustion",
+			  "frightened",
+			  "paralyzed",
+			  "petrified",
+			  "poisoned"
+			],
+			"trait": [
+				{
+					"name": "Skill Proficiency",
+					"entries": [
+						"The Automaton may use any one skill with profficiency +2"
+					]
+				}
+			],
+			"action": [
+			  {
+				"name": "Melee Attack",
+				"entries": [
+				  "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
+				]
+			  },
+			  {
+				"name": "Ranged Attack",
+				"entries": [
+				  "{@atk rw} {@hit 3} to hit, range",
+				  "30/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+				]
+			  }
+			],
+			"damageTags": [
+			  "P",
+			  "S"
+			],
+			"miscTags": [
+			  "MW",
+			  "RW"
+			],
+			"cr": "1/4",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "inset",
+					  "entries": [
+						"The Ancients relied on automatons of every shape and size. However, despite their variety, certain automaton models have the same basic functions, though not always the same form."
+					  ]
+					},
+					"The Ancients created many kinds of automatons to take care of repetitive or dangerous tasks. These automatons’ shapes and composition may vary, and the simplest ones have a very limited number of functions. This material provides statistics for various simple automatons that adventurers might encounter during a campaign. These stat blocks can be used to represent almost any kind of uninteresting automaton-servant units that prepare or serve food, crafting units that build basic structures out of stone or wood, scouts that patrol an area, guardians that protect a creature or location, and so on. The GM can customize them by adjusting size, stats, specifying what form its attacks take (claws, slams, and so on), adding manufactured weapons (swords, rays, or even cyphers or relics), different movement modes, skill bonuses, or even a special ability. These changes should be limited so the GM doesn’t have to adjust the automaton’s challenge rating. For example, the basic automaton’s listed melee attack method is just called \"melee attack\"; it doesn’t matter if that’s a claw, drill, or blade, and the GM can use the listed attack stats for whatever weapon they decide the automaton is using. Depending on the automaton’s role, it may not have more than one attack type (a chef automaton might attack with a built-in chopping knife but not have any way to make ranged attacks). The following creature stat listings cover the five most common types of basic automatons.",
+					{
+					  "type": "inset",
+					  "entries": [
+						"The purpose of these stat blocks is to provide easy-to-use automatons for the various numenera, creatures, and adventures that need them (the equivalent of having stat blocks for generic NPCs). Customizing their stats too much isn’t worth the effort."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Basic Automaton, Type Three",
+			"source": "AotA",
+			"page": 247,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 13,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 65,
+			  "formula": "10d8 + 20"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 7,
+			"save": {
+			  "str": "+4"
+			},
+
+			"passive": 11,
+			"immune": [
+			  "poison"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "deafened",
+			  "exhaustion",
+			  "frightened",
+			  "paralyzed",
+			  "petrified",
+			  "poisoned"
+			],
+			"trait": [
+				{
+					"name": "Skill Proficiency",
+					"entries": [
+						"The Automaton may use any one skill with profficiency +2"
+					]
+				}
+			],
+			"action": [
+			  {
+				"name": "Melee Attack",
+				"entries": [
+				  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+				]
+			  },
+			  {
+				"name": "Ranged Attack",
+				"entries": [
+				  "{@atk rw} {@hit 3} to hit, range",
+				  "30/60 ft., one target. {@h}8 ({@damage 2d6 + 1}) piercing damage."
+				]
+			  }
+			],
+			"damageTags": [
+			  "P",
+			  "S"
+			],
+			"miscTags": [
+			  "MW",
+			  "RW"
+			],
+			"cr": "1/4",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "inset",
+					  "entries": [
+						"The Ancients relied on automatons of every shape and size. However, despite their variety, certain automaton models have the same basic functions, though not always the same form."
+					  ]
+					},
+					"The Ancients created many kinds of automatons to take care of repetitive or dangerous tasks. These automatons’ shapes and composition may vary, and the simplest ones have a very limited number of functions. This material provides statistics for various simple automatons that adventurers might encounter during a campaign. These stat blocks can be used to represent almost any kind of uninteresting automaton-servant units that prepare or serve food, crafting units that build basic structures out of stone or wood, scouts that patrol an area, guardians that protect a creature or location, and so on. The GM can customize them by adjusting size, stats, specifying what form its attacks take (claws, slams, and so on), adding manufactured weapons (swords, rays, or even cyphers or relics), different movement modes, skill bonuses, or even a special ability. These changes should be limited so the GM doesn’t have to adjust the automaton’s challenge rating. For example, the basic automaton’s listed melee attack method is just called \"melee attack\"; it doesn’t matter if that’s a claw, drill, or blade, and the GM can use the listed attack stats for whatever weapon they decide the automaton is using. Depending on the automaton’s role, it may not have more than one attack type (a chef automaton might attack with a built-in chopping knife but not have any way to make ranged attacks). The following creature stat listings cover the five most common types of basic automatons.",
+					{
+					  "type": "inset",
+					  "entries": [
+						"The purpose of these stat blocks is to provide easy-to-use automatons for the various numenera, creatures, and adventures that need them (the equivalent of having stat blocks for generic NPCs). Customizing their stats too much isn’t worth the effort."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Basic Automaton, Type Four",
+			"source": "AotA",
+			"page": 247,
+			"size": "M",
+			"type": "construct",
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 15,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 90,
+			  "formula": "12d8 + 36"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 17,
+			"dex": 13,
+			"con": 17,
+			"int": 10,
+			"wis": 12,
+			"cha": 7,
+			"save": {
+			  "str": "+5"
+			},
+			"passive": 11,
+			"immune": [
+			  "poison"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "deafened",
+			  "exhaustion",
+			  "frightened",
+			  "paralyzed",
+			  "petrified",
+			  "poisoned"
+			],
+			"trait": [
+				{
+					"name": "Skill Proficiency",
+					"entries": [
+						"The Automaton may use any one skill with profficiency +2"
+					]
+				}
+			],
+			"action": [
+			  {
+				"name": "Melee Attack",
+				"entries": [
+				  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) slashing damage."
+				]
+			  },
+			  {
+				"name": "Ranged Attack",
+				"entries": [
+				  "{@atk rw} {@hit 3} to hit, range",
+				  "30/60 ft., one target. {@h}15 ({@damage 4d6 + 1}) piercing damage."
+				]
+			  }
+			],
+			"damageTags": [
+			  "P",
+			  "S"
+			],
+			"miscTags": [
+			  "MW",
+			  "RW"
+			],
+			"cr": "4",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "inset",
+					  "entries": [
+						"The Ancients relied on automatons of every shape and size. However, despite their variety, certain automaton models have the same basic functions, though not always the same form."
+					  ]
+					},
+					"The Ancients created many kinds of automatons to take care of repetitive or dangerous tasks. These automatons’ shapes and composition may vary, and the simplest ones have a very limited number of functions. This material provides statistics for various simple automatons that adventurers might encounter during a campaign. These stat blocks can be used to represent almost any kind of uninteresting automaton-servant units that prepare or serve food, crafting units that build basic structures out of stone or wood, scouts that patrol an area, guardians that protect a creature or location, and so on. The GM can customize them by adjusting size, stats, specifying what form its attacks take (claws, slams, and so on), adding manufactured weapons (swords, rays, or even cyphers or relics), different movement modes, skill bonuses, or even a special ability. These changes should be limited so the GM doesn’t have to adjust the automaton’s challenge rating. For example, the basic automaton’s listed melee attack method is just called \"melee attack\"; it doesn’t matter if that’s a claw, drill, or blade, and the GM can use the listed attack stats for whatever weapon they decide the automaton is using. Depending on the automaton’s role, it may not have more than one attack type (a chef automaton might attack with a built-in chopping knife but not have any way to make ranged attacks). The following creature stat listings cover the five most common types of basic automatons.",
+					{
+					  "type": "inset",
+					  "entries": [
+						"The purpose of these stat blocks is to provide easy-to-use automatons for the various numenera, creatures, and adventures that need them (the equivalent of having stat blocks for generic NPCs). Customizing their stats too much isn’t worth the effort."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"name": "Basic Automaton, Type Five",
+			"source": "AotA",
+			"page": 248,
+			"size": "L",
+			"type": "construct",
+			"alignment": [
+			  "U"
+			],
+			"ac": [
+			  {
+				"ac": 15,
+				"from": [
+				  "natural armor"
+				]
+			  }
+			],
+			"hp": {
+			  "average": 133,
+			  "formula": "14d10 + 56"
+			},
+			"speed": {
+			  "walk": 30
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 19,
+			"int": 10,
+			"wis": 12,
+			"cha": 7,
+			"save": {
+			  "str": "+7"
+			},
+			"passive": 11,
+			"immune": [
+			  "poison"
+			],
+			"conditionImmune": [
+			  "charmed",
+			  "deafened",
+			  "exhaustion",
+			  "frightened",
+			  "paralyzed",
+			  "petrified",
+			  "poisoned"
+			],
+			"trait": [
+				{
+					"name": "Skill Proficiency",
+					"entries": [
+						"The Automaton may use any one skill with profficiency +3"
+					]
+				}
+			],
+			"action": [
+			  {
+				"name": "Melee Attack",
+				"entries": [
+				  "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}32 ({@damage 8d6 + 4}) slashing damage."
+				]
+			  },
+			  {
+				"name": "Ranged Attack",
+				"entries": [
+				  "{@atk rw} {@hit 4} to hit, range",
+				  "30/60 ft., one target. {@h}29 ({@damage 8d6 + 1}) piercing damage."
+				]
+			  }
+			],
+			"damageTags": [
+			  "P",
+			  "S"
+			],
+			"miscTags": [
+			  "MW",
+			  "RW"
+			],
+			"cr": "6",
+			"fluff": {
+			  "entries": [
+				{
+				  "type": "entries",
+				  "entries": [
+					{
+					  "type": "inset",
+					  "entries": [
+						"The Ancients relied on automatons of every shape and size. However, despite their variety, certain automaton models have the same basic functions, though not always the same form."
+					  ]
+					},
+					"The Ancients created many kinds of automatons to take care of repetitive or dangerous tasks. These automatons’ shapes and composition may vary, and the simplest ones have a very limited number of functions. This material provides statistics for various simple automatons that adventurers might encounter during a campaign. These stat blocks can be used to represent almost any kind of uninteresting automaton-servant units that prepare or serve food, crafting units that build basic structures out of stone or wood, scouts that patrol an area, guardians that protect a creature or location, and so on. The GM can customize them by adjusting size, stats, specifying what form its attacks take (claws, slams, and so on), adding manufactured weapons (swords, rays, or even cyphers or relics), different movement modes, skill bonuses, or even a special ability. These changes should be limited so the GM doesn’t have to adjust the automaton’s challenge rating. For example, the basic automaton’s listed melee attack method is just called \"melee attack\"; it doesn’t matter if that’s a claw, drill, or blade, and the GM can use the listed attack stats for whatever weapon they decide the automaton is using. Depending on the automaton’s role, it may not have more than one attack type (a chef automaton might attack with a built-in chopping knife but not have any way to make ranged attacks). The following creature stat listings cover the five most common types of basic automatons.",
+					{
+					  "type": "inset",
+					  "entries": [
+						"The purpose of these stat blocks is to provide easy-to-use automatons for the various numenera, creatures, and adventures that need them (the equivalent of having stat blocks for generic NPCs). Customizing their stats too much isn’t worth the effort."
+					  ]
+					}
+				  ]
+				}
+			  ]
+			}
+		  }
 	]
 }
