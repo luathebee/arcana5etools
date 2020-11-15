@@ -9514,7 +9514,7 @@
     {
       "name": "Varakith",
       "source": "AotA",
-      "page": 0,
+      "page": 240,
       "size": "L",
       "type": "monstrosity",
       "alignment": [
@@ -9621,12 +9621,12 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_144_Image_0002.png"
+              "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_242_Image_0002.png"
             }
           }
         ]
       },
-      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_144_Image_0002.png"
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_242_Image_0002.png"
     },
     {
       "name": "Xi-Drake",
