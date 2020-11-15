@@ -8610,14 +8610,14 @@
 					{
 					  "type": "quote",
 					  "entries": [
-						"\"The tetrahydra is clearly a creature of bizarre standing, as it has no feet. Perhaps it stays aloft eternally or lands upon its great beaks to rest.\""
+							"The tetrahydra is clearly a creature of bizarre standing, as it has no feet. Perhaps it stays aloft eternally or lands upon its great beaks to rest."
 					  ],
 					  "by": "Unknown"
 					},
 					"These large creatures, approximately 6 feet tall, look like black-feathered tetrahedrons with beaks and big wings. Tetrahydras have four tentacles that they keep coiled along their lower half. The tentacles uncoil and can be used as feet and weapons.",
 					{
 					  "type": "entries",
-					  "name": "Nest Protectors. ",
+					  "name": "Nest Protectors",
 					  "entries": [
 						"Tetrahydras fight to protect their eggs, which take two years to hatch and are situated in large nests as high up as the creatures can build them. Sometimes they attack alone, but more often they attack in groups of three or more. PCs are likely to run afoul of tetrahydras only if they disturb a nest. However, an NPC skilled in breaking animals to training could have a covey of them serving as attack beasts."
 					  ]
@@ -8719,7 +8719,7 @@
 					"A thuman looks much like a large hound, although it has a face that is almost human. Its tough, leathery flesh is covered in short hair except for a longer tuft at the top of its head that resembles a crest.",
 					{
 					  "type": "entries",
-					  "name": "In Service.",
+					  "name": "In Service",
 					  "entries": [
 						"Thumans are intelligent and affable companions, and rarely the masters of their own affairs, preferring instead to serve others, which they do loyally. They don’t speak, but they understand language well and can be trained to follow a vast number of commands. Thumans are almost never encountered in the wild; they actively seek the company of humans. The PCs likely encounter a thuman at the side of its master, usually someone with some previous experience exploring the legacy of the Ancients, or another creature that itself stepped out of an Ancients’ cache."
 					  ]
@@ -8871,14 +8871,14 @@
 					"A writhing mass of tendrils 15 feet across and 12 feet high, a travonis ul is a creature from elsewhere that hunts for organic material to consume. Three to five tendrils are particularly long, with bulbous yellow eyes at approximately their midpoint. One broad tendril has a mouth with several mandibles. In addition to the damage a bite or bludgeoning tendril bash deals, the touch of a travonis ul causes great pain and disrupts nervous systems.",
 					{
 					  "type": "entries",
-					  "name": "Ancients Outsider.",
+					  "name": "Ancients Outsider",
 					  "entries": [
 						"A travonis ul is an intelligent creature, but it’s utterly alien to almost everything, even to entities related to the Ancients. It doesn’t seem to speak, read, or use tools of any kind, but it clearly understands and respects the numenera. Is it from another plane? Another time? Another world? When it comes to the travonis ul, such questions may not have meaning."
 					  ]
 					},
 					{
 					  "type": "entries",
-					  "name": "Unearthly Hunger.",
+					  "name": "Unearthly Hunger",
 					  "entries": [
 						"A travonis ul looks upon all other creatures as food or enemies (or both). Travonis ul are some of the most dangerous predators to be found among the Ancients’ ruins, or in neighboring lands. The alien creatures eat constantly, so when one moves into an area, it quickly depletes the region of flora and fauna. Intelligent inhabitants usually organize resistance or just flee."
 					  ]
@@ -8891,7 +8891,7 @@
 		  {
 			"name": "Varakith",
 			"source": "AotA",
-			"page": 0,
+			"page": 240,
 			"size": "L",
 			"type": "monstrosity",
 			"alignment": [
@@ -8965,9 +8965,22 @@
 					"A varakith is a vaguely insectlike creature, 10 feet long, with multiple legs that end in tips like spears. It uses these lances to skewer enemies and drain them of blood, after which the creature adds them to its own body to serve as armor. Varakith prefer to dwell alone or in pairs in any temperate or warmer region. They make nests underground.",
 					{
 					  "type": "entries",
-					  "name": "Singers, Not Mindless Beasts.",
+					  "name": "Singers, Not Mindless Beasts",
 					  "entries": [
-						"The strange noises the varakith make are actually songs and have meaning. Varakith \"speak\" (or rather, \"sing\") by rubbing two of their legs together, which produces a trilling sound. The song that one sage translated went as follows: We fight and crush Gnash and drink The foe at our heels will be our bread The foe at our heels feeds victories yet to come Stronger today, stronger tomorrow We fight We crush We gnash"
+						"The strange noises the varakith make are actually songs and have meaning. Varakith \"speak\" (or rather, \"sing\") by rubbing two of their legs together, which produces a trilling sound. The song that one sage translated went as follows:",
+						{
+							"type":"quote",
+							"entries":[
+								 "We fight and crush",
+								 "Gnash and drink" ,
+								 "The foe at our heels will be our bread",
+								 "The foe at our heels feeds victories yet to come ",
+								 "Stronger today, stronger tomorrow ",
+								 "We fight",
+								 "We crush",
+								 "We gnash"
+							]
+						}
 					  ]
 					},
 					{
@@ -8979,7 +8992,7 @@
 					},
 					{
 					  "type": "entries",
-					  "name": "Subterranean Foes.",
+					  "name": "Subterranean Foes",
 					  "entries": [
 						"Varakith are excellent foes for PCs exploring subterranean areas, and having these monstrous things turn out to be fairly intelligent is a nice twist. Consider a scenario in which a young man hires the PCs to find his brother who disappeared while exploring a cave in the hills. Only after long searches do the characters discover that the brother’s corpse now adorns the back of a vicious varakith."
 					  ]
@@ -9124,14 +9137,14 @@
 					"Xi-drakes sometimes darken the skies over Ancients’ caches. Their massive size, white skin, reptile-like form with broad wings, and long tail means they are sometimes confused with different creatures entirely.",
 					{
 					  "type": "entries",
-					  "name": "Mind Readers.",
+					  "name": "Mind Readers",
 					  "entries": [
 						"Xi-drakes have keen senses, but more impressively, they can read the mind of any intelligent living creature within 120 feet and thus are almost impossible to deceive."
 					  ]
 					},
 					{
 					  "type": "entries",
-					  "name": "Sociable, Amenable to Pacts.",
+					  "name": "Sociable, Amenable to Pacts",
 					  "entries": [
 						"Though telepathic, they cannot speak (telepathically or otherwise). However, their ability to read minds allows a sort of communication. They are not so much tamed or trained as they are befriended. Sometimes they enter into pacts with individuals (or groups), and serve as mounts. Once a xi-drake is bound to a rider/ companion, the two work in concert until death (usually the death of the rider, since xidrakes live for hundreds of years)."
 					  ]
@@ -9253,7 +9266,7 @@
 					"Yellow swarms are groups of insect-like creatures. They must stay in close proximity to one another, or they lose their ability to remain on this plane of existence. They look like a small cloud of yellow locusts until you get close enough to see that they are transparent and oddly configured, with asymmetrical bodies that have seven legs and five wings.",
 					{
 					  "type": "entries",
-					  "name": "Hunger for Brain Fluids.",
+					  "name": "Hunger for Brain Fluids",
 					  "entries": [
 						"Yellow swarms feed on various chemicals in the brains and spines of living creatures. Defending against this hunger is tough because a yellow swarm is always fading in and out of reality. Yellow swarms often linger near interdimensional gates or other access points, so the presence of a swarm is a good indicator that a gate is nearby."
 					  ]
@@ -9349,14 +9362,14 @@
 					"The horrid yovoki are short, squat, corrupt humanoids with jaundiced skin draped loosely over their flabby, hairless bodies. They hunt and kill for pleasure, although they happily eat whatever they kill as well. In fact, they eat constantly and seem able to digest almost anything. Yovoki wander in small groups of three to six in the mountains and hills.",
 					{
 					  "type": "entries",
-					  "name": "Savage Humanoid Effigies.",
+					  "name": "Savage Humanoid Effigies",
 					  "entries": [
 						"Yovoki are too disordered to have a strict group hierarchy. Instead, they all just yell and snort and squeal until one of them gets their way. There are two yovoki genders, but sometimes even they cannot tell the difference between their males and females. They kill for pleasure, food, and as displays of strength."
 					  ]
 					},
 					{
 					  "type": "entries",
-					  "name": "Gutter Schemers.",
+					  "name": "Gutter Schemers",
 					  "entries": [
 						"Fast-talking characters might be able to reason with yovoki, but doing so is difficult due to their bloodlust. It might be easier for the PCs to intimidate or frighten them into compliance. Despite their corrupt and savage nature, some are smart enough to use numenera devices or hatch simple plots to get what they want-poisoning wells, kidnapping important people, and so on."
 					  ]
@@ -9364,7 +9377,7 @@
 					{
 					  "type": "inset",
 					  "entries": [
-						"Like killisti, yovoki are apparently humans mutated by numenera devices, possibly purposefully, though to what end and by what is unknown."
+						"Like {@creature killist|aota|killisti}, yovoki are apparently humans mutated by numenera devices, possibly purposefully, though to what end and by what is unknown."
 					  ]
 					},
 					{
@@ -9534,17 +9547,24 @@
 					"Zhev are cylinders 6 feet high and 3 feet in diameter, and typically hover 3 feet off the ground. Their three triangular eyes appear to be organic. The eyes usually stay together in a larger triangle formation, moving inside the cylinder, peering through a slit near the top that goes all the way around. The eyes can also separate, each looking in a different direction, but they do this rarely.",
 					{
 					  "type": "entries",
-					  "name": "Biomechanical and Resolute.",
+					  "name": "Biomechanical and Resolute",
 					  "entries": [
 						"Although the Zhev are essentially constructs, they have organic interior components as well as mechanical parts. When activated, they either return to whatever Ancients’ command they last received (which likely makes little sense in their new context) or look for new instructions."
 					  ]
 					},
 					{
 					  "type": "entries",
-					  "name": "Enforcers of Law.",
+					  "name": "Enforcers of Law",
 					  "entries": [
 						"If a group of Zhev find themselves at loose ends, they may offer their services to a city or other location. If a pact is agreed to, affected Zhev obey the orders given to them by their new hosts. Other people cannot reason or negotiate with the Zhev. They are relentless and merciless, though they first attempt to capture criminals rather than use violent or lethal force. Usually, the Zhev seem inclined to prevent infractions of the law and act to preserve order, keep the peace, and protect the lives of innocents. When forced to choose between options, they always make the choice that saves the most people from the greatest harm. Protecting innocents takes priority over enforcing laws, assuming Zhev in the area even know what local laws might apply."
 					  ]
+					},
+					{
+						"type": "entries",
+						"name": "Salvage",
+						"entries": [
+							"The body of a defeated Zhev can be scavenged for a cypher, and sometimes (1 in 1d10) a relic."
+						]
 					},
 					{
 					  "type": "inset",
@@ -9556,13 +9576,6 @@
 					  "type": "inset",
 					  "entries": [
 						"The Zhev usually begin a fight by firing stun gas canisters or nets. If the gas and nets fail, Zhev physically attack."
-					  ]
-					},
-					{
-					  "type": "entries",
-					  "name": "Salvage.",
-					  "entries": [
-						"The body of a defeated Zhev can be scavenged for a cypher, and sometimes (1 in 1d10) a relic."
 					  ]
 					},
 					{
