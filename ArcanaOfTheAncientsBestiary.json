@@ -173,8 +173,16 @@
 				"grappled",
 				"restrained"
 			],
-			"tokenUrl":"",
 			"fluff":{
+				"images": [
+        	{
+	          "type": "image",
+	          "href": {
+	            "type": "external",
+	            "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_144_Image_0002.png"
+	          }
+        	}
+	      ],
 				"entries": [
 					{
 						"type":"entries",
