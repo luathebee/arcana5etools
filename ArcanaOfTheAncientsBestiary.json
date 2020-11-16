@@ -21,6 +21,23 @@
     "dateAdded": 1591117986,
     "dateLastModified": 1591117986
   },
+  "legendaryGroup": [
+		{
+			"name": "Quotien",
+			"source": "AotA",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the quotien takes a lair action to cause one of the following effects; the quotien can’t use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Machines that the quotien can see within 120 feet extend wire tendrils. Any creature within 20 feet of such a machine must succeed on a {@dc 15} Strength saving throw or be pulled up to 20 feet to the machine and {@condition grappled} (escape {@dc 20}).",
+						"A cloud of tiny lighting-snapping machines fills a 20-foot- radius sphere centered on a point the quotien chooses within 120 feet of it. The cloud spreads around corners and remains until the quotien dismisses it as an action, uses this lair action again, or dies. The cloud is lightly obscured. Any creature in the cloud when it appears must make on a {@dc 15} Constitution saving throw, taking 10 ({@dice 3d6}) piercing damage on a failed save, or half as much damage on a successful one. A creature that ends its turn in the cloud takes 10 ({@dice 3d6}) piercing damage.",
+						"The quotien rolls a {@dice d10} and recharges Forbidding Wall on a roll of 5–10. On a 1–4, nothing happens."
+					]
+				}
+			]
+		}
+	],
   "monster": [
     {
       "name": "Accelerator",
@@ -9125,6 +9142,203 @@
       "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_225_Image_0002.png"
     },
     {
+			"name": "Quotien",
+			"source": "AotA",
+			"page": 226,
+			"size": "S",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 252,
+				"formula": "24d6 + 168"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": {
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 22,
+			"dex": 14,
+			"con": 24,
+			"int": 24,
+			"wis": 18,
+			"cha": 9,
+			"save": {
+				"dex": "+8",
+				"con": "+13",
+				"wis": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"cold",
+				"fire",
+				"necrotic",
+				"poison",
+				"psychic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"languages": [
+				"telepathy 120 ft."
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the quotien fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The quotien has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The quotien's attacks are treated as if magical."
+					]
+				},
+				{
+					"name": "New Instance",
+					"entries": [
+						"If in its lair, a slain quotien is rebuilt by strange devices and machines contained therein, creating a brand- new body and imprinting it with all its previous knowledge, experiences, hit points, and state of consciousness. The body appears anywhere within the lair."
+					]
+				},
+				{
+					"name": "Telekinetic",
+					"entries": [
+						"The quotien manipulates objects within 60 feet with telekinesis with as much capability as a normal creature with the quotien's stats in possession of manipulating digits."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mind Spike",
+					"entries": [
+						"A creature within 10 feet of the quotien must succeed on a {@dc 21} Wisdom save or take 22 ({@damage 6d6}) psychic damage. The target must succeed on a {@dc 21} Constitution saving throw or suffer an ongoing mental affliction. During this affliction, the target can't regain hit points, and it takes 21 ({@damage 6d6}) psychic damage at the start of each of its turns. The afflicted target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Psychic Maelstrom",
+					"entries": [
+						"A 20-foot-radius sphere positioned within 300 feet of the quotien at a location that it can sense is filled with an instant of ripping mental static. Each creature in the area must make a {@dc 21} Wisdom saving throw and take 28 ({@damage 8d6}) psychic damage on a failed save, or half that if successful."
+					]
+				},
+				{
+					"name": "Forbidding Wall {@recharge 5}",
+					"entries": [
+						"The quotien creates a wall of rippling mental static up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The plane is translucent and lasts while the quotien concentrates, up to 1 minute. When the wall appears, each creature within its area must make a {@dc 21} Wisdom saving throw. On a failed save, a creature takes either 22 ({@damage 5d8}) psychic damage (half as much if successful), or be {@condition paralyzed} while the wall remains; whichever the quotien choses for each victim. A {@condition paralyzed} creature is not subject to further damage, even if it remains in the wall.",
+						"One side of the wall, selected when the quotien creates the psychic effect, deals 22 ({@damage 5d8}) psychic damage\u2014or paralyzes the creature as just described\u2014to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there, unless {@condition paralyzed}. The other side of the wall deals no damage, nor does it paralyze."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The quotien makes a Wisdom (Perception) check."
+					]
+				},
+				{
+					"name": "Mind Spike (Costs 2 Actions)",
+					"entries": [
+						"The quotien makes a Mind Spike attack."
+					]
+				},
+				{
+					"name": "Teleport (Costs 3 actions)",
+					"entries": [
+						"The quotien teleports to some other location it has prepared in its lair if within 500 feet."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Quotien",
+				"source": "AotA"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"fluff":{
+				"entries":[
+					{
+						"type":"entries",
+						"entries":[
+			        "Dusty with immobility, lost in ancient dreams, and mad with senile age, quotiens (pronounced KWO–shens) apparently live almost forever. Each one is a storehouse of knowledge and Ancients secrets that can be learned by those willing to risk a quotien’s erratic grasp on sanity. There are probably only a handful currently in existence.",
+							{
+								"type":"entries",
+								"name":"More Recent Origin?",
+								"entries":[
+									"Stories suggest that quotiens were once humans, dwarves, or elves who slipped into an Ancients’ cache years ago, somehow bypassing the timelocks (or whatever it was that prevented their wider discovery). Within these locations, they discovered a way to extend their lives. Over the centuries, the process they used to cheat death was revealed to have serious consequences. Their bodies and minds gradually transformed into horrific parodies of humanoid anatomy and normal psychology."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Unwelcoming",
+								"entries":[
+									"The longer a quotien lives, the more introverted it becomes, until it spends almost all its days sleeping in a secret lair or hidden stronghold, lost in an endless nightmare of existence. Quotiens generally don’t associate with each other, but they may employ any number of guard creatures and automatons in their hideaways. A quotien may be dozing when encountered, trying to sleep away eternity. An awakened quotien is angry at being disturbed, but it may negotiate telepathically with intruders rather than kill them outright if they offer something novel to its seemingly endless experience."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"Salvage",
+								"entries":[
+									"The inner sanctum of a defeated quotien might contain {@dice  1d6 + 3} cyphers, an oddity, and at least one relic."
+						    ]
+			        },
+							{
+								"type":"entries",
+								"name":"A QUOTIEN’S LAIR",
+								"entries":[
+									"Quotiens dwell in Ancients’ ruins where many devices and machines still function, even if their purposes remain beyond the ken of other creatures. Various chambers and workshops might spit out weird pellets of energy, ripples in space, bursts of strange smells, and streaking color to some unimaginable end. A quotien usually has a few chambers where it can rest, either inside a capsule, plugged into a wall, or beneath a layer of living nutrient tissue. Many other creatures likely exist within the lair (often construct-like machines, some friendly to the quotien, a few with an adversarial relationship)."
+								]
+							}
+					  ]
+			    }
+			  ]
+			}
+		},
+    {
       "name": "Tetrahydra",
       "source": "AotA",
       "page": 237,
@@ -10829,3 +11043,4 @@
     }
   ]
 }
+
