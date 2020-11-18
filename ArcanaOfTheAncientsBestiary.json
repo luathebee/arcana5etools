@@ -36,6 +36,20 @@
 					]
 				}
 			]
+		},
+    {
+			"name": "Ravage Bear",
+			"source": "AotA",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), a ravage bear can take a lair action to cause one of the following effects; the ravage bear can’t use an effect again until it finishes a short or long rest:",
+				{
+					"type": "list",
+					"items": [
+						"The ravage bear knocks over a massive machine (or turns it on, causing a terrific display of light and sound, or perhaps even a temporal effect); every creature in the lair must reroll initiative. The ravage bear can choose not to reroll",
+						"The ravage bear causes the floor to collapse, causing itself and up to five other creatures within 30 feet of it to fall into another (deeper) portion of its lair, or a dangerous area it has previously located. The ravage bear can choose not to fall."
+					]
+				}
+			]
 		}
 	],
   "monster": [
@@ -9299,7 +9313,17 @@
 			"miscTags": [
 				"AOE"
 			],
-			"fluff":{
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_226_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_226_Image_0002.png"
+                  }
+                }
+              ],
 				"entries":[
 					{
 						"type":"entries",
@@ -9338,6 +9362,610 @@
 			  ]
 			}
 		},
+    {
+    	"name": "Raster",
+    	"source": "AotA",
+    	"page": 226,
+    	"size": "H",
+    	"type": "beast",
+    	"alignment": [
+    		"U"
+    	],
+    	"ac": [
+    		{
+    			"ac": 15,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 67,
+    		"formula": "9d12 + 9"
+    	},
+    	"speed": {
+    		"walk": 20,
+    		"fly": 60
+    	},
+    	"str": 16,
+    	"dex": 14,
+    	"con": 13,
+    	"int": 4,
+    	"wis": 14,
+    	"cha": 10,
+    	"passive": 14,
+    	"cr": "2",
+    	"trait": [
+    		{
+    			"name": "Biomechanical Reflex",
+    			"entries": [
+    				"When the raster takes thunder damage, it immediately takes a bonus action to move up to half its speed and makes an energy lance attack."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Multiattack",
+    			"entries": [
+    				"The raster makes two attacks with its energy lance attack."
+    			]
+    		},
+    		{
+    			"name": "Energy Lance",
+    			"entries": [
+    				"The raster emits an {@condition invisible} beam of energy from the machines mounted in its head, targeting a creature it can see within 500 feet, which must succeed on a {@dc 14} Dexterity save or take 6 ({@damage 1d8 + 2}) lightning damage."
+    			]
+    		}
+    	],
+    	"actionTags": [
+    		"Multiattack"
+    	],
+    	"damageTags": [
+    		"L"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_228_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_228_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+              "Rasters are biomechanical creatures that use antigravity suspensors and large, bat-like wings to carry themselves aloft at great speed despite their size. A typical raster has a 30-foot wingspan.",
+              {
+                "type":"inset",
+                "entries":[
+                  "Rasters and {@creature xi-drake|aota|xi-drakes} seem to have a natural antagonism."
+                ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Cautious Beasts",
+      					"entries":[
+      						"Rasters dwell in clutches of three to five, usually not far from a large body of water. They avoid danger and combat if possible. They never fight to the death, as it is usually easy for them to escape by flying away."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Trainable",
+      					"entries":[
+      						"Sometimes rasters are encountered in the wild, nesting on rocky islands along the coast. More often, however, they are tamed, trained, and used as aerial mounts. Riders—often, other creatures related to the Ancients—use prods to control them."
+      			    ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
+    	"name": "Ravage Bear",
+    	"source": "AotA",
+    	"page": 227,
+    	"size": "M",
+    	"type": "beast",
+    	"alignment": [
+    		"N"
+    	],
+    	"ac": [
+    		{
+    			"ac": 13,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 65,
+    		"formula": "10d8 + 20"
+    	},
+    	"speed": {
+    		"walk": 50,
+    		"climb": 30
+    	},
+    	"str": 18,
+    	"dex": 10,
+    	"con": 15,
+    	"int": 6,
+    	"wis": 12,
+    	"skill": {
+    		"perception+3immunities": "illusions"
+    	},
+    	"senses": [
+    		"blindsight 60 ft."
+    	],
+    	"passive": 13,
+    	"cr": "3",
+    	"trait": [
+    		{
+    			"name": "Olfaction",
+    			"entries": [
+    				"The ravage bear can't use its blindsight for one round if confused by a sufficiently intense odor."
+    			]
+    		},
+    		{
+    			"name": "Wounded Fury",
+    			"entries": [
+    				"While it has 10 hit points or fewer, the ravage bear has advantage on attack rolls. In addition, it deals an extra 7 ({@damage 2d6}) damage to any target it hits with a melee attack."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Mulitattack",
+    			"entries": [
+    				"The ravage bear makes two claw attacks."
+    			]
+    		},
+    		{
+    			"name": "Claw",
+    			"entries": [
+    				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the ravage bear can claw only the {@condition grappled} creature and has advantage on attack rolls to do so."
+    			]
+    		}
+    	],
+      "legendaryGroup": {
+				"name": "Ravage Bear",
+				"source": "AotA"
+			},
+    	"senseTags": [
+    		"B"
+    	],
+    	"damageTags": [
+    		"S"
+    	],
+    	"miscTags": [
+    		"MW"
+    	],
+    	"conditionInflict": [
+    		"grappled"
+    	],
+            "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_229_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_229_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+                    "A ravage bear is a hideous mammalian predator that hunts entirely by sense of smell. It is blind and nearly deaf, but it still tracks and senses prey easily. It is protective of its young, and when hungry for fresh meat, it is extremely dangerous. Otherwise, it gives most creatures a wide berth.",
+      				{
+      					"type":"entries",
+      					"name":"Bane of Forest and Mountains",
+      					"entries":[
+      						"Ravage bears dwell alone or in pairs (usually with a few cubs) in wooded, rocky, or mountainous areas, typically in cold or temperate climes."
+      			    ]
+              },
+              {
+      					"type":"entires",
+                "name":"A RAVAGE BEAR'S LAIR",
+      					"entries":[
+      						"Ravage bears may be somewhat simple beasts, but they take full advantage of any lair they’ve established, as if they were legendary creatures."
+      			    ]
+              },
+              {
+      					"type":"inset",
+      					"entries":[
+      						"Ravage bear specimens are sometimes found in frozen stasis within crystal pods associated with numenera devices, or locked in a larger temporal tableau that is easily broken by explorers breaching an Ancients’ cache."
+      			    ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
+    	"name": "Relentless Reaper",
+    	"source": "AotA",
+    	"page": 228,
+    	"size": "L",
+    	"type": "construct",
+    	"alignment": [
+    		"L",
+    		"N"
+    	],
+    	"ac": [
+    		{
+    			"ac": 18,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 75,
+    		"formula": "10d10 + 20"
+    	},
+    	"speed": {
+    		"walk": 30,
+    		"climb": 30,
+    		"fly": 60,
+    		"swim": 30,
+    		"burrow": 10
+    	},
+    	"str": 18,
+    	"dex": 16,
+    	"con": 15,
+    	"int": 4,
+    	"wis": 14,
+    	"cha": 9,
+    	"senses": [
+    		"truesight 60 ft."
+    	],
+    	"passive": 12,
+    	"immune": [
+    		"lightning",
+    		"poison",
+    		"psychic"
+    	],
+    	"conditionImmune": [
+    		"charmed",
+    		"deafened",
+    		"exhaustion",
+    		"frightened",
+    		"paralyzed",
+    		"petrified",
+    		"poisoned"
+    	],
+    	"cr": "7",
+    	"trait": [
+    		{
+    			"name": "Lightning Aura",
+    			"entries": [
+    				"Any creature that begins its turn within 5 feet of a reaper attacking its imprinted target must make a {@dc 15} Constitution saving throw and take 22 ({@damage 5d8}) lighting damage on a failed save, or half that if successful."
+    			]
+    		},
+    		{
+    			"name": "Perfect Target Knowledge",
+    			"entries": [
+    				"The relentless reaper always knows the direction and distance to its imprinted target, even if the target is on another plane of existence."
+    			]
+    		},
+    		{
+    			"name": "Preferred Target",
+    			"entries": [
+    				"The relentless reaper has advantage on attacks against its imprinted target. It has disadvantage on attacks against all other creatures."
+    			]
+    		},
+    		{
+    			"name": "Regeneration",
+    			"entries": [
+    				"The relentless reaper regains 2 hit points at the start of its turn. If it starts its turn with 0 hit points, it becomes inactive, but regains 1 hit point per hour, until it becomes active with full hit points after one day. While it is regenerating in this way, it can't take any other actions. If destroyed and its components are scattered to a distance of 10 feet or farther, it does not regenerate."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Multiattack",
+    			"entries": [
+    				"The relentless reaper makes two arm blade attacks. If it hits with either arm blade, the reaper can make one iron pincer attack against the same target."
+    			]
+    		},
+    		{
+    			"name": "Arm Blade",
+    			"entries": [
+    				"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage."
+    			]
+    		},
+    		{
+    			"name": "Iron Pincer",
+    			"entries": [
+    				"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage. If damage is dealt on the imprinted target, it must then succeed on a {@dc 15} Constitution saving throw or be {@condition paralyzed} for 1 minute from poison. All attacks the relentless reaper make on the {@condition paralyzed} foe, in addition to any other benefits, also deal maximum damage."
+    			]
+    		}
+    	],
+    	"traitTags": [
+    		"Regeneration"
+    	],
+    	"senseTags": [
+    		"U"
+    	],
+    	"actionTags": [
+    		"Multiattack"
+    	],
+    	"damageTags": [
+    		"P"
+    	],
+    	"miscTags": [
+    		"MW",
+    		"RCH"
+    	],
+            "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_231_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_231_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+                    "Mess with the systems and residue of the Ancients long enough, and explorers risk triggering a relentless reaper. A switch that shouldn’t have been flipped, a contact that shouldn’t have been pressed, or a cypher salvaged from a system better left alone—it’s difficult to know what gets a reaper’s attention. But that attention becomes immediately apparent to the explorer in the form of a strange mental communication. Once that glimmer is sent, the construct stirs to motion, beginning a mission of what might be weeks, months, or even longer duration, to track down its prey.",
+      				{
+      					"type":"inset",
+      					"entries":[
+      						"Once the target is killed, the reaper switches off, its purpose served. If a target is killed before the reaper finds them, whoever killed them becomes its next target. If the target dies of natural causes, the reaper switches off.",
+                  "If a relentless reaper is destroyed, it may reform or a new one may be dispatched unless a tiny component within the reaper, appearing like a tiny crystal marble with a three-dimensional image of the imprinted target in it, is found—a DC 13 Wisdom (Perception) check—and crushed."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Glimmer of Inevitable Death",
+      					"entries":[
+      						"The targeted victim received an unwanted vision, either directly into their mind on a failed {@dc 17} Wisdom save, or across a nearby screen as a light-based illusion: a bubble-shaped pod in the midst of thousands of similar units stored in numberless vertical banks in an enormous space. The pod that’s the focus of the vision suddenly “pops,” revealing cables disengaging and falling away in sprays of white mist. Inside, a construct of metal blades and shadow resolves. As the image fades, the following message is transmitted telepathically to the target: “For your crime, you have been scheduled for termination. Expect your reaper soon."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Fear-building Technique",
+      					"entries":[
+      						"The relentless reaper’s target receives a few more glimmers over the next few months, showing the automaton traveling across the land, apparently tracking down the character, always getting closer. Regardless of the final threat it represents to its target, a relentless reaper’s tactics are designed to create a sense of mounting dread and fear in the target’s mind."
+      			    ]
+              },
+              {
+                "type":"inset",
+                "entries":[
+                  {
+                    "type":"quote",
+                    "entries":[
+                      "You were certainly thrashing in your sleep last night. Was it a dream about your Delve again?"
+                    ],
+                    "by":"Elmande, elf mage and scholar"
+                  }
+                ]
+              },
+              {
+                "type": "insetReadaloud",
+                "entries": [
+                  {
+                    "type":"quote",
+                    "entries":[
+                      "No. Something stranger. There was this enormous cavern, one I’ve never seen before. It was full of machines. Thousands of them. All dark and quiet, except for one near the edge. It pops open, and inside is all glowing white fog, squirming cables, and metal blades. It was a truly awful thing, I’m certain, even though I couldn’t get a very good look at it, because it scrambled out of there quicker than I can say my own name. But that wasn’t the worst part. Something spoke to me, in my own tongue: ‘For your crime, you have been scheduled for termination. Expect your reaper soon."
+                    ],
+                    "by":"Faim Trubeard, dwarf veteran and prospector"
+                  }
+                ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
+    	"name": "Sarrak",
+    	"source": "AotA",
+    	"page": 231,
+    	"size": "L",
+    	"type": "monstrosity",
+    	"alignment": [
+    		"N",
+    		"E"
+    	],
+    	"ac": [
+    		{
+    			"ac": 15,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 67,
+    		"formula": "10d10 + 12"
+    	},
+    	"speed": {
+    		"walk": 60
+    	},
+    	"str": 17,
+    	"dex": 17,
+    	"con": 13,
+    	"int": 15,
+    	"wis": 12,
+    	"cha": 20,
+    	"skill": {
+    		"deception": "+9",
+    		"insight": "+5",
+    		"perception": "+5"
+    	},
+    	"senses": [
+    		"darkvision 60 ft."
+    	],
+    	"passive": 15,
+    	"resist": [
+    		"cold",
+    		"fire",
+    		"lightning",
+    		"poison",
+    		{
+    			"resist": [
+    				"bludgeoning",
+    				"piercing",
+    				"slashing"
+    			],
+    			"note": "from nonmagical attacks"
+    		}
+    	],
+    	"languages": [
+    		"Sarrak",
+    		"most easily learn Common"
+    	],
+    	"cr": "4",
+    	"trait": [
+    		{
+    			"name": "Regeneration",
+    			"entries": [
+    				"The sarrak regains 10 hit points at the start of its turn. If the sarrak takes lightning damage, this trait doesn't function at the start of the sarrak's next turn. The sarrak dies only if it starts its turn with 0 hit points and isn't able to regenerate."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Mulitattack",
+    			"entries": [
+    				"The sarrak makes two claw attacks, one control attack, or one device detonation attack."
+    			]
+    		},
+    		{
+    			"name": "Claw",
+    			"entries": [
+    				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+    			]
+    		},
+    		{
+    			"name": "Control",
+    			"entries": [
+    				"One creature the sarrak can see within 60 feet of it must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} for 1 day. The {@condition charmed} target obeys the sarrak's will (using a hidden machine channel restricted to a range of 60 feet; this channel allows basic information to pass back and forth, but doesn't allow the sarrak to directly sense through a controlled target's senses). If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this effect for the next 24 hours.",
+    				"The sarrak can use this ability automatically on untended devices that are not intelligent, gaining remote control over their function, though the GM may decide to allow a saving throw on a case-by-case basis.",
+    				"A sarrak can have up to five creatures and five machines controlled at the same time."
+    			]
+    		},
+    		{
+    			"name": "Device Detonation",
+    			"entries": [
+    				"A sarrak can cause a device it controls to detonate. If the device is in the possession of a creature, it must succeed on a {@dc 15} Constitution saving throw, taking 32 ({@damage 5d10 + 5}) piercing damage on a failed save, or half as much damage on a successful one."
+    			]
+    		}
+    	],
+    	"traitTags": [
+    		"Regeneration"
+    	],
+    	"senseTags": [
+    		"D"
+    	],
+    	"languageTags": [
+    		"C"
+    	],
+    	"damageTags": [
+    		"P",
+    		"S"
+    	],
+    	"miscTags": [
+    		"MW"
+    	],
+    	"conditionInflict": [
+    		"charmed"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_233_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_233_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+              {
+      					"type":"inset",
+      					"entries":[
+      						"The sarrack’s biomechanical nature gives it additional options: it can tap into the minds of other creatures or the controls of electrical devices."
+      			    ]
+              },
+              "A sarrak has the body of a massive predatory cat, about 8 feet long, with sleek muscles and black flesh. Its head, however, appears to be a 3-foot-wide ball of swirling energy, surrounded by dozens of metallic plates that move as if in orbit around the energy. Despite looking somewhat like an animal, a sarrak is extraordinarily intelligent. It is biomechanical in nature and taps into the minds of other creatures or the controls of electrical devices to its own ends.",
+      				{
+      					"type":"entries",
+      					"name":"Canny Controller",
+      					"entries":[
+      						"Though it has claws and is an aggressive combatant, a sarrack is wise and ingenious. Its preferred method of aggression is through control, whether that be of living minds or numenera devices. It sees other creatures as tools for its own ends, but sometimes it is willing to hear what a tool has to say. It is most interested in offers of power or advantage but doesn’t seek wealth for its own sake."
+      			    ]
+              },
+              {
+      					"type":"inset",
+      					"entries":[
+      						"Sarraks respond poorly to threats or intimidation and are very difficult to trick or deceive."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Long-range Plans of Conquest.",
+      					"entries":[
+      						"Most likely, a sarrak lair is filled with controlled creatures and devices it can activate for defense or assistance. It might have complex plans in motion and could be the secret power behind a scheme involving many creatures, people, or machines (or all three). A sarrak would love nothing more than to control a whole community or powerful creature—such as a village, a tribe of orcs, or even a dragon or two—to serve its ends."
+      			    ]
+              },
+              {
+                "type": "insetReadaloud",
+                "entries": [
+                  {
+                    "type":"quote",
+                    "entries":[
+                      "Your arrogance will be the death of us, Elmande! I told you I didn’t like its look, with a ball of magic for a head. But you ignored me, as usual. Forge preserve us, I don’t know how we escaped! What with all your specimens of the numenera waking up, exploding, and otherwise coming to life—"
+                    ],
+                    "by":"Faim Trubeard, dwarf veteran and prospector"
+                  }
+                ]
+              },
+              {
+                "type":"inset",
+                "entries":[
+                  {
+                    "type":"quote",
+                    "entries":[
+                      "Stop. You’ve made you’re point. Sometimes I let my eagerness to expand our knowledge push things, yes. But didn’t we learn a thing or two? We’d have come away thinking it was just a weird beast, not a wily manipulator in its own right. If you don’t have the stomach for this work, dwarf, perhaps you should—"
+                    ],
+                    "by":"Elmande, elf mage and scholar"
+                  }
+                ]
+              },
+              {
+                "type": "insetReadaloud",
+                "entries": [
+                  {
+                    "type":"quote",
+                    "entries":[
+                      "Now, now. No need to besmirch my dwarfhood. I’m just saying you don’t live to be a veteran if you take too many foolish risks."
+                    ],
+                    "by":"Faim Trubeard, dwarf veteran and prospector"
+                  }
+                ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
     {
       "name": "Tetrahydra",
       "source": "AotA",
@@ -11043,4 +11671,3 @@
     }
   ]
 }
-
