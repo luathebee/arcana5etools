@@ -9967,6 +9967,361 @@
       }
     },
     {
+    	"name": "Sathosh",
+    	"source": "AotA",
+    	"page": 232,
+    	"size": "M",
+      "type": {
+		      "type": "humanoid",
+		       "tags": [
+			          "sathosh"
+		            ]
+	    },
+    	"alignment": [
+    		"N",
+    		"E"
+    	],
+    	"ac": [
+    		{
+    			"ac": 11,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 22,
+    		"formula": "4d8 + 4"
+    	},
+    	"speed": {
+    		"walk": 30
+    	},
+    	"str": 11,
+    	"dex": 11,
+    	"con": 12,
+    	"int": 10,
+    	"wis": 12,
+    	"cha": 9,
+    	"senses": [
+    		"blindsight 60 ft."
+    	],
+    	"passive": 11,
+    	"resist": [
+    		"psychic"
+    	],
+    	"conditionImmune": [
+    		"blind"
+    	],
+    	"languages": [
+    		"Sathosh (Without some kind of subsonic device or mental powers, it is impossible to speak or understand sathosh.)"
+    	],
+    	"cr": "1/2",
+    	"trait": [
+    		{
+    			"name": "Martial Advantage",
+    			"entries": [
+    				"Once per turn, the sathosh can deal an extra 3 ({@damage 1d6}) damage to a creature it hits with an attack if that creature is within 5 feet of another sathosh that isn't {@condition incapacitated}."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Multiattack",
+    			"entries": [
+    				"The sathosh makes a mental sting attack (if coordinating with another sathosh) or two melee attacks with spears."
+    			]
+    		},
+    		{
+    			"name": "Spear",
+    			"entries": [
+    				"{@atk mw} +2 to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) piercing damage."
+    			]
+    		},
+    		{
+    			"name": "Mental Sting",
+    			"entries": [
+    				"Two sathosh within 5 feet of each other can join their minds in communion and launch a mental attack on one target within 60 feet. The target must succeed on a {@dc 12} Wisdom save or take 9 ({@damage 2d8}) psychic damage."
+    			]
+    		}
+    	],
+    	"senseTags": [
+    		"B"
+    	],
+    	"actionTags": [
+    		"Multiattack"
+    	],
+    	"damageTags": [
+    		"P",
+    		"Y"
+    	],
+    	"miscTags": [
+    		"MW"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_234_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_234_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+                    "Sathosh are gaunt humanoids that have a long tentacle writhing from where their face should be. They are silent, and they see and communicate via subsonic pulses they emit almost constantly. It is perhaps easier to think of them as having hyper-acute hearing and a sort of sonar.",
+      				{
+      					"type":"entries",
+      					"name":"Social Xenophobes",
+      					"entries":[
+      						"Sathosh are communal creatures, thriving on the presence of others of their kind and living without any type of hierarchy. They dwell in packs of at least six— and usually closer to twelve—anywhere that isn’t too cold. They are kind and loving to one another but hateful and cruel to all other life."
+      			    ]
+              },
+              {
+      					"type":"inset",
+      					"entries":[
+      						"Sathosh feed on the blood of creatures they slay, absorbing it through their tentacle."
+      			    ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
+    	"name": "Seskii",
+    	"source": "AotA",
+    	"page": 233,
+    	"size": "M",
+    	"type": "beast",
+    	"alignment": [
+    		"U"
+    	],
+      "ac": [
+    		{
+    			"ac": 12,
+    			"from": [
+    				"14 if wearing manufactured armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 39,
+    		"formula": "6d8 + 12"
+    	},
+    	"speed": {
+    		"walk": 60
+    	},
+    	"str": 15,
+    	"dex": 14,
+    	"con": 14,
+    	"int": 3,
+    	"wis": 13,
+    	"cha": 12,
+    	"senses": [
+    		"darkvision 120 ft."
+    	],
+    	"passive": 15,
+    	"cr": "1",
+    	"trait": [
+    		{
+    			"name": "Crystal Resonance",
+    			"entries": [
+    				"The crystals that grow along a seskii's back provide a few additional advantages to the creature's ability to sense its environment and avoid certain conditions. The seskii has advantage on Wisdom (Perception) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, or {@condition stunned}."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Multiattack",
+    			"entries": [
+    				"The seskii makes two bite attacks."
+    			]
+    		},
+    		{
+    			"name": "Bite",
+    			"entries": [
+    				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+    			]
+    		}
+    	],
+    	"reaction": [
+    		{
+    			"name": "Tenacious (Recharge 6)",
+    			"entries": [
+    				"When a seskii would be killed, it instead immediately gains 10 hit points. Furthermore, its attacks deal 3 ({@dice 1d6}) more points of damage for one minute.",
+    				"Multiple tenacious reactions do not stack, but instead replace previous instances."
+    			]
+    		}
+    	],
+    	"senseTags": [
+    		"SD"
+    	],
+    	"actionTags": [
+    		"Multiattack"
+    	],
+    	"damageTags": [
+    		"P"
+    	],
+    	"miscTags": [
+    		"MW"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_235_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_235_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+              "Resembling large dogs in stature and movement, these four-footed creatures are covered in hard, overlapping scales. The intricate patterns on the scales range from greenish-brown to black- and-white spotted to the reddish hue of embered coals. From their backs grow a mass of organic crystals. Standing about knee-high to most humans, seskii have large teeth, pointed ears, and sharp, pointed tails.",
+      				{
+      					"type":"entries",
+      					"name":"Food Driven",
+      					"entries":[
+      						"When hungry, they often attack anything that seems edible, including other seskii. When they attack intelligent humanoids, it is typically to snatch any food being carried and race off with it, rather than to eat those creatures directly."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Loyal",
+      					"entries":[
+      						"Intelligent and loyal companions, seskii can be trained in various methods of hunting, stealth, and attack by those who have skills with animals. Many humans outfit their seskii with special types of weapons and armor—spiked collars are a favorite. If a seskii in the wild is wearing manufactured armor, it means the creature was once someone’s favored companion. There is a good chance that the person is now long dead, as a seskii would not willingly leave their person’s side while they were still alive.",
+                  "Seskii may become particularly devoted to anything and anyone, including other seskii, humans, statues that seem like creatures, and places they call home. They will fight to the death to defend a place or person they deem as their own."
+      			    ]
+              },
+              {
+                "type":"inset",
+                "entries":[
+                  "If intelligent creatures are found guarding or kept in captivity within an Ancients’ cache, sometimes these creatures are accompanied by seskii."
+                ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
+    	"name": "Snow Loper",
+    	"source": "AotA",
+    	"page": 234,
+    	"size": "L",
+    	"type": "beast",
+    	"alignment": [
+    		"U"
+    	],
+    	"ac": [
+    		{
+    			"ac": 11,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 22,
+    		"formula": "3d10 + 6"
+    	},
+    	"speed": {
+    		"walk": 60,
+    		"climb": 20
+    	},
+    	"str": 15,
+    	"dex": 10,
+    	"con": 14,
+    	"int": 4,
+    	"wis": 12,
+    	"cha": 7,
+    	"skill": {
+    		"perception": "+3"
+    	},
+    	"passive": 13,
+    	"cr": "1/2",
+    	"trait": [
+    		{
+    			"name": "Mountain Agility",
+    			"entries": [
+    				"The snow loper ignores difficult terrain resulting from snow or broken, rocky, or steep terrain."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Multiattack",
+    			"entries": [
+    				"The snow loper can make two bite attacks."
+    			]
+    		},
+    		{
+    			"name": "Bite",
+    			"entries": [
+    				"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+    			]
+    		}
+    	],
+    	"reaction": [
+    		{
+    			"name": "Escape (Recharge 6)",
+    			"entries": [
+    				"When a snow loper takes damage, it can choose to react by immediately using an action to bolt away at its maximum speed."
+    			]
+    		}
+    	],
+    	"actionTags": [
+    		"Multiattack"
+    	],
+    	"damageTags": [
+    		"P"
+    	],
+    	"miscTags": [
+    		"MW"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_236_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_236_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+              "Tall and thin-legged, a snow loper is a fast-moving omnivore. It has a very short neck and a large head with a wide, toothy mouth. Long hair covers its roundish, muscular body. Below its mouth are two thin arms with two-fingered hands that it uses mainly for grasping food or navigating treacherous climbs. Since it lacks thumbs, it doesn’t really use tools.",
+              {
+                "type":"inset",
+                "entries":[
+                  "The snow-loper’s thin arms, despite having only two fingers, are weirdly human-like. It’s as if some numenera device slapped human appendages on an otherwise normal creature, for who knows what reason"
+                ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Great Mounts",
+      					"entries":[
+      						"Snow lopers make excellent mounts. They can bear a rider and hundreds of pounds of gear and still climb precarious heights. (Snow lopers live in small packs in cold climes or high altitudes.) They travel at great speed, seemingly without getting tired.",
+                  "If a wild snow loper is caught, it can be tamed and trained relatively quickly, becoming cooperative and docile. The creatures are slightly more intelligent than typical animals, and some can even be trained to use cyphers and other simple devices."
+      			    ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Tetrahydra",
       "source": "AotA",
       "page": 237,
