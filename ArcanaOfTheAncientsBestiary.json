@@ -10322,6 +10322,240 @@
       }
     },
     {
+    	"name": "Steel Spider",
+    	"source": "AotA",
+    	"page": 235,
+    	"size": "T",
+    	"type": "construct",
+    	"alignment": [
+    		"U"
+    	],
+    	"ac": [
+    		8
+    	],
+    	"hp": {
+    		"average": 37,
+    		"formula": "6d4 + 12"
+    	},
+    	"speed": {
+    		"walk": 20,
+    		"climb": 20
+    	},
+    	"str": 15,
+    	"dex": 6,
+    	"con": 14,
+    	"int": 2,
+    	"wis": 15,
+    	"cha": 1,
+    	"senses": [
+    		"blindsight 60 ft. (blind beyond this radius)"
+    	],
+    	"passive": 12,
+    	"immune": [
+    		"poison"
+    	],
+    	"conditionImmune": [
+    		"charmed",
+    		"deafened",
+    		"exhaustion",
+    		"frightened",
+    		"paralyzed",
+    		"poisoned"
+    	],
+    	"cr": "2",
+    	"trait": [
+    		{
+    			"name": "Spider Climb",
+    			"entries": [
+    				"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    			]
+    		},
+    		{
+    			"name": "Razor Webs",
+    			"entries": [
+    				"Every steel spider is associated with at least one area of razor web, trapping a corridor up to 10 feet across (though many spiders could increase the radius of effect).",
+    				"Noticing the webs before blundering into them even in full light requires a successful {@dc 14} Wisdom saving throw. Those who walk into (or fall into a pit filled with) razor web take 17 ({@damage 5d6}) slashing damage. Each strand of webbing has AC 15 and 15 hit points."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Bite",
+    			"entries": [
+    				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage plus 3 ({@dice 1d6}) additional piercing damage each round for three rounds on a failed {@dc 14} Constitution save."
+    			]
+    		}
+    	],
+    	"traitTags": [
+    		"Spider Climb"
+    	],
+    	"senseTags": [
+    		"B"
+    	],
+    	"damageTags": [
+    		"P",
+    		"S"
+    	],
+    	"miscTags": [
+    		"MW"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_237_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_237_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+              "Steel spiders are creatures of living metal that spin incredibly thin webs also made of metal. When an adventurer named Yvaras and her companions explored an Ancients’ machine-complex buried beneath the sands, she encountered a nest of steel spiders and had this to say:",
+      				{
+      					"type":"quote",
+      					"entries":[
+      						"We had a crystal orb—some device of the Ancients—to light our way. Suddenly someone says they see something sparkling right in front of me. In the light, right? I stopped right off, and if I hadn’t, I wouldn’t be telling you this now—I’d be in three or four pieces on that floor. See, I reached out with my dagger to touch what it was. Just a few strands of spider web stretched across the walkway. That’s all, right? Except touching it with my dagger cut into the blade a half inch. A good iron blade, ruined! That’s how sharp and strong those things are. I turned around to tell Naeris, but then he says, ‘It’s shaking!’ I turned back to see a spider glistening like silver in our light. It was the size of a dinner platter, moving along two of them thin little strands right toward us! Good thing we had that heat-cutter that Julran found. We used it like a weapon on the spider as it approached. One blast with that drove it off, and we got outta there. Naeris said that as we left, he saw more of ’em. A whole network of their webs strung everywhere. I don’t want to go back there anytime soon."
+      			    ]
+              },
+              {
+      					"type":"inset",
+      					"entries":[
+      						"Living in small nests of three or four, steel spiders spin their webs in dark ruins, subterranean locales, and wilderness areas of any climate."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Sharp Webbing",
+      					"entries":[
+      						"Steel spider webs are not sticky; they’re razor sharp and easily cut through most material, including flesh. The strands are so thin that it’s easy to walk into them by accident. Several Ancients sites are criss-crossed with thin, silvery filaments. Explorers have to figure out how to get past such webs without being cut to ribbons. If very carefully cut and stored, a steel spider’s web strands can be used as deadly garrotes or cutting tools."
+      			    ]
+              },
+              {
+      					"type":"inset",
+      					"entries":[
+      						"A steel spider’s bite injects a victim with the metallic strands. Victims’ muscles and tendons are torn apart by the invasive injection."
+      			    ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
+    	"name": "Stratharian War Moths",
+    	"source": "AotA",
+    	"page": 236,
+    	"size": "S",
+    	"type": "monstrosity",
+    	"alignment": [
+    		"U"
+    	],
+    	"ac": [
+    		{
+    			"ac": 13,
+    			"from": [
+    				"natural armor"
+    			]
+    		}
+    	],
+    	"hp": {
+    		"average": 4,
+    		"formula": "1d6 + 1"
+    	},
+    	"speed": {
+    		"walk": 10,
+    		"fly": 30
+    	},
+    	"str": 5,
+    	"dex": 14,
+    	"con": 12,
+    	"int": 1,
+    	"wis": 7,
+      "cha": 3,
+    	"senses": [
+    		"blindsight 30 ft."
+    	],
+    	"passive": 8,
+    	"immune": [
+    		"psychic"
+    	],
+    	"conditionImmune": [
+    		"charmed"
+    	],
+    	"cr": "1/4",
+    	"trait": [
+    		{
+    			"name": "Flesh-Withering Light",
+    			"entries": [
+    				"Any living creature that begins its turn within 5 feet of a war moth that is not {@condition incapacitated} is bathed in illumination that the unfurled wings produce. A target must succeed on a {@dc 11} Constitution saving throw or take 3 ({@damage 1d6}) necrotic damage."
+    			]
+    		}
+    	],
+    	"action": [
+    		{
+    			"name": "Bite",
+    			"entries": [
+    				"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+    			]
+    		},
+    		{
+    			"name": "Flesh-Withering Cone {@recharge 5}",
+    			"entries": [
+    				"The war moth produces a flash of illumination in a 60-foot cone. Each creature in that area must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+    			]
+    		}
+    	],
+    	"senseTags": [
+    		"B"
+    	],
+    	"damageTags": [
+    		"N",
+    		"P"
+    	],
+    	"miscTags": [
+    		"AOE",
+    		"MW"
+    	],
+      "img": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_238_Image_0002.png",
+      "fluff":{
+              "images": [
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/AotAImages/AotABook_Page_238_Image_0002.png"
+                  }
+                }
+              ],
+      	"entries":[
+      		{
+      			"type":"entries",
+      			"entries":[
+            "These oversized moths have pale yellow wings and bodies the color of skulls. Most have a wingspan of at least 5 feet. When they open their wings wide, they shed a brilliance that withers flesh without harming nonliving objects.",
+      				{
+      					"type":"entries",
+      					"name":"Battle Bred",
+      					"entries":[
+      						"Bred for battle by some faction of the Ancients, the creatures are hard to control by any device or superior creature so far found. Difficult to train or command, these creatures seem driven to destroy all other living things."
+      			    ]
+              },
+              {
+      					"type":"entries",
+      					"name":"Wandering Packs",
+      					"entries":[
+      						"{@footnote Stratharian war moths | No one knows the origin or meaning of the word \"Stratharian\".} make for a dangerous encounter, usually in the wild. However, a wandering pack could come upon a village and terrorize it, keeping people trapped in their homes until help arrives—perhaps in the form of traveling PCs."
+      			    ]
+              }
+      		  ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Tetrahydra",
       "source": "AotA",
       "page": 237,
