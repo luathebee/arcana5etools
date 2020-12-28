@@ -29,10 +29,15 @@ for line in file :
         #starts new item
         currentItem = baseItem.copy()
         descriptionList = []
-        #currentItem["entries"][:] = [].copy()
 
         #sets the name
-        currentItem["name"] = line.lower().strip("\n")
+        name_list = []
+        capital_name_list = []
+
+        name_list = line.lower().strip("\n").split(" ")
+        for word in name_list:
+            capital_name_list.append(word.capitalize())
+        currentItem["name"] = " ".join(capital_name_list.copy())
 
         #enable setType mode
         setType = True
@@ -84,7 +89,7 @@ items.append(currentItem.copy())
 print("++-+-++-+-++-++-++-+-++-++-++-++-++-+++-+++-+++-+")
 print("\n Total items for reference :" ,totalItems)
 
-# writes items to json output, must exist first 
+# writes items to json output, must exist first
 out_file = open("test1.json", "w")
 json.dump(items, out_file, indent=4)
 out_file.close()
