@@ -65,7 +65,7 @@
 	],
   "item": [
       {
-          "name": "adhesion gloves",
+          "name": "Adhesion Gloves",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -74,7 +74,7 @@
           ]
       },
       {
-          "name": "aggression eye",
+          "name": "Aggression Eye",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -84,7 +84,7 @@
           ]
       },
       {
-          "name": "alertness stimulant",
+          "name": "Alertness Stimulant",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -93,7 +93,7 @@
           ]
       },
       {
-          "name": "amber casement",
+          "name": "Amber Casement",
           "type": "RLC",
           "rarity": "legendary",
           "source": "AotA",
@@ -103,7 +103,7 @@
           ]
       },
       {
-          "name": "amulet of numenera safety",
+          "name": "Amulet Of Numenera Safety",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -112,7 +112,7 @@
           ]
       },
       {
-          "name": "analyzing shield",
+          "name": "Analyzing Shield",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -121,7 +121,7 @@
           ]
       },
       {
-          "name": "antivenom pill",
+          "name": "Antivenom Pill",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -130,7 +130,7 @@
           ]
       },
       {
-          "name": "arm bifurcator",
+          "name": "Arm Bifurcator",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -139,7 +139,7 @@
           ]
       },
       {
-          "name": "armored flesh",
+          "name": "Armored Flesh",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -151,7 +151,7 @@
           "reqAttune": true
       },
       {
-          "name": "astute weapon nodule",
+          "name": "Astute Weapon Nodule",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -160,7 +160,7 @@
           ]
       },
       {
-          "name": "attractor",
+          "name": "Attractor",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -169,7 +169,7 @@
           ]
       },
       {
-          "name": "augmentation heptagon",
+          "name": "Augmentation Heptagon",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -181,7 +181,7 @@
           ]
       },
       {
-          "name": "automated bath",
+          "name": "Automated Bath",
           "type": "RLC",
           "rarity": "common",
           "source": "AotA",
@@ -190,7 +190,7 @@
           ]
       },
       {
-          "name": "automated cook",
+          "name": "Automated Cook",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -199,7 +199,7 @@
           ]
       },
       {
-          "name": "automaton seed",
+          "name": "Automaton Seed",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -219,7 +219,7 @@
           ]
       },
       {
-          "name": "banishing nodule",
+          "name": "Banishing Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -228,7 +228,7 @@
           ]
       },
       {
-          "name": "battle armor",
+          "name": "Battle Armor",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -239,7 +239,7 @@
           "reqAttune": true
       },
       {
-          "name": "battlesuit",
+          "name": "Battlesuit",
           "type": "RLC",
           "rarity": "legendary",
           "source": "AotA",
@@ -252,7 +252,7 @@
           "reqAttune": true
       },
       {
-          "name": "beast lure",
+          "name": "Beast Lure",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -261,7 +261,7 @@
           ]
       },
       {
-          "name": "blinking nodule",
+          "name": "Blinking Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -270,7 +270,7 @@
           ]
       },
       {
-          "name": "body duplicator",
+          "name": "Body Duplicator",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -279,7 +279,7 @@
           ]
       },
       {
-          "name": "bounding boots",
+          "name": "Bounding Boots",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -289,7 +289,7 @@
           ]
       },
       {
-          "name": "brain bud",
+          "name": "Brain Bud",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -300,7 +300,7 @@
           ]
       },
       {
-          "name": "brain fogger",
+          "name": "Brain Fogger",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -310,7 +310,7 @@
           ]
       },
       {
-          "name": "bread sprayer",
+          "name": "Bread Sprayer",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -322,7 +322,7 @@
           ]
       },
       {
-          "name": "breathing field spinner",
+          "name": "Breathing Field Spinner",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -332,7 +332,7 @@
           ]
       },
       {
-          "name": "bridge builder",
+          "name": "Bridge Builder",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -342,7 +342,7 @@
           ]
       },
       {
-          "name": "burrowing boots",
+          "name": "Burrowing Boots",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -352,7 +352,7 @@
           ]
       },
       {
-          "name": "calm center",
+          "name": "Calm Center",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -361,7 +361,7 @@
           ]
       },
       {
-          "name": "carryall",
+          "name": "Carryall",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -371,7 +371,7 @@
           ]
       },
       {
-          "name": "catholicon",
+          "name": "Catholicon",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -380,7 +380,7 @@
           ]
       },
       {
-          "name": "catseye",
+          "name": "Catseye",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -389,7 +389,7 @@
           ]
       },
       {
-          "name": "cellular annealer",
+          "name": "Cellular Annealer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -399,7 +399,7 @@
           ]
       },
       {
-          "name": "chameleon cloak",
+          "name": "Chameleon Cloak",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -409,29 +409,173 @@
           ]
       },
       {
-          "name": "chemical factory",
+          "name": "Chemical Factory",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
               "This large pill uses your biological system as a factory to create a useful liquid, which you sweat out over the next hour, creating a total of 1d6 doses, which lose their potency after one week. Doses don't count as a cypher. Roll on the following table to see what effect the sweat has:",
-              "01-04 Euphoric for 1d6 hours (disadvantage on all rolls)",
-              "05-08 Hallucinogenic for 1d6 hours (disadvantage on all rolls)",
-              "09-12 Stimulant for 1d6 hours (advantage on all rolls, followed by disadvantage on all rolls for an equal amount of time)",
-              "13-16 Depressant for 1d6 hours (disadvantage on all rolls)",
-              "17-20 Nutrient supplement (counts as one healthy meal)",
-              "21-25 Antitoxin",
-              "26-30 Cures one disease affecting the drinker",
-              "31-35 Darkvision for one hour",
-              "36-65 Heals 2d4 + 2 hit points",
-              "66-75 Advantage on all Strength rolls for one hour",
-              "76-85 Advantage on all Dexterity rolls for one hour",
-              "86-95 Advantage on all Intelligence rolls for one hour",
-              "96-00 Heals 8d4 + 8 hit points"
+              {
+              			"type": "table",
+              			"colLabels": [
+              				"{@dice d100}",
+              				"Effect"
+              			],
+              			"colStyles": [
+              				"col-1 text-center",
+              				"col-11"
+              			],
+              			"rows": [
+              				[
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":1,
+                            "max":4,
+              							"pad": true
+              						}
+              					},
+              					"Euphoric for 1d6 hours (disadvantage on all rolls)"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":5,
+                            "max":8,
+              							"pad": true
+              						}
+              					},
+              					"Hallucinogenic for {@dice d6} hours (disadvantage on all rolls)"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":9,
+                            "max":12,
+              							"pad": true
+              						}
+              					},
+              					"Stimulant for {@dice d6} hours (advantage on all rolls, followed by disadvantage on all rolls for an equal amount of time)"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":13,
+                            "max":16,
+              							"pad": true
+              						}
+              					},
+              					"Depressant for {@dice d6} hours (disadvantage on all rolls)"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":17,
+                            "max":20,
+              							"pad": true
+              						}
+              					},
+              					"Nutrient supplement (counts as one healthy meal)"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":21,
+                            "max":25,
+              							"pad": true
+              						}
+              					},
+              					"Antitoxin"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":26,
+                            "max":30,
+              							"pad": true
+              						}
+              					},
+              					"Cures one disease affecting the drinker"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":31,
+                            "max":35,
+              							"pad": true
+              						}
+              					},
+              					"Darkvision for one hour"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":36,
+                            "max":65,
+              							"pad": true
+              						}
+              					},
+              					"Heals {@dice 2d4 + 2} hit points"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":66,
+                            "max":75,
+              							"pad": true
+              						}
+              					},
+              					"Advantage on all Strength rolls for one hour"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":76,
+                            "max":85,
+              							"pad": true
+              						}
+              					},
+              					"Advantage on all Dexterity rolls for one hour"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":86,
+                            "max":95,
+              							"pad": true
+              						}
+              					},
+              					"Advantage on all Intelligence rolls for one hour"
+              				],
+                      [
+              					{
+              						"type": "cell",
+              						"roll": {
+              							"min":96,
+                            "max":100,
+              							"pad": true
+              						}
+              					},
+              					"Heals {@dice 8d4 + 8} hit points"
+              				]
+              			]
+
+              }
           ]
       },
       {
-          "name": "city shroud",
+          "name": "City Shroud",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -440,7 +584,7 @@
           ]
       },
       {
-          "name": "clawed extremity",
+          "name": "Clawed Extremity",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -451,7 +595,7 @@
           ]
       },
       {
-          "name": "clean bright",
+          "name": "Clean Bright",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -460,7 +604,7 @@
           ]
       },
       {
-          "name": "cloak of finery",
+          "name": "Cloak Of Finery",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -470,7 +614,7 @@
           ]
       },
       {
-          "name": "cohesion stabilizer",
+          "name": "Cohesion Stabilizer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -481,7 +625,7 @@
           ]
       },
       {
-          "name": "comprehension graft",
+          "name": "Comprehension Graft",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -491,7 +635,7 @@
           ]
       },
       {
-          "name": "controlled blinking nodule",
+          "name": "Controlled Blinking Nodule",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -500,7 +644,7 @@
           ]
       },
       {
-          "name": "corpse likeness",
+          "name": "Corpse Likeness",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -510,7 +654,7 @@
           ]
       },
       {
-          "name": "crafter's eyes",
+          "name": "Crafter's Eyes",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -519,7 +663,7 @@
           ]
       },
       {
-          "name": "cypher bag",
+          "name": "Cypher Bag",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -529,7 +673,7 @@
           ]
       },
       {
-          "name": "cypher stabilizing suit",
+          "name": "Cypher Stabilizing Suit",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -539,7 +683,7 @@
           ]
       },
       {
-          "name": "death protector",
+          "name": "Death Protector",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -548,7 +692,7 @@
           ]
       },
       {
-          "name": "deception filter",
+          "name": "Deception Filter",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -557,7 +701,7 @@
           ]
       },
       {
-          "name": "density nodule",
+          "name": "Density Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -566,7 +710,7 @@
           ]
       },
       {
-          "name": "detextilizer",
+          "name": "Detextilizer",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -576,7 +720,7 @@
           ]
       },
       {
-          "name": "detonating scuttler (corrosion)",
+          "name": "Detonating Scuttler (corrosion)",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -585,7 +729,7 @@
           ]
       },
       {
-          "name": "detonating scuttler (frost)",
+          "name": "Detonating Scuttler (frost)",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -594,7 +738,7 @@
           ]
       },
       {
-          "name": "detonating scuttler (flame)",
+          "name": "Detonating Scuttler (flame)",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -603,7 +747,7 @@
           ]
       },
       {
-          "name": "detonating scuttler (lightning)",
+          "name": "Detonating Scuttler (lightning)",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -612,7 +756,7 @@
           ]
       },
       {
-          "name": "detonating scuttler (cell disruption)",
+          "name": "Detonating Scuttler (cell Disruption)",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -621,7 +765,7 @@
           ]
       },
       {
-          "name": "detonating scuttler (daggers)",
+          "name": "Detonating Scuttler (daggers)",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -630,7 +774,7 @@
           ]
       },
       {
-          "name": "detonation (cell disruption)",
+          "name": "Detonation (cell Disruption)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -639,7 +783,7 @@
           ]
       },
       {
-          "name": "detonation (corrosion)",
+          "name": "Detonation (corrosion)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -648,7 +792,7 @@
           ]
       },
       {
-          "name": "detonation (lightning)",
+          "name": "Detonation (lightning)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -657,7 +801,7 @@
           ]
       },
       {
-          "name": "detonation (frost)",
+          "name": "Detonation (frost)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -666,7 +810,7 @@
           ]
       },
       {
-          "name": "detonation (flame)",
+          "name": "Detonation (flame)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -675,7 +819,7 @@
           ]
       },
       {
-          "name": "detonation (daggers)",
+          "name": "Detonation (daggers)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -684,7 +828,7 @@
           ]
       },
       {
-          "name": "detonation of the black sphere",
+          "name": "Detonation Of The Black Sphere",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -694,7 +838,7 @@
           ]
       },
       {
-          "name": "detonation of blindness",
+          "name": "Detonation Of Blindness",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -703,7 +847,7 @@
           ]
       },
       {
-          "name": "detonation of deafening",
+          "name": "Detonation Of Deafening",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -712,7 +856,7 @@
           ]
       },
       {
-          "name": "detonation of decoy sounds",
+          "name": "Detonation Of Decoy Sounds",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -722,7 +866,7 @@
           ]
       },
       {
-          "name": "detonation of desiccation",
+          "name": "Detonation Of Desiccation",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -731,7 +875,7 @@
           ]
       },
       {
-          "name": "detonation of flesh-rotting",
+          "name": "Detonation Of Flesh-rotting",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -741,7 +885,7 @@
           ]
       },
       {
-          "name": "detonation of gravity",
+          "name": "Detonation Of Gravity",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -751,7 +895,7 @@
           ]
       },
       {
-          "name": "detonation, greater (cell disruption)",
+          "name": "Detonation, Greater (cell Disruption)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -760,7 +904,7 @@
           ]
       },
       {
-          "name": "detonation, greater (corrosion)",
+          "name": "Detonation, Greater (corrosion)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -769,7 +913,7 @@
           ]
       },
       {
-          "name": "detonation, greater (lightning)",
+          "name": "Detonation, Greater (lightning)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -778,7 +922,7 @@
           ]
       },
       {
-          "name": "detonation, greater (frost)",
+          "name": "Detonation, Greater (frost)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -787,7 +931,7 @@
           ]
       },
       {
-          "name": "detonation, greater (flame)",
+          "name": "Detonation, Greater (flame)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -796,7 +940,7 @@
           ]
       },
       {
-          "name": "detonation, greater (daggers)",
+          "name": "Detonation, Greater (daggers)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -805,7 +949,7 @@
           ]
       },
       {
-          "name": "detonation of matter disruption",
+          "name": "Detonation Of Matter Disruption",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -814,7 +958,7 @@
           ]
       },
       {
-          "name": "detonation of peace",
+          "name": "Detonation Of Peace",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -823,7 +967,7 @@
           ]
       },
       {
-          "name": "detonation of soap",
+          "name": "Detonation Of Soap",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -832,7 +976,7 @@
           ]
       },
       {
-          "name": "detonation of sobriety",
+          "name": "Detonation Of Sobriety",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -841,22 +985,95 @@
           ]
       },
       {
-          "name": "detonation of spawning",
+          "name": "Detonation Of Spawning",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
               "This bulky, knobby sphere is made of metal and synth has a long, handle-like rod. You can activate it and point the rod at an area (range 30/120) as part of the same attack action. It explodes at the targeted area. Targets in a 10-foot-radius sphere must make a DC 15 Constitution saving throw. A target is blinded for one minute and takes 2d6 radiant damage on a failed save, or is not blinded and takes half damage on a successful one. On the next round, the sphere separates into 1d6 additional detonations, which fly to random spots within 60 feet and explode. All creatures within each 10-foot-radius sphere of these secondary detonations must make a DC 15 Dexterity saving throw. A target takes 4d6 + 4 damage on a failed save, or half as much on a successful one. The type of damage depends on what type of detonation it is:",
-              "01-10 Cell disruption (necrotic damage, harms only flesh)",
-              "11-30 Corrosion (acid damage)",
-              "31-40 Lightning (lightning damage)",
-              "41-50 Frost (cold damage)",
-              "51-75 Flame (fire damage)",
-              "76-00 Daggers (piercing damage)"
+              {
+              			"type": "table",
+              			"colLabels": [
+              				"{@dice d100}",
+              				"Detonation Type"
+              			],
+              			"colStyles": [
+              				"col-1 text-center",
+              				"col-11"
+              			],
+              			"rows": [
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":"01",
+                            "max":"10",
+                            "pad": true
+                          }
+                        },
+                        "{@item Detonation (cell Disruption)|aota|Cell Disruption} (necrotic damage, harms only flesh)"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":"11",
+                            "max":"30",
+                            "pad": true
+                          }
+                        },
+                        "{@item Detonation (corrosion)|aota|Corrosion (acid damage)}"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":"31",
+                            "max":"40",
+                            "pad": true
+                          }
+                        },
+                        "{@item Detonation (lightning)|aota|Lightning (lightning damage)}"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":"41",
+                            "max":"50",
+                            "pad": true
+                          }
+                        },
+                        "{@item Detonation (frost)|aota|Frost (cold damage)}"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":"51",
+                            "max":"75",
+                            "pad": true
+                          }
+                        },
+                        "{@item Detonation (flame)|aota|51-75 Flame (fire damage)}"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":"76",
+                            "max":"100",
+                            "pad": true
+                          }
+                        },
+                        "{@item Detonation (Daggers)|aota|Daggers (piercing damage)}"
+                      ]
+                    ]
+                }
           ]
       },
       {
-          "name": "detonation of telekinesis",
+          "name": "Detonation Of Telekinesis",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -865,7 +1082,7 @@
           ]
       },
       {
-          "name": "detonation of tracking",
+          "name": "Detonation Of Tracking",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -875,7 +1092,7 @@
           ]
       },
       {
-          "name": "detonation of webs",
+          "name": "Detonation Of Webs",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -887,7 +1104,7 @@
           ]
       },
       {
-          "name": "device stabilizer",
+          "name": "Device Stabilizer",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -896,7 +1113,7 @@
           ]
       },
       {
-          "name": "devitilizer",
+          "name": "Devitilizer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -907,7 +1124,7 @@
           ]
       },
       {
-          "name": "diagnostic graft",
+          "name": "Diagnostic Graft",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -916,7 +1133,7 @@
           ]
       },
       {
-          "name": "dimensional armor",
+          "name": "Dimensional Armor",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -927,7 +1144,7 @@
           "reqAttune": true
       },
       {
-          "name": "disrupting nodule",
+          "name": "Disrupting Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -936,7 +1153,7 @@
           ]
       },
       {
-          "name": "disruption blade",
+          "name": "Disruption Blade",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -946,7 +1163,7 @@
           ]
       },
       {
-          "name": "drill spear",
+          "name": "Drill Spear",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -956,7 +1173,7 @@
           ]
       },
       {
-          "name": "drink distiller",
+          "name": "Drink Distiller",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -966,7 +1183,7 @@
           ]
       },
       {
-          "name": "eagleseye",
+          "name": "Eagleseye",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -975,7 +1192,7 @@
           ]
       },
       {
-          "name": "eclipse projector",
+          "name": "Eclipse Projector",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -984,7 +1201,7 @@
           ]
       },
       {
-          "name": "ecstasy paralyzer",
+          "name": "Ecstasy Paralyzer",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -994,7 +1211,7 @@
           ]
       },
       {
-          "name": "effort enhancement",
+          "name": "Effort Enhancement",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1003,7 +1220,7 @@
           ]
       },
       {
-          "name": "emotion smoother",
+          "name": "Emotion Smoother",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1012,7 +1229,7 @@
           ]
       },
       {
-          "name": "empath's lenses",
+          "name": "Empath's Lenses",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1023,7 +1240,7 @@
           ]
       },
       {
-          "name": "empty field generator",
+          "name": "Empty Field Generator",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1033,7 +1250,7 @@
           ]
       },
       {
-          "name": "empty hand",
+          "name": "Empty Hand",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1043,7 +1260,7 @@
           ]
       },
       {
-          "name": "endless coil",
+          "name": "Endless Coil",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1053,7 +1270,7 @@
           ]
       },
       {
-          "name": "endless stomach",
+          "name": "Endless Stomach",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1063,7 +1280,7 @@
           ]
       },
       {
-          "name": "energy nullifier",
+          "name": "Energy Nullifier",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1073,7 +1290,7 @@
           ]
       },
       {
-          "name": "evolution bud",
+          "name": "Evolution Bud",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1082,7 +1299,7 @@
           ]
       },
       {
-          "name": "exploding arrow",
+          "name": "Exploding Arrow",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1092,7 +1309,7 @@
           ]
       },
       {
-          "name": "explorer's gloves",
+          "name": "Explorer's Gloves",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1102,7 +1319,7 @@
           ]
       },
       {
-          "name": "explorer's lenses",
+          "name": "Explorer's Lenses",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1112,7 +1329,7 @@
           ]
       },
       {
-          "name": "extradimensional hand",
+          "name": "Extradimensional Hand",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1121,7 +1338,7 @@
           ]
       },
       {
-          "name": "external skeleton",
+          "name": "External Skeleton",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1131,7 +1348,7 @@
           ]
       },
       {
-          "name": "extradimensional viewer",
+          "name": "Extradimensional Viewer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1143,7 +1360,7 @@
           ]
       },
       {
-          "name": "eye-eating loop",
+          "name": "Eye-eating Loop",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1156,7 +1373,7 @@
           ]
       },
       {
-          "name": "eye of mental contact",
+          "name": "Eye Of Mental Contact",
           "type": "IF",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1168,7 +1385,7 @@
           "reqAttune": true
       },
       {
-          "name": "eye of mental supremacy",
+          "name": "Eye Of Mental Supremacy",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -1182,7 +1399,7 @@
           "reqAttune": true
       },
       {
-          "name": "eyepiece of understanding",
+          "name": "Eyepiece Of Understanding",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1192,7 +1409,7 @@
           ]
       },
       {
-          "name": "farspeaker",
+          "name": "Farspeaker",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1201,21 +1418,62 @@
           ]
       },
       {
-          "name": "fearmaker",
+          "name": "Fearmaker",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
               "This pole with a metal cone on top has several parts that bend outward to create a stable frame. It takes two rounds to assemble and set up this device. When activated as your action, the fearmaker affects the minds of all thinking creatures within a 120-foot cone. All creatures in the area must succeed on a DC 15 Wisdom saving throw against fear or drop what they're holding and do one of the following:",
-              "Roll Action",
-              "01-50 Flee for 1d6 rounds",
-              "51-90 Cower (drop prone) and lose their action for 1d6 rounds",
-              "91-00 Fall unconscious for one minute (or until they take damage or someone spends an action to shake or slap them awake)",
-              "A fearmaker has a depletion of 1 in 1d6."
+              {
+              			"type": "table",
+              			"colLabels": [
+              				"{@dice d100}",
+              				"Roll Action " ],
+              			"colStyles": [
+              				"col-1 text-center",
+              				"col-11"
+              			],
+              			"rows": [
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":1,
+                            "max":50,
+                            "pad": true
+                          }
+                        },
+                        "Flee for {@dice 1d6} rounds"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":51,
+                            "max":90,
+                            "pad": true
+                          }
+                        },
+                        " Cower (drop prone) and lose their action for {@dice d6} rounds"
+                      ],
+                      [
+                        {
+                          "type": "cell",
+                          "roll": {
+                            "min":91,
+                            "max":100,
+                            "pad": true
+                          }
+                        },
+                        "Fall unconscious for one minute (or until they take damage or someone spends an action to shake or slap them awake)."
+                      ]
+                    ]
+                },
+              "A fearmaker has a depletion of 1 in {@dice 1d6}."
           ]
       },
       {
-          "name": "fiery hellmaker",
+          "name": "Fiery Hellmaker",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1225,7 +1483,7 @@
           ]
       },
       {
-          "name": "filtration straw",
+          "name": "Filtration Straw",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1234,7 +1492,7 @@
           ]
       },
       {
-          "name": "fireproofing spray",
+          "name": "Fireproofing Spray",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1243,7 +1501,7 @@
           ]
       },
       {
-          "name": "flame cloak",
+          "name": "Flame Cloak",
           "type": "IF",
           "rarity": "rare",
           "source": "AotA",
@@ -1253,7 +1511,7 @@
           "reqAttune": true
       },
       {
-          "name": "flame gauntlet",
+          "name": "Flame Gauntlet",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -1265,7 +1523,7 @@
           "reqAttune": true
       },
       {
-          "name": "flame halo",
+          "name": "Flame Halo",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -1277,7 +1535,7 @@
           "reqAttune": true
       },
       {
-          "name": "flame-retardant wall",
+          "name": "Flame-retardant Wall",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1286,7 +1544,7 @@
           ]
       },
       {
-          "name": "flame suppressor",
+          "name": "Flame Suppressor",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1296,7 +1554,7 @@
           ]
       },
       {
-          "name": "flesh disruptor",
+          "name": "Flesh Disruptor",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1306,7 +1564,7 @@
           ]
       },
       {
-          "name": "flesh ink pen",
+          "name": "Flesh Ink Pen",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1316,7 +1574,7 @@
           ]
       },
       {
-          "name": "fleshy head disguise",
+          "name": "Fleshy Head Disguise",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1327,7 +1585,7 @@
           ]
       },
       {
-          "name": "food scanner",
+          "name": "Food Scanner",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1337,7 +1595,7 @@
           ]
       },
       {
-          "name": "food tube",
+          "name": "Food Tube",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1347,7 +1605,7 @@
           ]
       },
       {
-          "name": "force cube projector",
+          "name": "Force Cube Projector",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1356,7 +1614,7 @@
           ]
       },
       {
-          "name": "force dome",
+          "name": "Force Dome",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1366,7 +1624,7 @@
           ]
       },
       {
-          "name": "force nodule",
+          "name": "Force Nodule",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1375,7 +1633,7 @@
           ]
       },
       {
-          "name": "force screen projector",
+          "name": "Force Screen Projector",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1384,7 +1642,7 @@
           ]
       },
       {
-          "name": "friction-reducing gel",
+          "name": "Friction-reducing Gel",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1393,50 +1651,278 @@
           ]
       },
       {
-          "name": "force shield projector",
+          "name": "Force Shield Projector",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
-          "entries": []
+          "entries": [
+              "This injector contains a golden fluid made up of nanites. When injected into your body, the nanites travel through your flesh and create a skin-tight energy shield around you for 1 hour, which grants you a +3 bonus to AC."
+          ]
       },
       {
-          "name": "ac.",
-          "type": "",
-          "rarity": "",
-          "source": "AotA",
-          "entries": []
-      },
-      {
-          "name": "frigid wall projector",
+          "name": "Frigid Wall Projector",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
-              "This injector contains a golden fluid made up of nanites. When injected into your body, the nanites travel through your flesh and create a skin-tight energy shield around you for 1 hour, which grants you a +3 bonus to When activated, this synth and crystal device creates a wall of supercooled air, 30 feet on a side and 1 foot thick, that lasts for 10 minutes. When the wall first appears, each creature within its area must make a Dexterity saving throw. That creature takes 4d6 + 4 cold damage on a failed save, or half as much damage on a successful one. A creature moving through the sheet of frigid air for the first time on a turn must make a Constitution saving throw against the wall instead of a Dexterity save."
+              "When activated, this synth and crystal device creates a wall of supercooled air, 30 feet on a side and 1 foot thick, that lasts for 10 minutes. When the wall first appears, each creature within its area must make a Dexterity saving throw. That creature takes 4d6 + 4 cold damage on a failed save, or half as much damage on a successful one. A creature moving through the sheet of frigid air for the first time on a turn must make a Constitution saving throw against the wall instead of a Dexterity save."
           ]
       },
       {
-          "name": "gas bomb",
+          "name": "Gas Bomb",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
               "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area",
               "(range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
-              "01-10 Harmless thick smoke: occludes sight while the cloud lasts but has no other effect.",
-              "11-20 Choking gas: choking and coughing incapacitates and suffocates for 6 rounds.",
-              "21-50 Poison gas: deals 2d6 + 2 poison damage (half damage on a successful save).",
-              "51-60 Corrosive gas: deals 2d6 + 2 acid damage (half damage on a successful save).",
-              "61-65 Hallucinogenic gas: hallucinations and visions incapacitate for 6 rounds.",
-              "66-70 Nerve gas: grants disadvantage on Dex rolls and saves for 6 rounds.",
-              "71-80 Mind-numbing gas: deals 2d6 + 2 psychic damage (half damage on a successful save).",
-              "81-83 Fear gas: frightened and flees in a random direction (or is paralyzed with fear) for 6 rounds.",
-              "84-86 Amnesia gas: permanently loses all memory of the last minute.",
-              "87-96 Sleep gas: falls asleep for 6 rounds (or until they take damage or are shaken or slapped awake). 97-00 Rage gas: uses its action to make a melee attack against a randomly determined creature within its reach for the next 6 rounds (if no creature is in reach, it instead does nothing on its turn)."
+              {
+                    "type": "table",
+                    "colLabels": [
+                      "{@dice d100}",
+                      "Roll Action " ],
+                    "colStyles": [
+                      "col-1 text-center",
+                      "col-11"
+                    ],
+                    "rows": [
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":1,
+                                  "max":10,
+                                  "pad": true
+                                }
+                              },
+                              "Harmless thick smoke: occludes sight while the cloud lasts but has no other effect."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":11,
+                                  "max":20,
+                                  "pad": true
+                                }
+                              },
+                              "Choking gas: choking and coughing incapacitates and suffocates for 6 rounds."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":21,
+                                  "max":50,
+                                  "pad": true
+                                }
+                              },
+                              "Poison gas: deals 2d6 + 2 poison damage (half damage on a successful save)."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":51,
+                                  "max":60,
+                                  "pad": true
+                                }
+                              },
+                              "Corrosive gas: deals 2d6 + 2 acid damage (half damage on a successful save)."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":61,
+                                  "max":65,
+                                  "pad": true
+                                }
+                              },
+                              "Hallucinogenic gas: hallucinations and visions incapacitate for 6 rounds."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":66,
+                                  "max":70,
+                                  "pad": true
+                                }
+                              },
+                              "Nerve gas: grants disadvantage on Dex rolls and saves for 6 rounds."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":71,
+                                  "max":80,
+                                  "pad": true
+                                }
+                              },
+                              "Mind-numbing gas: deals 2d6 + 2 psychic damage (half damage on a successful save)."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":81,
+                                  "max":83,
+                                  "pad": true
+                                }
+                              },
+                              "Fear gas: frightened and flees in a random direction (or is paralyzed with fear) for 6 rounds."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":84,
+                                  "max":86,
+                                  "pad": true
+                                }
+                              },
+                              "Amnesia gas: permanently loses all memory of the last minute."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":87,
+                                  "max":96,
+                                  "pad": true
+                                }
+                              },
+                              "Sleep gas: falls asleep for 6 rounds (or until they take damage or are shaken or slapped awake)."
+                            ],
+                            [
+                              {
+                                "type": "cell",
+                                "roll": {
+                                  "min":97,
+                                  "max":100,
+                                  "pad": true
+                                }
+                              },
+                              "Rage gas: uses its action to make a melee attack against a randomly determined creature within its reach for the next 6 rounds (if no creature is in reach, it instead does nothing on its turn)."
+                            ]
+                        ]
+                    }
           ]
       },
       {
-          "name": "gauntlet of protection",
+          "name": "Gas Bomb ( Thick Smoke )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Harmless thick smoke: occludes sight while the cloud lasts but has no other effect."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Choking )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Choking gas: choking and coughing incapacitates and suffocates for 6 rounds."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Poison )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Poison gas: deals 2d6 + 2 poison damage (half damage on a successful save)."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Corrosive )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Corrosive gas: deals 2d6 + 2 acid damage (half damage on a successful save)."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Hallucionogenic )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Hallucinogenic gas: hallucinations and visions incapacitate for 6 rounds."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Nerve )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Nerve gas: grants disadvantage on Dex rolls and saves for 6 rounds."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Mind Numbing )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "71-80 Mind-numbing gas: deals 2d6 + 2 psychic damage (half damage on a successful save)."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Fear )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Fear gas: frightened and flees in a random direction (or is paralyzed with fear) for 6 rounds."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Amnesia )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Amnesia gas: permanently loses all memory of the last minute."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Sleep )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "Sleep gas: falls asleep for 6 rounds (or until they take damage or are shaken or slapped awake)."
+          ]
+      },
+      {
+          "name": "Gas Bomb ( Rage )",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
+              "97-00 Rage gas: uses its action to make a melee attack against a randomly determined creature within its reach for the next 6 rounds (if no creature is in reach, it instead does nothing on its turn)."
+          ]
+      },
+      {
+          "name": "Gauntlet Of Protection",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1445,7 +1931,7 @@
           ]
       },
       {
-          "name": "gauntlet of shield brandishing",
+          "name": "Gauntlet Of Shield Brandishing",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -1458,7 +1944,7 @@
           "reqAttune": true
       },
       {
-          "name": "glowbrand",
+          "name": "Glowbrand",
           "type": "IF",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1469,7 +1955,7 @@
           "reqAttune": true
       },
       {
-          "name": "glue emitter",
+          "name": "Glue Emitter",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1479,7 +1965,7 @@
           ]
       },
       {
-          "name": "golden aura cloak",
+          "name": "Golden Aura Cloak",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1491,7 +1977,7 @@
           ]
       },
       {
-          "name": "gravitevator",
+          "name": "Gravitevator",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1501,7 +1987,7 @@
           ]
       },
       {
-          "name": "gravity changer",
+          "name": "Gravity Changer",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1510,7 +1996,7 @@
           ]
       },
       {
-          "name": "gravity nullifier",
+          "name": "Gravity Nullifier",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1519,7 +2005,7 @@
           ]
       },
       {
-          "name": "gravity-nullifying spray",
+          "name": "Gravity-nullifying Spray",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1528,7 +2014,7 @@
           ]
       },
       {
-          "name": "hardening spray",
+          "name": "Hardening Spray",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1537,7 +2023,7 @@
           ]
       },
       {
-          "name": "harmony lamp",
+          "name": "Harmony Lamp",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1546,7 +2032,7 @@
           ]
       },
       {
-          "name": "headroom helmet",
+          "name": "Headroom Helmet",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1556,7 +2042,7 @@
           ]
       },
       {
-          "name": "healing sword",
+          "name": "Healing Sword",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1566,7 +2052,7 @@
           ]
       },
       {
-          "name": "health resonator",
+          "name": "Health Resonator",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1575,7 +2061,7 @@
           ]
       },
       {
-          "name": "heat nodule",
+          "name": "Heat Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1584,7 +2070,7 @@
           ]
       },
       {
-          "name": "helm of illusion",
+          "name": "Helm Of Illusion",
           "type": "IF",
           "rarity": "rare",
           "source": "AotA",
@@ -1595,7 +2081,7 @@
           "reqAttune": true
       },
       {
-          "name": "helm of metal control",
+          "name": "Helm Of Metal Control",
           "type": "IF",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1608,7 +2094,7 @@
           "reqAttune": true
       },
       {
-          "name": "helm of metal mastery",
+          "name": "Helm Of Metal Mastery",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -1624,7 +2110,7 @@
           "reqAttune": true
       },
       {
-          "name": "helm of phantasm",
+          "name": "Helm Of Phantasm",
           "type": "IF",
           "rarity": "legendary",
           "source": "AotA",
@@ -1639,7 +2125,7 @@
           "reqAttune": true
       },
       {
-          "name": "hiding alarm nodule",
+          "name": "Hiding Alarm Nodule",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -1648,7 +2134,7 @@
           ]
       },
       {
-          "name": "hover belt",
+          "name": "Hover Belt",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1658,7 +2144,7 @@
           ]
       },
       {
-          "name": "hover square",
+          "name": "Hover Square",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1668,7 +2154,7 @@
           ]
       },
       {
-          "name": "hunter/seeker",
+          "name": "Hunter/seeker",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1682,7 +2168,7 @@
           ]
       },
       {
-          "name": "image projector",
+          "name": "Image Projector",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1698,7 +2184,7 @@
           ]
       },
       {
-          "name": "imager",
+          "name": "Imager",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1708,7 +2194,7 @@
           ]
       },
       {
-          "name": "immobilizer",
+          "name": "Immobilizer",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1717,7 +2203,7 @@
           ]
       },
       {
-          "name": "inferno wall projector",
+          "name": "Inferno Wall Projector",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1726,7 +2212,7 @@
           ]
       },
       {
-          "name": "infiltrator",
+          "name": "Infiltrator",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1735,7 +2221,7 @@
           ]
       },
       {
-          "name": "infrastructure drill",
+          "name": "Infrastructure Drill",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1744,7 +2230,7 @@
           ]
       },
       {
-          "name": "instant bridge",
+          "name": "Instant Bridge",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1754,7 +2240,7 @@
           ]
       },
       {
-          "name": "instant item",
+          "name": "Instant Item",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1763,7 +2249,7 @@
           ]
       },
       {
-          "name": "instant servant",
+          "name": "Instant Servant",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1772,7 +2258,7 @@
           ]
       },
       {
-          "name": "instant shelter",
+          "name": "Instant Shelter",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1781,7 +2267,7 @@
           ]
       },
       {
-          "name": "instant wall",
+          "name": "Instant Wall",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1790,7 +2276,7 @@
           ]
       },
       {
-          "name": "instant workshop",
+          "name": "Instant Workshop",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1799,7 +2285,7 @@
           ]
       },
       {
-          "name": "intellect boost",
+          "name": "Intellect Boost",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1808,7 +2294,7 @@
           ]
       },
       {
-          "name": "intellect enhancement patch",
+          "name": "Intellect Enhancement Patch",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -1817,7 +2303,7 @@
           ]
       },
       {
-          "name": "iron tamer",
+          "name": "Iron Tamer",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -1826,7 +2312,7 @@
           ]
       },
       {
-          "name": "kaon preserver",
+          "name": "Kaon Preserver",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1835,7 +2321,7 @@
           ]
       },
       {
-          "name": "kinetic shield",
+          "name": "Kinetic Shield",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1846,7 +2332,7 @@
           ]
       },
       {
-          "name": "knowledge enhancement",
+          "name": "Knowledge Enhancement",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -1855,7 +2341,7 @@
           ]
       },
       {
-          "name": "lacewing shirt",
+          "name": "Lacewing Shirt",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -1865,7 +2351,7 @@
           ]
       },
       {
-          "name": "launcher",
+          "name": "Launcher",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1875,7 +2361,7 @@
           ]
       },
       {
-          "name": "leadership bud",
+          "name": "Leadership Bud",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1885,7 +2371,7 @@
           ]
       },
       {
-          "name": "lightning wall projector",
+          "name": "Lightning Wall Projector",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1894,7 +2380,7 @@
           ]
       },
       {
-          "name": "light spike",
+          "name": "Light Spike",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1904,23 +2390,16 @@
           ]
       },
       {
-          "name": "liquid armor",
+          "name": "Liquid Armor",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
-          "entries": []
-      },
-      {
-          "name": "ac.",
-          "type": "",
-          "rarity": "",
-          "source": "AotA",
           "entries": [
-              "This silk-like belt with two metallic cylinders attached to it is heavier than it looks. When activated as a bonus action, a liquid sprays out of the cylinders on the belt. A humming field shapes this strange fluid, causing it to form a protective shell around you, not unlike plate armor, which lasts for four hours (or until deactivated). The fluid becomes immediately - but selectively - rigid when struck, providing a +1 bonus to"
+              "This silk-like belt with two metallic cylinders attached to it is heavier than it looks. When activated as a bonus action, a liquid sprays out of the cylinders on the belt. A humming field shapes this strange fluid, causing it to form a protective shell around you, not unlike plate armor, which lasts for four hours (or until deactivated). The fluid becomes immediately - but selectively - rigid when struck, providing a +1 bonus to AC. Liquid armor has a depletion of 1 in 1d20."
           ]
       },
       {
-          "name": "liquid sword",
+          "name": "Liquid Sword",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1930,7 +2409,7 @@
           ]
       },
       {
-          "name": "liquid transfer orb",
+          "name": "Liquid Transfer Orb",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -1940,7 +2419,7 @@
           ]
       },
       {
-          "name": "living armor sheath",
+          "name": "Living Armor Sheath",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1950,7 +2429,7 @@
           ]
       },
       {
-          "name": "living conceptualization sheath",
+          "name": "Living Conceptualization Sheath",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1960,7 +2439,7 @@
           ]
       },
       {
-          "name": "lore siphon",
+          "name": "Lore Siphon",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1969,7 +2448,7 @@
           ]
       },
       {
-          "name": "machine control implant",
+          "name": "Machine Control Implant",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -1978,7 +2457,7 @@
           ]
       },
       {
-          "name": "machine steed",
+          "name": "Machine Steed",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -1988,7 +2467,7 @@
           ]
       },
       {
-          "name": "machine stimulator",
+          "name": "Machine Stimulator",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -1998,7 +2477,7 @@
           ]
       },
       {
-          "name": "magnetic attack drill",
+          "name": "Magnetic Attack Drill",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2007,7 +2486,7 @@
           ]
       },
       {
-          "name": "magnetic master",
+          "name": "Magnetic Master",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2017,7 +2496,7 @@
           ]
       },
       {
-          "name": "magnetic shield",
+          "name": "Magnetic Shield",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2026,7 +2505,7 @@
           ]
       },
       {
-          "name": "mask of machine command",
+          "name": "Mask Of Machine Command",
           "type": "IF",
           "rarity": "legendary",
           "source": "AotA",
@@ -2038,7 +2517,7 @@
           "reqAttune": true
       },
       {
-          "name": "mask of machine speaking",
+          "name": "Mask Of Machine Speaking",
           "type": "IF",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2048,7 +2527,7 @@
           "reqAttune": true
       },
       {
-          "name": "matter evaporator",
+          "name": "Matter Evaporator",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2057,7 +2536,7 @@
           ]
       },
       {
-          "name": "melding projector",
+          "name": "Melding Projector",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -2067,7 +2546,7 @@
           ]
       },
       {
-          "name": "memory extractor",
+          "name": "Memory Extractor",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2077,7 +2556,7 @@
           ]
       },
       {
-          "name": "mephitic staff",
+          "name": "Mephitic Staff",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2087,7 +2566,7 @@
           ]
       },
       {
-          "name": "memory goggles",
+          "name": "Memory Goggles",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2096,7 +2575,7 @@
           ]
       },
       {
-          "name": "mental scrambler",
+          "name": "Mental Scrambler",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2116,7 +2595,7 @@
           ]
       },
       {
-          "name": "metabolism bud",
+          "name": "Metabolism Bud",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2126,7 +2605,7 @@
           "reqAttune": true
       },
       {
-          "name": "metal death",
+          "name": "Metal Death",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2135,7 +2614,7 @@
           ]
       },
       {
-          "name": "midnight field",
+          "name": "Midnight Field",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2145,7 +2624,7 @@
           ]
       },
       {
-          "name": "midnight suit",
+          "name": "Midnight Suit",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2156,7 +2635,7 @@
           ]
       },
       {
-          "name": "mimetic replicator",
+          "name": "Mimetic Replicator",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2165,7 +2644,7 @@
           ]
       },
       {
-          "name": "mind imager",
+          "name": "Mind Imager",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2176,7 +2655,7 @@
           ]
       },
       {
-          "name": "mindspeaking implant",
+          "name": "Mindspeaking Implant",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2187,7 +2666,7 @@
           "reqAttune": true
       },
       {
-          "name": "molecular bonder",
+          "name": "Molecular Bonder",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2197,7 +2676,7 @@
           ]
       },
       {
-          "name": "monoblade",
+          "name": "Monoblade",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2206,7 +2685,7 @@
           ]
       },
       {
-          "name": "monster repulsor",
+          "name": "Monster Repulsor",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2218,7 +2697,7 @@
           ]
       },
       {
-          "name": "morale trauma",
+          "name": "Morale Trauma",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2227,7 +2706,7 @@
           ]
       },
       {
-          "name": "motion sensor",
+          "name": "Motion Sensor",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2236,7 +2715,7 @@
           ]
       },
       {
-          "name": "motion stabilizer",
+          "name": "Motion Stabilizer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2245,7 +2724,7 @@
           ]
       },
       {
-          "name": "multi-opener",
+          "name": "Multi-opener",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2255,7 +2734,7 @@
           ]
       },
       {
-          "name": "multidimensional blade",
+          "name": "Multidimensional Blade",
           "type": "RLC",
           "rarity": "legendary",
           "source": "AotA",
@@ -2266,7 +2745,7 @@
           "reqAttune": true
       },
       {
-          "name": "murder globe",
+          "name": "Murder Globe",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2277,7 +2756,7 @@
           ]
       },
       {
-          "name": "nanite resistance",
+          "name": "Nanite Resistance",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2286,7 +2765,7 @@
           ]
       },
       {
-          "name": "nano-needler",
+          "name": "Nano-needler",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2296,7 +2775,7 @@
           ]
       },
       {
-          "name": "natalitial",
+          "name": "Natalitial",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2306,7 +2785,7 @@
           ]
       },
       {
-          "name": "net arrow",
+          "name": "Net Arrow",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2317,7 +2796,7 @@
           ]
       },
       {
-          "name": "null orb",
+          "name": "Null Orb",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2327,7 +2806,7 @@
           ]
       },
       {
-          "name": "object micronizer",
+          "name": "Object Micronizer",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2336,7 +2815,7 @@
           ]
       },
       {
-          "name": "object replicator",
+          "name": "Object Replicator",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2345,7 +2824,7 @@
           ]
       },
       {
-          "name": "operon reservoir",
+          "name": "Operon Reservoir",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -2356,7 +2835,7 @@
           "reqAttune": true
       },
       {
-          "name": "organ factory",
+          "name": "Organ Factory",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2366,7 +2845,7 @@
           ]
       },
       {
-          "name": "otherspace stasis chamber skeleton key",
+          "name": "Otherspace Stasis Chamber Skeleton Key",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2375,7 +2854,7 @@
           ]
       },
       {
-          "name": "otherspace weapon nodule",
+          "name": "Otherspace Weapon Nodule",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2385,7 +2864,7 @@
           ]
       },
       {
-          "name": "otherwhere torch",
+          "name": "Otherwhere Torch",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2406,7 +2885,7 @@
           ]
       },
       {
-          "name": "pacifying needler",
+          "name": "Pacifying Needler",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -2419,7 +2898,7 @@
           ]
       },
       {
-          "name": "perception extender",
+          "name": "Perception Extender",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2429,7 +2908,7 @@
           ]
       },
       {
-          "name": "personal environment field",
+          "name": "Personal Environment Field",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2438,7 +2917,7 @@
           ]
       },
       {
-          "name": "personal telekinesis field",
+          "name": "Personal Telekinesis Field",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2447,7 +2926,7 @@
           ]
       },
       {
-          "name": "phase changer",
+          "name": "Phase Changer",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2456,7 +2935,7 @@
           ]
       },
       {
-          "name": "phase disrupter",
+          "name": "Phase Disrupter",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2465,7 +2944,7 @@
           ]
       },
       {
-          "name": "phasing detector",
+          "name": "Phasing Detector",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2474,7 +2953,7 @@
           ]
       },
       {
-          "name": "phasing gloves",
+          "name": "Phasing Gloves",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2483,7 +2962,7 @@
           ]
       },
       {
-          "name": "phasing piton",
+          "name": "Phasing Piton",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2493,7 +2972,7 @@
           ]
       },
       {
-          "name": "plant jar",
+          "name": "Plant Jar",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2503,7 +2982,7 @@
           ]
       },
       {
-          "name": "poison brain implant",
+          "name": "Poison Brain Implant",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -2513,7 +2992,7 @@
           ]
       },
       {
-          "name": "poison of detonation",
+          "name": "Poison Of Detonation",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2530,7 +3009,7 @@
           ]
       },
       {
-          "name": "poison of emotion (anger)",
+          "name": "Poison Of Emotion (anger)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2540,7 +3019,7 @@
           ]
       },
       {
-          "name": "poison of emotion (fear)",
+          "name": "Poison Of Emotion (fear)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2550,7 +3029,7 @@
           ]
       },
       {
-          "name": "poison of emotion (lust)",
+          "name": "Poison Of Emotion (lust)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2560,7 +3039,7 @@
           ]
       },
       {
-          "name": "poison of emotion (sadness)",
+          "name": "Poison Of Emotion (sadness)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2570,7 +3049,7 @@
           ]
       },
       {
-          "name": "poison of emotion (complacency)",
+          "name": "Poison Of Emotion (complacency)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2580,7 +3059,7 @@
           ]
       },
       {
-          "name": "poison of emotion (joy)",
+          "name": "Poison Of Emotion (joy)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2590,7 +3069,7 @@
           ]
       },
       {
-          "name": "poison of emotion (love)",
+          "name": "Poison Of Emotion (love)",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2600,7 +3079,7 @@
           ]
       },
       {
-          "name": "poison of mind control",
+          "name": "Poison Of Mind Control",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2617,7 +3096,7 @@
           ]
       },
       {
-          "name": "portable feast",
+          "name": "Portable Feast",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2627,7 +3106,7 @@
           ]
       },
       {
-          "name": "precognitive hoop staff",
+          "name": "Precognitive Hoop Staff",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2637,7 +3116,7 @@
           ]
       },
       {
-          "name": "prevarication exponent",
+          "name": "Prevarication Exponent",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2647,7 +3126,7 @@
           ]
       },
       {
-          "name": "prostheticlick",
+          "name": "Prostheticlick",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2657,7 +3136,7 @@
           "reqAttune": true
       },
       {
-          "name": "psychic communique",
+          "name": "Psychic Communique",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2666,7 +3145,7 @@
           ]
       },
       {
-          "name": "psychic defense nodule",
+          "name": "Psychic Defense Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2676,7 +3155,7 @@
           ]
       },
       {
-          "name": "psychic eradicator",
+          "name": "Psychic Eradicator",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -2686,7 +3165,7 @@
           ]
       },
       {
-          "name": "psychic helmet",
+          "name": "Psychic Helmet",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2696,7 +3175,7 @@
           ]
       },
       {
-          "name": "psychic whistle",
+          "name": "Psychic Whistle",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2706,7 +3185,7 @@
           ]
       },
       {
-          "name": "psychosome",
+          "name": "Psychosome",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2716,7 +3195,7 @@
           ]
       },
       {
-          "name": "puppeteering sleeves",
+          "name": "Puppeteering Sleeves",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2725,7 +3204,7 @@
           ]
       },
       {
-          "name": "quantium backtracker",
+          "name": "Quantium Backtracker",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2734,7 +3213,7 @@
           ]
       },
       {
-          "name": "quantium boost",
+          "name": "Quantium Boost",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2743,7 +3222,7 @@
           ]
       },
       {
-          "name": "rage thrower",
+          "name": "Rage Thrower",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2752,7 +3231,7 @@
           ]
       },
       {
-          "name": "rally beacon",
+          "name": "Rally Beacon",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2761,7 +3240,7 @@
           ]
       },
       {
-          "name": "rampaging form",
+          "name": "Rampaging Form",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -2772,7 +3251,7 @@
           ]
       },
       {
-          "name": "ray emitter (heat)",
+          "name": "Ray Emitter (heat)",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2781,7 +3260,7 @@
           ]
       },
       {
-          "name": "ray emitter (disruption)",
+          "name": "Ray Emitter (disruption)",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2790,7 +3269,7 @@
           ]
       },
       {
-          "name": "ray emitter (force)",
+          "name": "Ray Emitter (force)",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2799,7 +3278,7 @@
           ]
       },
       {
-          "name": "ray emitter (lightning)",
+          "name": "Ray Emitter (lightning)",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2808,7 +3287,7 @@
           ]
       },
       {
-          "name": "ray emitter (melting)",
+          "name": "Ray Emitter (melting)",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2817,7 +3296,7 @@
           ]
       },
       {
-          "name": "ray emitter (cold)",
+          "name": "Ray Emitter (cold)",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2826,7 +3305,7 @@
           ]
       },
       {
-          "name": "ray emitter of numbing",
+          "name": "Ray Emitter Of Numbing",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2835,7 +3314,7 @@
           ]
       },
       {
-          "name": "ray emitter of paralysis",
+          "name": "Ray Emitter Of Paralysis",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2844,7 +3323,7 @@
           ]
       },
       {
-          "name": "reality spike",
+          "name": "Reality Spike",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2853,7 +3332,7 @@
           ]
       },
       {
-          "name": "recorder headband",
+          "name": "Recorder Headband",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2863,7 +3342,7 @@
           ]
       },
       {
-          "name": "redlight clip",
+          "name": "Redlight Clip",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2873,7 +3352,7 @@
           ]
       },
       {
-          "name": "reflective shield",
+          "name": "Reflective Shield",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2883,7 +3362,7 @@
           ]
       },
       {
-          "name": "rejuvenator",
+          "name": "Rejuvenator",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2892,7 +3371,7 @@
           ]
       },
       {
-          "name": "remote clamp",
+          "name": "Remote Clamp",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2902,7 +3381,7 @@
           ]
       },
       {
-          "name": "remote viewer",
+          "name": "Remote Viewer",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2911,7 +3390,7 @@
           ]
       },
       {
-          "name": "repair unit",
+          "name": "Repair Unit",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2920,7 +3399,7 @@
           ]
       },
       {
-          "name": "repeating blade",
+          "name": "Repeating Blade",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2931,7 +3410,7 @@
           ]
       },
       {
-          "name": "retaliation implant",
+          "name": "Retaliation Implant",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -2941,7 +3420,7 @@
           "reqAttune": true
       },
       {
-          "name": "retaliation nodule",
+          "name": "Retaliation Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -2950,7 +3429,7 @@
           ]
       },
       {
-          "name": "retriever",
+          "name": "Retriever",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2959,7 +3438,7 @@
           ]
       },
       {
-          "name": "road builder",
+          "name": "Road Builder",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2969,7 +3448,7 @@
           ]
       },
       {
-          "name": "rodule of branding",
+          "name": "Rodule Of Branding",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -2978,7 +3457,7 @@
           ]
       },
       {
-          "name": "rodule of inquisition",
+          "name": "Rodule Of Inquisition",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -2988,7 +3467,7 @@
           ]
       },
       {
-          "name": "rumbler",
+          "name": "Rumbler",
           "type": "RLC",
           "rarity": "legendary",
           "source": "AotA",
@@ -3001,7 +3480,7 @@
           ]
       },
       {
-          "name": "sacrilock",
+          "name": "Sacrilock",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3011,7 +3490,7 @@
           ]
       },
       {
-          "name": "safe corridor",
+          "name": "Safe Corridor",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3021,7 +3500,7 @@
           ]
       },
       {
-          "name": "salvage pack",
+          "name": "Salvage Pack",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3031,7 +3510,7 @@
           ]
       },
       {
-          "name": "second skin",
+          "name": "Second Skin",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3041,7 +3520,7 @@
           ]
       },
       {
-          "name": "shadowpath blade",
+          "name": "Shadowpath Blade",
           "type": "RLC",
           "rarity": "legendary",
           "source": "AotA",
@@ -3052,7 +3531,7 @@
           ]
       },
       {
-          "name": "shapemetal",
+          "name": "Shapemetal",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3061,7 +3540,7 @@
           ]
       },
       {
-          "name": "shapestone sprayer",
+          "name": "Shapestone Sprayer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3072,7 +3551,7 @@
           ]
       },
       {
-          "name": "shatter wand",
+          "name": "Shatter Wand",
           "type": "RLC",
           "rarity": "legendary",
           "source": "AotA",
@@ -3082,7 +3561,7 @@
           ]
       },
       {
-          "name": "sheen",
+          "name": "Sheen",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3091,7 +3570,7 @@
           ]
       },
       {
-          "name": "shock manacles",
+          "name": "Shock Manacles",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3101,7 +3580,7 @@
           ]
       },
       {
-          "name": "shocker",
+          "name": "Shocker",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3110,7 +3589,7 @@
           ]
       },
       {
-          "name": "skill boost (acrobatics)",
+          "name": "Skill Boost (acrobatics)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3119,7 +3598,7 @@
           ]
       },
       {
-          "name": "skill boost (animal handling)",
+          "name": "Skill Boost (animal Handling)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3128,7 +3607,7 @@
           ]
       },
       {
-          "name": "skill boost (arcana)",
+          "name": "Skill Boost (arcana)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3137,7 +3616,7 @@
           ]
       },
       {
-          "name": "skill boost (athletics)",
+          "name": "Skill Boost (athletics)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3146,7 +3625,7 @@
           ]
       },
       {
-          "name": "skill boost (deception)",
+          "name": "Skill Boost (deception)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3155,7 +3634,7 @@
           ]
       },
       {
-          "name": "skill boost (history)",
+          "name": "Skill Boost (history)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3164,7 +3643,7 @@
           ]
       },
       {
-          "name": "skill boost (insight)",
+          "name": "Skill Boost (insight)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3173,7 +3652,7 @@
           ]
       },
       {
-          "name": "skill boost (intimidation)",
+          "name": "Skill Boost (intimidation)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3182,7 +3661,7 @@
           ]
       },
       {
-          "name": "skill boost (medicine)",
+          "name": "Skill Boost (medicine)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3191,7 +3670,7 @@
           ]
       },
       {
-          "name": "skill boost (nature)",
+          "name": "Skill Boost (nature)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3200,7 +3679,7 @@
           ]
       },
       {
-          "name": "skill boost (perception)",
+          "name": "Skill Boost (perception)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3209,7 +3688,7 @@
           ]
       },
       {
-          "name": "skill boost (persuasion)",
+          "name": "Skill Boost (persuasion)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3218,7 +3697,7 @@
           ]
       },
       {
-          "name": "skill boost (religion)",
+          "name": "Skill Boost (religion)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3227,7 +3706,7 @@
           ]
       },
       {
-          "name": "skill boost (sleight of hand)",
+          "name": "Skill Boost (sleight Of Hand)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3236,7 +3715,7 @@
           ]
       },
       {
-          "name": "skill boost (stealth)",
+          "name": "Skill Boost (stealth)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3245,7 +3724,7 @@
           ]
       },
       {
-          "name": "skill boost (survival)",
+          "name": "Skill Boost (survival)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3254,7 +3733,7 @@
           ]
       },
       {
-          "name": "skill boost (psionics)",
+          "name": "Skill Boost (psionics)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3263,7 +3742,7 @@
           ]
       },
       {
-          "name": "skin of phasing",
+          "name": "Skin Of Phasing",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3276,7 +3755,7 @@
           "reqAttune": true
       },
       {
-          "name": "skin of steel",
+          "name": "Skin Of Steel",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3290,7 +3769,7 @@
           "reqAttune": true
       },
       {
-          "name": "skull blaster",
+          "name": "Skull Blaster",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3300,7 +3779,7 @@
           ]
       },
       {
-          "name": "sleep inducer",
+          "name": "Sleep Inducer",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3309,7 +3788,7 @@
           ]
       },
       {
-          "name": "slugspitter",
+          "name": "Slugspitter",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3319,7 +3798,7 @@
           ]
       },
       {
-          "name": "smoke ink pen",
+          "name": "Smoke Ink Pen",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3329,7 +3808,7 @@
           ]
       },
       {
-          "name": "snipewand",
+          "name": "Snipewand",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3339,7 +3818,7 @@
           ]
       },
       {
-          "name": "sonic hole",
+          "name": "Sonic Hole",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3348,7 +3827,7 @@
           ]
       },
       {
-          "name": "sound dampener",
+          "name": "Sound Dampener",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3357,7 +3836,7 @@
           ]
       },
       {
-          "name": "spatial warp",
+          "name": "Spatial Warp",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3366,7 +3845,7 @@
           ]
       },
       {
-          "name": "speed boost",
+          "name": "Speed Boost",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3375,7 +3854,7 @@
           ]
       },
       {
-          "name": "spider line dispenser",
+          "name": "Spider Line Dispenser",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3384,7 +3863,7 @@
           ]
       },
       {
-          "name": "spikes of the zephyr",
+          "name": "Spikes Of The Zephyr",
           "type": "IF",
           "rarity": "rare",
           "source": "AotA",
@@ -3394,7 +3873,7 @@
           "reqAttune": true
       },
       {
-          "name": "spine of gravity",
+          "name": "Spine Of Gravity",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3408,7 +3887,7 @@
           "reqAttune": true
       },
       {
-          "name": "spine of impact",
+          "name": "Spine Of Impact",
           "type": "IF",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3418,7 +3897,7 @@
           "reqAttune": true
       },
       {
-          "name": "spine of might",
+          "name": "Spine Of Might",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3428,7 +3907,7 @@
           "reqAttune": true
       },
       {
-          "name": "spine of shock",
+          "name": "Spine Of Shock",
           "type": "IF",
           "rarity": "rare",
           "source": "AotA",
@@ -3440,7 +3919,7 @@
           "reqAttune": true
       },
       {
-          "name": "stability spike",
+          "name": "Stability Spike",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3450,7 +3929,7 @@
           ]
       },
       {
-          "name": "stasis pod",
+          "name": "Stasis Pod",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3461,7 +3940,7 @@
           ]
       },
       {
-          "name": "stealth coating",
+          "name": "Stealth Coating",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3470,7 +3949,7 @@
           ]
       },
       {
-          "name": "stealth thrower",
+          "name": "Stealth Thrower",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3479,7 +3958,7 @@
           ]
       },
       {
-          "name": "stim",
+          "name": "Stim",
           "type": "CY",
           "rarity": "very rare",
           "source": "AotA",
@@ -3488,7 +3967,7 @@
           ]
       },
       {
-          "name": "stormheart",
+          "name": "Stormheart",
           "type": "IF",
           "rarity": "rare",
           "source": "AotA",
@@ -3499,7 +3978,7 @@
           "reqAttune": true
       },
       {
-          "name": "stormheart tempest",
+          "name": "Stormheart Tempest",
           "type": "IF",
           "rarity": "legendary",
           "source": "AotA",
@@ -3511,7 +3990,7 @@
           "reqAttune": true
       },
       {
-          "name": "strength boost",
+          "name": "Strength Boost",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3520,7 +3999,7 @@
           ]
       },
       {
-          "name": "structural extruder",
+          "name": "Structural Extruder",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3530,7 +4009,7 @@
           ]
       },
       {
-          "name": "structural reinforcer",
+          "name": "Structural Reinforcer",
           "type": "IF",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3540,7 +4019,7 @@
           "reqAttune": true
       },
       {
-          "name": "stunner",
+          "name": "Stunner",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3550,7 +4029,7 @@
           ]
       },
       {
-          "name": "subdual field",
+          "name": "Subdual Field",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3559,7 +4038,7 @@
           ]
       },
       {
-          "name": "summoning alarm nodule",
+          "name": "Summoning Alarm Nodule",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3568,7 +4047,7 @@
           ]
       },
       {
-          "name": "sunfire crown",
+          "name": "Sunfire Crown",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3578,7 +4057,7 @@
           ]
       },
       {
-          "name": "sunfire corona",
+          "name": "Sunfire Corona",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3592,7 +4071,7 @@
           "reqAttune": true
       },
       {
-          "name": "surgeon sphere",
+          "name": "Surgeon Sphere",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3602,7 +4081,7 @@
           ]
       },
       {
-          "name": "suspensor belt",
+          "name": "Suspensor Belt",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3612,7 +4091,7 @@
           ]
       },
       {
-          "name": "sustenance implant",
+          "name": "Sustenance Implant",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3621,7 +4100,7 @@
           ]
       },
       {
-          "name": "synthetic body",
+          "name": "Synthetic Body",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3632,7 +4111,7 @@
           "reqAttune": true
       },
       {
-          "name": "telepathic wire",
+          "name": "Telepathic Wire",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3642,7 +4121,7 @@
           ]
       },
       {
-          "name": "telepathy implant",
+          "name": "Telepathy Implant",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3651,7 +4130,7 @@
           ]
       },
       {
-          "name": "teleportation beacon",
+          "name": "Teleportation Beacon",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3660,7 +4139,7 @@
           ]
       },
       {
-          "name": "teleporter of bounding",
+          "name": "Teleporter Of Bounding",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3669,7 +4148,7 @@
           ]
       },
       {
-          "name": "teleporter of traveling",
+          "name": "Teleporter Of Traveling",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3678,7 +4157,7 @@
           ]
       },
       {
-          "name": "telltale glass",
+          "name": "Telltale Glass",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3688,7 +4167,7 @@
           ]
       },
       {
-          "name": "temporal duplicator",
+          "name": "Temporal Duplicator",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3698,7 +4177,7 @@
           ]
       },
       {
-          "name": "temporal viewer",
+          "name": "Temporal Viewer",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3707,7 +4186,7 @@
           ]
       },
       {
-          "name": "temporary wing",
+          "name": "Temporary Wing",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3717,7 +4196,7 @@
           ]
       },
       {
-          "name": "tendril graft",
+          "name": "Tendril Graft",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3729,7 +4208,7 @@
           "reqAttune": true
       },
       {
-          "name": "tentacle injector",
+          "name": "Tentacle Injector",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3739,7 +4218,7 @@
           ]
       },
       {
-          "name": "thunder cannon",
+          "name": "Thunder Cannon",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3749,7 +4228,7 @@
           ]
       },
       {
-          "name": "time dilator of defense",
+          "name": "Time Dilator Of Defense",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3758,7 +4237,7 @@
           ]
       },
       {
-          "name": "time dilator of offense",
+          "name": "Time Dilator Of Offense",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3767,7 +4246,7 @@
           ]
       },
       {
-          "name": "time skipper",
+          "name": "Time Skipper",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3776,7 +4255,7 @@
           ]
       },
       {
-          "name": "toolbox blade",
+          "name": "Toolbox Blade",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3786,7 +4265,7 @@
           ]
       },
       {
-          "name": "toxic fogger",
+          "name": "Toxic Fogger",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3796,7 +4275,7 @@
           ]
       },
       {
-          "name": "tracer",
+          "name": "Tracer",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3805,7 +4284,7 @@
           ]
       },
       {
-          "name": "trackdarter",
+          "name": "Trackdarter",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3816,7 +4295,7 @@
           ]
       },
       {
-          "name": "trail blazer",
+          "name": "Trail Blazer",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3825,7 +4304,7 @@
           ]
       },
       {
-          "name": "transdimensional lens",
+          "name": "Transdimensional Lens",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3834,7 +4313,7 @@
           ]
       },
       {
-          "name": "transdimensional mixer",
+          "name": "Transdimensional Mixer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3844,7 +4323,7 @@
           ]
       },
       {
-          "name": "transdimensional ray projector",
+          "name": "Transdimensional Ray Projector",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -3853,7 +4332,7 @@
           ]
       },
       {
-          "name": "travel bubble",
+          "name": "Travel Bubble",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3862,7 +4341,7 @@
           ]
       },
       {
-          "name": "trigger trap",
+          "name": "Trigger Trap",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3872,7 +4351,7 @@
           ]
       },
       {
-          "name": "troglit creche",
+          "name": "Troglit Creche",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3881,7 +4360,7 @@
           ]
       },
       {
-          "name": "twilight skin",
+          "name": "Twilight Skin",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -3893,7 +4372,7 @@
           "reqAttune": true
       },
       {
-          "name": "unarmored nodule",
+          "name": "Unarmored Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3902,7 +4381,7 @@
           ]
       },
       {
-          "name": "universal solvent",
+          "name": "Universal Solvent",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3912,7 +4391,7 @@
           ]
       },
       {
-          "name": "ventriloquist nodule",
+          "name": "Ventriloquist Nodule",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3921,7 +4400,7 @@
           ]
       },
       {
-          "name": "vigilant eye",
+          "name": "Vigilant Eye",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3931,7 +4410,7 @@
           ]
       },
       {
-          "name": "visage changer",
+          "name": "Visage Changer",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3940,7 +4419,7 @@
           ]
       },
       {
-          "name": "vision relayer",
+          "name": "Vision Relayer",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -3951,7 +4430,7 @@
           ]
       },
       {
-          "name": "visual displacement device",
+          "name": "Visual Displacement Device",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3960,7 +4439,7 @@
           ]
       },
       {
-          "name": "vocal translator",
+          "name": "Vocal Translator",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3969,7 +4448,7 @@
           ]
       },
       {
-          "name": "voicebox graft",
+          "name": "Voicebox Graft",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3978,7 +4457,7 @@
           ]
       },
       {
-          "name": "wasp drone",
+          "name": "Wasp Drone",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -3987,7 +4466,7 @@
           ]
       },
       {
-          "name": "water breather",
+          "name": "Water Breather",
           "type": "CY",
           "rarity": "common",
           "source": "AotA",
@@ -3996,7 +4475,7 @@
           ]
       },
       {
-          "name": "water spigot",
+          "name": "Water Spigot",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -4007,7 +4486,7 @@
           ]
       },
       {
-          "name": "waterproofing spray",
+          "name": "Waterproofing Spray",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -4016,7 +4495,7 @@
           ]
       },
       {
-          "name": "weapon graft",
+          "name": "Weapon Graft",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -4027,7 +4506,7 @@
           "reqAttune": true
       },
       {
-          "name": "windrider",
+          "name": "Windrider",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -4037,7 +4516,7 @@
           ]
       },
       {
-          "name": "windslice blade",
+          "name": "Windslice Blade",
           "type": "RLC",
           "rarity": "very rare",
           "source": "AotA",
@@ -4048,7 +4527,7 @@
           "reqAttune": true
       },
       {
-          "name": "wings of thunder",
+          "name": "Wings Of Thunder",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -4062,7 +4541,7 @@
           "reqAttune": true
       },
       {
-          "name": "winter torque",
+          "name": "Winter Torque",
           "type": "IF",
           "rarity": "very rare",
           "source": "AotA",
@@ -4075,7 +4554,7 @@
           "reqAttune": true
       },
       {
-          "name": "wondrous pocket",
+          "name": "Wondrous Pocket",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
@@ -4088,7 +4567,7 @@
           ]
       },
       {
-          "name": "wood ink pen",
+          "name": "Wood Ink Pen",
           "type": "RLC",
           "rarity": "uncommon",
           "source": "AotA",
@@ -4098,7 +4577,7 @@
           ]
       },
       {
-          "name": "x-ray viewer",
+          "name": "X-ray Viewer",
           "type": "CY",
           "rarity": "uncommon",
           "source": "AotA",
@@ -4107,12 +4586,21 @@
           ]
       },
       {
-          "name": "oorgolian slug thrower",
+          "name": "Oorgolian Slug Thrower",
           "type": "RLC",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
               "This device can be used as a two-handed weapon that fires a slug of solid metal at incredible velocity at a target within 120 feet that you can see and have direct line of effect to. The target must succeed on a DC 15 Dexterity saving throw or take (11) 2d10 piercing damage. A slug thrower has a depletion 1 in 1d100 (the projectile ammo regenerates within the weapon until it depletes)."
+          ]
+      },
+      {
+          "name": "Plasma Detonation",
+          "type": "CY",
+          "rarity": "uncommon",
+          "source": "AotA",
+          "entries": [
+              "This fist-sized crystal globe bottles a luminous white flare. When thrown up to 60 feet, the sphere explodes on impact, releasing a burst of sun-hot plasma that deals 27 (6d8) fire damage on all creatures within a 20-foot-radius sphere centered on that point that fail a DC 13 Dexterity save, or half that if successful."
           ]
       }
   ]

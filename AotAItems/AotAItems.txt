@@ -2744,8 +2744,7 @@ This injector contains a golden fluid made
 up of nanites. When injected into your body,
 the nanites travel through your flesh and
 create a skin-tight energy shield around you
-for 1 hour, which grants you a +3 bonus to
-AC.
+for 1 hour, which grants you a +3 bonus to AC.
 
 
 FRIGID WALL PROJECTOR
@@ -2824,6 +2823,275 @@ all memory of the last minute.
 87-96 Sleep gas: falls asleep for 6 rounds
 (or until they take damage or are
 shaken or slapped awake).
+
+97-00 Rage gas: uses its action to
+make a melee attack against a
+randomly determined creature
+within its reach for the next 6
+rounds (if no creature is in reach,
+it instead does nothing on its
+turn).
+
+GAS BOMB ( THICK SMOKE )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Harmless thick smoke: occludes
+sight while the cloud lasts but
+has no other effect.
+
+GAS BOMB ( CHOKING )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Choking gas: choking and
+coughing incapacitates and
+suffocates for 6 rounds.
+
+GAS BOMB ( POISON )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Poison gas: deals 2d6 + 2 poison
+damage (half damage on a
+successful save).
+
+GAS BOMB ( CORROSIVE )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Corrosive gas: deals 2d6 + 2
+acid damage (half damage on a
+successful save).
+
+GAS BOMB ( HALLUCIONOGENIC )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+
+Hallucinogenic gas: hallucinations
+and visions incapacitate for 6
+rounds.
+
+GAS BOMB ( NERVE )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Nerve gas: grants disadvantage
+on Dex rolls and saves for 6
+rounds.
+
+GAS BOMB ( MIND NUMBING )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+71-80 Mind-numbing gas: deals 2d6 + 2
+psychic damage (half damage on
+a successful save).
+
+GAS BOMB ( FEAR )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Fear gas: frightened and flees in a
+random direction (or is paralyzed
+with fear) for 6 rounds.
+
+GAS BOMB ( AMNESIA )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Amnesia gas: permanently loses
+all memory of the last minute.
+
+GAS BOMB ( SLEEP )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
+Sleep gas: falls asleep for 6 rounds
+(or until they take damage or are
+shaken or slapped awake).
+
+GAS BOMB ( RAGE )
+
+Cypher, rare
+This metal wristband sometimes emits
+smelly fumes from small pores on its
+surface. As your attack action, you can
+use it to launch a small capsule at an area
+(range 30/120). The capsule explodes when
+it hits a creature or solid object (such as
+the ground), creating a poisonous cloud
+that fills a 10-foot-radius sphere. The cloud
+lingers for 1d6 rounds unless conditions
+dictate otherwise. All creatures within the
+cloud (and any creature that enters it for
+the first time on a turn) must succeed on a
+DC 13 Constitution saving throw or suffer
+an effect. The effect of a failed saving throw
+on a target depends on what kind of poison
+it is:
+
 97-00 Rage gas: uses its action to
 make a melee attack against a
 randomly determined creature
@@ -3800,9 +4068,7 @@ causing it to form a protective shell around
 you, not unlike plate armor, which lasts for
 four hours (or until deactivated). The fluid
 becomes immediately - but selectively -
-rigid when struck, providing a +1 bonus to
-AC.
-
+rigid when struck, providing a +1 bonus to AC.
 Liquid armor has a depletion of 1 in 1d20.
 
 LIQUID SWORD
@@ -8155,3 +8421,15 @@ piercing damage.
 A slug thrower has a depletion 1 in 1d100
 (the projectile ammo regenerates within the
 weapon until it depletes).
+
+
+PLASMA DETONATION
+Cypher, uncommon
+This fist-sized crystal globe bottles a
+luminous white flare. When thrown up to
+60 feet, the sphere explodes on impact,
+releasing a burst of sun-hot plasma that
+deals 27 (6d8) fire damage on all creatures
+within a 20-foot-radius sphere centered on
+that point that fail a DC 13 Dexterity save, or
+half that if successful.
