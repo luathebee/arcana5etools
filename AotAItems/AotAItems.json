@@ -205,17 +205,122 @@
           "source": "AotA",
           "entries": [
               "This cypher is in the form of an oblong metallic seed or lozenge approximately 1 inch long. When placed in soil, it absorbs minerals and fabricates a type three basic automaton, which emerges from the ground 1d6 minutes later. The automaton remains active for 10 hours, following you or going where you direct it (this is not an action). Different seeds grow different kinds of automatons, including those presented on the Automaton Seed Table.",
-              "d10 Follower Modifications or Special Qualities",
-              "1 Chef Creates and prepares one quality meal for you",
-              "2 Admirer Tells impressive stories about you and grants you advantage on any task to impress others",
-              "3 Carpenter Performs the equivalent of one day's crafting or assisting for carpentry items",
-              "4 Mender Adds your proficiency bonus to Hit Die rolls to recover hit points",
-              "5 Scholar Grants you advantage on Intelligence skill checks",
-              "6 Tailor Creates one quality set of clothing for you",
-              "7 Porter Carries one cypher for you (this doesn't count against your cypher limit)",
-              "8 Mason Performs the equivalent of one day's crafting or assisting for masonry items",
-              "9 Scout Spies and reports on what it sees, has proficiency and advantage on Stealth",
-              "10 Creature Machine duplicate of a creature of challenge rating 1/4"
+              {
+              	"type": "table",
+              	"caption": "Automaton Seed Table",
+              	"colLabels": [
+              		"{@dice d10}",
+              		"Follower",
+                  "Modifications or Special Qualities"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-2",
+                  "col-4"
+              	],
+              	"rows": [
+              		[
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":1
+              		    }
+              		  },
+              		  "Chef",
+                    "Creates and prepares one quality meal for you"
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":2
+              		    }
+              		  },
+              		  "Admirer",
+                    "Tells impressive stories about you and grants you advantage on any task to impress others."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":3
+              		    }
+              		  },
+              		  "Carpenter",
+                    "Performs the equivalent of one day's crafting or assisting for carpentry items"
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":4
+              		    }
+              		  },
+              		  "Mender",
+                    "Adds your proficiency bonus to Hit Die rolls to recover hit points."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":5
+              		    }
+              		  },
+              		  "Scholar",
+                    "Grants you advantage on Intelligence skill checks"
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":6
+              		    }
+              		  },
+              		  "Tailor",
+                    "Creates one quality set of clothing for you"
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":7
+              		    }
+              		  },
+              		  "Porter",
+                    "Carries one cypher for you (this doesn't count against your cypher limit)"
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":8
+              		    }
+              		  },
+              		  "Mason",
+                    "Performs the equivalent of one day's crafting or assisting for masonry items"
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "exact":9
+              		    }
+              		  },
+              		  "Scout",
+                    "Spies and reports on what it sees, has proficiency and advantage on Stealth"
+              		],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":10
+                      }
+                    },
+                    "Creature",
+                    "Machine duplicate of a creature of challenge rating 1/4"
+                  ]
+              	]
+              }
           ]
       },
       {
@@ -317,7 +422,7 @@
           "entries": [
               "This canister is made of metal or a similar hard material and has a long flexible tube extending from one end. It has two modes of operation. In the default mode, you can use your action to dispense a hand-width cylinder of brown dough-like material, up to 10 feet long per round, which cooks itself into a bland sort of hard-crusted bread after about one minute. By building up multiple layers, you can create larger structures such as walls and doorways, but it is still just hard bread. The bread is filling and nutritious as bread goes, but not something a human could live on for an extended period.",
               "In burst mode, when activated as your action, the tube dispenses a high-volume slurry of dough in a 10-foot cone, which instantly flash-bakes itself into hard bread. All creatures within the cone take 1d4 fire damage and must succeed on a DC 13 Dexterity saving throw or else the creature",
-              "is restrained as long as it remains in the cooked bread or until it breaks free. A creature restrained by the hard bread can use its action to make a DC 13 Strength check. If it succeeds, it is no longer restrained. Unlike a detonation of webs cypher, the material created by this relic is permanent, but (like regular bread) it might be eaten by animals, softened by water or other liquids, and so on.",
+              "is restrained as long as it remains in the cooked bread or until it breaks free. A creature restrained by the hard bread can use its action to make a DC 13 Strength check. If it succeeds, it is no longer restrained. Unlike a {@item detonation of webs|aota} cypher, the material created by this relic is permanent, but (like regular bread) it might be eaten by animals, softened by water or other liquids, and so on.",
               "A bread sprayer has a depletion of 1 in 1d20, checked per hour of use in default mode or each use in burst mode."
           ]
       },
@@ -435,7 +540,7 @@
               							"pad": true
               						}
               					},
-              					"Euphoric for 1d6 hours (disadvantage on all rolls)"
+              					"Euphoric for {@dice 1d6} hours (disadvantage on all rolls)"
               				],
                       [
               					{
@@ -446,7 +551,7 @@
               							"pad": true
               						}
               					},
-              					"Hallucinogenic for {@dice d6} hours (disadvantage on all rolls)"
+              					"Hallucinogenic for {@dice 1d6} hours (disadvantage on all rolls)"
               				],
                       [
               					{
@@ -457,7 +562,7 @@
               							"pad": true
               						}
               					},
-              					"Stimulant for {@dice d6} hours (advantage on all rolls, followed by disadvantage on all rolls for an equal amount of time)"
+              					"Stimulant for {@dice 1d6} hours (advantage on all rolls, followed by disadvantage on all rolls for an equal amount of time)"
               				],
                       [
               					{
@@ -468,7 +573,7 @@
               							"pad": true
               						}
               					},
-              					"Depressant for {@dice d6} hours (disadvantage on all rolls)"
+              					"Depressant for {@dice 1d6} hours (disadvantage on all rolls)"
               				],
                       [
               					{
@@ -1069,7 +1174,8 @@
                         "{@item Detonation (Daggers)|aota|Daggers (piercing damage)}"
                       ]
                     ]
-                }
+                },
+                "These detonations are usually named after the type of damage they inflict: detonation of spawning cell disruption, detonation of spawning corrosion, and so on."
           ]
       },
       {
@@ -1087,8 +1193,7 @@
           "rarity": "uncommon",
           "source": "AotA",
           "entries": [
-              "This cypher is a wristband projector with a glass screen. As your attack action, you can use the device to launch a projectile at an area (range 30/120). The projectile creates an explosion of shrapnel when it hits a creature or solid object (such as the ground). All creatures within a 25-footradius sphere must make a DC 15 Dexterity saving throw. A target takes 2d6 + 2 piercing damage on a failed save, or half as much on a successful one. For the next week, you can use the screen on the cypher to track the direction and distance of all creatures in the explosion.",
-              "These detonations are usually named after the type of damage they inflict: detonation of spawning cell disruption, detonation of spawning corrosion, and so on. Rather than strands of sticky goo, some detonation of webs fill the area with a mass of quick-hardening foam that accomplishes the same thing."
+              "This cypher is a wristband projector with a glass screen. As your attack action, you can use the device to launch a projectile at an area (range 30/120). The projectile creates an explosion of shrapnel when it hits a creature or solid object (such as the ground). All creatures within a 25-footradius sphere must make a DC 15 Dexterity saving throw. A target takes 2d6 + 2 piercing damage on a failed save, or half as much on a successful one. For the next week, you can use the screen on the cypher to track the direction and distance of all creatures in the explosion."
           ]
       },
       {
@@ -1100,7 +1205,14 @@
               "This small device is made of synth and organic material. You can activate it and throw it (range 20/60) as part of the same attack action. It explodes when it hits a creature or solid object (such as the ground), releasing sticky strands of goo that last 1 hour. Creatures within a 10-foot-radius sphere must succeed on a DC 13 Dexterity saving throw or be restrained as long as they remain in the webs or until they break free.",
               "Any creature that enters the area of sticky strands must save against the detonation as if they were in the area when it exploded.",
               "A creature restrained by the webs can use its action to make a Strength check against the detonation's save DC. If it succeeds, it is no longer restrained.",
-              "Webs layered over a flat surface have a depth of 5 feet."
+              "Webs layered over a flat surface have a depth of 5 feet.",
+              {
+                "type":"inset",
+                "entries":[
+                  "Rather than strands of sticky goo, some detonation of webs fill the area with a mass of quick-hardening foam that accomplishes the same thing.",
+                  "Unlike a web spell, a detonation of webs doesn’t need to be anchored between solid masses, nor are they flammable."
+                ]
+              }
           ]
       },
       {
@@ -1428,7 +1540,8 @@
               			"type": "table",
               			"colLabels": [
               				"{@dice d100}",
-              				"Roll Action " ],
+              				"Action"
+                    ],
               			"colStyles": [
               				"col-1 text-center",
               				"col-11"
@@ -1680,7 +1793,7 @@
                     "type": "table",
                     "colLabels": [
                       "{@dice d100}",
-                      "Roll Action " ],
+                      "Gas Type"],
                     "colStyles": [
                       "col-1 text-center",
                       "col-11"
@@ -1918,7 +2031,7 @@
           "source": "AotA",
           "entries": [
               "This metal wristband sometimes emits smelly fumes from small pores on its surface. As your attack action, you can use it to launch a small capsule at an area (range 30/120). The capsule explodes when it hits a creature or solid object (such as the ground), creating a poisonous cloud that fills a 10-foot-radius sphere. The cloud lingers for 1d6 rounds unless conditions dictate otherwise. All creatures within the cloud (and any creature that enters it for the first time on a turn) must succeed on a DC 13 Constitution saving throw or suffer an effect. The effect of a failed saving throw on a target depends on what kind of poison it is:",
-              "97-00 Rage gas: uses its action to make a melee attack against a randomly determined creature within its reach for the next 6 rounds (if no creature is in reach, it instead does nothing on its turn)."
+              "Rage gas: uses its action to make a melee attack against a randomly determined creature within its reach for the next 6 rounds (if no creature is in reach, it instead does nothing on its turn)."
           ]
       },
       {
@@ -1961,7 +2074,7 @@
           "source": "AotA",
           "entries": [
               "This fat synth ring is almost as long as your knuckle, has a small aperture on one side and a dial on the opposite side. You can activate it in one of two modes: slow or fast. In slow mode, the aperture produces a liquid glue that hardens after a preset time (anywhere from one round to one minute, depending on how you set the dial) into a hard, permanent synth bond. The hardened glue has a DC of 13. The glue won't stick to or bond with the cypher itself. The cypher can produce a line of glue that is 1 inch in diameter and about 50 feet long, enough to affix a 10-foot-square panel to a wall or seal shut a couple of human-sized doors. Ten minutes after you first activate the cypher, the remaining glue clogs it up and makes it unusable.",
-              "In burst mode, the cypher acts much like a detonation of webs cypher, except the rapidly cured glue lasts only about 10 minutes before degrading."
+              "In burst mode, the cypher acts much like a {@item detonation of webs|aota} cypher, except the rapidly cured glue lasts only about 10 minutes before degrading."
           ]
       },
       {
@@ -2154,17 +2267,81 @@
           ]
       },
       {
-          "name": "Hunter/seeker",
+          "name": "Hunter/Seeker",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
           "entries": [
               "This tube-like apparatus is worn over one shoulder like a satchel. As your attack action, you can use it to launch an intelligent missile at a target you specify. You must be able to see the target and it must be within 120 feet. The missile tracks the target, and if it misses, it continues to attack three more times until it hits or has used all four of its attempts. Different hunter/seekers have different effects:",
-              "01-50 Target takes 4d6 + 4 piercing damage.",
-              "51-80 Target takes 2d6 + 2 piercing damage and must make a DC 15 Constitution saving throw or take 2d6 + 2 poison damage, or half damage on a successful save.",
-              "81-90 Explodes in a burst of flame. Targets within 10 feet must make a DC 15 Dexterity save (the target has disadvantage on this save). Targets take 2d6 + 2 fire damage on a failed save, or half damage on a successful one.",
-              "91-95 Target takes 2d6 + 2 lightning damage and must make a DC 15 Constitution saving throw or be incapacitated for 3 rounds on a failed save, or no additional effect on a successful one.",
-              "96-00 Target must make a DC 15 Dexterity saving throw (the target has disadvantage on this save). The target is covered in an instantly-hardening sticky goo on a failed save (as detonation of web cypher), or not affected on a successful one."
+              {
+              	"type": "table",
+              	"caption": "Rollable Table Caption",
+              	"colLabels": [
+              		"{@dice d100}",
+              		"Effect"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-11"
+              	],
+              	"rows": [
+              		[
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":1,
+              		      "max":50,
+              		      "pad": true
+              		    }
+              		  },
+              		  "Target takes {@dice 4d6 + 4} piercing damage."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":51,
+              		      "max":80,
+              		      "pad": true
+              		    }
+              		  },
+              		  "Target takes {@dice 2d6 + 2} piercing damage and must make a {@dc 15} Constitution saving throw or {@dice take 2d6 + 2} poison damage, or half damage on a successful save."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":81,
+              		      "max":90,
+              		      "pad": true
+              		    }
+              		  },
+              		  "Explodes in a burst of flame. Targets within 10 feet must make a {@dc 15} Dexterity save (the target has disadvantage on this save). Targets take {@dice 2d6 + 2} fire damage on a failed save, or half damage on a successful one."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":91,
+              		      "max":95,
+              		      "pad": true
+              		    }
+              		  },
+              		  "Target takes {@dice 2d6 + 2} lightning damage and must make a {@dc 15} Constitution saving throw or be incapacitated for 3 rounds on a failed save, or no additional effect on a successful one."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":96,
+              		      "max":100,
+              		      "pad": true
+              		    }
+              		  },
+              		  "Target must make a {@dc 15} Dexterity saving throw (the target has disadvantage on this save). The target is covered in an instantly-hardening sticky goo on a failed save (as {@item detonation of webs|aota} cypher), or not affected on a successful one."
+              		]
+              	]
+              }
           ]
       },
       {
@@ -2173,14 +2350,87 @@
           "rarity": "uncommon",
           "source": "AotA",
           "entries": [
-              "This heavy headband has a small device attached to its front end. As your action, you can activate it so it creates an immobile image for one hour. The image appears up to 60 feet away. Scenes include movement, sound, and smell, but not tactile effects. In effect, this is a nonmagical illusion with DC 13. The image is built into the device",
-              "and what image appears is not under your control:",
-              "01-20 Terrifying Large creature of an unknown species, perhaps one no longer alive in the world",
-              "21-40 Gargantuan machine that obscures sight",
-              "41-50 Beautiful pastoral scene filling a 50-foot cube",
-              "51-60 Food that looks delicious but may not be familiar to you, filling a 10-foot cube",
-              "61-80 Solid color that obscures sight in a 50-foot cube",
-              "81-00 Incomprehensible scene in a 20foot cube that is disorienting and strange"
+              "This heavy headband has a small device attached to its front end. As your action, you can activate it so it creates an immobile image for one hour. The image appears up to 60 feet away. Scenes include movement, sound, and smell, but not tactile effects. In effect, this is a nonmagical illusion with DC 13. The image is built into the device and what image appears is not under your control:",
+              {
+              	"type": "table",
+              	"caption": "Rollable Table Caption",
+              	"colLabels": [
+              		"{@dice d100}",
+              		"Effect"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-11"
+              	],
+              	"rows": [
+              	   [
+              	     {
+              	       "type": "cell",
+              	       "roll": {
+              	         "min":1,
+              	         "max":21,
+              	         "pad": true
+              	       }
+              	     },
+              	     "Terrifying Large creature of an unknown species, perhaps one no longer alive in the world."
+              	   ],
+                   [
+                     {
+                       "type": "cell",
+                       "roll": {
+                         "min":21,
+                         "max":40,
+                         "pad": true
+                       }
+                     },
+                     "Gargantuan machine that obscures sight."
+                   ],
+                   [
+                     {
+                       "type": "cell",
+                       "roll": {
+                         "min":41,
+                         "max":50,
+                         "pad": true
+                       }
+                     },
+                     "Beautiful pastoral scene filling a 50-foot cube"
+                   ],
+                   [
+                     {
+                       "type": "cell",
+                       "roll": {
+                         "min":51,
+                         "max":60,
+                         "pad": true
+                       }
+                     },
+                     "Food that looks delicious but may not be familiar to you, filling a 10-foot cube."
+                   ],
+                   [
+                     {
+                       "type": "cell",
+                       "roll": {
+                         "min":61,
+                         "max":80,
+                         "pad": true
+                       }
+                     },
+                     "Solid color that obscures sight in a 50-foot cube."
+                   ],
+                   [
+                     {
+                       "type": "cell",
+                       "roll": {
+                         "min":81,
+                         "max":100,
+                         "pad": true
+                       }
+                     },
+                     "Incomprehensible scene in a 20foot cube that is disorienting and strange."
+                   ]
+              	]
+              }
           ]
       },
       {
@@ -2580,18 +2830,130 @@
           "rarity": "rare",
           "source": "AotA",
           "entries": [
-              "This complex metal and glass device can be held in one hand by one of several metallic loops. Two rounds after being activated as an action, the device creates an invisible field, filling a 60-foot sphere centered on the device that lasts for one minute. The field scrambles the mental processes of all thinking creatures. The effect lasts as long as they remain in the field and for 1d6 rounds after, although a DC 15 Wisdom saving roll is allowed each round to act normally (both in the field and after leaving it). Roll for the effect the scrambler has each round:",
-              "d100 Effect",
-              "01-30 Victims cannot act.",
-              "31-40 Victims cannot speak.",
-              "41-50 Victims move slowly (no more than 10 feet) and clumsily (actions have disadvantage).",
-              "51-60 Victims cannot see or hear.",
-              "61-70 Victims lose all sense of direction, depth, and proportion.",
-              "71-80 Victims do not recognize anyone they know.",
-              "81-88 Victims suffer partial amnesia.",
-              "89-94 Victims suffer total amnesia.",
-              "95-98 Victims lose all inhibitions, revealing secrets and performing surprising actions.",
-              "99-00 Victims' ethics are inverted."
+              "This complex metal and glass device can be held in one hand by one of several metallic loops. Two rounds after being activated as an action, the device creates an invisible field, filling a 60-foot sphere centered on the device that lasts for one minute. The field scrambles the mental processes of all thinking creatures. The effect lasts as long as they remain in the field and for {@dice 1d6} rounds after, although a {@dc 15} Wisdom saving roll is allowed each round to act normally (both in the field and after leaving it). Roll for the effect the scrambler has each round:",
+              {
+              	"type": "table",
+              	"colLabels": [
+              		"{@dice d100}",
+              		"Effect"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-11"
+              	],
+              	"rows": [
+              		[
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":1,
+              		      "max":30,
+              		      "pad": true
+              		    }
+              		  },
+              		  "Victims cannot act."
+              		],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":31,
+                        "max":40,
+                        "pad": true
+                      }
+                    },
+                    "Victims cannot speak."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":41,
+                        "max":50,
+                        "pad": true
+                      }
+                    },
+                    "Victims move slowly (no more than 10 feet) and clumsily (actions have disadvantage)."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":51,
+                        "max":60,
+                        "pad": true
+                      }
+                    },
+                    "Victims cannot see or hear."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":61,
+                        "max":70,
+                        "pad": true
+                      }
+                    },
+                    "Victims lose all sense of direction, depth, and proportion."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":71,
+                        "max":80,
+                        "pad": true
+                      }
+                    },
+                    "Victims do not recognize anyone they know."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":81,
+                        "max":88,
+                        "pad": true
+                      }
+                    },
+                    "Victims suffer partial amnesia."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":89,
+                        "max":94,
+                        "pad": true
+                      }
+                    },
+                    "Victims suffer total amnesia."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":95,
+                        "max":98,
+                        "pad": true
+                      }
+                    },
+                    "Victims lose all inhibitions, revealing secrets and performing surprising actions."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":99,
+                        "max":100,
+                        "pad": true
+                      }
+                    },
+                    "Victims' ethics are inverted."
+                  ]
+              	]
+              }
           ]
       },
       {
@@ -2998,14 +3360,206 @@
           "source": "AotA",
           "entries": [
               "If you use this device to produce a drop of shimmering liquid as an action, and successfully adulterate the food or drink of a potential target who consumes it within a week, they must succeed on a DC 15 Constitution saving throw, or become explosively poisoned. Explosive poison does not incur the regular poisoned condition, but instead concentrates itself in the victim's brain and activates when a specific detonation mechanism occurs anytime within 1 month. When detonated, the victim takes 50 fire damage. If this kills the victim, all creatures within a 10-foot sphere centered on the victim take 5d6 fire damage on a failed DC 13 Reflex saving throw, or half that if successful. Each explosive poison cypher has a predetermined detonation mechanism; roll for it when the cypher is discovered.",
-              "d100 Effect",
-              "01-25 A detonator on the original poison-distilling device is activated (must be within 120 feet).",
-              "26-40 A specified amount of time passes.",
-              "41-50 The victim takes a specific action.",
-              "51-55 A specific note is sung or played on an instrument within short range.",
-              "56-60 The victim smells a specific scent within immediate range.",
-              "61-80 The victim comes within 120 feet of the detonator on the original poison-distilling device.",
-              "81-00 The victim is no longer within 120 feet of the detonator on the original poison-distilling device."
+              {
+              	"type": "table",
+              	"caption": "Detonation Trigger",
+              	"colLabels": [
+              		"{@dice d100}",
+              		"Detonation Trigger"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-11"
+              	],
+              	"rows": [
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":1,
+                        "max":25,
+                        "pad": true
+                      }
+                    },
+                    "A detonator on the original poison-distilling device is activated (must be within 120 feet)."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":26,
+                        "max":40,
+                        "pad": true
+                      }
+                    },
+                    "A specified amount of time passes."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":41,
+                        "max":50,
+                        "pad": true
+                      }
+                    },
+                    "The victim takes a specific action."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":51,
+                        "max":55,
+                        "pad": true
+                      }
+                    },
+                    "A specific note is sung or played on an instrument within short range."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":56,
+                        "max":60,
+                        "pad": true
+                      }
+                    },
+                    "The victim smells a specific scent within immediate range."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":61,
+                        "max":80,
+                        "pad": true
+                      }
+                    },
+                    "The victim comes within 120 feet of the detonator on the original poison-distilling device."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":81,
+                        "max":100,
+                        "pad": true
+                      }
+                    },
+                    "The victim is no longer within 120 feet of the detonator on the original poison-distilling device."
+                  ]
+              	]
+              }
+          ]
+      },
+      {
+          "name": "Poison Of Emotion",
+          "type": "CY",
+          "rarity": "uncommon",
+          "source": "AotA",
+          "entries": [
+              "If you use this device to produce a drop of shimmering liquid as an action, and successfully adulterate the food or drink of a potential target who consumes it within a week, they must succeed on a DC 15 Wisdom saving throw or become emotionally poisoned. Emotional poison does not incur the regular poisoned condition, but instead the victim feels one of the following emotions for one hour. Each emotion poison cypher has a predetermined effect; roll for it when the cypher is discovered:",
+              {
+              	"type": "table",
+              	"caption": "Poison of Emotion Table",
+              	"colLabels": [
+              		"{@dice d100}",
+              		"Emotion",
+                  "Effect"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-1",
+                  "col-2"
+              	],
+              	"rows": [
+              		[
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":1,
+              		      "max":20,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (anger)|aota|Anger}",
+                    "Likely to attack anyone who disagrees with them. Very hard to interact with; all Wisdom (Insight) and Charisma (Persuasion) actions have disadvantage."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":21,
+              		      "max":40,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (fear)|aota|Fear}.",
+                    "Victim gains the frightened condition."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":41,
+              		      "max":60,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (lust)|aota|Lust}.",
+                    "Cannot focus (has disadvantage) on any activity that doesn’t relate."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":61,
+              		      "max":75,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (sadness)|aota|Sadness}",
+                    "All tasks have disadvantage."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":76,
+              		      "max":85,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (complacency.)|aota|Complacency}.",
+                    "Has no motivation. Convincing the target to do anything requires a successful DC 15 Charisma (Persuasion) check."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":86,
+              		      "max":95,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (joy)|aota|Joy}.",
+                    "Easy to interact with in a pleasant manner; all Charisma (Persuasion) checks to influence the target have advantage."
+              		],
+                  [
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":96,
+              		      "max":100,
+              		      "pad": true
+              		    }
+              		  },
+              		  "{@item poison of emotion (love)|aota|Love}",
+                    "Much easier to interact with; all Charisma (Persuasion) checks to influence the target have advantage, and temporary attachment is likely."
+              		]
+              	]
+              }
           ]
       },
       {
@@ -3084,15 +3638,96 @@
           "rarity": "uncommon",
           "source": "AotA",
           "entries": [
-              "If you use this device to produce a drop of shimmering liquid as an action, and successfully adulterate the food or drink of a potential target who consumes it within a week, they must succeed on a DC 15 Constitution saving throw, or become suggestively poisoned. Suggestive poison does not incur the regular poisoned condition, but instead concentrates itself in the victim's brain and activates when a specific trigger occurs anytime within one month. When triggered, the victim takes a specific action. Each suggestive poison cypher has a predetermined trigger and resultant action; roll for it when the cypher is discovered.",
-              "d100 Effect",
-              "01-20 Lies down for one minute with eyes closed when told to do so.",
-              "21-40 Gains the frightened condition when threatened.",
-              "41-60 Answers questions truthfully for 1 minute.",
-              "61-75 Attacks close friend for one round when within 10 feet.",
-              "76-85 Obeys next verbal command given (if it is understood).",
-              "86-95 For next day, becomes attracted to the next creature of its own species that it sees.",
-              "96-00 For one minute, moves toward the next red object seen in lieu of all other actions, even ignoring self-preservation."
+              "If you use this device to produce a drop of shimmering liquid as an action, and successfully adulterate the food or drink of a potential target who consumes it within a week, they must succeed on a DC 15 Constitution saving throw, or become suggestively poisoned. Suggestive poison does not incur the regular poisoned condition, but instead concentrates itself in the victim's brain and activates when a specific trigger occurs anytime within one month. When triggered, the victim takes a specific action. Each suggestive poison cypher has a predetermined trigger and resultant action; roll for it when the cypher is discovered.",{
+              	"type": "table",
+              	"colLabels": [
+              		"{@dice d100}",
+              		"Effect"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-11"
+              	],
+              	"rows": [
+              		[
+              		  {
+              		    "type": "cell",
+              		    "roll": {
+              		      "min":1,
+              		      "max":20,
+              		      "pad": true
+              		    }
+              		  },
+              		  " Lies down for one minute with eyes closed when told to do so."
+              		],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":21,
+                        "max":40,
+                        "pad": true
+                      }
+                    },
+                    "Gains the frightened condition when threatened."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":41,
+                        "max":60,
+                        "pad": true
+                      }
+                    },
+                    "Answers questions truthfully for 1 minute."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":61,
+                        "max":75,
+                        "pad": true
+                      }
+                    },
+                    "Attacks close friend for one round when within 10 feet."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":76,
+                        "max":85,
+                        "pad": true
+                      }
+                    },
+                    "Obeys next verbal command given (if it is understood)."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":86,
+                        "max":95,
+                        "pad": true
+                      }
+                    },
+                    "For next day, becomes attracted to the next creature of its own species that it sees."
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":96,
+                        "max":100,
+                        "pad": true
+                      }
+                    },
+                    "For one minute, moves toward the next red object seen in lieu of all other actions, even ignoring self-preservation."
+                  ]
+              	]
+              }
           ]
       },
       {
@@ -3527,7 +4162,13 @@
           "entries": [
               "This blade (sometimes found in conformations suitable for use as a longsword, other times as a two-handed blade, and sometimes as a shortsword) is made from a flaw in space, held open by a power source in the hilt. As such, the cutting \"edge\" is actually the thin periphery of another dimension, giving it nearly unequaled sharpness. You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with it, that target takes an extra 2d8 slashing damage. This use does not require a depletion roll.",
               "The blade can also be used to form a portal as your action, which allows you to travel from your current location to someplace else where you previously used this relic ability (or to a place that a previous owner used it) through an artificial nether realm that connects these paths across and distance or between planes of existence. The traverse takes only a single round.",
-              "A shadowpath blade has a depletion of 1 in 1d20, checked each time a portal is made. Upon depletion, the sword loses its ability both to allow travel and to function as a weapon."
+              "A shadowpath blade has a depletion of 1 in 1d20, checked each time a portal is made. Upon depletion, the sword loses its ability both to allow travel and to function as a weapon.",
+              {
+                "type":"inset",
+                "entries":[
+                  "If a shadowpath blade depletes, it may create an accidental rift."
+                ]
+              }
           ]
       },
       {
@@ -3546,7 +4187,7 @@
           "source": "AotA",
           "entries": [
               "This canister is made of metal or a similar hard material and has a long flexible tube extending from one end. It has two modes of operation. In the default mode, you can use your action to dispense a hand-width cylinder of grey dough-like material, up to 10 feet long per round, which hardens into a material similar to sandstone after about one minute. While soft, the dough can be sculpted or smoothed by hand or with tools, such as to patch a crack or create a simple relief sculpture. By building up multiple layers, you can create larger structures such as walls and doorways.",
-              "In burst mode, when activated as your action, the tube dispenses a high-volume slurry of the dough in a 10-foot cone, which instantly hardens into sandstone, trapping things inside it. All creatures within the cone must make a DC 15 Dexterity saving throw. On a failed save, the creature is restrained as long as it remains trapped in the stone. A creature restrained by the stone can use its action to make a DC 13 Strength check. If it succeeds, it is no longer restrained. Unlike a detonation of webs cypher, the material created by this relic is permanent.",
+              "In burst mode, when activated as your action, the tube dispenses a high-volume slurry of the dough in a 10-foot cone, which instantly hardens into sandstone, trapping things inside it. All creatures within the cone must make a DC 15 Dexterity saving throw. On a failed save, the creature is restrained as long as it remains trapped in the stone. A creature restrained by the stone can use its action to make a DC 13 Strength check. If it succeeds, it is no longer restrained. Unlike a (@item detonation of webs|aota} cypher, the material created by this relic is permanent.",
               "A shapestone sprayer has a depletion of 1 in 1d20, checked each hour of use in default mode or each use in burst mode."
           ]
       },
@@ -3589,6 +4230,221 @@
           ]
       },
       {
+          "name": "Skill Boost",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "When this metallic device with a needle on one end is plunged into your flesh as your action, a burning sensation travels through your body, and you enter a trance-like state for one minute as fever grips your body. When your head clears, you recall visions of a howling void and booming alien voices thundering across it, incomprehensible to you. However, for the next day, you gain a proficiency in one skill; if you already have proficiency in that skill, you double the proficiency bonus you can apply.",
+              "Each skill boost cypher has a predetermined skill it boosts; roll for it when the cypher is discovered.",
+              {
+              	"type": "table",
+              	"caption": "Rollable Table Caption",
+              	"colLabels": [
+              		"{@dice d20}",
+              		"Skill"
+              	],
+              	"colStyles": [
+              		"col-1 text-center",
+              		"col-11"
+              	],
+              	"rows": [
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":1,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(acrobatics)|aota|Acrobatics (Dex)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":2,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(animal handling)|aota|Animal Handling (Wis)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":3,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(arcana)|aota|Arcana (Int)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "min":4,
+                        "max":5,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(athletics)|aota|Athletics (Str)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":6,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(deception)|aota|Deception (Cha)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":7,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(history)|aota|History (Int)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":8,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(insight)|aota|Insight (Wis)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":9,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(intimidation)|aota|Intimidation (Cha)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":10,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(investigation)|aota|Investigation (Int)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":11,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(medicine)|aota|Medicine (Wis)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":12,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(nature)|aota|Nature (Int)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":13,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(perception)|aota|Perception (Wis)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":14,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(performance)|aota|Performance (Cha)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":15,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(persuasion)|aota|Persuasion (Cha)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":16,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(religion)|aota|Religion (Int)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":17,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(sleight of hand)|aota|Sleight of Hand (Dex)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":18,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(stealth)|aota|Stealth (Dex)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":19,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(survival)|aota|Survival (Wis)}"
+                  ],
+                  [
+                    {
+                      "type": "cell",
+                      "roll": {
+                        "exact":20,
+                        "pad": true
+                      }
+                    },
+                    "{@item skill boost(ancients arcana)|aota|Ancients Arcana (Int)}"
+                  ]
+              	]
+              }
+          ]
+      },
+      {
           "name": "Skill Boost (acrobatics)",
           "type": "CY",
           "rarity": "rare",
@@ -3608,6 +4464,15 @@
       },
       {
           "name": "Skill Boost (arcana)",
+          "type": "CY",
+          "rarity": "rare",
+          "source": "AotA",
+          "entries": [
+              "When this metallic device with a needle on one end is plunged into your flesh as your action, a burning sensation travels through your body, and you enter a trance-like state for one minute as fever grips your body. When your head clears, you recall visions of a howling void and booming alien voices thundering across it, incomprehensible to you. However, for the next day, you gain a proficiency in one skill; if you already have proficiency in that skill, you double the proficiency bonus you can apply."
+          ]
+      },
+      {
+          "name": "Skill Boost (ancients arcana)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
@@ -3706,7 +4571,7 @@
           ]
       },
       {
-          "name": "Skill Boost (sleight Of Hand)",
+          "name": "Skill Boost (sleight of hand)",
           "type": "CY",
           "rarity": "rare",
           "source": "AotA",
