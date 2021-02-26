@@ -8124,7 +8124,7 @@
                 "type": "entries",
                 "name": "Powerful Treasure (Salvage)",
                 "entries": [
-                  "Oorgolian soldiers carry relic weapons called Oorgolian slug throwers. In addition, each Oorgolian body contains {@dice 1d6} cyphers."
+                  "Oorgolian soldiers carry relic weapons called {@item oorgolian slug thrower|aota|Oorgolian Slug Throwers}. In addition, each Oorgolian body contains {@dice 1d6} cyphers."
                 ]
               },
               {
@@ -8703,7 +8703,7 @@
                 "type": "entries",
                 "name": "Salvage: Gift of Storm",
                 "entries": [
-                  "Sometimes plasmars give a plasma detonation cypher as a gift."
+                  "Sometimes plasmars give a {@item plasma detonation|aota} cypher as a gift."
                 ]
               }
             ]

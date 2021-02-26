@@ -57,7 +57,7 @@
 					"type": "entries",
 					"name": "Iron Flesh",
 					"entries": [
-						"This is a Iron Flesh bla bla"
+						"This is Iron Flesh bla bla"
 					]
 				}
 			]
@@ -204,7 +204,7 @@
           "rarity": "rare",
           "source": "AotA",
           "entries": [
-              "This cypher is in the form of an oblong metallic seed or lozenge approximately 1 inch long. When placed in soil, it absorbs minerals and fabricates a type three basic automaton, which emerges from the ground 1d6 minutes later. The automaton remains active for 10 hours, following you or going where you direct it (this is not an action). Different seeds grow different kinds of automatons, including those presented on the Automaton Seed Table.",
+              "This cypher is in the form of an oblong metallic seed or lozenge approximately 1 inch long. When placed in soil, it absorbs minerals and fabricates a {@creature basic automaton, type three|aota|type three basic automaton}, which emerges from the ground 1d6 minutes later. The automaton remains active for 10 hours, following you or going where you direct it (this is not an action). Different seeds grow different kinds of automatons, including those presented on the Automaton Seed Table.",
               {
               	"type": "table",
               	"caption": "Automaton Seed Table",
@@ -2504,7 +2504,7 @@
           "rarity": "uncommon",
           "source": "AotA",
           "entries": [
-              "This plate-sized device is made of synth and metal. When you activate it, it expands into a humanoid type one basic automaton that is roughly 2 feet tall. It can understand your verbal commands (commanding it is not an action). It can attack or perform actions as you order to the best of its abilities, but it cannot speak. It never voluntarily goes more than 120 feet away from you. At the GM's discretion, the servant might have specialized knowledge, such as how to operate a particular device. Otherwise, it has no special knowledge. In any case, the servant is not artificially intelligent or capable of initiating action. It does only as commanded. The servant operates for 3 hours."
+              "This plate-sized device is made of synth and metal. When you activate it, it expands into a humanoid {@creature basic automaton, type one|aota|type one basic automaton} that is roughly 2 feet tall. It can understand your verbal commands (commanding it is not an action). It can attack or perform actions as you order to the best of its abilities, but it cannot speak. It never voluntarily goes more than 120 feet away from you. At the GM's discretion, the servant might have specialized knowledge, such as how to operate a particular device. Otherwise, it has no special knowledge. In any case, the servant is not artificially intelligent or capable of initiating action. It does only as commanded. The servant operates for 3 hours."
           ]
       },
       {
@@ -3531,7 +3531,7 @@
               		      "pad": true
               		    }
               		  },
-              		  "{@item poison of emotion (complacency.)|aota|Complacency}.",
+              		  "{@item poison of emotion (complacency)|aota|Complacency}.",
                     "Has no motivation. Convincing the target to do anything requires a successful DC 15 Charisma (Persuasion) check."
               		],
                   [
@@ -4030,7 +4030,7 @@
           "rarity": "rare",
           "source": "AotA",
           "entries": [
-              "This bulky handheld device becomes a multiarmed sphere that floats when activated as your action (treat as a type one basic automaton). It repairs one designated common, uncommon, rare, or very rare numenera device that has been damaged but not destroyed. The repair unit can even create spare parts, unless the GM rules that the parts are too specialized or unobtainable (in which case, the unit repairs the device entirely except for the specialized part). Repair time is d100 + 20 minutes."
+              "This bulky handheld device becomes a multiarmed sphere that floats when activated as your action (treat as a {@creature basic automaton, type one|aota|type one basic automaton}). It repairs one designated common, uncommon, rare, or very rare numenera device that has been damaged but not destroyed. The repair unit can even create spare parts, unless the GM rules that the parts are too specialized or unobtainable (in which case, the unit repairs the device entirely except for the specialized part). Repair time is d100 + 20 minutes."
           ]
       },
       {
@@ -4239,7 +4239,7 @@
               "Each skill boost cypher has a predetermined skill it boosts; roll for it when the cypher is discovered.",
               {
               	"type": "table",
-              	"caption": "Rollable Table Caption",
+              	"caption": "Sill Boost Table",
               	"colLabels": [
               		"{@dice d20}",
               		"Skill"
@@ -4257,7 +4257,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(acrobatics)|aota|Acrobatics (Dex)}"
+                    "{@item skill boost (acrobatics)|aota|Acrobatics (Dex)}"
                   ],
                   [
                     {
@@ -4267,7 +4267,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(animal handling)|aota|Animal Handling (Wis)}"
+                    "{@item skill boost (animal handling)|aota|Animal Handling (Wis)}"
                   ],
                   [
                     {
@@ -4277,7 +4277,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(arcana)|aota|Arcana (Int)}"
+                    "{@item skill boost (arcana)|aota|Arcana (Int)}"
                   ],
                   [
                     {
@@ -4288,7 +4288,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(athletics)|aota|Athletics (Str)}"
+                    "{@item skill boost (athletics)|aota|Athletics (Str)}"
                   ],
                   [
                     {
@@ -4298,7 +4298,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(deception)|aota|Deception (Cha)}"
+                    "{@item skill boost (deception)|aota|Deception (Cha)}"
                   ],
                   [
                     {
@@ -4308,7 +4308,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(history)|aota|History (Int)}"
+                    "{@item skill boost (history)|aota|History (Int)}"
                   ],
                   [
                     {
@@ -4318,7 +4318,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(insight)|aota|Insight (Wis)}"
+                    "{@item skill boost (insight)|aota|Insight (Wis)}"
                   ],
                   [
                     {
@@ -4328,7 +4328,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(intimidation)|aota|Intimidation (Cha)}"
+                    "{@item skill boost (intimidation)|aota|Intimidation (Cha)}"
                   ],
                   [
                     {
@@ -4338,7 +4338,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(investigation)|aota|Investigation (Int)}"
+                    "{@item skill boost (investigation)|aota|Investigation (Int)}"
                   ],
                   [
                     {
@@ -4348,7 +4348,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(medicine)|aota|Medicine (Wis)}"
+                    "{@item skill boost (medicine)|aota|Medicine (Wis)}"
                   ],
                   [
                     {
@@ -4358,7 +4358,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(nature)|aota|Nature (Int)}"
+                    "{@item skill boost (nature)|aota|Nature (Int)}"
                   ],
                   [
                     {
@@ -4368,7 +4368,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(perception)|aota|Perception (Wis)}"
+                    "{@item skill boost (perception)|aota|Perception (Wis)}"
                   ],
                   [
                     {
@@ -4378,7 +4378,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(performance)|aota|Performance (Cha)}"
+                    "{@item skill boost (performance)|aota|Performance (Cha)}"
                   ],
                   [
                     {
@@ -4388,7 +4388,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(persuasion)|aota|Persuasion (Cha)}"
+                    "{@item skill boost (persuasion)|aota|Persuasion (Cha)}"
                   ],
                   [
                     {
@@ -4398,7 +4398,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(religion)|aota|Religion (Int)}"
+                    "{@item skill boost (religion)|aota|Religion (Int)}"
                   ],
                   [
                     {
@@ -4408,7 +4408,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(sleight of hand)|aota|Sleight of Hand (Dex)}"
+                    "{@item skill boost (sleight of hand)|aota|Sleight of Hand (Dex)}"
                   ],
                   [
                     {
@@ -4418,7 +4418,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(stealth)|aota|Stealth (Dex)}"
+                    "{@item skill boost (stealth)|aota|Stealth (Dex)}"
                   ],
                   [
                     {
@@ -4428,7 +4428,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(survival)|aota|Survival (Wis)}"
+                    "{@item skill boost (survival)|aota|Survival (Wis)}"
                   ],
                   [
                     {
@@ -4438,7 +4438,7 @@
                         "pad": true
                       }
                     },
-                    "{@item skill boost(ancients arcana)|aota|Ancients Arcana (Int)}"
+                    "{@item skill boost (ancients arcana)|aota|Ancients Arcana (Int)}"
                   ]
               	]
               }
@@ -4799,9 +4799,15 @@
           "rarity": "very rare",
           "source": "AotA",
           "entries": [
-              "This rounded chamber of a translucent unknown substance and steel is studded with small machines. The chamber seems just large enough to hold a recumbent human. A creature placed in the chamber remains alive and in perfect hibernation, requiring no air, food, or water, until the chamber is opened again from the exterior. A hibernating subject does not age or suffer other ill effects, such as from external",
-              "attacks or dangerous environments. For them, no time seems to have passed.",
-              "A stasis pod has a depletion of 1 in 1d100, checked every century a subject remains inside."
+              "This rounded chamber of a translucent unknown substance and steel is studded with small machines. The chamber seems just large enough to hold a recumbent human. A creature placed in the chamber remains alive and in perfect hibernation, requiring no air, food, or water, until the chamber is opened again from the exterior. A hibernating subject does not age or suffer other ill effects, such as from external attacks or dangerous environments. For them, no time seems to have passed.",
+              "A stasis pod has AC 20 and 150 hit points; destroying a pod releases the subject from hibernation and the pod. A stasis pod has a depletion of 1 in 1d100, checked every century a subject remains inside.",
+              {
+                "type":"inset",
+                "entries":[
+                  "Stasis pods filled with castaways from another time are sometimes found in groups of twenty or more."
+                ]
+              }
+
           ]
       },
       {
@@ -4941,7 +4947,7 @@
           "rarity": "uncommon",
           "source": "AotA",
           "entries": [
-              "This spherical type one basic automaton is about 8 inches in diameter. A removable metal badge affixed to its top can be removed and worn on your belt. When activated, the sphere floats in the air, following the badge at a speed of 30 feet, always attempting to remain within 10 feet of it. A button on the badge allows you to command the sphere to stay where it is or come to your location (so long as it is within about 10 miles of your current location). If you are a living creature and you take damage, the automaton attempts to heal you with medical tools and chemical stimulants, restoring a number of hit points equal to 1d8 + 1. This healing does not require you to take any action. The sphere can heal up to five times per day this way, after which it continues to follow the badge for the rest of the day but ignores any further injuries.",
+              "This spherical {@creature basic automaton, type one|aota|type one basic automaton} is about 8 inches in diameter. A removable metal badge affixed to its top can be removed and worn on your belt. When activated, the sphere floats in the air, following the badge at a speed of 30 feet, always attempting to remain within 10 feet of it. A button on the badge allows you to command the sphere to stay where it is or come to your location (so long as it is within about 10 miles of your current location). If you are a living creature and you take damage, the automaton attempts to heal you with medical tools and chemical stimulants, restoring a number of hit points equal to 1d8 + 1. This healing does not require you to take any action. The sphere can heal up to five times per day this way, after which it continues to follow the badge for the rest of the day but ignores any further injuries.",
               "A surgeon sphere has a depletion of 1 in 1d20, checked per day of use."
           ]
       },
