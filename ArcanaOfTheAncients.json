@@ -12268,7 +12268,8 @@
 					"type": "entries",
 					"name": "Cypher",
 					"entries": [
-						"This is a Cypher bla bla"
+						"A cypher is a leftover device of vanished civilizations so advanced that even their cast-off technology provides amazing effects. The use a PC finds for the cypher is probably not the use originally intended. Cyphers are not magical, though their effects may seem so.",
+            "Cyphers are consumable items. Using a cypher usually requires an action, but could take longer, as specified in its description. Once used, a cypher takes effect immediately, leaving behind a defunct device with no further obvious function."
 					]
 				}
 			]
@@ -12282,7 +12283,7 @@
 					"type": "entries",
 					"name": "Relic",
 					"entries": [
-						"This is a Relic bla bla"
+						"Relics are the devices left over from the civilizations of the past. These are devices of a more permanent nature than cyphers (unless they run out of power) with more straightforward applications—weapons, armor, utility items, and so on."
 					]
 				}
 			]
@@ -12296,7 +12297,7 @@
 					"type": "entries",
 					"name": "Iron Flesh",
 					"entries": [
-						"This is Iron Flesh bla bla"
+						"Some machines discovered in the crypts of the Ancients latch onto explorers, implanting their flesh with a sparking iron device."
 					]
 				}
 			]

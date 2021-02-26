@@ -1,14 +1,22 @@
 # arcana5etools
 Arcana of the Ancients 5e tools port, I guess
 
-### Left behind:
-#### Oorgolian Soldier - 212
-There is an item on page 212, Oorgolian Slug Thrower. Needs to be added on item list and then tagged and linked on the salvage entry for the creature.
+### Using it
+By now this should be in the 5et's Homebrew Repository, otherwise copy
+{
+	https://raw.githubusercontent.com/rubzanatta/arcana5etools/master/ArcanaOfTheAncients.json
+}
+to the URL Import option on the Homebrew Manager.
 
-#### Plasmar - 218
-Item Plasmar detonation page 219. Needs tagging on the fluff entry.
 
-## Instructions
+### To Do:
+1. Chapter 3: Itens Rules and Tables
+2. Appendix B: Aracana by Rarity Tables
+3. Chapter 5: DM Advice Tables and Rules
+4. Adventures and General Book Structure
+
+
+## Wanna help?
 
 What I'd recommend for helping with the project is:
 
