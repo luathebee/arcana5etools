@@ -14324,9 +14324,7 @@
           "source": "AotA",
           "entries": [
               "This surplice-like garment is embedded with bulky devices. When activated as your action, it creates a calming golden radiance for about 10 hours. This glow provides dim light within 60 feet. Anyone within the glow has advantage on Persuasion, pleasant interactions, and Intelligence saving throws. Anyone who spends Hit Dice for healing while within the glow can reroll each Hit Die and take the better result.",
-              "A golden aura cloak has a depletion of 1 in 1d20.",
-              "Because a gravitevator doesn't require attunement, after activation, anyone can use it to levitate up or down.",
-              "Gravity nullifiers are frequently called flight rings or belts, levitators, or invisible wings."
+              "A golden aura cloak has a depletion of 1 in 1d20."
           ]
       },
       {
@@ -14336,6 +14334,7 @@
           "source": "AotA",
           "entries": [
               "This heavy backpack-like device is made of metal, glass, and unknown materials. As your action, you can unfold it into a 3-footsquare platform, which activates it for one hour. If you stand on the platform, you can use your bonus action to have it levitate you to whatever height you say, up to a maximum of 120 feet above the platform. If the platform is set up next to a structure, you can safely step from this levitated elevation onto the structure. If you step from a higher elevation into the space above the platform, it automatically catches you and levitates you down to the platform.",
+              "Because a gravitevator doesn't require attunement, after activation, anyone can use it to levitate up or down.",
               "A gravitevator has a depletion of 1 in 1d20, checked each time it is activated."
           ]
       },
@@ -14354,7 +14353,8 @@
           "rarity": "uncommon",
           "source": "AotA",
           "entries": [
-              "This metal ring has an unusual buoyancy and inertia (like a gyroscope). When you activate it, you can levitate up or down 20 feet as part of your move. If you are not on the ground, you can only move horizontally by pushing or pulling against a fixed object within reach (such as a wall or ceiling), which allows you to move as if you were climbing. The effect lasts for one hour. A typical gravity nullifier has a weight limit of 300 pounds."
+              "This metal ring has an unusual buoyancy and inertia (like a gyroscope). When you activate it, you can levitate up or down 20 feet as part of your move. If you are not on the ground, you can only move horizontally by pushing or pulling against a fixed object within reach (such as a wall or ceiling), which allows you to move as if you were climbing. The effect lasts for one hour. A typical gravity nullifier has a weight limit of 300 pounds.",
+              "Gravity nullifiers are frequently called flight rings or belts, levitators, or invisible wings."
           ]
       },
       {
